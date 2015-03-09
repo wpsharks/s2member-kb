@@ -16,7 +16,7 @@ It means you’ve paid a security scanning company (such as [McAfee® Secure](ht
 
 #### Additional Details (Security Standards Council)
 
-[![](http://cdn.websharks-inc.com/s2member/uploads/pci-compliant.png){.alignright}](https://www.pcisecuritystandards.org/)
+[![](//cdn.websharks-inc.com/s2member/uploads/pci-compliant.png){.alignright}](https://www.pcisecuritystandards.org/)
 
 The Payment Card Industry (PCI) Data Security Standard (PCI DSS) is a set of requirements designed to ensure that _all_ companies that process, store, or transmit credit card information maintain a secure environment. Essentially, any merchant that has a Merchant ID (MID) with a credit card company.
 
@@ -65,19 +65,20 @@ These companies are serving the masses at cheap/affordable rates. They care abou
 - Amazon EC2 does not help; as far as we know.
 - Rackspace Cloud Servers does not help; as far as we know.
 - MediaTemple (DV, XE, Nitro, etc) does not help; as far as we know.
+- DigitalOcean Droplets; these are dedicated containers—no help as far as we know.
 - Or, any other dedicated server or VPS (for the most part).
 
 ### Choosing the Right Hosting Company
 
 **Companies that are known to maintain their servers for PCI Compliance**, and where we have confirmed this to be the case by contacting the hosting company to verify they will assist site owners.
 
-#### [HostGator](http://s2member.com/r/hostgator/) (best for novice site owners)
+#### 1. [HostGator](http://s2member.com/r/hostgator/) (best for novice site owners)
 
-[![](http://cdn.websharks-inc.com/s2member/uploads/hostgator-125.jpg =75x){.alignright .fancy-image}](http://s2member.com/r/hostgator/) If you’re a novice, and you don’t want to deal with PCI Compliance updates/fixes by yourself, go with [HostGator](http://s2member.com/r/hostgator/). It’s cheap, and they claim to support PCI Compliance scans and to help you correct any issues that you have with these scanners. We confirmed this with [HostGator](http://s2member.com/r/hostgator/) about 6 months ago in live chat. You can choose any [HostGator](http://s2member.com/r/hostgator/) plan, they are all maintained for PCI Compliance (that’s what we were told).
+If you’re a novice, and you don’t want to deal with PCI Compliance updates/fixes by yourself, go with [HostGator](http://s2member.com/r/hostgator/). It’s cheap, and they claim to support PCI Compliance scans and to help you correct any issues that you have with these scanners. We confirmed this with [HostGator](http://s2member.com/r/hostgator/) about 6 months ago in live chat. You can choose any [HostGator](http://s2member.com/r/hostgator/) plan, they are all maintained for PCI Compliance (that’s what we were told).
 
-#### [FireHost](http://s2member.com/r/firehost/) (best for serious site owners w/ money)
+#### 2. [FireHost](http://s2member.com/r/firehost/) (best for serious site owners w/ money)
 
-[![](http://cdn.websharks-inc.com/s2member/uploads/firehost-125.jpg =75x){.alignright .fancy-image}](http://s2member.com/r/firehost/) This is the company that we use here at s2Member.com. [FireHost](http://s2member.com/r/firehost/) is all about security and support. Plus they will help with anything/everything; and you pay for it.
+This is the company that we use here at s2Member.com. [FireHost](http://s2member.com/r/firehost/) is all about security and support. Plus they will help with anything/everything; and you pay for it.
 
 _Of course there are others out there, but these are the ones that we commonly recommend._
 
