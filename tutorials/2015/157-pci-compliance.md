@@ -16,7 +16,7 @@ It means you’ve paid a security scanning company (such as [McAfee® Secure](ht
 
 #### Additional Details (Security Standards Council)
 
-[![](http://cdn.websharks-inc.com/s2member/uploads/pci-compliant.png).{.pull-right .l-margin .b-margin}](https://www.pcisecuritystandards.org/)
+[![](http://cdn.websharks-inc.com/s2member/uploads/pci-compliant.png){.pull-right .l-margin .b-margin}](https://www.pcisecuritystandards.org/)
 
 The Payment Card Industry (PCI) Data Security Standard (PCI DSS) is a set of requirements designed to ensure that _all_ companies that process, store, or transmit credit card information maintain a secure environment. Essentially, any merchant that has a Merchant ID (MID) with a credit card company.
 
