@@ -72,13 +72,15 @@ These companies are serving the masses at cheap/affordable rates. They care abou
 
 **Companies that are known to maintain their servers for PCI Compliance**, and where we have confirmed this to be the case by contacting the hosting company to verify they will assist site owners.
 
-#### 1. [HostGator](http://s2member.com/r/hostgator/) (best for novice site owners)
+<div class="li-margins"></div>
 
-If you’re a novice, and you don’t want to deal with PCI Compliance updates/fixes by yourself, go with [HostGator](http://s2member.com/r/hostgator/). It’s cheap, and they claim to support PCI Compliance scans and to help you correct any issues that you have with these scanners. We confirmed this with [HostGator](http://s2member.com/r/hostgator/) about 6 months ago in live chat. You can choose any [HostGator](http://s2member.com/r/hostgator/) plan, they are all maintained for PCI Compliance (that’s what we were told).
+- #### 1. [HostGator](http://s2member.com/r/hostgator/) (best for novice site owners)
 
-#### 2. [FireHost](http://s2member.com/r/firehost/) (best for serious site owners w/ money)
+  If you’re a novice, and you don’t want to deal with PCI Compliance updates/fixes by yourself, go with [HostGator](http://s2member.com/r/hostgator/). It’s cheap, and they claim to support PCI Compliance scans and to help you correct any issues that you have with these scanners. We confirmed this with [HostGator](http://s2member.com/r/hostgator/) about 6 months ago in live chat. You can choose any [HostGator](http://s2member.com/r/hostgator/) plan, they are all maintained for PCI Compliance (that’s what we were told).
 
-This is the company that we use here at s2Member.com. [FireHost](http://s2member.com/r/firehost/) is all about security and support. Plus they will help with anything/everything; and you pay for it.
+- #### 2. [FireHost](http://s2member.com/r/firehost/) (best for serious site owners w/ money)
+
+  This is the company that we use here at s2Member.com. [FireHost](http://s2member.com/r/firehost/) is all about security and support. Plus they will help with anything/everything; and you pay for it.
 
 _Of course there are others out there, but these are the ones that we commonly recommend._
 
