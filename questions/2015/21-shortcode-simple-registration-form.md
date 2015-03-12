@@ -1,7 +1,7 @@
 ---
 title: Is there a shortcode for a simple registration form?
 categories: questions
-tags: 
+tags: shortcodes, login-registration, pro-forms
 author: jaswsinc
 github-issue: https://github.com/websharks/s2member-kb/issues/21
 ---
