@@ -16,10 +16,10 @@ add_filter('ws_plugin__s2member_during_profile_during_fields_display_email', '__
 
 You can change `ws_plugin__s2member_during_profile_during_fields_display_email` to any of the following tags to hide the corresponding field. You can also hide multiple fields by repeating the `add_filter()` line, passing in the tag for each field you want to hide:
 
-**Username:** `ws_plugin__s2member_during_profile_during_fields_display_username`
-**Email:** `ws_plugin__s2member_during_profile_during_fields_display_email`
-**First Name:** `ws_plugin__s2member_during_profile_during_fields_display_first_name`
-**Last Name:** `ws_plugin__s2member_during_profile_during_fields_display_last_name`
-**Display Name:** `ws_plugin__s2member_during_profile_during_fields_display_display_name`
-**Custom Fields:** `ws_plugin__s2member_during_profile_during_fields_display_custom_fields`
-**Password:** `ws_plugin__s2member_during_profile_during_fields_display_password`
+- **Username:** `ws_plugin__s2member_during_profile_during_fields_display_username`
+- **Email:** `ws_plugin__s2member_during_profile_during_fields_display_email`
+- **First Name:** `ws_plugin__s2member_during_profile_during_fields_display_first_name`
+- **Last Name:** `ws_plugin__s2member_during_profile_during_fields_display_last_name`
+- **Display Name:** `ws_plugin__s2member_during_profile_during_fields_display_display_name`
+- **Custom Fields:** `ws_plugin__s2member_during_profile_during_fields_display_custom_fields`
+- **Password:** `ws_plugin__s2member_during_profile_during_fields_display_password`
