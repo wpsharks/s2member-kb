@@ -12,7 +12,7 @@ Do you have 100’s or even thousands of WordPress Posts or Pages? Trying to pro
 
 ## Avoid Using the `all` Keyword for Posts/Pages
 
-A common mistake when you attempt to protect all Posts or all Pages, is to use s2Member's Post/Page  Restriction Options. While this does make it quite easy to protect everything, because the instructions here show that you can simply type the special keyword `all` to protect everything; it does _not_ allow for any exceptions to made now or in the future. For that reason, please try to avoid using the `all` keyword when there are in fact exceptions to the rule.
+A common mistake when you attempt to protect all Posts or all Pages, is to use s2Member's Post/Page  Restriction Options. While this does make it quite easy to protect everything, because the instructions here show that you can simply type the special keyword `all` to protect everything; it does _not_ allow for any exceptions to be made now or in the future. For that reason, please try to avoid using the `all` keyword when there are in fact exceptions to the rule.
 
 ## TIP: Protect Content Using WordPress Tags
 
