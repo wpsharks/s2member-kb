@@ -1,5 +1,5 @@
 ---
-title: Hacking s2Member® Plugin w/ Hooks/Filters for WordPress
+title: Hacking s2Member w/ Hooks/Filters for WordPress
 categories: tutorials
 tags: api-scripting, mu-plugins-hacks
 author: jaswsinc
