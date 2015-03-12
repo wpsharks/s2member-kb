@@ -10,7 +10,7 @@ github-issue: https://github.com/websharks/s2member-kb/issues/72
 
 Some site owners don't realize that all browsers consider variations in your domain as different. That is, every browser sees each of these four URLs (below) as slightly different destinations. Therefore, logging into your account on one of these, and then being redirected to a slightly different variation, may result in the user **not being logged-in** as you might expect.
 
-```
+```text
 1. http://example.com/			:: http scheme, no sub-domain.
 2. https://example.com			:: https scheme, different protocol.
 3. http://www.example.com/		:: different sub-domain; i.e. www
