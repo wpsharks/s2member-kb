@@ -1,7 +1,7 @@
 ---
 title: My Pro Form looks nothing like examples I've seen, why?
 categories: questions
-tags: pro-forms
+tags: pro-forms, troubleshooting
 author: jaswsinc
 github-issue: https://github.com/websharks/s2member-kb/issues/50
 ---
