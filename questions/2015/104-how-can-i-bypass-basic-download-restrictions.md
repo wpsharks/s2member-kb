@@ -1,7 +1,7 @@
 ---
 title: How can I bypass the Basic Download Restrictions?
 categories: questions
-tags: basic-download-restrictions, s2file, s2stream
+tags: basic-download-restrictions, s2file, s2stream, shortcodes
 author: raamdev
 github-issue: https://github.com/websharks/s2member-kb/issues/104
 ---
