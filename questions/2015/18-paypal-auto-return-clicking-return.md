@@ -1,7 +1,7 @@
 ---
 title: PayPal Auto-Return w/o Clicking "Return to ..."?
 categories: questions
-tags: 
+tags: paypal, auto-return
 author: jaswsinc
 github-issue: https://github.com/websharks/s2member-kb/issues/18
 ---
