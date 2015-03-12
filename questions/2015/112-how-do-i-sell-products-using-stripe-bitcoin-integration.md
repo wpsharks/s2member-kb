@@ -1,7 +1,7 @@
 ---
 title: How do I sell products using the Stripe Bitcoin integration?
 categories: questions
-tags: 
+tags: stripe, bitcoin, pro-forms
 author: raamdev
 github-issue: https://github.com/websharks/s2member-kb/issues/112
 ---
