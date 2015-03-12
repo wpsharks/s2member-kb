@@ -1,7 +1,7 @@
 ---
 title: How can I search the Administrative Notes field?
 categories: questions
-tags: 
+tags: wp-users-list
 author: jaswsinc
 github-issue: https://github.com/websharks/s2member-kb/issues/20
 ---
