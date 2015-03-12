@@ -16,7 +16,7 @@ In this example, I'm going to change every instance of the phrase _“Password (
 
 **Please create this directory and file:** `/wp-content/mu-plugins/s2member-o.php`
 
-_**Note:** this is called a MUST USE plugin, see: [http://codex.wordpress.org/Must\_Use\_Plugins](http://codex.wordpress.org/Must_Use_Plugins)_
+_**Note:** this is called a MUST USE plugin, see: [MU Plugins @ WordPress.org](http://codex.wordpress.org/Must_Use_Plugins)_
 
 _**See also:** [Hacking s2Member® Plugin w/ Hooks/Filters for WordPress](https://github.com/websharks/s2member-kb/issues/150)_
 
