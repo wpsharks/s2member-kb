@@ -6,7 +6,7 @@ author: jaswsinc
 github-issue: https://github.com/websharks/s2member-kb/issues/79
 ---
 
-> I'm using [s2Member-List-Search-Box /] together with [s2Member-List]. After I press search it displays search results. Is there a way to suppress the list unless and until a search is performed?
+> I'm using `[s2Member-List-Search-Box /]` together with `[s2Member-List]`. After I press search it displays search results. Is there a way to suppress the list unless and until a search is performed?
 
 Yes, you could use a conditional for this.
 
