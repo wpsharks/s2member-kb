@@ -20,7 +20,7 @@ _**Note:** While the `[s2Drip]` Shortcode is quite powerful, there is more work 
 
 The `[s2Drip][/s2Drip]` Shortcode tags are inserted into a Post/Page with the WordPress editor. Inside the shortcode tags you place content that should only be visible to paying members who are at a certain Membership Level (or higher); and have been at this Membership Level (or higher) for at least X number of days. It is also possible to hide this content after X number of days; e.g., to drip content for a specific number of days and then automatically stop the drip too.
 
-### Example #1
+### `[s2Drip]` Example #1
 
 ```text
 [s2Drip access="level1" from_day="4"]
@@ -33,7 +33,7 @@ The `[s2Drip][/s2Drip]` Shortcode tags are inserted into a Post/Page with the Wo
 [/s2Drip]
 ```
 
-### Example #2
+### `[s2Drip]` Example #2
 
 ```text
 [s2Drip access="level1" from_day="4" to_day="30"]
@@ -47,7 +47,7 @@ The `[s2Drip][/s2Drip]` Shortcode tags are inserted into a Post/Page with the Wo
 [/s2Drip]
 ```
 
-### Example #3
+### `[s2Drip]` Example #3
 
 ```text
 [s2Drip access="level1 AND (ccap_music OR ccap_videos)" from_day="4" to_day="30"]
