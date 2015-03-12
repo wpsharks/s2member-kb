@@ -1,7 +1,7 @@
 ---
 title: What is the difference between the Membership Options page and the register page?
 categories: questions
-tags: 
+tags: membership-options-page, login-registration
 author: jaswsinc
 github-issue: https://github.com/websharks/s2member-kb/issues/19
 ---
