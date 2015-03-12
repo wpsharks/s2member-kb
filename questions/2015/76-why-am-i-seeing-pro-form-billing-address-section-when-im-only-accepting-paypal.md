@@ -1,7 +1,7 @@
 ---
 title: Why am I seeing the Pro-Form Billing Address section when I'm only accepting PayPal?
 categories: questions
-tags: pro-forms, tax-rate-calculations
+tags: pro-forms, tax-rate-calculations-pro-form
 author: raamdev
 github-issue: https://github.com/websharks/s2member-kb/issues/76
 ---
