@@ -64,12 +64,11 @@ The `[s2Drip][/s2Drip]` Shortcode tags are inserted into a Post/Page with the Wo
 
 ## `[s2Drip]` Shortcode Attributes Explained
 
+<div class="li-margins"></div>
+
 -   `access` What access is required to view the content? This should include strings like `level0`, `level1`, `level2`; and/or `ccap_music`, `ccap_videos`. You can also use `AND` / `OR` logic here, and even nesting both types of logic is acceptable; e.g., `access="level1 AND (ccap_music OR ccap_videos)"`. Please check the examples above for further clarification. **Note:** if you leave this empty, Membership `level0` is used as the default value (i.e., a Free Subscriber would have access).
-
 -   `from_day` On which day to begin the drip. If this is set to `4`, the content will show only after day 3 of their paid membership; i.e., it starts showing on day 4. If you leave this empty, a value of `0` is used as the default (i.e., the drip begins as soon as they become a paid member).
-
 -   `to_day` On which day to stop the drip (if applicable). If this is set to `30`, the content will stop being shown on day 31 of their paid membership; i.e., show until (and including) day 30; stop showing after day 30. If you leave this empty, the drip is not turned off once it is turned on. In other words, if you only set a `from_day` and exclude `to_day`, the drip begins on `from_day` and remains on.
-
 -   `level` *(deprecated in s2Member Pro v140520, please use `access` instead)*. This indicates which Membership Level is required for the content to be dripped. A paying member must be at this Membership Level (or higher) for the content inside the shortcode tags to be displayed. If you leave this empty, Membership Level `0` is used as the default value (i.e., a Free Subscriber would have access).
 
 Since v140520, a new attribute is available for `[s2Drip]`. It is the `access` attribute (as documented above). This new attribute makes it possible for you to use s2Member access capabilities to do the content drip. You can use `leveln` (*n*: number) for level capabilities, or `ccap_name` for Custom Capabilities, e.g., `level2` or `ccap_music`. You can combine them using `AND` / `OR` logic, and grouping with parenthesis is also possible: `"level3 OR (level2 AND ccap_music)"`.
