@@ -1,7 +1,7 @@
 ---
 title: Can I change the s2member-files directory location?
 categories: questions
-tags: file-downloads, mu-plugins-hacks
+tags: download-options, mu-plugins-hacks
 author: jaswsinc
 github-issue: https://github.com/websharks/s2member-kb/issues/116
 ---
