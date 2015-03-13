@@ -10,7 +10,7 @@ github-issue: https://github.com/websharks/s2member-kb/issues/129
 
 Content Dripping is the gradual, pre-scheduled release of premium website content to paying Members. This has become increasingly popular, because it allows older Members; those who have paid you more, due to recurring charges; to acquire access to more content progressively based on their original paid registration time. It also gives you (as the site owner), the ability to launch multiple membership site portals, operating on autopilot, without any direct day-to-day involvement in a content release process.
 
-Up until now, Content Dripping with s2Member required a working knowledge of PHP and s2Member API Functions. With the new `[s2Drip]` Shortcode it now easy for _anyone_ to drip content in creative ways, using a simple set of Attributes accepted by the `[s2Drip]` Shortcode.
+Up until now, Content Dripping with s2Member required a working knowledge of PHP and s2Member API Functions. With the new `[s2Drip]` Shortcode it is now easy for _anyone_ to drip content in creative ways, using a simple set of Attributes accepted by the `[s2Drip]` Shortcode.
 
 _**Note:** While the `[s2Drip]` Shortcode is quite powerful, there is more work to be done; i.e., more room for improvement. What I discuss in this article is among the first of a set of features that we are working on. Additional improvements may come later in a future release of the s2Member Pro software. If you’d like to post a feature request, please [create a GitHub issue](https://github.com/websharks/s2member/issues). Thanks!_
 
