@@ -66,6 +66,8 @@ It's not a requirement. I _could_ just write a vanilla PHP file that stands alon
 
 This is just a basic example that is designed to work with the URL I formulated above.
 
+`/wp-content/mu-plugins/s2-payment-notification.php`
+
 ```php
 <?php
 add_action('init', 's2_payment_notification');
@@ -85,6 +87,8 @@ function s2_payment_notification()
 ```
 
 #### Another Variation with More Elaborate Examples
+
+`/wp-content/mu-plugins/s2-payment-notification.php`
 
 ```php
 <?php
