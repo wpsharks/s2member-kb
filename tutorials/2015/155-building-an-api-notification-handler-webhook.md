@@ -132,7 +132,7 @@ function s2_payment_notification()
 
 ## Additional Articles (Suggested Reading)
 
-### In the WordPress Codex, these articles may offer you additional insight:
+### In the WordPress Codex, these articles may offer additional insight:
 
 - [http://codex.wordpress.org/Must_Use_Plugins](http://codex.wordpress.org/Must_Use_Plugins)  
 - [http://codex.wordpress.org/Class_Reference/WP_User](http://codex.wordpress.org/Class_Reference/WP_User) 
