@@ -10,13 +10,13 @@ github-issue: https://github.com/websharks/s2member-kb/issues/155
 
 If you've tinkered with the s2Member plugin for any length of time, you've probably seen that it comes with an advanced feature for site owners and developers; located in this section of your Dashboard with s2Member installed. See: **Dashboard ⥱ s2Member ⥱ API / Notifications**
 
-![2015-03-13_18-33-05](https://cloud.githubusercontent.com/assets/1563559/6649973/bd02b238-c9af-11e4-8357-e3bc011cc855.png)
-
 ## How are These Event-Driven Notifications Useful?
 
 Event-driven Notifications can be sent via email to any number of recipients. They can _also_ be connected to 3rd-party services like InfusionSoft™, other CRMs, or to custom scripts (e.g., [WordPress MUST USE Plugins](http://codex.wordpress.org/Must_Use_Plugins)).
 
 Given this flexibility, s2Member's Notifications make it possible for you to accomplish things that you might have otherwise found impossible to deal with. Custom scripts (e.g., [WordPress MUST USE Plugins](http://codex.wordpress.org/Must_Use_Plugins)) are what I will focus on this article. I will show how to construct a Webhook (aka: API Notification Handler) using a WordPress MU Plugin, and I'll show how to attach it to one of the many event-driven Notifications that are processed by the s2Member software.
+
+![2015-03-13_18-33-05](https://cloud.githubusercontent.com/assets/1563559/6649973/bd02b238-c9af-11e4-8357-e3bc011cc855.png)
 
 ## Attaching a URL to an s2Member Notification
 
