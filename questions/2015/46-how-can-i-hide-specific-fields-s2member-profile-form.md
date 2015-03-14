@@ -6,9 +6,7 @@ author: raamdev
 github-issue: https://github.com/websharks/s2member-kb/issues/46
 ---
 
-**Question:** How can I hide fields on the `[s2Member-Profile /]` form? For example, I don't want my users to be able to change their email address from this form; how would I hide the email field?
-
-**Answer:** You can hide fields on the `[s2Member-Profile /]` form by adding a line to your theme's `functions.php` file, or to an [Must-Use Plugin](http://codex.wordpress.org/Must_Use_Plugins):
+You can hide fields on the `[s2Member-Profile /]` form by adding a line to your theme's `functions.php` file, or to an [Must-Use Plugin](http://codex.wordpress.org/Must_Use_Plugins):
 
 ```php
 add_filter('ws_plugin__s2member_during_profile_during_fields_display_email', '__return_false');
