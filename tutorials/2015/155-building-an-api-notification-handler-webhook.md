@@ -6,11 +6,13 @@ author: jaswsinc
 github-issue: https://github.com/websharks/s2member-kb/issues/155
 ---
 
-## API / Notifications (Event-Driven)
+## API / Event-Driven Notifications
 
-If you've tinkered with the s2Member plugin for any length of time, you've probably seen that it comes with an advanced feature for site owners and developers; located in this section of your Dashboard with s2Member installed. See: **Dashboard ⥱ s2Member ⥱ API / Notifications**
+If you've tinkered with the s2Member plugin for any length of time, you've probably seen that it comes with an advanced feature for site owners and developers; located in this section of your Dashboard with s2Member installed.
 
-## How are These Event-Driven Notifications Useful?
+See: **Dashboard ⥱ s2Member ⥱ API / Notifications**
+
+## How are These Notifications Useful?
 
 Event-driven Notifications can be sent via email to any number of recipients. They can _also_ be connected to 3rd-party services like InfusionSoft™, other CRMs, or to custom scripts (e.g., [WordPress MUST USE Plugins](http://codex.wordpress.org/Must_Use_Plugins)).
 
