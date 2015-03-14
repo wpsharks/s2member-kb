@@ -1,5 +1,5 @@
 ---
-title: Building an API Notification Handler (Webhook)
+title: Building an API Notification Handler (i.e., a Webhook) Using an MU Plugin file in WordPress
 categories: tutorials
 tags: api-scripting, api-notifications, mu-plugins-hacks
 author: jaswsinc
