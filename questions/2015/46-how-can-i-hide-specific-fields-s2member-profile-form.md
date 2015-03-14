@@ -8,7 +8,10 @@ github-issue: https://github.com/websharks/s2member-kb/issues/46
 
 You can hide fields on the `[s2Member-Profile /]` form by adding a line to your theme's `functions.php` file, or to a [Must-Use Plugin](http://codex.wordpress.org/Must_Use_Plugins):
 
+e.g., `/wp-content/mu-plugins/s2-hide-profile-fields.php`
+
 ```php
+<?php
 add_filter('ws_plugin__s2member_during_profile_during_fields_display_email', '__return_false');
 ```
 
