@@ -8,6 +8,9 @@ github-issue: https://github.com/websharks/s2member-kb/issues/23
 
 > We've been running S2 Members on our site for almost 5 years now and we are only now going pro. We have a large amount of paying customers in each level and we are also integrated with BuddyPress a chat hosting system and sms system. My concern with adding the Pro plugin is that something will get messed up. If I add the Pro plugin, will it change any of my current S2 settings? Will there be any lag or issues in adding it?
 
+
+![](http://cdn.websharks-inc.com/s2member/uploads/logo-s2-icon-128.png){.alignright}
+
 Nope :-) All existing settings and integrations from the lite version remain as they were.
 
 If it works in the free version it just works better in the Pro version! The [s2Member® Pro](http://www.s2member.com/pro/) add-on requires the s2Member® Framework (i.e., the free version) to be installed first. s2Member® Pro adds support for Stripe™, PayPal Pro, Authorize.Net, ClickBank, and many other features that are available only with s2Member Pro.
