@@ -6,7 +6,7 @@ author: jaswsinc
 github-issue: https://github.com/websharks/s2member-kb/issues/154
 ---
 
-**[This article at WordPress.org](http://codex.wordpress.org/Resetting_Your_Password)** already covers quite a few scenarios. Very helpful in an emergency situation. However, since s2Member is so tightly integrated with WordPress (when it comes to user access) we thought it might help to cover emergency password recovery in greater detail and provide a few suggestions of our own.
+**[This article at WordPress.org](http://codex.wordpress.org/Resetting_Your_Password)** already covers quite a few scenarios. Very helpful in an emergency situation. However, since s2Member is so tightly integrated with WordPress (when it comes to user access) we thought it might help to cover emergency password recovery in greater detail and provide a few suggestions.
 
 ### Easiest Way to Recover a Lost Password
 
