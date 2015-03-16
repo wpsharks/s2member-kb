@@ -6,7 +6,7 @@ author: jaswsinc
 github-issue: https://github.com/websharks/s2member-kb/issues/50
 ---
 
-If you find that your Pro Form is presenting fields that seem out of place, or if you find that the overall style in Pro Forms is not a match to the [screenshot below](#functional-example); here are some things to start looking at.
+If you find that your Pro Form is presenting fields that seem out of place, or if you find that the overall style in Pro Forms is not a match to the [screenshot below](#-functional-example); here are some things to start looking at.
 
 ## Suggested Steps to Resolve
 
@@ -24,6 +24,6 @@ If you find that your Pro Form is presenting fields that seem out of place, or i
 
 ---
 
-## A Functional Pro Form Example {.text-center}
+## A Functional Pro Form Example {.text-center #-functional-example}
 
 ![2015-01-20_14-09-50](https://cloud.githubusercontent.com/assets/1563559/5828219/11725ee8-a0ae-11e4-9e0a-ed0c165b36b7.png){.aligncenter}
