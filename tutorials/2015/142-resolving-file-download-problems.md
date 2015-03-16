@@ -29,15 +29,13 @@ As of s2Member v120213+, s2Member will automatically attempt to add this code to
 
 ### More Information About GZIP Compression & s2Member
 
-s2Member makes every attempt to programmatically disable GZIP during it's delivery of a file. However, in some scenarios (with certain server configurations) s2Member will fail to do so. Thus, you will have an issue with media playback of protected files.
+s2Member makes every attempt to programmatically disable GZIP during it's delivery of a file. However, in some scenarios (with certain server configurations) s2Member may fail to do so. This issue is often related to the use of `mod_deflate` for GZIP compression. Unfortunately, when s2Member is running on a CGI-based installation of PHP it has only _one_ way to disable GZIP compression via PHP.
 
-This issue is often related to the use of `mod_deflate` to facilitate GZIP compression for files served from your site. Unfortunately, when s2Member is running on a CGI-based installation of PHP it has only _one_ ability to disable GZIP compression dynamically—at the Apache level. The only way for s2Member to accomplish this is to send this header: `Content-Encoding: none`.
+The only way for s2Member to disable GZIP compression on a CGI-based installation of PHP is to send: `Content-Encoding: none`. However, this header goes against standards and was thus removed in more recent versions of s2Member. It's just not a good idea to send an invalid header. It's better to solve the underlying issue. For instance, this invalid header: `Content-Encoding: none` was recently discovered to cause an issue with the `WP_Http` class. s2Member now empties this header instead of setting it to `none`, which is the correct standards-compliant method of saying "no GZIP here".
 
-However, this header goes against standards and was thus removed in more recent versions of s2Member. It's just not a good idea to send an invalid header. It's better to solve the underlying issue. For instance, this invalid header: `Content-Encoding: none` was recently discovered to cause an issue with the `WP_Http` class. s2Member now empties this header instead of setting it to (none), which is the correct standards-compliant method of saying "no GZIP here".
+Unfortunately, CGI-based installations of PHP do _not_ listen for this "no GZIP here" request. When `mod_deflate` is being used in a server configuration (which is a good idea, nothing wrong with this) it will attempt to GZIP all PHP script output, regardless of content-type. This is a limitation on CGI-based installations. On installations of PHP running as an Apache module, s2Member has no trouble; because it can call upon `apache_setenv('no-gzip')`. It's more difficult when dealing with a CGI or FastCGI extension though.
 
-However, CGI-based installations of PHP do not follow this rule. When `mod_deflate` is being used in a server configuration (which is a good idea, nothing wrong with this) it will attempt to GZIP all PHP script output, regardless of content-type. This is a limitation on CGI-based installations. On installations of PHP running as an Apache module, s2Member has no trouble; because it can call upon `apache_setenv('no-gzip')`. It's more difficult on a CGI or FastCGI extension though.
-
-**Solution:** Add the snippet (shown above) to the `.htaccess` file in the root directory of your WordPress installation.
+**Solution for CGI or FastCGI:** Add the snippet (shown above) to the `.htaccess` file in the root directory of your WordPress installation. This resolves the problem nicely :-)
 
 ## Does `wp-content/plugins/s2member-files/.htaccess` Exist?
 
