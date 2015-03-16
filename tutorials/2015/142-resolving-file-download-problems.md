@@ -10,7 +10,7 @@ github-issue: https://github.com/websharks/s2member-kb/issues/142
 
 If you're running s2Member with `mod_deflate` for Apache (common on many hosts, including BlueHost), you'll want to add this section to the top of your WordPress `.htaccess` file so that your installation of Apache will know when it should _not_ use GZIP compression. This `.htaccess` file should be located in the same root directory as your WordPress files. If you already have an `.htaccess` file in this location (very common), then please add this snippet right above the section for WordPress itself.
 
-_**What does this do?** It temporarily disables GZIP compression for files that s2Member server locally via PHP. You'll find more information about why this is necessary below._
+_**What does this do?** It temporarily disables GZIP compression for files that s2Member server locally via PHP._
 
 ```apache
 # BEGIN s2Member GZIP exclusions
