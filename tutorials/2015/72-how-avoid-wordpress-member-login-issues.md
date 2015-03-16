@@ -59,7 +59,7 @@ Be consistent in the way you link to pages on your site. Please do not create li
 
 By default, WordPress will set all cookies for the current domain. If the current domain is `www.example.com`, the cookie will not work on `example.com` or at `sub.example.com`. However, you can tell WordPress to use a specific root domain instead, so that when WordPress sets a cookie, it will be valid for the current domain, and also for any/all sub-domains that you might be using.
 
-In your `/wp-config.php` file, you can add:
+In your `/wp-config.php` file, you can add the following. See also: [this article @ WordPress](http://codex.wordpress.org/Editing_wp-config.php#Set_Cookie_Domain).
 
 ```php
 define('COOKIE_DOMAIN', '.example.com');
