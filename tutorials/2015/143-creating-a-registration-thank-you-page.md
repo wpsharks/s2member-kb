@@ -67,7 +67,7 @@ s2Member Pro makes redirecting to a custom Thank-You Page easy by providing the 
 
 In addition, s2Member Pro provides Replacement Codes that you can use within your Thank-You Page URL (works with Pro-Forms only). These allow you to pass information from the registration form to your custom URL so that it's easier to customize your Thank-You Page with details relevant to the current user.
 
-To redirect a Pro-Form (or PayPal Button) to a custom Thank-You Page after registration, simply add a `success=""` attribute with the full URL to your Thank-You Page. Here are some examples. You can learn in your Dashboard. See: **Dashboard → [Your Payment Gateway] Forms → Custom Return URLs on Success**.
+To redirect a Pro-Form (or PayPal Button) to a custom Thank-You Page after registration, simply add a `success=""` attribute with the full URL to your Thank-You Page. Here are some examples. You can learn more about this in your Dashboard. See: **Dashboard → [Your Payment Gateway] Forms → Custom Return URLs on Success**.
 
 ```text
 [s2Member-Pro-Stripe-Form ... success="http://example.com/thank-you/" ... /]
