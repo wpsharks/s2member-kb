@@ -1,5 +1,5 @@
 ---
-title: Can I sell lifetime access?
+title: PDF invoice by mail to each subscription and on each renewal?
 categories: questions
 tags: api-notifications, mu-plugins-hacks
 author: jaswsinc
