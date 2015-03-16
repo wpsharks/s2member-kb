@@ -29,8 +29,6 @@ By default, WordPress and s2Member will use your local web server to send emails
 
 There's also the possibility that your email is ending up in the Spam folder. If you find that to be the case, you can improve your chances of making the Inbox by editing the email so it's unique instead of having the default template.
 
-<div class="li-margins"></div>
-
 - The Signup Confirmation email can be edited from:
   **Dashboard → [Payment Gateway] Options → Signup Confirmation Email**
 
