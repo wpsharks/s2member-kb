@@ -16,7 +16,7 @@ s2Member's log files will report any problems encountered during payment process
 
 In cases where s2Member's ability to log issues is hindered, or if all you're getting is just a "white screen", you'll need to move your attention to WordPress itself. If there are no issues reported in s2Member's log files and you're still having a problem, the most likely cause is a server misconfiguration, or a plugin that is interfering with s2Member's ability to operate as intended.
 
-### The next steps are:
+### Additional Recommendations
 
 - Run the [s2Member Server Scanner](https://github.com/websharks/s2member-kb/issues/133).
 - If that turns up nothing, please see: [Testing in a Clean Installation](https://github.com/websharks/s2member-kb/issues/81).
