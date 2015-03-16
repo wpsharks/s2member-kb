@@ -24,8 +24,7 @@ _**Note Also:** The name of this hack file (`s2member-o.php`) is very important.
 
 ```php
 <?php
-add_filter('gettext_with_context', 'my_s2_translator', 10, 4);
-function my_s2_translator($translated, $original, $context, $text_domain)
+add_filter('gettext_with_context', function ($translated, $original, $context, $text_domain)
 	{
 		if($context === 's2member-front' && $text_domain=== 's2member')
 			{
@@ -36,7 +35,7 @@ function my_s2_translator($translated, $original, $context, $text_domain)
 					$translated = 'Submit';
 			}
 		return $translated; // Return final translation.
-	}
+	}, 10, 4);
 ```
 
 ## How Do I Know What Can Be Changed?
