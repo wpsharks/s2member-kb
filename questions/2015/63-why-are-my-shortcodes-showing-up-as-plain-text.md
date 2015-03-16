@@ -4,6 +4,7 @@ categories: questions
 tags: troubleshooting, shortcodes
 author: raamdev
 github-issue: https://github.com/websharks/s2member-kb/issues/63
+toc-enable: false
 ---
 
 > My site all of a sudden stopped rendering my 's2Member-Pro-PayPal-Form' shortcode. Now the shortcode is rendering as text instead of the signup form that used to be there.
