@@ -1,5 +1,5 @@
 ---
-title: Can I customize the IP Restrictions template file?
+title: Can I customize the IP Restrictions template?
 categories: questions
 tags: restriction-options, mu-plugins-hacks
 author: jaswsinc
