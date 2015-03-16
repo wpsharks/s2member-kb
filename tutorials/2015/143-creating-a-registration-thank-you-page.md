@@ -47,7 +47,7 @@ add_action('ws_plugin__s2member_after_configure_user_registration', function($va
 
 ↑ Update `$_POST['redirect_to']` to point to a full URL that leads to your custom Thank You Page.
 
-#### Optional: Display Registration Information on Thank-You Page
+### Optional: Display Registration Information on Thank-You Page
 
 For the next step, you’ll need to first install and activate the [ezPHP Plugin](http://wordpress.org/extend/plugins/ezphp/). This plugin allows you to run PHP code inside your WordPress posts and pages. Once the ezPHP plugin has been installed and activated you can edit your Thank-You Page and insert the following snippets of PHP wherever you want to show the email address, first name, last name, or username:
 
@@ -78,7 +78,7 @@ To redirect a Pro-Form (or PayPal Button) to a custom Thank-You Page after regis
 
 _*Note:* The above shortcodes are abbreviated for clarity. The `...` would normally include other shortcode attributes that make up the full shortcode that is needed. Just add the `success=""` attribute somewhere in the list of attributes. Normally at the very end, but before the closing `/]` tag._
 
-#### Optional: Display Registration Information on Thank-You Page
+### Optional: Display Registration Information on Thank-You Page
 
 Requires an s2Member Pro-Form. If you want to display information on the Thank-You Page, you’ll need to pass that information to the Thank-You Page in the URL that you added to the `success=""` attribute. For example, to pass the registration email address and the first name, you’ll need to modify the `success=""` attribute as follows:
 
