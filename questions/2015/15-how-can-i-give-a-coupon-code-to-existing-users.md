@@ -21,6 +21,4 @@ Coupon codes work together with s2Member Pro Forms. There are detailed instructi
 
 ### To Existing Users/Customers?
 
-The process is the same. The only difference is related to _which_ type of Pro Form that you generate, and thus _which_ type of Pro Form accepts a coupon code.
-
-To sell an existing customer new access, or allow them to change their existing access; please see: **Dashboard ⥱ s2Member Pro ⥱ [Payment Gateway] Pro Forms ⥱ Billing Modification Forms**. Don't forget to enable coupon codes in your Pro Form by setting the shortcode attribute `accept_coupons="1"` to indicate that you _do_ accept coupon codes in that particular Pro Form instance.
+The process is the same. The only difference is related to _which_ type of Pro Form that you generate, and thus _which_ type of Pro Form accepts a coupon code. To sell an existing customer new access, or allow them to change their existing access; please see: **Dashboard ⥱ s2Member Pro ⥱ [Payment Gateway] Pro Forms ⥱ Billing Modification Forms**. Don't forget to enable coupon codes in your Pro Form by setting the shortcode attribute `accept_coupons="1"` to indicate that you _do_ accept coupon codes in that particular Pro Form instance.
