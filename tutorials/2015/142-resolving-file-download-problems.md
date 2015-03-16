@@ -39,7 +39,7 @@ Unfortunately, CGI-based installations of PHP don't look at `Content-Encoding:` 
 
 ## Does `wp-content/plugins/s2member-files/.htaccess` Exist?
 
-You should also have an `.htaccess` file in your `/s2member-files/` directory. If you don't, please re-install s2Member and that will create the proper `.htaccess` file automatically. Either that, or add this to your `/wp-content/plugins/s2member-files/.htaccess` file. If the file does not exist, please create it. In some cases you might need to remove ` -Index` from the first line.
+You should also have an `.htaccess` file in your `/s2member-files/` directory. If you don't, please re-install s2Member and that will create the proper `.htaccess` file automatically. Either that, or add this to your `/wp-content/plugins/s2member-files/.htaccess` file. If the file does not exist, please create it. I this produces a server, remove ` -Indexes` from the first line.
 
 ```apache
 Options +FollowSymLinks -MultiViews -Indexes
