@@ -1,5 +1,5 @@
 ---
-title: Why are my shortcodes showing up as plain text?
+title: Why are shortcodes showing as plain text?
 categories: questions
 tags: troubleshooting, shortcodes
 author: raamdev
