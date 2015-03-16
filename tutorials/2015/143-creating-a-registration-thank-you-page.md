@@ -63,7 +63,7 @@ Username: <?php echo esc_html($_REQUEST['username']); ?>
 
 ## s2Member Pro-Form Integration (Much Easier)
 
-![](http://cdn.websharks-inc.com/s2member/uploads/2015/01/icon-256.png){.alignright}
+![](http://cdn.websharks-inc.com/s2member/uploads/logo-s2-icon-128.png){.alignright}
 
 s2Member Pro makes redirecting to a custom Thank-You Page easy by providing the `success=""` shortcode attribute, which you can add to the shortcodes that power s2Member Pro-Forms (works w/ Stripe, PayPal Pro, Authorize.Net). The `success=""` attribute also happens to work with PayPal Buttons whenever you have s2Member Pro.
 
