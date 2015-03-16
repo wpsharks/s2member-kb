@@ -13,4 +13,4 @@ If you want existing members to do an upgrade, you should use the Billing Modifi
 
 > What if I don't need membership features at all; if I only want to sell something one-time?
 
-If you don't require the visitor to signup for a membership but instead only want to give them access to a single Post/Page (i.e., you want to sell access to a specific Post/Page on a one-time basis), you can use the Specific Post/Page (Buy Now) Forms. See: **s2Member ⥱ Stripe Pro-Forms ⥱ Stripe Specific Post/Page (Buy Now) Forms**
+If you don't require the visitor to signup for a membership, but instead only want to give them access to a single Post/Page (i.e., you want to sell access to a specific Post/Page on a one-time basis), you can use the Specific Post/Page (Buy Now) Forms. See: **s2Member ⥱ [Payment Gateway] Pro-Forms ⥱ Specific Post/Page (Buy Now) Forms**
