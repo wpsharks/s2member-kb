@@ -35,7 +35,7 @@ The only way for s2Member to disable GZIP compression on a CGI-based installatio
 
 Unfortunately, CGI-based installations of PHP don't look at `Content-Encoding:` empty as expected. When `mod_deflate` is being used (which is a good idea, nothing wrong with this) it will attempt to GZIP all PHP script output, regardless of `Content-Type`. This is a limitation on CGI-based installations of PHP. On installations of PHP running as an Apache module, s2Member has no trouble; because it can call upon `apache_setenv('no-gzip')`. It's more difficult when dealing with a CGI or FastCGI extension though.
 
-**Solution for CGI or FastCGI?** Yes, the snippet above resolves the problem. Please make sure yo have the snippet (shown above) in the `.htaccess` file in the root directory of your WordPress installation. This resolves the problem nicely.
+**Solution for CGI or FastCGI?** Yes, the snippet above resolves the problem. Please make sure yo have the snippet (shown above) in the `.htaccess` file in the root directory of your WordPress installation. This resolves the problem on all PHP installations—even those running via CGI or FastCGI.
 
 ## Does `wp-content/plugins/s2member-files/.htaccess` Exist?
 
