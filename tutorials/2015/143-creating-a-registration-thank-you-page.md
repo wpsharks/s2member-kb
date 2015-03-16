@@ -102,4 +102,4 @@ Email: <?php echo esc_html($_REQUEST['email']); ?>
 First Name: <?php echo esc_html($_REQUEST['fname']); ?>
 ```
 
-Please see: **Dashboard → s2Member® → PayPal® Pro Forms → Custom Return URLs Upon Success** for a complete list of replacement codes that can be used in the `success=""` attribute. For more details on shortcode attributes, please see: **Dashboard → s2Member® → PayPal® Pro Forms → Shortcode Attributes (Explained)**
+Please see: **Dashboard → s2Member → PayPal Pro Forms → Custom Return URLs Upon Success** for a complete list of replacement codes that can be used in the `success=""` attribute. For more details on shortcode attributes, please see: **Dashboard → s2Member → PayPal Pro Forms → Shortcode Attributes (Explained)**
