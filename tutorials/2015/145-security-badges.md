@@ -6,7 +6,8 @@ author: jaswsinc
 github-issue: https://github.com/websharks/s2member-kb/issues/145
 ---
 
-<div class="pull-right l-margin b-margin">
+<div class="pull-right l-margin b-margin text-center">
+	<p><code>[s2Member-Security-Badge v="1" /]</code></p>
 	[s2Member-Security-Badge v="1" /]
 </div>
 
@@ -56,16 +57,16 @@ To qualify your site you will need to enable s2Member’s Security Badge Status 
 
   Please see: **Dashboard → s2Member® → Log Files (Debug) → Logging Configuration**
   
-	_**IMPORTANT NOTE:** All logging MUST be disabled to prevent log files that may contain sensitive data. In addition, any existing log files from previous debugging efforts MUST be deleted before your s2Member Security Badge will go green. See: **Dashboard → s2Member® → Log Files (Debug)** for further details. The only way to bypass this requirement is to set a custom location for your s2Member log files. If you'd like to do this, please create this directory and file: `/wp-content/mu-plugins/s2-logs-dir.php`_
+  _**IMPORTANT NOTE:** All logging MUST be disabled to prevent log files that may contain sensitive data. In addition, any existing log files from previous debugging efforts MUST be deleted before your s2Member Security Badge will go green. See: **Dashboard → s2Member® → Log Files (Debug)** for further details. The only way to bypass this requirement is to set a custom location for your s2Member log files. If you'd like to do this, please create this directory and file: `/wp-content/mu-plugins/s2-logs-dir.php`_
 
-	```php
-	<?php
-	add_filter('ws_plugin__s2member_logs_dir', function($dir){
-	  return ($dir = '/absolute/path/to/my/custom/logs/dir');
-	  // Ideally a location outside of the HTTP space (more secure).
-	  // Something like: /var/logs/s2member
-	});
-	```
+  ```php
+  <?php
+  add_filter('ws_plugin__s2member_logs_dir', function($dir){
+    return ($dir = '/absolute/path/to/my/custom/logs/dir');
+    // Ideally a location outside of the HTTP space (more secure).
+    // Something like: /var/logs/s2member
+  });
+  ```
 
 ## Test Your Own Badge Status
 
@@ -80,9 +81,18 @@ There are a few different Security Badge variations. Which variation you decide 
 <table style="width:100%;">
 	<tbody>
 		<tr>
-			<td class="text-center"><code>[s2Member-Security-Badge v="1" /]</code><br />[s2Member-Security-Badge v="1" /]</td>
-			<td class="text-center"><code>[s2Member-Security-Badge v="2" /]</code><br />[s2Member-Security-Badge v="2" /]</td>
-			<td class="text-center"><code>[s2Member-Security-Badge v="3" /]</code><br />[s2Member-Security-Badge v="3" /]</td>
+			<td class="text-center">
+				<p><code>[s2Member-Security-Badge v="1" /]</code></p>
+				[s2Member-Security-Badge v="1" /]
+			</td>
+			<td class="text-center">
+				<p><code>[s2Member-Security-Badge v="2" /]</code></p>
+				[s2Member-Security-Badge v="2" /]
+			</td>
+			<td class="text-center">
+				<p><code>[s2Member-Security-Badge v="3" /]</code></p>
+				[s2Member-Security-Badge v="3" /]
+			</td>
 		</tr>
 	</tbody>
 </table>
