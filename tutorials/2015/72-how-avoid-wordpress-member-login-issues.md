@@ -35,6 +35,8 @@ In WordPress, if a user logs into the site over `https://`, WordPress will gener
 
 #### What impact does this have on my site?
 
+<div class="li-margins"></div>
+
 1. It means that a user logging into the site over `http://`, _will_ be able to access the site over `https://` also. There's no issue with this, because WordPress only makes the cookie "https only" if the login occurred over `https://` to begin with. A cookie that is not "https only" can be read from either protocol without issue.
 
 2. **Important:** ... if a user logs into the site over `https://`, where the form action is something like `https://example.com/wp-login.php`, there is a good chance they will **not** be thought of as logged-in on the `http://` protocol.  Their logged-in cookie is only good over SSL in this case.
