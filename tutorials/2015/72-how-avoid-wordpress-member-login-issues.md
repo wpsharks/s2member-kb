@@ -53,7 +53,7 @@ Decide early-on which domain variation you're going to use, and make sure that y
 
 Be consistent in the way you link to pages on your site. Please do not create links on your site that use different variations of your domain. That could result in a visitor logging in on one variation, but clicking links on your site that land them on another variation (where they may not be recognized as a logged-in member). If you've already done some of this in error, you can mass update Posts/Pages using a tool like [Search Regex for WordPress](https://wordpress.org/plugins/search-regex/).
 
-## Avoiding Sub-Domain Cookie Conflicts
+### Avoiding Sub-Domain Cookie Conflicts
 
 By default, WordPress will set all cookies for the current domain. If the current domain is `www.example.com`, the cookie will not work on `example.com` or at `sub.example.com`. However, you can tell WordPress to use a specific root domain instead, so that when WordPress sets a cookie, it will be valid for the current domain, and also for any/all sub-domains that you might be using.
 
