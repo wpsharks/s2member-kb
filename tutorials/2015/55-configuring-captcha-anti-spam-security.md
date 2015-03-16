@@ -6,7 +6,7 @@ author: raamdev
 github-issue: https://github.com/websharks/s2member-kb/issues/55
 ---
 
-s2Member Pro Forms for PayPal Pro and Authorize.Net (including Free Registration Forms) can be configured with s2Member to use Google's reCAPTCHA™ service (which is free). Simply add the `captcha="clean"` attribute to your Pro-Form shortcode. 
+s2Member Pro Forms for Stripe, PayPal Pro, and Authorize.Net (including Free Registration Forms) can be configured with s2Member to use Google's reCAPTCHA™ service (which is free). Simply add the `captcha="clean"` attribute to your Pro-Form shortcode. Very easy.
 
 s2Member comes with a default set of reCAPTCHA™ Keys, both Public and Private. If you leave the default configuration (i.e., leave the `reCAPTCHA™ Public Key` and `reCAPTCHA™ Private Key` fields empty), s2Member will simply use its own default set of Keys for reCAPTCHA™. However, if you're using s2Member Pro Forms, we do suggest that you acquire your own set of reCAPTCHA™ Keys (_it's free_). It's better to have your own set of Keys, specifically for your domain. 
 
