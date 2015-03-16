@@ -1,7 +1,7 @@
 ---
 title: How do I remove Credit Card options from the Pro-Form?
 categories: questions
-tags: pro-forms
+tags: pro-forms, paypal
 author: raamdev
 github-issue: https://github.com/websharks/s2member-kb/issues/60
 ---
