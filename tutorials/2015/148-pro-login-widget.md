@@ -8,7 +8,7 @@ github-issue: https://github.com/websharks/s2member-kb/issues/148
 
 ## s2Member® Pro Login Widget
 
-Integrated specifically to meet the needs of s2Member installations; s2Member Pro's Login Widget is specifically designed to work with s2Member (this comes with any purchase of s2Member Pro). It can also be [integrated via PHP](http://www.s2member.com/codex/stable/s2member/api_functions/package-functions/#src_doc_s2member_pro_login_widget%28%29); i.e., you can even embed it into a theme file or another plugin if you like.
+Integrated specifically to meet the needs of s2Member installations; s2Member Pro's Login Widget is specifically designed to work with s2Member (this comes with any purchase of s2Member Pro). It can also be integrated via PHP; i.e., you can even embed it into a theme file or another plugin if you like.
 
 [![](http://cdn.websharks-inc.com/s2member/uploads/pro-screen-pro-login-widget.jpg){.aligncenter}](http://cdn.websharks-inc.com/s2member/uploads/pro-screen-pro-login-widget.jpg)
 
@@ -47,3 +47,37 @@ The s2Member Pro Login Widget can be embedded directly into a theme/plugin file.
   -   `'before_title' => '<h3>'` HTML code to display before the title.
   -   `'after_title' => '</h3>'` HTML code to display after the title.
   -   `'after_widget' => ''` HTML code to display after the widget.
+
+### Example PHP Code Using `s2member_pro_login_widget()`
+
+```php
+<?php echo s2member_pro_login_widget(); ?>
+```
+
+##### More Elaborate Example w/ Configuration Options/Args
+
+```php
+<?php
+echo s2member_pro_login_widget(
+	array(
+		'title'            => 'Membership Login',
+		'signup_url'       => '%%automatic%%',
+		'login_redirect'   => '',
+		'logged_out_code'  => '',
+		'profile_title'    => 'My Profile Summary',
+		'display_gravatar' => '1',
+		'link_gravatar'    => '1',
+		'display_name'     => '1',
+		'logged_in_code'   => '',
+		'logout_redirect'  => '%%home%%',
+		'my_account_url'   => '%%automatic%%',
+		'my_profile_url'   => '%%automatic%%',
+	),
+	array(
+		'before_widget' => '',
+		'before_title'  => '<h3>',
+		'after_title'   => '</h3>',
+		'after_widget'  => '',
+	)
+);
+```
