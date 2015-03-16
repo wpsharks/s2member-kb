@@ -18,6 +18,8 @@ In this article I will discuss two ways that a user can register. The method you
 
 - The second registration method uses s2Member Pro-Forms. Pro-Forms are only available with [s2Member Pro](http://www.s2member.com/pro/). In the discussion below regarding Pro-Forms, we use the `success=""` shortcode attribute, which also happens to work with PayPal Buttons whenever you have s2Member Pro.
 
+---
+
 ## Built-In WordPress Registration Form (`wp-login.php?action=register`)
 
 Create the following directory and file:
@@ -61,11 +63,11 @@ Username: <?php echo esc_html($_REQUEST['username']); ?>
 
 ## s2Member Pro-Form Integration (Much Easier)
 
-s2Member Pro makes redirecting to a custom Thank-You Page easy by providing the `success=""` shortcode attribute, which you can add to the shortcodes that power s2Member Pro-Forms (works w/ Stripe, PayPal Pro, Authorize.Net).
+s2Member Pro makes redirecting to a custom Thank-You Page easy by providing the `success=""` shortcode attribute, which you can add to the shortcodes that power s2Member Pro-Forms (works w/ Stripe, PayPal Pro, Authorize.Net). The `success=""` attribute also happens to work with PayPal Buttons whenever you have s2Member Pro.
 
-The `success=""` attribute also happens to work with PayPal Buttons whenever you have s2Member Pro. In addition, s2Member Pro provides Replacement Codes that you can use within your Thank-You Page URL. These allow you to pass information from the registration form to your custom URL so that it's easier to customize your Thank-You Page with details relevant to the current user.
+In addition, s2Member Pro provides Replacement Codes that you can use within your Thank-You Page URL (works with Pro-Forms only). These allow you to pass information from the registration form to your custom URL so that it's easier to customize your Thank-You Page with details relevant to the current user.
 
-To redirect a Pro-Form (or PayPal Button) to a custom Thank-You Page after registration, simply add a `success=""` attribute with the full URL to your Thank-You Page. When s2Member Pro is installed, this works for PayPal Buttons and with any of the s2Member Pro-Form shortcodes that facilitate checkout and/or registration. Here are some examples:
+To redirect a Pro-Form (or PayPal Button) to a custom Thank-You Page after registration, simply add a `success=""` attribute with the full URL to your Thank-You Page. Here are some examples. You can learn in your Dashboard. See: **Dashboard → [Your Payment Gateway] Forms → Custom Return URLs on Success**.
 
 ```text
 [s2Member-Pro-Stripe-Form ... success="http://example.com/thank-you/" ... /]
@@ -87,13 +89,11 @@ _*Note:* The above shortcodes are abbreviated for clarity. The `...` would norma
 
 ### Optional: Display Registration Information on Thank-You Page
 
-If you want to display information on the Thank-You Page, you’ll need to pass that information to the Thank-You Page in the URL that you added to the `success=""` attribute. For example, to pass the registration email address and the first name, you’ll need to modify the `success=""` attribute as follows:
+Requires an s2Member Pro-Form. If you want to display information on the Thank-You Page, you’ll need to pass that information to the Thank-You Page in the URL that you added to the `success=""` attribute. For example, to pass the registration email address and the first name, you’ll need to modify the `success=""` attribute as follows:
 
 ```text
 success="http://example.com/thank-you/?email=%%user_email%%&fname=%%user_first_name%%"
 ```
-
-_**Note:** Replacement Codes like these work only with s2Member Pro-Forms; i.e., not with PayPal Buttons._
 
 Then for the next step you’ll need to first install and activate the [ezPHP Plugin](http://wordpress.org/extend/plugins/ezphp/). This plugin allows you to run PHP code inside your WordPress posts and pages. Once the ezPHP plugin has been installed and activated, you can edit your Thank-You Page and insert the following snippets of PHP wherever you want to show the email address and first name:
 
