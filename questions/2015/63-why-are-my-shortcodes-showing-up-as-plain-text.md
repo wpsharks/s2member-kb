@@ -9,9 +9,7 @@ toc-enable: false
 
 > My site all of a sudden stopped rendering my 's2Member-Pro-PayPal-Form' shortcode. Now the shortcode is rendering as text instead of the signup form that used to be there.
 
-It sounds like another plugin or possibly even your theme somehow introduced a conflict with s2Member that is preventing WordPress from processing the s2Member shortcode(s). If you recently installed or updated any plugins, I'd start with trying to disable those. If that doesn't work, I'd try switching your theme to one of the default WordPress themes (e.g., TwentyFifteen).
-
-See also: [Testing in a Clean Installation](https://github.com/websharks/s2member-kb/issues/81)
+It sounds like another plugin or possibly even your theme somehow introduced a conflict with s2Member that is preventing WordPress from processing the s2Member shortcode(s). If you recently installed or updated any plugins, I'd start with trying to disable those. If that doesn't work, I'd try switching your theme to one of the default WordPress themes (e.g., TwentyFifteen). See also: [Testing in a Clean Installation](https://github.com/websharks/s2member-kb/issues/81)
 
 ## Another reason this can occur...
 
