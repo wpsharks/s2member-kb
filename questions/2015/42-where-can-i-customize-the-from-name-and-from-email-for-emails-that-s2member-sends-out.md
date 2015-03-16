@@ -1,5 +1,5 @@
 ---
-title: Where can I customize the From Name and From Email for emails that s2Member sends out?
+title: Where can I customize the From Name and From Email for emails that s2Member sends?
 categories: questions
 tags: email-config
 author: raamdev
