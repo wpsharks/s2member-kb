@@ -1,7 +1,7 @@
 ---
 title: Security Badges
 categories: tutorials
-tags: security-badge
+tags: shortcodes, s2member-security-badge
 author: jaswsinc
 github-issue: https://github.com/websharks/s2member-kb/issues/145
 ---
