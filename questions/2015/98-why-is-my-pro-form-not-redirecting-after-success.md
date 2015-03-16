@@ -9,6 +9,8 @@ toc-enable: false
 
 ## Troubleshooting Tips
 
+<div class="li-margins"></div>
+
 - Are you using the `success=""` attribute in your shortcode?  
   Note: This attribute _requires_ s2Member Pro. See: [Creating a Registration Thank-You Page](https://github.com/websharks/s2member-kb/issues/143)
 
