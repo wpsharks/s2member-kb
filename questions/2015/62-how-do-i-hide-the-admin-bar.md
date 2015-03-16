@@ -8,7 +8,7 @@ github-issue: https://github.com/websharks/s2member-kb/issues/62
 
 > When my users login they see the WordPress Admin Bar across the top of the page, the one that says, "Howdy, [username]". How would I remove that so they don't see the Admin Bar?
 
-**Answer:** You can add the following snippet of PHP code to your theme's `functions.php` file. This code will check if the current user has access to manage options on your site (i.e., someone like the Administrator) and if they don't have those permissions, it will disable the Admin Bar:
+You can add the following snippet of PHP code to your theme's `functions.php` file. This code will check if the current user has access to manage options on your site (i.e., someone like the Administrator) and if they don't have those permissions, it will disable the Admin Bar:
 
 ```php
 <?php
