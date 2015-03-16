@@ -6,7 +6,7 @@ author: raamdev
 github-issue: https://github.com/websharks/s2member-kb/issues/56
 ---
 
-> Why am I getting an error message that says "Input Error: K: Format Of Site Key Was Invalid" underneath the Security Code section of my Pro-Forms?
+> Why am I getting an error: "Input Error: K: Format Of Site Key Was Invalid" underneath the Security Code section of my Pro-Forms?
 
 If you you're getting an error that says **Input Error: K: Format Of Site Key Was Invalid** on your s2Member Pro-Forms in the **Security Code** section, this indicates a problem with your CAPTCHA Anti-Spam Security configuration.
 
