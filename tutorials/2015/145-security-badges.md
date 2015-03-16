@@ -18,48 +18,54 @@ To qualify your site you will need to enable s2Member’s Security Badge Status 
 
 <div class="li-margins"></div>
 
-- #### Is your s2Member Badge Status API enabled?
+- ### Is your s2Member Badge Status API enabled?
 
   Please see: **Dashboard → s2Member® → General Options → Security Badge → Badge Status API**
-- #### Does your `/wp-config.php` file have all of these configuration values filled in properly (e.g., have you setup your WordPress Security Keys)?
+
+- ### Does your `/wp-config.php` file have all of these configuration values filled in properly (e.g., have you setup your WordPress Security Keys)?
 
   *See: [http://codex.wordpress.org/Editing_wp-config.php#Security_Keys](http://codex.wordpress.org/Editing_wp-config.php#Security_Keys)
 
   _**IMPORTANT NOTE:** Each of these MUST be at least 60 characters and must NOT contain the default: `unique phrase` values that come with WordPress. We suggest using the [super easy Security Key Generator](https://api.wordpress.org/secret-key/1.1/salt/)._
-- #### Have you created a Security Encryption Key for your s2Member installation?
+
+- ### Have you created a Security Encryption Key for your s2Member installation?
 
   Please see: **Dashboard → s2Member® → General Options → Security Encryption Key**
 
   _**IMPORTANT NOTE:** This MUST be at least 60 characters in length._
-- #### Does your `/wp-config.php` file have both of these configuration values?
+
+- ### Does your `/wp-config.php` file have both of these configuration values?
 
   These configuration values MUST be filled in: `DB_USER` & `DB_PASSWORD`. See: [http://codex.wordpress.org/Editing_wp-config.php#Set_Database_Name](http://codex.wordpress.org/Editing_wp-config.php#Set_Database_Name)
 
   _**IMPORTANT NOTE:** These values must NOT be exactly the same._
-- #### Have you configured your s2Member Unique IP Restriction Options yet?
+
+- ### Have you configured your s2Member Unique IP Restriction Options yet?
 
   Please see: **Dashboard → s2Member® → Restriction Options → Unique IP Restrictions**
   
   _**IMPORTANT NOTE:** This must NOT be set to a value of: infinite._
-- #### Have you configured your s2Member® Brute Force IP Restrictions yet?
+
+- ### Have you configured your s2Member® Brute Force IP Restrictions yet?
 
   Please see: **Dashboard → s2Member® → Restriction Options → Brute Force IP Restrictions**
   
   _**IMPORTANT NOTE:** This must NOT be set to a value of: infinite._
-- #### Have you disabled debug logging in your s2Member® configuration yet?
+
+- ### Have you disabled debug logging in your s2Member® configuration yet?
 
   Please see: **Dashboard → s2Member® → Log Files (Debug) → Logging Configuration**
   
-  _**IMPORTANT NOTE:** All logging MUST be disabled to prevent log files that may contain sensitive data. In addition, any existing log files from previous debugging efforts MUST be deleted before your s2Member Security Badge will go green. See: **Dashboard → s2Member® → Log Files (Debug)** for further details. The only way to bypass this requirement is to set a custom location for your s2Member log files. If you'd like to do this, please create this directory and file: `/wp-content/mu-plugins/s2-logs-dir.php`_
+	_**IMPORTANT NOTE:** All logging MUST be disabled to prevent log files that may contain sensitive data. In addition, any existing log files from previous debugging efforts MUST be deleted before your s2Member Security Badge will go green. See: **Dashboard → s2Member® → Log Files (Debug)** for further details. The only way to bypass this requirement is to set a custom location for your s2Member log files. If you'd like to do this, please create this directory and file: `/wp-content/mu-plugins/s2-logs-dir.php`_
 
-```php
-<?php
-add_filter('ws_plugin__s2member_logs_dir', function($dir){
-  return ($dir = '/absolute/path/to/my/custom/logs/dir');
-  // Ideally a location outside of the HTTP space (more secure).
-  // Something like: /var/logs/s2member
-});
-```
+	```php
+	<?php
+	add_filter('ws_plugin__s2member_logs_dir', function($dir){
+	  return ($dir = '/absolute/path/to/my/custom/logs/dir');
+	  // Ideally a location outside of the HTTP space (more secure).
+	  // Something like: /var/logs/s2member
+	});
+	```
 
 ## Test Your Own Badge Status
 
@@ -71,9 +77,12 @@ There are a few different Security Badge variations. Which variation you decide 
 
 <div class="li-margins"></div>
 
-- `[s2Member-Security-Badge v="1" /]`
-  [s2Member-Security-Badge v="1" /]
-- `[s2Member-Security-Badge v="2" /]`
-  [s2Member-Security-Badge v="2" /]
-- `[s2Member-Security-Badge v="3" /]`
-  [s2Member-Security-Badge v="3" /]
+<table>
+	<tbody>
+		<tr>
+			<td class="text-center">`[s2Member-Security-Badge v="1" /]`<br />[s2Member-Security-Badge v="1" /]</td>
+			<td class="text-center">`[s2Member-Security-Badge v="2" /]`<br />[s2Member-Security-Badge v="2" /]</td>
+			<td class="text-center">`[s2Member-Security-Badge v="3" /]`<br />[s2Member-Security-Badge v="3" /]</td>
+		</tr>
+	</tbody>
+</table>
