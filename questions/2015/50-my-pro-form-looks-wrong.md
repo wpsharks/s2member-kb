@@ -6,7 +6,7 @@ author: jaswsinc
 github-issue: https://github.com/websharks/s2member-kb/issues/50
 ---
 
-If you find that your Pro Form is presenting fields that seem out of place, or if you find that the overall style in Pro Forms is not a match to the screenshot below; here are some things to start looking at.
+If you find that your Pro Form is presenting fields that seem out of place, or if you find that the overall style in Pro Forms is not a match to the [screenshot below](#toc-773fd4c7); here are some things to start looking at.
 
 ## Suggested Steps to Resolve
 
