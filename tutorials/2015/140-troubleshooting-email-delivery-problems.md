@@ -31,7 +31,6 @@ There's also the possibility that your email is ending up in the Spam folder. If
 
 - The Signup Confirmation email can be edited from:
   **Dashboard → [Payment Gateway] Options → Signup Confirmation Email**
-
 - The New User email can be edited from:
   **Dashboard → General Options → Email Configuration**
 
