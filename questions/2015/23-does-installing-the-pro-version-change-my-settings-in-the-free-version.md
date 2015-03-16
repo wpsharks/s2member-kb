@@ -6,7 +6,7 @@ author: jaswsinc
 github-issue: https://github.com/websharks/s2member-kb/issues/23
 ---
 
-> We have been running S2 Members on our site for almost 5 years now and we are only now going pro. We have a large amount of paying customers in each level and we are also integrated with BuddyPress a chat hosting system and sms system. My concern with adding the Pro plugin is that something will get messed up. If I add the Pro plugin, will it change any of my current S2 settings? Will there be any lag or issues in adding it?
+> We've been running S2 Members on our site for almost 5 years now and we are only now going pro. We have a large amount of paying customers in each level and we are also integrated with BuddyPress a chat hosting system and sms system. My concern with adding the Pro plugin is that something will get messed up. If I add the Pro plugin, will it change any of my current S2 settings? Will there be any lag or issues in adding it?
 
 Nope :-) All existing settings and integrations from the lite version remain as they were.
 
