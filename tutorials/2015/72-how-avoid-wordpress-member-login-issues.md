@@ -1,7 +1,7 @@
 ---
 title: How to Avoid Login Issues
 categories: tutorials
-tags: pro-login-widget, login-registration
+tags: pro-login-widget, login-registration, troubleshooting
 author: jaswsinc
 github-issue: https://github.com/websharks/s2member-kb/issues/72
 ---
