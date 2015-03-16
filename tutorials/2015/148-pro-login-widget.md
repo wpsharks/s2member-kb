@@ -12,11 +12,15 @@ Integrated specifically to meet the needs of s2Member installations; s2Member Pr
 
 [![](http://cdn.websharks-inc.com/s2member/uploads/pro-screen-pro-login-widget.jpg){.aligncenter}](http://cdn.websharks-inc.com/s2member/uploads/pro-screen-pro-login-widget.jpg)
 
+---
+
 ## Configuring the Pro Login Widget in WordPress
 
 - See: **Dashboard → Appearance → Widgets → s2Member Pro Login Widget**
 - Drag n' drop the Pro Login Widget to a Sidebar of your choosing; i.e., one supported by your theme.
 - Expand the Pro Login Widget panel in WordPress and fill in the optional configuration fields.
+
+---
 
 ## Embedding the Pro Login Widget via PHP
 
@@ -48,13 +52,15 @@ The s2Member Pro Login Widget can be embedded directly into a theme/plugin file.
   -   `'after_title' => '</h3>'` HTML code to display after the title.
   -   `'after_widget' => ''` HTML code to display after the widget.
 
+---
+
 ### Example PHP Code Using `s2member_pro_login_widget()`
 
 ```php
 <?php echo s2member_pro_login_widget(); ?>
 ```
 
-##### More Elaborate Example w/ Configuration Options/Args
+#### More Elaborate Example w/ Configuration Options/Args
 
 ```php
 <?php
