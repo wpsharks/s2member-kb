@@ -1,7 +1,7 @@
 ---
 title: How do I add custom fields like 'address' or 'phone number' to my Pro-Form?
 categories: questions
-tags: pro-forms, registrationprofile-fields-options
+tags: pro-forms, registration-profile-fields
 author: raamdev
 github-issue: https://github.com/websharks/s2member-kb/issues/103
 ---
