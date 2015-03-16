@@ -1,7 +1,7 @@
 ---
 title: Can a Free Subscriber register more than once?
 categories: questions
-tags: pro-forms
+tags: pro-forms, login-registration
 author: raamdev
 github-issue: https://github.com/websharks/s2member-kb/issues/87
 ---
