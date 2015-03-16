@@ -43,7 +43,7 @@ However, CGI-based installations of PHP do not follow this rule. When `mod_defla
 
 **Solution:** Add the snippet (shown above) to the `.htaccess` file in the root directory of your WordPress installation.
 
-### Does `wp-content/plugins/s2member-files/.htaccess` Exist?
+## Does `wp-content/plugins/s2member-files/.htaccess` Exist?
 
 You should also have an `.htaccess` file in your `/s2member-files/` directory. If you don't, please re-install s2Member and that will create the proper `.htaccess` file automatically. Either that, or add this to your `/wp-content/plugins/s2member-files/.htaccess` file. If the file does not exist, please create it.
 
