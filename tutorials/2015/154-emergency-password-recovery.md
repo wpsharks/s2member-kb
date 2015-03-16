@@ -18,6 +18,8 @@ github-issue: https://github.com/websharks/s2member-kb/issues/154
 
 #### A Quick Summary of the Actions Required
 
+<div class="li-margins"></div>
+
 -   Access your WordPress database via phpMyAdmin. Just about every web host will offer you this tool. Please check your web hosting control panel for phpMyAdmin and access it through your browser.
 -   Open the `wp_users` table, edit your user account. You can find yourself by username. Usually admin, or user ID `1`. Click to edit that row in the database.
 -   Change the password to what you like (making sure to choose the MD5 hash option from the select menu there). The screenshot below should help to clarify this last step nicely. You should enter your password in plain text. Choosing MD5 will hash the plain text for WordPress automatically.
