@@ -71,17 +71,8 @@ To redirect a Pro-Form (or PayPal Button) to a custom Thank-You Page after regis
 
 ```text
 [s2Member-Pro-Stripe-Form ... success="http://example.com/thank-you/" ... /]
-```
-
-```text
 [s2Member-Pro-PayPal-Form ... success="http://example.com/thank-you/" ... /]
-```
-
-```text
 [s2Member-Pro-Authnet-Form ... success="http://example.com/thank-you/" ... /]
-```
-
-```text
 [s2Member-PayPal-Button ... success="http://example.com/thank-you/" ... /]
 ```
 
