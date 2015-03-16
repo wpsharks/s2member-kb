@@ -51,7 +51,7 @@ You'll also need to make sure the form is configured to provide Level 1 access (
 
 We should end up with the following shortcodes:
 
-```
+```text
 [s2Member-Pro-PayPal-Form register="1" level="1" ccaps="professional,gold" tp="3" tt="D" desc="Professional Gold" custom="example.com" captcha="clean" /]
 [s2Member-Pro-PayPal-Form register="1" level="1" ccaps="professional,bronze" tp="3" tt="D" desc="Professional Bronze" custom="example.com" captcha="clean" /]
 [s2Member-Pro-PayPal-Form register="1" level="1" ccaps="student,gold" tp="3" tt="D" desc="Student Gold" custom="example.com" captcha="clean" /]
@@ -82,7 +82,7 @@ We only want these upgrade options to show for users with Level 0 access, i.e., 
 
 We'll also wrap the Upgrade Form shortcodes as "Checkout Options" (see `Dashboard → s2Member (Pro) → PayPal Pro-Forms → Wrapping Multiple Shortcodes as "Checkout Options"`), so that we can cleanly present these to the user:
 
-```
+```text
 [s2If current_user_is(s2member_level0)]
 Your Free Trial has expired!
 Upgrade today to continue receiving access.
