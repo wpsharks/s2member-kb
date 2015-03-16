@@ -18,4 +18,6 @@ if(current_user_can('access_s2member_level1'))
 else exit('Permission denied!');
 ```
 
-This solution uses PHP code and that means the external pages that use this code will need to be PHP files. Files that end in `.htm` or `.html` will not be able to use this code unless you've specifically configured your web server to parse those file types with PHP. See: [How To Parse HTML Files As PHP](http://www.velvetblues.com/web-development-blog/how-to-parse-html-files-as-php/) for more information.
+This solution uses PHP code and that means the external pages that use this code will need to be PHP files. Files that end in `.htm` or `.html` will not be able to use this code unless you've specifically configured your web server to parse those file types with PHP.
+
+See: [How To Parse HTML Files As PHP](http://www.velvetblues.com/web-development-blog/how-to-parse-html-files-as-php/) for more information.
