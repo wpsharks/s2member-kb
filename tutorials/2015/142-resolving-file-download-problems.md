@@ -40,7 +40,7 @@ Unfortunately, CGI-based installations of PHP don't look at `Content-Encoding:` 
 
 ## Does `wp-content/plugins/s2member-files/.htaccess` Exist?
 
-You should also have an `.htaccess` file in your `/s2member-files/` directory. If you don't, please re-install s2Member and that will create the proper `.htaccess` file automatically. Either that, or add this to your `/wp-content/plugins/s2member-files/.htaccess` file. If the file does not exist, please create it.
+You should also have an `.htaccess` file in your `/s2member-files/` directory. If you don't, please re-install s2Member and that will create the proper `.htaccess` file automatically. Either that, or create this file `/wp-content/plugins/s2member-files/.htaccess` with the following contents:
 
 ```apache
 <IfModule env_module>
