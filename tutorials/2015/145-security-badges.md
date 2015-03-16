@@ -77,12 +77,12 @@ There are a few different Security Badge variations. Which variation you decide 
 
 <div class="li-margins"></div>
 
-<table>
+<table style="width:100%;">
 	<tbody>
 		<tr>
-			<td class="text-center">`[s2Member-Security-Badge v="1" /]`<br />[s2Member-Security-Badge v="1" /]</td>
-			<td class="text-center">`[s2Member-Security-Badge v="2" /]`<br />[s2Member-Security-Badge v="2" /]</td>
-			<td class="text-center">`[s2Member-Security-Badge v="3" /]`<br />[s2Member-Security-Badge v="3" /]</td>
+			<td class="text-center"><code>[s2Member-Security-Badge v="1" /]</code><br />[s2Member-Security-Badge v="1" /]</td>
+			<td class="text-center"><code>[s2Member-Security-Badge v="2" /]</code><br />[s2Member-Security-Badge v="2" /]</td>
+			<td class="text-center"><code>[s2Member-Security-Badge v="3" /]</code><br />[s2Member-Security-Badge v="3" /]</td>
 		</tr>
 	</tbody>
 </table>
