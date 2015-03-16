@@ -6,7 +6,7 @@ author: jaswsinc
 github-issue: https://github.com/websharks/s2member-kb/issues/147
 ---
 
-Some site owners don’t realize what “translation support” really means when it comes to WordPress and s2Member. The fact that s2Member supports translation indicates that s2Member can be translated into an entirely different language. **However, this _also_ makes it possible for tidbits of information to be modified dynamically (e.g., you can change words/phrases in the s2Member Framework easily).**
+Some site owners don’t realize what “translation support” really means when it comes to WordPress and s2Member. The fact that s2Member supports translation indicates that s2Member can be translated into an entirely different language. **However, this _also_ makes it possible for tidbits of information to be modified dynamically (e.g., you can change words/phrases easily).**
 
 So maybe I don't want to translate s2Member into an entirely different language. Maybe I just want to change some of it’s words/phrases a bit. As an example, let’s say that I want to change the phrase _“Password (type this twice please)"_, which appears in s2Member Pro-Forms. This phrase is part of the default template set that comes with s2Member Pro. Using a custom template file would accomplish what I need (i.e., I can change quite a bit by using a custom Pro-Form template), but if the only purpose of this custom template is just to change that specific phrase, it seems like too much work. Right? There must be an easier way!
 
