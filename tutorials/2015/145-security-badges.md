@@ -33,7 +33,7 @@ What we want to see is that you’ve made an effort to tighten security on your 
 
 - ### Does your `/wp-config.php` file have all of these configuration values filled in properly (e.g., have you setup your WordPress Security Keys)?
 
-  *See: [http://codex.wordpress.org/Editing_wp-config.php#Security_Keys](http://codex.wordpress.org/Editing_wp-config.php#Security_Keys)
+  See: [http://codex.wordpress.org/Editing_wp-config.php#Security_Keys](http://codex.wordpress.org/Editing_wp-config.php#Security_Keys)
 
   _Each of these MUST be at least 60 characters and must NOT contain the default: `unique phrase` values that come with WordPress. We suggest using the [super easy Security Key Generator](https://api.wordpress.org/secret-key/1.1/salt/)._
 
