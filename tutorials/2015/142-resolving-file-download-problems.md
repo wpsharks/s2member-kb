@@ -25,11 +25,7 @@ If you already have an `.htaccess` file in this location (very common), then ple
 
 ### ↑ UPDATE: Now Added Automatically by s2Member
 
-As of s2Member v120213+, s2Member will automatically attempt to add this code to the `.htaccess` file at the web root. This disables GZIP compression when s2Member attempts to deliver files.
-
-GZIP compression _must_ be disabled during s2Member's attempt to deliver a file via PHP, because files that s2Member delivers via PHP are already compressed. Thus, re-compressing files delivered by a script will corrupt them in your browser.
-
-Note that some media playback devices will choke on this as well. It's never a bad idea to place this in your `.htaccess` file, regardless of server configuration.
+As of s2Member v120213+, s2Member will automatically attempt to add this code to the `.htaccess` file at the web root. This disables GZIP compression when s2Member attempts to deliver files. GZIP compression _must_ be disabled during s2Member's attempt to deliver a file via PHP, because files that s2Member delivers via PHP are already compressed. Thus, re-compressing files delivered by a script will corrupt them in your browser. Note that some media playback devices will choke on this as well. It's never a bad idea to place this in your `.htaccess` file, regardless of server configuration.
 
 ### More Information About GZIP Compression & s2Member
 
