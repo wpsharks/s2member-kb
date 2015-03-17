@@ -79,7 +79,7 @@ If you’re uncomfortable formatting the import data manually, you can create a 
 
 Once your existing membership data has been formatted in the s2Member import format, navigate to: **Dashboard → s2Member® → Import/Export → User/Member Importation**. From here, you can either copy and paste the formatted data into the import text field or click the "Choose File" button to select the CSV file for upload. When you’re ready, click "Import Now".
 
-![](http://cdn.websharks-inc.com/s2member/uploads/s2member-import-screenshot.png)
+![](https://www.filepicker.io/api/file/0vO3e2yYTBGmgS8hLX74#.png)
 
 _**1000 Each Time (Max):** To ensure the server does not hang when importing new users, you are limited to importing 1000 users at a time. If you have more than 1000 lines to import, please split the file into groups of 1000 prior to importing._
 
