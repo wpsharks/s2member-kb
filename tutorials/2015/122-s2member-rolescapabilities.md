@@ -16,7 +16,7 @@ For example, you probably already know that site owners are normally WordPress A
 
 When you install s2Member it adds some additional Roles and Capabilities to a default installation of WordPress. s2Member also makes extensive use of an existing Role in WordPress, the "Subscriber" Role. s2Member uses the Subscriber Role to classify Free Subscribers (i.e., people with an account, but they’ve not paid you anything yet). Or, maybe they _have_ paid you for something in the past, but they were since demoted back down to the Subscriber Role (so they no longer have Membership privileges, or Capabilities I should say).
 
-## Membership Levels Provide Incremental Access
+### Membership Levels Provide Incremental Access
 
 <div class="li-margins"></div>
 
