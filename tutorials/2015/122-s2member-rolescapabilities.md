@@ -10,7 +10,7 @@ github-issue: https://github.com/websharks/s2member-kb/issues/122
 
 When you install s2Member it integrates seamlessly with an existing WordPress concept that facilitates varying degrees of permission across different portions of a site or service (including the back-end of WordPress itself). So Roles/Capabilities are not something new that s2Member introduces, it simply works with and customizes an existing WordPress community concept: [WordPress Roles/Capabilities](http://codex.wordpress.org/Roles_and_Capabilities)
 
-For example, you probably already know that site owners are normally WordPress Administrators. A WordPress "Administrator" being your **Role** on the site. This Administrator Role grants you the ability to do certain things, because it includes many different **Capabilities** (e.g., `edit_posts`, `install_plugins`, etc). To learn more about Roles/Capabilities in the WordPress core, please see [this article](http://codex.wordpress.org/Roles_and_Capabilities) in the WP Codex.
+For example, you probably already know that site owners are normally WordPress Administrators. A WordPress "Administrator" being your **Role** on the site. This Administrator Role grants you the ability to do certain things, because it includes many different **Capabilities** (e.g., `edit_posts`, `install_plugins`, etc). To learn more about Roles/Capabilities in WordPress, see [this article](http://codex.wordpress.org/Roles_and_Capabilities).
 
 ## s2Member Roles/Capabilities (Including bbPress Support)
 
