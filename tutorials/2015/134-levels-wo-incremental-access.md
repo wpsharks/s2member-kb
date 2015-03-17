@@ -70,7 +70,7 @@ https://www.youtube.com/watch?v=_F91xzrmq-Q
 
 ### Example PHP Conditional to Check for a Custom Capability
 
-```php
+```html
 <?php if(current_user_can('access_s2member_ccap_music')): ?>
 	Some content for users who can access CCAP: music
 <?php else: // Anyone else. ?>
