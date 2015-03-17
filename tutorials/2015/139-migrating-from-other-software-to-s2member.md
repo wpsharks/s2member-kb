@@ -99,19 +99,19 @@ However, if your previous membership platform handled this all by itself; e.g., 
 
 #### Does s2Member bill my existing customers?
 
-No. s2Member does not function in this way. s2Member creates Recurring Billing Profiles that live on the payment gateway side for best security (and portability), so that all of your existing members can continue to be billed without interruption, even if you change membership platforms.
+No. s2Member does not function in this way. s2Member creates Recurring Billing Profiles that live on the payment gateway side for best security (and portability), so that all of your existing members can continue to be billed without interruption—even if you change membership platforms.
 
-Understanding this, we can see that s2Member only bills customers when they first complete checkout (i.e., if there is an initial charge), and then s2Member creates a remote Recurring Billing Profile that takes care of any future billing that needs to occur. This remote Recurring Billing Profile will live at Stripe, PayPal, or Authorize.Net.
+Understanding this, we can see that s2Member only bills customers when they first complete checkout (i.e., if there is an initial charge) and then s2Member creates a remote Recurring Billing Profile that takes care of any future billing that needs to occur. This remote Recurring Billing Profile will live at Stripe, PayPal, or Authorize.Net. In this way, you can move the content/services that you provide to your members (e.g., you could change publishing platforms or membership management systems) without issue; i.e., without changing the way you collect payments from your customers.
 
-Thus, when you bring existing members (from an old membership platform) into the s2Member-powered site, you can grant them membership access, set up an EOT (End of Term), control what data is associated with the membership, and much more. However, if the customer is going to be billing on a recurring basis, this needs to have already been set up ahead of time. Otherwise, you will need to ask each customer to re-register and complete checkout again at your new site.
+Thus, when you bring existing members from an old membership platform into an s2Member-powered site, you can grant them membership access, set up an EOT (End of Term), control what data is associated with the membership, and much much more. However, if the customer is going to be billing on a recurring basis, this needs to have already been set up ahead of time. Otherwise, you will need to ask each customer to re-register and complete checkout again at your new site; i.e., to create a remote Recurring Billing Profile that is compatible with s2Member Pro.
 
 #### Will s2Member know when to cancel access to my existing members?
 
-Yes, but only if you tell it to. Whenever you import your existing members, please set an EOT (End of Term) time, so that s2Member will know when it should terminate access. More on this below; see: [Understand Automatic EOT Times](#eot-times)
+Yes, but _only_ if you tell it to. Whenever you import your existing members, please set an EOT (End of Term) Time so s2Member will know when (or if) it should terminate access. More on this below; see: [Understanding Automatic EOT Times](#eot-times)
 
 _**Note:** s2Member is not capable of determining this on its own, and it does not respond to IPN data received for members that you imported from another membership platform. If you want to terminate access automatically on a given date in the future, please set an EOT Time for each of your existing customers._
 
-_Moving forward with s2Member, an EOT Time is determined automatically for customers you acquire with the s2Member software itself. In other words, this limitation applies only to members imported from other membership platforms._
+_Moving forward with s2Member Pro, an EOT Time is determined automatically for customers you acquire with the s2Member software itself. In other words, this limitation applies only to members imported from other membership platforms. Not to those you acquire with the s2Member software._
 
 ## Understanding Automatic EOT Times {#eot-times}
 
@@ -119,7 +119,7 @@ An EOT (End of Term) Time defines when (or if) a particular customer should lose
 
 How s2Member handles EOT Times is determined by the settings you configure in the Automatic EOT Behavior settings for your payment gateway. See: **Dashboard → s2Member → [Payment Gateway] Options → Automatic EOT Behavior**
 
-Configuring an EOT Time is an easy way to deal with member migration. It allows you to set up an EOT Time with s2Member Pro (during importation or later—manually), so that no matter how billing was handled by your previous membership platform, you can always tell s2Member when access should be terminated. It is ideal in every case? No, but it provides many site owners with an easy way to deal with conflicts across a wide array of other membership platforms. EOT Times are your friend when importing existing customers into s2Member Pro :-)
+Configuring an EOT Time is an easy way to deal with member migration. It allows you to setup an EOT Time with s2Member Pro (during importation or later—manually) so that no matter how billing was handled by your previous membership platform, you can always tell s2Member when access should be terminated. It this ideal in every case? No, but it provides many site owners with an easy way to deal with limitations in other/existing membership platforms. EOT Times are your friend when importing existing customers into s2Member Pro :-)
 
 ### Importing a Customer w/ a Custom EOT Time
 
