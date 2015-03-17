@@ -80,9 +80,7 @@ These companies are serving the masses at cheap/affordable rates. They care abou
 
 - #### [FireHost](http://s2member.com/r/firehost/) (best for serious site owners w/ money)
 
-  This is the company that we use here at s2Member.com. [FireHost](http://s2member.com/r/firehost/) is all about security and support. Plus they will help with anything/everything; and you pay for it.
-
-_Of course there are others out there, but these are the ones that we commonly recommend._
+  This is the company that we use @ s2Member.com. [FireHost](http://s2member.com/r/firehost/) is all about security and support. Plus they will help with anything/everything—you pay for that. _Of course there are others out there, but these are the ones that we commonly recommend._
 
 ### Is the s2Member software PCI compliant?
 
