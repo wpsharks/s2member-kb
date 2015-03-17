@@ -20,9 +20,7 @@ The `current_user_can()` function can test for a specific Role, but in practice 
 
 ## Simple Shortcode Conditionals that Check for A Specific Role
 
-In a WordPress Post or Page use Simple Shortcode Conditionals that check the user's Membership Level. This will determine if you will show or hide the content.
-
-See also: [Simple Shortcode Conditionals](https://github.com/websharks/s2member-kb/issues/119)
+In a WordPress Post or Page use Simple Shortcode Conditionals that check the user's Membership Level. This will determine if you will show or hide the content. See also: [Simple Shortcode Conditionals](https://github.com/websharks/s2member-kb/issues/119)
 
 ```text
 [s2If current_user_is(s2member_level2)]
