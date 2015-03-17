@@ -75,7 +75,7 @@ Once your existing membership data has been formatted in the s2Member import for
 
 ![](http://cdn.websharks-inc.com/s2member/uploads/s2member-import-screenshot.png)
 
-To ensure the server does not hang-up when importing new users, you are limited to importing 100 users at a time. If you have more than 100 lines to import, please split the file into groups of 100 prior to importing.
+_**1000 Each Time (Max):** To ensure the server does not hang when importing new users, you are limited to importing 1000 users at a time. If you have more than 1000 lines to import, please split the file into groups of 1000 prior to importing._
 
 _**No Email Notification:** This import routine works silently. Users/Members will NOT be contacted by s2Member; that is, unless you have another plugin installed that conflicts with s2Member’s ability to perform the Import properly. You should always test one or two accounts before importing a large number of Users all at once. If you want Users/Members to be contacted, you can add them manually, by going to **WordPress® → Users → Add New** and selecting one of the s2Member Roles from the drop-down menu._
 
