@@ -6,7 +6,7 @@ author: jaswsinc
 github-issue: https://github.com/websharks/s2member-kb/issues/150
 ---
 
-If you need to add custom processing routines or modify the behavior of existing processing routines, please use s2Member Hooks/Filters for WordPress. Hooks & Filters give you the ability to “hook into”, and/or “filter” processing routines with files/functions of your own; instead of editing the s2Member plugin files directly. This way you won't need to merge your changes/tweaks each time a new version of s2Member is released.
+If you need to add custom processing routines or modify the behavior of existing processing routines, please use s2Member Hooks/Filters for WordPress. Hooks & Filters give you the ability to “hook into” and/or “filter” processing routines with files/functions of your own; instead of editing the s2Member plugin files directly. This way you won't need to merge your changes each time a new version of s2Member is released.
 
 To create custom processing routines, place those routines into a PHP file here: `/wp-content/mu-plugins/s2-hacks.php` If you don't have an `/mu-plugins/` directory, please create one. These are (MU) MUST USE plugins, which are loaded into WordPress automatically—that’s what you want!
 
