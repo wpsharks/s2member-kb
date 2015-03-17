@@ -14,9 +14,9 @@ _The s2Member plugin contains additional inline documentation that should be rev
 
 ## Step 1: Collecting existing membership data {#step1}
 
-The first step is to collect the membership data from your existing software. If the software supports exporting the data to CSV (Comma Separated Values), you can simply export the data, open the file in a spreadsheet program such as Excel, and then reformat the data for s2Member importation (more on formatting in [Step 2](#step2)).
+The first step is to collect the membership data from your existing software. If your existing software supports exporting the data to CSV (Comma Separated Values), you can simply export the data, open the file in a spreadsheet program such as Excel, and then reformat the data for s2Member's Import Tool (more on formatting in [Step 2](#step2)).
 
-If the other membership software does not export data to CSV, but uses a different export format, you’ll need to convert the existing data to s2Member’s CSV format using software such as Excel. As a last resort, you can also build the import file manually by collecting the necessary data and creating a CSV file. This file can be created as a simple text file and saved with the `.csv` extension, or you can use a spreadsheet program such as Excel.
+Or, if the other membership software does _not_ export data to CSV, but uses a different export format, you’ll need to convert the existing data to s2Member’s CSV format using software such as Excel. As a last resort, you can also build the import file manually by collecting the necessary data and creating a CSV file. This file can be created as a simple text file and saved with the `.csv` extension, or you can use a spreadsheet program such as Excel.
 
 ### Minimum Required Data
 
@@ -57,7 +57,7 @@ Here is an extended example that includes all possible fields for an s2Member im
 "ID","Username","Password","First Name","Last Name","Display Name","Email","Website","Level[0-9]+ or Role ID","Custom Capabilities","Registration Date ( mm/dd/yyyy )","First Payment Date ( mm/dd/yyyy )","Last Payment Date ( mm/dd/yyyy )","Auto-EOT Date ( mm/dd/yyyy )","Custom Value ( starts w/domain )","Paid Subscr. ID","Paid Subscr. Gateway","Custom Field ID #1","Custom Field Value #1","Custom Field ID #2","Custom Field Value #2", ...
 ```
 
-When assembling the data, it’s important to leave the empty fields present. For example, using the minimum required data explained in [Step 1](#step1), and including the First Name, Last Name, and Full Name fields; a CSV file that contains three users might look like this:
+When assembling the data it’s important to leave the empty fields present. For example, using the minimum required data explained in [Step 1](#step1), and including the First Name, Last Name, and Full Name fields; a CSV file that contains three users might look like this:
 
 ![](http://cdn.websharks-inc.com/s2member/uploads/spreadsheet-screenshot.png)
 
@@ -88,6 +88,8 @@ _**No Email Notification:** This import routine works silently. Users/Members wi
 ---
 
 ## Common Member Migration Questions {#common-questions}
+
+---
 
 #### My existing members are charged on a recurring basis. Will they continue to be billed?
 
