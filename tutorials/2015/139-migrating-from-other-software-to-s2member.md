@@ -79,9 +79,7 @@ _**1000 Each Time (Max):** To ensure the server does not hang when importing new
 
 _**No Email Notification:** This import routine works silently. Users/Members will NOT be contacted by s2Member; that is, unless you have another plugin installed that conflicts with s2Member’s ability to perform the Import properly. You should always test one or two accounts before importing a large number of Users all at once. If you want Users/Members to be contacted, you can add them manually, by going to **WordPress® → Users → Add New** and selecting one of the s2Member Roles from the drop-down menu._
 
-## Step 4: Reviewing Your Importated Data {#step4}
-
-After you’ve imported the user data, you can verify the import by browsing the users list (see: **Dashboard → Users**) and verify that your users have been imported. If you’ve also imported subscription information (e.g., Paid Subscr. ID and Paid Subscr. Gateway) you’ll need to be sure that you have configured s2Member with the relevant payment gateways. For example, if several imported members included PayPal subscription info, you’d need to ensure that all options have been configured in **Dashboard → s2Member® → PayPal® Options → Account Details**. Also under: **Dashboard → s2Member® → PayPal® Options → PayPal® IPN Integration**. Also under: **Dashboard → s2Member® → PayPal® Options → PayPal® PDT Integration)**. If the gateway(s) have been configured within s2Member, then s2Member will automatically handle cancellations, refunds, and End of Terms (EOTs) for each account when it receives an IPN message from the gateway. (The IPN message will include a reference to the Paid Subscr. ID, which is then matched to the s2Member account.)
+## Step 4: Understanding Automatic EOT Times {#step4}
 
 ### Automatic EOTs and Account Expirations
 
