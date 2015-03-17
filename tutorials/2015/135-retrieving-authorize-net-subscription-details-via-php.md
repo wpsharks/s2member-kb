@@ -1,5 +1,5 @@
 ---
-title: Retrieving Authorize.Net Subscription Details via PHP
+title: Authorize.Net Subscription Details via PHP
 categories: tutorials
 tags: authorize.net,api-scripting,mu-plugins-hacks
 author: jaswsinc
@@ -7,7 +7,9 @@ github-issue: https://github.com/websharks/s2member-kb/issues/135
 toc-enable: false
 ---
 
-If you need to retrieve details about an Authorize.Net subscription using PHP you can use the `c_ws_plugin__s2member_pro_authnet_utilities::authnet_arb_response()` utility function that is provided by s2Member. This will make a request to the Authorize.Net servers. The following snippet of PHP code demonstrates how to retrieve information about the current user's Authorize.Net subscription:
+If you need to retrieve details about an Authorize.Net subscription using PHP you can use the `c_ws_plugin__s2member_pro_authnet_utilities::authnet_arb_response()` utility function that is provided by s2Member. This will make a request to the Authorize.Net servers.
+
+The following snippet of PHP code demonstrates how to retrieve information about the current user's Authorize.Net subscription. It's a very basic example. See also: [ARBGetSubscriptionStatusRequest](http://www.authorize.net/support/ARB_guide.pdf#page=21)
 
 ```php
 <?php
