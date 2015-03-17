@@ -128,5 +128,6 @@ Configuring an EOT Time is an easy way to deal with member migration. It allows 
 "","johndoe","9934jxxeddf!","John","Doe","John Doe","johndoe@example.com","","s2member_level1","music,videos","","","","12/31/2030"
 ```
 
-_See end of the line ↑ in the example above._
+_See `12/31/2030` at the end of the line in the example above ↑_
+
 _In this example, user `johndoe` will automatically lose access on Dec 31st, 2030._
