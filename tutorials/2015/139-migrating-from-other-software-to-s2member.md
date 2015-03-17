@@ -38,7 +38,7 @@ However, you’ll want to collect at least three more pieces of information to r
 
 The format of this data is important and you must format the data using the s2Member import format (see [Step 2](#step2)). If you’re building this file manually and you’re only inserting some of the information, be sure to include the blank fields in your CSV file.
 
-### Step 2: Formatting existing data for importation {#step2}
+### Step 2: Formatting Existing Data for Importation {#step2}
 
 Here’s a basic example of the s2Member import format:
 
