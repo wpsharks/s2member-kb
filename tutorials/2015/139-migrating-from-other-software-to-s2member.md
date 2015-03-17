@@ -67,8 +67,7 @@ In this example, we have three users along with their subscription information a
 
 Since the Password fields in the above example were left blank, s2Member will automatically generate a password for each of the imported users. However, no emails will be sent during the importation process. You may want to send an email to your members informing them that they must reset their password. You can then point them to `/wp-login.php?action=lostpassword` where they can enter their username or email address and reset their password.
 
-If you’re uncomfortable formatting the import data manually, you can create a sample import file by exporting your existing s2Member information (see: **Dashboard → s2Member® → Import/Export → User/Member Exportation
-**). You can download the resulting CSV file and then open it with a spreadsheet program such as Excel. From there, you can insert new rows for each of your existing members and follow the format of the existing data.
+If you’re uncomfortable formatting the import data manually, you can create a sample import file by exporting your existing s2Member information (see: **Dashboard → s2Member® → Import/Export → User/Member Exportation**). You can download the resulting CSV file and then open it with a spreadsheet program such as Excel. From there, you can insert new rows for each of your existing members and follow the format of the existing data.
 
 ## Step 3: Importing Membership Data {#step3}
 
