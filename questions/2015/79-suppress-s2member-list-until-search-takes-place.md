@@ -13,7 +13,7 @@ Yes, you could use a conditional for this.
 1. Install the ezPHP plugin for WordPress. See: https://wordpress.org/plugins/ezphp/
 2. Use the Text tab in your WordPress editor and add the following conditional PHP tags.
 
-```html
+```text
 [s2Member-List-Search-Box /]
 
 <?php if(!empty($_REQUEST['s2-s'])): ?>
