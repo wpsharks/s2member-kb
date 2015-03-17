@@ -111,13 +111,13 @@ Thus, when you bring existing members from an old membership platform into an s2
 
 Yes, but _only_ if you tell it to. Whenever you import your existing members, please set an EOT (End of Term) Time so s2Member will know when (or if) it should terminate access. More on this below; see: [Understanding Automatic EOT Times](#eot-times)
 
-_**Note:** s2Member is not capable of determining this on its own, and it does not respond to IPN data received for members that you imported from another membership platform. If you want to terminate access automatically on a given date in the future, please set an EOT Time for each of your existing customers._
+_**Note:** s2Member is not capable of determining this on its own and it does not respond to IPN data received for members that you imported from another membership platform. If you want to terminate access automatically on a given date in the future, please set an EOT Time for each of your existing customers._
 
 _Moving forward with s2Member Pro, an EOT Time is determined automatically for customers you acquire with the s2Member software itself. In other words, this limitation applies only to members imported from other membership platforms. Not to those you acquire with the s2Member software._
 
 ## Understanding Automatic EOT Times {#eot-times}
 
-An EOT (End of Term) Time defines when (or if) a particular customer should lose access at some point in the future. For instance, if you import a member that originally purchased a one year membership, and they have been paying you for 6 months; you should set their EOT Time to 6 months from today. This way s2Member will terminate their access at the correct point in time automatically.
+An EOT (End of Term) Time defines when (or if) a particular customer should lose access at some point in the future. For instance, if you import a member that originally purchased a one year membership and they have been paying you for 6 months; you should set their EOT Time to 6 months from today. This way s2Member will terminate their access at the correct point in time automatically.
 
 How s2Member handles EOT Times is determined by the settings you configure in the Automatic EOT Behavior settings for your payment gateway. See: **Dashboard → s2Member → [Payment Gateway] Options → Automatic EOT Behavior**
 
