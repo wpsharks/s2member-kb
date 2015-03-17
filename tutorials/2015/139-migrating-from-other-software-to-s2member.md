@@ -87,10 +87,10 @@ _**No Email Notification:** This import routine works silently. Users/Members wi
 
 ---
 
-## Step 4: Understanding Automatic EOT Times {#step4}
+## Understanding Automatic EOT Times
 
 ### Automatic EOTs and Account Expirations
 
-How s2Member handles EOT’s is determined by the settings you’ve configured in the Automatic EOT Behavior settings for that gateway (e.g., Dashboard → s2Member® → PayPal® Options → Automatic EOT Behavior). If the exported data from the other software contains expiration dates for each account, you can use the Auto-EOT Date (mm/dd/yyyy) column (see the extended example above) in your import file to specify when the members’ account should expire. 
+How s2Member handles EOT’s (End of Term) is determined by the settings you’ve configured in the Automatic EOT Behavior settings for your payment gateway (e.g., **Dashboard → s2Member® → PayPal® Options → Automatic EOT Behavior**). If the exported data from the other software contains expiration dates for each account, you can use the Auto-EOT Date (mm/dd/yyyy) column in your import file to specify when the members’ accounts should expire. 
 
-When that date arrives, s2Member will handle the account according to the Automatic EOT Behavior settings. If you’re importing a user with a running subscription in your payment gateway, keep in mind that s2Member won’t set the EOT time for you when the subscription ends. Notifications from the payment gateway won’t work with s2Member if the subscription was not created through s2Member. You’ll need to manually set an EOT time for the user yourself, either in advance when importing, or later when the subscription ends. New subscriptions created through s2Member won’t have that problem.
+When that date arrives, s2Member will handle the account according to the Automatic EOT Behavior settings you've configured. If you’re importing a user with a running subscription in your payment gateway, keep in mind that s2Member won’t set the EOT time for you when the subscription ends. Notifications from the payment gateway won’t work with s2Member if the subscription was not created through s2Member. You’ll need to manually set an EOT time for the user yourself, either in advance when importing, or later when the subscription ends. New subscriptions created through s2Member won’t have that problem.
