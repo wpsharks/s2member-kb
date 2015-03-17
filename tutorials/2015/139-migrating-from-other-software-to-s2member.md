@@ -87,9 +87,31 @@ _**No Email Notification:** This import routine works silently. Users/Members wi
 
 ---
 
-## Understanding Automatic EOT Times
+## Common Member Migration Questions
 
-### Automatic EOTs and Account Expirations
+#### My existing members are charged on a recurring basis. Will they continue to be billed?
+
+This depends. If your previous membership platform is like s2Member, and it creates Recurring Billing Profiles that live on the payment gateway side for best security (and portability), then all of your existing members should continue to be billed without interruption. Moving from one membership platform to another is very easy when this is the case, because the information related to billing cycles and the relevant payment details are actually stored in a remote location; i.e., within your Stripe, PayPal, or Authorize.Net account.
+
+However, if your previous membership platform handled this all by itself; e.g., if it stored credit card details in your own database, and it ran its own scheduling system that determined when/if members should continue to be billed, then no. Moving away from a platform like this is very difficult to do, because recurring billing is actually dependent upon the platform itself.
+
+#### Does s2Member bill my existing customers?
+
+No. s2Member does not function in this way. s2Member creates Recurring Billing Profiles that live on the payment gateway side for best security (and portability), so that all of your existing members can continue to be billed without interruption, even if you change membership platforms.
+
+Understanding this, we can see that s2Member only bills customers when they first complete checkout (i.e., if there is an initial charge), and then s2Member creates a remote Recurring Billing Profile that takes care of any future billing that needs to occur. This remote Recurring Billing Profile will live at Stripe, PayPal, or Authorize.Net.
+
+Thus, when you bring existing members (from an old membership platform) into the s2Member-powered site, you can grant them membership access, set up an EOT (End of Term), control what data is associated with the membership, and much more. However, if the customer is going to be billing on a recurring basis, this needs to have already been set up ahead of time. Otherwise, you will need to ask each customer to re-register and complete checkout again at your new site.
+
+#### Will s2Member know when to cancel access to my existing members?
+
+Yes, but only if you tell it to. Whenever you import your existing members, please set an EOT (End of Term) time, so that s2Member will know when it should terminate access.
+
+_**Note:** s2Member is not capable of determining this on its own, and it does not respond to IPN data received for members that you imported from another membership platform. If you want to terminate access automatically on a given date in the future, please set an EOT Time for each of your existing customers._
+
+_Moving forward with s2Member, an EOT Time is determined automatically for customers you acquire with the s2Member software itself. In other words, this limitation applies only to members imported from other membership platforms._
+
+## Understanding Automatic EOT Times
 
 How s2Member handles EOT’s (End of Term) is determined by the settings you’ve configured in the Automatic EOT Behavior settings for your payment gateway (e.g., **Dashboard → s2Member® → PayPal® Options → Automatic EOT Behavior**). If the exported data from the other software contains expiration dates for each account, you can use the Auto-EOT Date (mm/dd/yyyy) column in your import file to specify when the members’ accounts should expire. 
 
