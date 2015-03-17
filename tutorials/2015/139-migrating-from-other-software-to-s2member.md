@@ -10,7 +10,7 @@ This article will explain how to migrate to s2Member Pro from another software a
 
 _The s2Member plugin contains additional inline documentation that should be reviewed carefully following the steps in this article. See: **Dashboard → s2Member® → Import/Export**._
 
-**There are four sections in this KB article:**
+**There are four steps outlined in this article:**
 
 -   [Step 1: Collecting Existing Membership Data](#step1)
 -   [Step 2: Formatting Existing Data for Importation](#step2)
@@ -21,7 +21,9 @@ Import/Export features are only available as part of the s2Member Pro add-on. If
 
 ### Step 1: Collecting existing membership data {#step1}
 
-The first step is to collect the membership data from your existing software. If the software supports exporting the data to CSV (Comma Separated Values), then you can export the data, open the file in a spreadsheet program such as Excel, and then reformat the data for s2Member importation (more on formatting in [Step 2](#step2)). If the other membership software does not export data to CSV, but uses a different export format, you’ll need to convert the existing data to s2Member’s CSV format using software such as Excel. As a last resort, you can also build the import file manually by collecting the necessary data and creating a CSV file. This file can be created as a simple text file and saved with the .csv extension, or you can use a spreadsheet program such as Excel.
+The first step is to collect the membership data from your existing software. If the software supports exporting the data to CSV (Comma Separated Values), you can simply export the data, open the file in a spreadsheet program such as Excel, and then reformat the data for s2Member importation (more on formatting in [Step 2](#step2)).
+
+If the other membership software does not export data to CSV, but uses a different export format, you’ll need to convert the existing data to s2Member’s CSV format using software such as Excel. As a last resort, you can also build the import file manually by collecting the necessary data and creating a CSV file. This file can be created as a simple text file and saved with the `.csv` extension, or you can use a spreadsheet program such as Excel.
 
 #### Minimum Required Data
 
@@ -30,7 +32,7 @@ The minimum required data for s2Member importation is as follows:
 -   Username
 -   Email Address
 
-However, you’ll want to collect at least three more pieces of information to retain subscription information and define the users level within s2Member:
+However, you’ll want to collect at least three more pieces of information to retain subscription information and define the users Membership Level within s2Member:
 
 -   Paid Subscr. ID (this is the subscription ID, e.g., `I-EUAVMMPD04HF`)
 -   Paid Subscr. Gateway (the payment gateway associated with this subscription ID, e.g., `paypal`)
