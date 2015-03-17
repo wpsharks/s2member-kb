@@ -113,8 +113,16 @@ _Moving forward with s2Member, an EOT Time is determined automatically for custo
 
 ## Understanding Automatic EOT Times {#eot-times}
 
-How s2Member handles EOT’s (End of Term) is determined by the settings you’ve configured in the Automatic EOT Behavior settings for your payment gateway (e.g., **Dashboard → s2Member → PayPal Options → Automatic EOT Behavior**).
+An EOT (End of Term) Time defines when (or if) a particular customer should lose access at some point in the future. For instance, if you import a member that originally purchased a one year membership, and they have been paying you for 6 months; you should set their EOT Time to 6 months from today. This way s2Member will terminate their access at the correct point in time automatically.
 
-If the exported data from the other software contains expiration dates for each account, you can use the Auto-EOT Date (mm/dd/yyyy) column in your import file to specify when the members’ accounts should expire. This is an easy way to deal with any problems that come about during your migration. If nothing else, you can always set up an EOT Time with s2Member during importation (or later, manually), so that no matter how billing is handled for existing membership, you can tell s2Member when access should be terminated. It is ideal in every case? No, but it provides a friendly way to deal with conflicts across a wide array of other platforms. EOT Times are your friend when importing existing users into s2Member Pro :-)
+How s2Member handles EOT Times is determined by the settings you configure in the Automatic EOT Behavior settings for your payment gateway (e.g., **Dashboard → s2Member → PayPal Options → Automatic EOT Behavior**).
 
-When that date arrives, s2Member will handle the account according to the Automatic EOT Behavior settings you've configured. If you’re importing a user with a running subscription in your payment gateway, keep in mind that s2Member won’t set the EOT time for you when the subscription ends. Notifications from the payment gateway won’t work with s2Member if the subscription was not created through s2Member. You’ll need to manually set an EOT time for the user yourself, either in advance when importing, or later when the subscription ends. New subscriptions created through s2Member won’t have that problem.
+Configuring an EOT Time is an easy way to deal with member migration. It allows you to set up an EOT Time with s2Member Pro (during importation or later—manually), so that no matter how billing was handled by your previous membership platform, you can always tell s2Member when access should be terminated. It is ideal in every case? No, but it provides many site owners with an easy way to deal with conflicts across a wide array of other membership platforms. EOT Times are your friend when importing existing customers into s2Member Pro :-)
+
+### Importing a Customer w/ a Custom EOT Time
+
+```text
+"","johndoe","9934jxxeddf!","John","Doe","John Doe","johndoe@example.com","","s2member_level1","music,videos","","","","12/31/2030"
+```
+
+_In this example, user `johndoe` will automatically lose access on Dec 31st, 2030._
