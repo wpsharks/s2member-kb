@@ -51,7 +51,7 @@ _WordPress Subscribers are at Membership Level 0. If you’re allowing Open Regi
 
 ## Modifying s2Member Roles/Capabilities
 
-If you would like to modify the default Roles/Capabilities that s2Member works with you might give this plugin a shot. Please see: [Enhanced Capability Manager](http://wordpress.org/extend/plugins/capability-manager-enhanced/). 
+If you would like to modify the default s2Member Roles/Capabilities, see: [Enhanced Capability Manager](http://wordpress.org/extend/plugins/capability-manager-enhanced/). 
 
 **However (please NOTE):** s2Member Support Reps will _not_ offer support for a site that is running modified Roles/Capabilities. If you customize your installation you will be responsible for debugging anything that may not be working as expected. Please see our [Support Policy](http://s2member.com/support/) for clarification on this.
 
