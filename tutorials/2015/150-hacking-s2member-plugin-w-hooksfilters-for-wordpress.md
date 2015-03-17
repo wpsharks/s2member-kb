@@ -40,7 +40,7 @@ Please make sure there are no blank lines in your PHP file; i.e., please do _not
 
 ```php
 <?php
-add_filter('filter_name', function my_filtering_function($original_value, $vars = array())
+add_filter('filter_name', function ($original_value, $vars = array())
 {
 	if($original_value !== 'something I like')
 		return ($my_custom_value = 'My Filter works.');
