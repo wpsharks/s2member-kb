@@ -107,7 +107,7 @@ Understanding this, we can see that s2Member only bills customers when they firs
 
 Thus, when you bring existing members from an old membership platform into an s2Member-powered site, you can grant them membership access, set up an EOT (End of Term), control what data is associated with the membership, and much much more. However, if the customer is going to be billing on a recurring basis, this needs to have already been set up ahead of time. Otherwise, you will need to ask each customer to re-register and complete checkout again at your new site; i.e., to create a remote Recurring Billing Profile that is compatible with s2Member Pro.
 
-#### Will s2Member know when to cancel access to my existing members?
+#### Will s2Member know when to terminate (or cancel) my existing members?
 
 Yes, but _only_ if you tell it to. Whenever you import your existing members, please set an EOT (End of Term) Time so s2Member will know when (or if) it should terminate access. More on this below; see: [Understanding Automatic EOT Times](#eot-times)
 
