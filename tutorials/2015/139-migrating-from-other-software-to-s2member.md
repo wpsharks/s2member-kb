@@ -6,15 +6,16 @@ author: jaswsinc
 github-issue: https://github.com/websharks/s2member-kb/issues/139
 ---
 
-This article will explain how to migrate to s2Member Pro from other membership software while retaining existing users and their payment subscription data. The s2Member plugin contains additional inline documentation that should be looked over as a prerequisite to following the steps in this article. See: **Dashboard → s2Member® → Import/Export**.
+This article will explain how to migrate to s2Member Pro from another software application, while retaining existing users and their payment and/or subscription data.
 
-There are four sections in this KB article:
+_The s2Member plugin contains additional inline documentation that should be reviewed carefully following the steps in this article. See: **Dashboard → s2Member® → Import/Export**._
 
--   [Step 1: Collecting existing membership data](#step1)
--   [Step 2: Formatting existing data for importation](#step2)
--   [Step 3: Importing membership data](#step3)
--   [Step 4: Final steps](#step4)
--   [Additional Documentation](#additional-docs)
+**There are four sections in this KB article:**
+
+-   [Step 1: Collecting Existing Membership Data](#step1)
+-   [Step 2: Formatting Existing Data for Importation](#step2)
+-   [Step 3: Importing Membership Data](#step3)
+-   [Step 4: Final Steps](#step4)
 
 Import/Export features are only available as part of the s2Member Pro add-on. If you’re only using the free s2Member Framework, you’ll need to [upgrade to s2Member Pro](http://www.s2member.com/pro/) to follow along.
 
@@ -89,7 +90,3 @@ After you’ve imported the user data, you can verify the import by browsing the
 How s2Member handles EOT’s is determined by the settings you’ve configured in the Automatic EOT Behavior settings for that gateway (e.g., Dashboard → s2Member® → PayPal® Options → Automatic EOT Behavior). If the exported data from the other software contains expiration dates for each account, you can use the Auto-EOT Date (mm/dd/yyyy) column (see the extended example above) in your import file to specify when the members’ account should expire. 
 
 When that date arrives, s2Member will handle the account according to the Automatic EOT Behavior settings. If you’re importing a user with a running subscription in your payment gateway, keep in mind that s2Member won’t set the EOT time for you when the subscription ends. Notifications from the payment gateway won’t work with s2Member if the subscription was not created through s2Member. You’ll need to manually set an EOT time for the user yourself, either in advance when importing, or later when the subscription ends. New subscriptions created through s2Member won’t have that problem.
-
-### Additional Documentation {#additional-docs}
-
-For additional documentation, please see the inline documentation found in: **Dashboard → s2Member® → Import/Export**. If you need additional help or have any questions.
