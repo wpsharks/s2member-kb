@@ -101,7 +101,7 @@ However, if your previous membership platform handled this all by itself; e.g., 
 
 #### Does s2Member bill my existing customers?
 
-No. s2Member does not function in this way. s2Member creates Recurring Billing Profiles that live on the payment gateway side for best security (and portability), so that all of your existing members can continue to be billed without interruption—even if you change membership platforms.
+No. s2Member does not function in this way. s2Member creates Recurring Billing Profiles that live on the payment gateway side for best security (and portability) so that all of your existing members can continue to be billed without interruption—even if you change membership platforms.
 
 Understanding this, we can see that s2Member only bills customers when they first complete checkout (i.e., if there is an initial charge) and then s2Member creates a remote Recurring Billing Profile that takes care of any future billing that needs to occur. This remote Recurring Billing Profile will live at Stripe, PayPal, or Authorize.Net. In this way, you can move the content/services that you provide to your members (e.g., you could change publishing platforms or membership management systems) without issue; i.e., without changing the way you collect payments from your customers.
 
