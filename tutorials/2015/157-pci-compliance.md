@@ -12,7 +12,7 @@ github-issue: https://github.com/websharks/s2member-kb/issues/157
 
 #### The Short Version (Simplified)
 
-It means you’ve paid a security scanning company (such as [McAfee® Secure](http://www.mcafeesecure.com) or [TrustGuard](http://s2member.com/r/trustguard/)) to scan your server routinely, and that you address any security vulnerabilities that your security scans reveal. It also means that you are filing PCI Compliance Reports (normally with assistance provided by these companies) after your scans are all green; i.e.., once there are no remaining issues.
+It means you’ve paid a security scanning company (such as [McAfee® Secure](http://www.mcafeesecure.com) or [TrustGuard](http://s2member.com/r/trustguard/)) to scan your server routinely, and that you address any security vulnerabilities that your security scans reveal. It also means that you are filing PCI Compliance Reports (normally with assistance provided by these companies) after your scans are all green.
 
 #### Additional Details (Security Standards Council)
 
