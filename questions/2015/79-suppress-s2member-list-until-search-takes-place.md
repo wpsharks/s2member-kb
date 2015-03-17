@@ -1,5 +1,5 @@
 ---
-title: Suppress `[s2Member-List /]` until search takes place?
+title: Suppress [s2Member-List /] until search takes place?
 categories: questions
 tags: s2member-list, shortcodes, mu-plugins-hacks
 author: jaswsinc
