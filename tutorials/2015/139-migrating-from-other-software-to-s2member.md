@@ -10,13 +10,13 @@ This article will explain how to migrate to s2Member Pro from another software a
 
 _The s2Member plugin contains additional inline documentation that should be reviewed carefully before following the steps in this article. See: **Dashboard → s2Member® → Import/Export**. Import/Export features are only available as part of the s2Member Pro add-on. If you’re using the free s2Member Framework, you’ll need to [upgrade to s2Member Pro](http://www.s2member.com/pro/) to follow along._
 
-### Step 1: Collecting existing membership data {#step1}
+## Step 1: Collecting existing membership data {#step1}
 
 The first step is to collect the membership data from your existing software. If the software supports exporting the data to CSV (Comma Separated Values), you can simply export the data, open the file in a spreadsheet program such as Excel, and then reformat the data for s2Member importation (more on formatting in [Step 2](#step2)).
 
 If the other membership software does not export data to CSV, but uses a different export format, you’ll need to convert the existing data to s2Member’s CSV format using software such as Excel. As a last resort, you can also build the import file manually by collecting the necessary data and creating a CSV file. This file can be created as a simple text file and saved with the `.csv` extension, or you can use a spreadsheet program such as Excel.
 
-#### Minimum Required Data
+### Minimum Required Data
 
 The minimum required data for s2Member importation is as follows:
 
@@ -31,7 +31,7 @@ However, you’ll want to collect at least three more pieces of information to r
 
 _The format of this data is important and you must format the data using the s2Member import format (see [Step 2](#step2)). If you’re building this file manually and you’re only inserting some of the information, be sure to include the blank fields in your CSV file._
 
-### Step 2: Formatting Existing Data for Importation {#step2}
+## Step 2: Formatting Existing Data for Importation {#step2}
 
 Here’s a basic example of the s2Member import format:
 
@@ -64,7 +64,7 @@ Since the Password fields in the above example were left blank, s2Member will au
 If you’re uncomfortable formatting the import data manually, you can create a sample import file by exporting your existing s2Member information (see: **Dashboard → s2Member® → Import/Export → User/Member Exportation
 **). You can download the resulting CSV file and then open it with a spreadsheet program such as Excel. From there, you can insert new rows for each of your existing members and follow the format of the existing data.
 
-### Step 3: Importing Membership Data {#step3}
+## Step 3: Importing Membership Data {#step3}
 
 Once your existing membership data has been formatted in the s2Member import format, navigate to: **Dashboard → s2Member® → Import/Export → User/Member Importation**. From here, you can either copy and paste the formatted data into the import text field or click the "Choose File" button to select the CSV file for upload. When you’re ready, click "Import Now".
 
@@ -74,11 +74,11 @@ To ensure the server does not hang-up when importing new users, you are limited 
 
 _**No Email Notification:** This import routine works silently. Users/Members will NOT be contacted by s2Member; that is, unless you have another plugin installed that conflicts with s2Member’s ability to perform the Import properly. You should always test one or two accounts before importing a large number of Users all at once. If you want Users/Members to be contacted, you can add them manually, by going to **WordPress® → Users → Add New** and selecting one of the s2Member Roles from the drop-down menu._
 
-### Step 4: Reviewing Your Importated Data {#step4}
+## Step 4: Reviewing Your Importated Data {#step4}
 
 After you’ve imported the user data, you can verify the import by browsing the users list (see: **Dashboard → Users**) and verify that your users have been imported. If you’ve also imported subscription information (e.g., Paid Subscr. ID and Paid Subscr. Gateway) you’ll need to be sure that you have configured s2Member with the relevant payment gateways. For example, if several imported members included PayPal subscription info, you’d need to ensure that all options have been configured in **Dashboard → s2Member® → PayPal® Options → Account Details**. Also under: **Dashboard → s2Member® → PayPal® Options → PayPal® IPN Integration**. Also under: **Dashboard → s2Member® → PayPal® Options → PayPal® PDT Integration)**. If the gateway(s) have been configured within s2Member, then s2Member will automatically handle cancellations, refunds, and End of Terms (EOTs) for each account when it receives an IPN message from the gateway. (The IPN message will include a reference to the Paid Subscr. ID, which is then matched to the s2Member account.)
 
-#### Automatic EOTs and Account Expirations
+### Automatic EOTs and Account Expirations
 
 How s2Member handles EOT’s is determined by the settings you’ve configured in the Automatic EOT Behavior settings for that gateway (e.g., Dashboard → s2Member® → PayPal® Options → Automatic EOT Behavior). If the exported data from the other software contains expiration dates for each account, you can use the Auto-EOT Date (mm/dd/yyyy) column (see the extended example above) in your import file to specify when the members’ account should expire. 
 
