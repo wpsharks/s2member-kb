@@ -10,6 +10,8 @@ This article will explain how to migrate to s2Member Pro from another software a
 
 _The s2Member plugin contains additional inline documentation that should be reviewed carefully before following the steps in this article. See: **Dashboard → s2Member® → Import/Export**. Import/Export features are only available as part of the s2Member Pro add-on. If you’re using the free s2Member Framework, you’ll need to [upgrade to s2Member Pro](http://www.s2member.com/pro/) to follow along._
 
+---
+
 ## Step 1: Collecting existing membership data {#step1}
 
 The first step is to collect the membership data from your existing software. If the software supports exporting the data to CSV (Comma Separated Values), you can simply export the data, open the file in a spreadsheet program such as Excel, and then reformat the data for s2Member importation (more on formatting in [Step 2](#step2)).
@@ -30,6 +32,8 @@ However, you’ll want to collect at least three more pieces of information to r
 -   s2Member Level (e.g., `2` for s2Member Level 2, or `0` for Free Subscriber)
 
 _The format of this data is important and you must format the data using the s2Member import format (see [Step 2](#step2)). If you’re building this file manually and you’re only inserting some of the information, be sure to include the blank fields in your CSV file._
+
+---
 
 ## Step 2: Formatting Existing Data for Importation {#step2}
 
@@ -69,6 +73,8 @@ Since the Password fields in the above example were left blank, s2Member will au
 
 If you’re uncomfortable formatting the import data manually, you can create a sample import file by exporting your existing s2Member information (see: **Dashboard → s2Member® → Import/Export → User/Member Exportation**). You can download the resulting CSV file and then open it with a spreadsheet program such as Excel. From there, you can insert new rows for each of your existing members and follow the format of the existing data.
 
+---
+
 ## Step 3: Importing Membership Data {#step3}
 
 Once your existing membership data has been formatted in the s2Member import format, navigate to: **Dashboard → s2Member® → Import/Export → User/Member Importation**. From here, you can either copy and paste the formatted data into the import text field or click the "Choose File" button to select the CSV file for upload. When you’re ready, click "Import Now".
@@ -78,6 +84,8 @@ Once your existing membership data has been formatted in the s2Member import for
 _**1000 Each Time (Max):** To ensure the server does not hang when importing new users, you are limited to importing 1000 users at a time. If you have more than 1000 lines to import, please split the file into groups of 1000 prior to importing._
 
 _**No Email Notification:** This import routine works silently. Users/Members will NOT be contacted by s2Member; that is, unless you have another plugin installed that conflicts with s2Member’s ability to perform the Import properly. You should always test one or two accounts before importing a large number of Users all at once. If you want Users/Members to be contacted, you can add them manually, by going to **WordPress® → Users → Add New** and selecting one of the s2Member Roles from the drop-down menu._
+
+---
 
 ## Step 4: Understanding Automatic EOT Times {#step4}
 
