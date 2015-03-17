@@ -84,7 +84,7 @@ These companies are serving the masses at cheap/affordable rates. They care abou
 
 ### Is the s2Member software PCI compliant?
 
-Yes. When PCI Compliance Reports are filed, you might be asked questions like:
+**Yes:** When PCI Compliance Reports are filed you might be asked questions like:
 
 -   Do you store passwords? If so, do you use one-way encryption?
 -   Do you store credit card numbers? If so, are these encrypted?
