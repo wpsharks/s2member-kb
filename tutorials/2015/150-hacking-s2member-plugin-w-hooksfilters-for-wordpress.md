@@ -18,21 +18,20 @@ Please make sure there are no blank lines in your PHP file; i.e., please do _not
 
 ```php
 <?php
-add_action("hook_name", "my_action_hook_function");
-function my_action_hook_function($vars = array())
-	{
-		echo "My Hook works.";
+add_action('hook_name', function ($vars = array())
+{
+	echo "My Hook works.";
 
-		# Optional. s2Member passes you an array of defined variables.
-		# print_r($vars); # Would give you a list of defined variables.
-		# These are PHP variables defined within the scope of the Hook,
-		# at the precise point in which the Hook is fired by s2Member.
+	# Optional. s2Member passes you an array of defined variables.
+	# print_r($vars); # Would give you a list of defined variables.
+	# These are PHP variables defined within the scope of the Hook,
+	# at the precise point in which the Hook is fired by s2Member.
 
-		# $vars["__refs"] are also included by some Hooks.
-		# These are internal PHP variable "references" (quite handy).
-		# To learn all about references please see PHP documentation:
-		# http://www.php.net/manual/en/language.references.pass.php
-	}
+	# $vars["__refs"] are also included by some Hooks.
+	# These are internal PHP variable "references" (quite handy).
+	# To learn all about references please see PHP documentation:
+	# http://www.php.net/manual/en/language.references.pass.php
+});
 ```
 
 ## Adding a Filter Inside `/wp-content/mu-plugins/s2-hacks.php`
@@ -41,24 +40,23 @@ Please make sure there are no blank lines in your PHP file; i.e., please do _not
 
 ```php
 <?php
-add_filter("filter_name", "my_filtering_function");
-function my_filtering_function($original_value, $vars = array())
-	{
-		if($original_value !== 'something I like')
-			return ($my_custom_value = 'My Filter works.');
+add_filter('filter_name', function my_filtering_function($original_value, $vars = array())
+{
+	if($original_value !== 'something I like')
+		return ($my_custom_value = 'My Filter works.');
 
-		else return $original_value; # Return original value.
+	else return $original_value; # Return original value.
 
-		# Optional. s2Member passes you an array of defined variables.
-		# print_r($vars); # Would give you a list of defined variables.
-		# These are PHP variables defined within the scope of the Filter,
-		# at the precise point in which the Filter is fired by s2Member.
+	# Optional. s2Member passes you an array of defined variables.
+	# print_r($vars); # Would give you a list of defined variables.
+	# These are PHP variables defined within the scope of the Filter,
+	# at the precise point in which the Filter is fired by s2Member.
 
-		# $vars["__refs"] are also included by some Filters.
-		# These are internal PHP variable references (quite handy).
-		# To learn all about references please see PHP documentation:
-		# http://www.php.net/manual/en/language.references.pass.php
-	}
+	# $vars["__refs"] are also included by some Filters.
+	# These are internal PHP variable references (quite handy).
+	# To learn all about references please see PHP documentation:
+	# http://www.php.net/manual/en/language.references.pass.php
+});
 ```
 
 ## Consider s2Member-Only Mode (for Translation & JS/CSS Hacks)
