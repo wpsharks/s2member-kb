@@ -40,7 +40,7 @@ In a WordPress Post or Page use Simple Shortcode Conditionals that check the use
 
 In a theme or plugin file you can use PHP Conditional Tags. These Conditional Tags check the user's Membership Level. This will determine if you will show or hide the content. If you install the [ezPHP](https://wordpress.org/plugins/ezphp/) plugin for WordPress you can use PHP tags in a Post or Page also.
 
-```php
+```html
 <?php if(current_user_is('s2member_level2')): ?>
 	Some premium content for Level 2 Members.
 <?php elseif(current_user_is('s2member_level1')): ?>
