@@ -115,7 +115,7 @@ _Moving forward with s2Member, an EOT Time is determined automatically for custo
 
 An EOT (End of Term) Time defines when (or if) a particular customer should lose access at some point in the future. For instance, if you import a member that originally purchased a one year membership, and they have been paying you for 6 months; you should set their EOT Time to 6 months from today. This way s2Member will terminate their access at the correct point in time automatically.
 
-How s2Member handles EOT Times is determined by the settings you configure in the Automatic EOT Behavior settings for your payment gateway (e.g., **Dashboard → s2Member → PayPal Options → Automatic EOT Behavior**).
+How s2Member handles EOT Times is determined by the settings you configure in the Automatic EOT Behavior settings for your payment gateway. See: **Dashboard → s2Member → [Payment Gateway] Options → Automatic EOT Behavior**
 
 Configuring an EOT Time is an easy way to deal with member migration. It allows you to set up an EOT Time with s2Member Pro (during importation or later—manually), so that no matter how billing was handled by your previous membership platform, you can always tell s2Member when access should be terminated. It is ideal in every case? No, but it provides many site owners with an easy way to deal with conflicts across a wide array of other membership platforms. EOT Times are your friend when importing existing customers into s2Member Pro :-)
 
