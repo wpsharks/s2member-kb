@@ -17,7 +17,7 @@ _The s2Member plugin contains additional inline documentation that should be rev
 -   [Step 3: Importing Membership Data](#step3)
 -   [Step 4: Reviewing Your Importated Data](#step4)
 
-Import/Export features are only available as part of the s2Member Pro add-on. If you’re only using the free s2Member Framework, you’ll need to [upgrade to s2Member Pro](http://www.s2member.com/pro/) to follow along.
+_Import/Export features are only available as part of the s2Member Pro add-on. If you’re only using the free s2Member Framework, you’ll need to [upgrade to s2Member Pro](http://www.s2member.com/pro/) to follow along._
 
 ### Step 1: Collecting existing membership data {#step1}
 
@@ -32,13 +32,13 @@ The minimum required data for s2Member importation is as follows:
 -   Username
 -   Email Address
 
-However, you’ll want to collect at least three more pieces of information to retain subscription information and define the users Membership Level within s2Member:
+However, you’ll want to collect at least three more pieces of information to retain subscription information and define the users Membership Level within s2Member Pro. The additional fields are as follows:
 
 -   Paid Subscr. ID (this is the subscription ID, e.g., `I-EUAVMMPD04HF`)
 -   Paid Subscr. Gateway (the payment gateway associated with this subscription ID, e.g., `paypal`)
 -   s2Member Level (e.g., `2` for s2Member Level 2, or `0` for Free Subscriber)
 
-The format of this data is important and you must format the data using the s2Member import format (see [Step 2](#step2)). If you’re building this file manually and you’re only inserting some of the information, be sure to include the blank fields in your CSV file.
+_The format of this data is important and you must format the data using the s2Member import format (see [Step 2](#step2)). If you’re building this file manually and you’re only inserting some of the information, be sure to include the blank fields in your CSV file._
 
 ### Step 2: Formatting Existing Data for Importation {#step2}
 
