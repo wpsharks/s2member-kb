@@ -21,7 +21,7 @@ https://www.youtube.com/watch?v=9yiph5uqXgI
 
 ![](http://cdn.websharks-inc.com/s2member/uploads/2013/08/bulb.png){.alignright}
 
-Combine BuddyPress w/ [s2Member® Pro](http://www.s2member.com/pro/) and you’ll have the ability to protect & sell access to specific areas of your social network. You can setup custom registration and/or paid checkout forms using s2Member Pro Forms. 
+Combine BuddyPress w/ [s2Member® Pro](http://www.s2member.com/pro/) and you’ll have the ability to protect & sell access to specific areas of your social network. You can setup custom registration and/or paid checkout forms using s2Member Pro-Forms. 
 
 Of course, you can also offer protected file downloads and/or other content in the form of WordPress Posts or Pages. Start by downloading the [free version of s2Member](http://s2member.com/framework/), then upgrade to [s2Member Pro](http://s2member.com/pro/).
 
