@@ -87,7 +87,7 @@ _**No Email Notification:** This import routine works silently. Users/Members wi
 
 ---
 
-## Common Member Migration Questions
+## Common Member Migration Questions {#common-questions}
 
 #### My existing members are charged on a recurring basis. Will they continue to be billed?
 
@@ -105,14 +105,16 @@ Thus, when you bring existing members (from an old membership platform) into the
 
 #### Will s2Member know when to cancel access to my existing members?
 
-Yes, but only if you tell it to. Whenever you import your existing members, please set an EOT (End of Term) time, so that s2Member will know when it should terminate access.
+Yes, but only if you tell it to. Whenever you import your existing members, please set an EOT (End of Term) time, so that s2Member will know when it should terminate access. More on this below; see: [Understand Automatic EOT Times](#eot-times)
 
 _**Note:** s2Member is not capable of determining this on its own, and it does not respond to IPN data received for members that you imported from another membership platform. If you want to terminate access automatically on a given date in the future, please set an EOT Time for each of your existing customers._
 
 _Moving forward with s2Member, an EOT Time is determined automatically for customers you acquire with the s2Member software itself. In other words, this limitation applies only to members imported from other membership platforms._
 
-## Understanding Automatic EOT Times
+## Understanding Automatic EOT Times {#eot-times}
 
-How s2Member handles EOT’s (End of Term) is determined by the settings you’ve configured in the Automatic EOT Behavior settings for your payment gateway (e.g., **Dashboard → s2Member® → PayPal® Options → Automatic EOT Behavior**). If the exported data from the other software contains expiration dates for each account, you can use the Auto-EOT Date (mm/dd/yyyy) column in your import file to specify when the members’ accounts should expire. 
+How s2Member handles EOT’s (End of Term) is determined by the settings you’ve configured in the Automatic EOT Behavior settings for your payment gateway (e.g., **Dashboard → s2Member → PayPal Options → Automatic EOT Behavior**).
+
+If the exported data from the other software contains expiration dates for each account, you can use the Auto-EOT Date (mm/dd/yyyy) column in your import file to specify when the members’ accounts should expire. This is an easy way to deal with any problems that come about during your migration. If nothing else, you can always set up an EOT Time with s2Member during importation (or later, manually), so that no matter how billing is handled for existing membership, you can tell s2Member when access should be terminated. It is ideal in every case? No, but it provides a friendly way to deal with conflicts across a wide array of other platforms. EOT Times are your friend when importing existing users into s2Member Pro :-)
 
 When that date arrives, s2Member will handle the account according to the Automatic EOT Behavior settings you've configured. If you’re importing a user with a running subscription in your payment gateway, keep in mind that s2Member won’t set the EOT time for you when the subscription ends. Notifications from the payment gateway won’t work with s2Member if the subscription was not created through s2Member. You’ll need to manually set an EOT time for the user yourself, either in advance when importing, or later when the subscription ends. New subscriptions created through s2Member won’t have that problem.
