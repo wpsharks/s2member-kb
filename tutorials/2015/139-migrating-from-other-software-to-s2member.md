@@ -122,7 +122,8 @@ Configuring an EOT Time is an easy way to deal with member migration. It allows 
 ### Importing a Customer w/ a Custom EOT Time
 
 ```text
+"ID","Username","Password","First Name","Last Name","Display Name","Email","Website","Level[0-9]+ or Role ID","Custom Capabilities","Registration Date ( mm/dd/yyyy )","First Payment Date ( mm/dd/yyyy )","Last Payment Date ( mm/dd/yyyy )","Auto-EOT Date ( mm/dd/yyyy )"
 "","johndoe","9934jxxeddf!","John","Doe","John Doe","johndoe@example.com","","s2member_level1","music,videos","","","","12/31/2030"
 ```
 
-_In this example, user `johndoe` will automatically lose access on Dec 31st, 2030._
+_See end of the line ↑ In this example, user `johndoe` will automatically lose access on Dec 31st, 2030._
