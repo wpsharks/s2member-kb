@@ -58,7 +58,7 @@ If you would like to modify the default s2Member Roles/Capabilities, see: [Enhan
 If you _do_ modify your Roles/Capabilities, please be sure to install this MU plugin (see below) to prevent s2Member from resetting your customization in the future—should you attempt to update your copy of s2Member or s2Member Pro. This will lock-in your customizations; telling s2Member NOT to reset your Roles/Capabilities during future plugin updates.
 
 Please create this directory and file:
-`/wp-content/mu-plugins/s2-hacks.php`
+`/wp-content/mu-plugins/s2-lock-roles-caps.php`
 
 ```php
 <?php
