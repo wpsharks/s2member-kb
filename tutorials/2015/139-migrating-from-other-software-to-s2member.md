@@ -8,7 +8,7 @@ github-issue: https://github.com/websharks/s2member-kb/issues/139
 
 This article will explain how to migrate to s2Member Pro from another software application, while retaining existing users and their payment information.
 
-_The s2Member plugin contains additional inline documentation that should be reviewed carefully following the steps in this article. See: **Dashboard → s2Member® → Import/Export**. Import/Export features are only available as part of the s2Member Pro add-on. If you’re only using the free s2Member Framework, you’ll need to [upgrade to s2Member Pro](http://www.s2member.com/pro/) to follow along._
+_The s2Member plugin contains additional inline documentation that should be reviewed carefully before following the steps in this article. See: **Dashboard → s2Member® → Import/Export**. Import/Export features are only available as part of the s2Member Pro add-on. If you’re using the free s2Member Framework, you’ll need to [upgrade to s2Member Pro](http://www.s2member.com/pro/) to follow along._
 
 ### Step 1: Collecting existing membership data {#step1}
 
