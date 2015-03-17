@@ -1,7 +1,7 @@
 ---
 title: Migrating from Other Software to s2Member
 categories: tutorials
-tags: import-export-tools,migrations
+tags: import-export-tools, member-migration
 author: jaswsinc
 github-issue: https://github.com/websharks/s2member-kb/issues/139
 ---
