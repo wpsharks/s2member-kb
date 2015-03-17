@@ -14,9 +14,11 @@ _The s2Member plugin contains additional inline documentation that should be rev
 
 ## Step 1: Collecting existing membership data {#step1}
 
-The first step is to collect the membership data from your existing software. If your existing software supports exporting the data to CSV (Comma Separated Values), you can simply export the data, open the file in a spreadsheet program such as Excel, and then reformat the data for s2Member's Import Tool (more on formatting in [Step 2](#step2)).
+The first step is to collect the membership data from your existing software. If your existing software supports exporting the data to CSV (Comma Separated Values) you can simply export the data, open the file in a spreadsheet program such as Excel, and then reformat the data for s2Member's Import Tool (more on formatting in [Step 2](#step2)).
 
-Or, if the other membership software does _not_ export data to CSV, but uses a different export format, you’ll need to convert the existing data to s2Member’s CSV format using software such as Excel. As a last resort, you can also build the import file manually by collecting the necessary data and creating a CSV file. This file can be created as a simple text file and saved with the `.csv` extension, or you can use a spreadsheet program such as Excel.
+Or, if the other membership software does _not_ export data to CSV (e.g., it uses a different export format) you’ll need to convert the existing data to s2Member’s CSV format using software such as Excel.
+
+As a last resort, you can also build the import file manually by collecting the necessary data and creating a CSV file. This file can be created as a simple text file and saved with the `.csv` extension, or you can use a spreadsheet program such as Excel.
 
 ### Minimum Required Data
 
