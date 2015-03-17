@@ -18,6 +18,8 @@ When you install s2Member it adds some additional Roles and Capabilities to a de
 
 ## Membership Levels Provide Incremental Access
 
+<div class="li-margins"></div>
+
 - A Member with Level `4` access will also be able to access Levels `0`, `1`, `2` & `3`.
  - **WordPress Role:** `s2member_level4`
  - **WordPress Capabilities:** `read`, `level_0`, `access_s2member_level0`, `access_s2member_level1`, `access_s2member_level2`, `access_s2member_level3`, `access_s2member_level4`
@@ -69,7 +71,8 @@ add_filter('ws_plugin__s2member_lock_roles_caps', '__return_true');
 - See: **Dashboard → s2Member → API / Scripting → Advanced PHP Conditionals**
 - See: **Dashboard → s2Member → API / Scripting → Advanced PHP Query Conditionals**
 - See: **Dashboard → s2Member → API / Scripting → Custom Capabilities (Packages)**
-- See: [Simple Shortcode Conditionals]()
+
+- See: [Simple Shortcode Conditionals](https://github.com/websharks/s2member-kb/issues/119)
 - See: [WordPress Conditional Tags](http://codex.wordpress.org/Conditional_Tags)
 - See: [WordPress Roles/Capabilities](http://codex.wordpress.org/Roles_and_Capabilities)
 - See: [bbPress Roles/Capabilities](http://codex.bbpress.org/bbpress-user-roles-and-capabilities/)
