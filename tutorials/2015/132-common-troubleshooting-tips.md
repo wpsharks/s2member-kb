@@ -45,13 +45,13 @@ For this reason, and, so that everyone is on the same page, we ask that you upda
 - Please see: [Update Instructions](http://s2member.com/updating/)
 - See also: [s2Member Unified Changelog](http://s2member.com/changelog/) for further details.
 - 
-## Log Files (i.e., Using s2Member's Built-in Debugger)
+## Log Files (s2Member's Built-in Debugger)
 
 Please see: **s2Member ⥱ Log Files (Debug) ⥱ Logging Configuration**
 
-It's always a good idea to enable s2Member's logging functionality and review log file entries on your own. s2Member's log files can help you learn more about what is going on behind-the-scenes. For instance, are emails not being sent? Are customers not being upgraded to a paid status? Things like this are often caused by HTTP communication failure that occurs behind-the-scenes. s2Member's log files will tell you more about these types of problems.
+It's a good idea to enable s2Member's logging functionality and review log file entries on your own. s2Member's log files can help you learn more about what is going on behind-the-scenes. Are emails not being sent? Are customers not being upgraded to a paid status? Did you receive an error after checkout? Things like this are often caused by HTTP communication failures that occur behind-the-scenes. s2Member's log files will tell you (and s2Member support representatives) more about these types of problems.
 
-_**Note:** s2Member support representatives may ask for log files so they can be reviewed carefully during an investigation that is related to a bug that you report. So please be sure to enable s2Member's logging functionality and have something in your logs before opening a support ticket._
+_**Note:** s2Member support representatives may ask for log files so they can be reviewed carefully during their investigation. Please be sure to enable s2Member's logging functionality and have something in your logs before opening a support ticket; i.e., reproduce the issue with s2Member's logging routines enabled please._
 
 ## Configuration Issues and/or User Error
 
