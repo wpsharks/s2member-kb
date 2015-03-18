@@ -4,6 +4,7 @@ categories: questions
 tags: error-messages, troubleshooting
 author: raamdev
 github-issue: https://github.com/websharks/s2member-kb/issues/161
+toc-enable: off
 ---
 
 If you're seeing a message in your s2Member Logs that says `Unable To Verify $_POST Vars`, that indicates s2Member was unable to communicate with the payment gateway. There are many reasons that could happen, but the most likely are related to an invalid configuration of s2Member, or a problem with server compatibility.
