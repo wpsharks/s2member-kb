@@ -75,7 +75,7 @@ Please be sure these files exist in your active WordPress theme directory, and p
 - Copy this file: `/wp-content/plugins/s2member-pro/includes/templates/forms/paypal-checkout-form.php`
 - Paste it here: `/wp-content/themes/ACTIVE-THEME-DIRECTORY/paypal-checkout-form.php` (and modify)
 
-  Note: `ACTIVE-THEME-DIRECTORY` might be `twentytwelve` or your own custom theme directory.
+  _Note: `ACTIVE-THEME-DIRECTORY` might be `twentytwelve` or your own custom theme directory._
 
 ### Getting More Specific About Custom Pro-Form Templates
 
