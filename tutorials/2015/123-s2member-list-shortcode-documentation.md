@@ -6,6 +6,8 @@ author: jaswsinc
 github-issue: https://github.com/websharks/s2member-kb/issues/123
 ---
 
+The `[s2Member-List /]` shortcodes makes it possible for site owners to build a list of their members in a variety of ways. The shortcode might be used to present a list of your highest ranking members, or simply to provide other members with a way to search for each other. There are a lot of use cases for this.
+
 ---
 
 ## `[s2Member-List /]` Shortcode Examples
