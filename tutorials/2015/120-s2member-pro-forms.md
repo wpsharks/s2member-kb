@@ -10,13 +10,13 @@ github-issue: https://github.com/websharks/s2member-kb/issues/120
 
 Among other things, [s2Member Pro](http://s2member.com/pro/) comes with “Pro-Forms”. These are shortcodes that generate Registration/Checkout Forms—and other kinds of forms too.
 
-In contrast, the free version of s2Member does _not_ come with Pro-Forms. In the free version of s2Member you'll be working with “Payment Buttons” only. Payment Buttons will lead visitors away from your site to complete checkout at your Payment Gateway, whereas Pro-Forms keep visitors on your site at all times. Pro-Forms also make other payment options available to your customers. With Pro-Forms you will have support for on-site credit card processing—and PayPal® Express Checkout too.
+In contrast, the free version of s2Member does _not_ come with Pro-Forms. In the free version of s2Member you work “Payment Buttons” only. Payment Buttons lead visitors away from your site to complete checkout at PayPal.com, whereas Pro-Forms keep visitors on your site at all times. Pro-Forms also make other payment options available to your customers. With Pro-Forms you have support for on-site credit card processing—and PayPal Express Checkout too.
 
 _**Tip:** One of the most compelling reasons to upgrade to s2Member Pro is so that you can take advantage of s2Member's integration with Stripe™—with is accomplished using s2Member Pro-Forms. See: [s2Member Pro Features](http://s2member.com/features/) for more information about Stripe™ and Bitcoin._
 
 ---
 
-## Why Should I Use “Pro-Forms” Instead Of “Buttons”?
+## Why Should I Use “Pro-Forms” Instead Of “Buttons” In the Free Version?
 
 **There are a lot of reasons; here are a few:**
 
@@ -138,33 +138,42 @@ Having said that, some site owners have asked if it’s possible to get even mor
 
 ### Pro-Forms Come In Many Flavors
 
-- #### Stripe™ Pro-Forms
- - **One-Step Free Registration Forms** provide access to any Membership Level or Custom Capability package. Free Registration can also be set to self-expire any trial access granted by these forms.
- - **One-Step Registration/Checkout Forms** provide access to any Membership Level and/or Custom Capability package that you configure.
- - **One-Step Billing Modification Forms** make it possible for Users/Members to upgrade or downgrade their account with you.
- - **One-Step Custom Capability “Buy Now” Forms** sell Independent Custom Capabilities to new and/or existing customers wanting more.
- - **One-Step Billing Information Update Forms** let your customers update their billing information to prevent things like credit card expirations.
- - **One-Step Billing Cancellation Forms** give your customers the ability to cancel any future recurring charges.
- - **One-Step Specific Post/Page “Buy Now” Forms** sell Specific Posts or Pages to new and/or existing customers. Membership _not_ required for these.
-- #### PayPal® Pro-Forms
- - **One-Step Free Registration Forms** provide access to any Membership Level or Custom Capability package. Free Registration can also be set to self-expire any trial access granted by these forms.
- - **One-Step Registration/Checkout Forms** provide access to any Membership Level and/or Custom Capability package that you configure.
- - **One-Step Billing Modification Forms** make it possible for Users/Members to upgrade or downgrade their account with you.
- - **One-Step Custom Capability “Buy Now” Forms** sell Independent Custom Capabilities to new and/or existing customers wanting more.
- - **One-Step Billing Information Update Forms** let your customers update their billing information to prevent things like credit card expirations.
- - **One-Step Billing Cancellation Forms** give your customers the ability to cancel any future recurring charges.
- - **One-Step Specific Post/Page “Buy Now” Forms** sell Specific Posts or Pages to new and/or existing customers. Membership _not_ required for these.
-- #### Authorize.Net® Pro-Forms
- - **One-Step Free Registration Forms** provide access to any Membership Level or Custom Capability package. Free Registration can also be set to self-expire any trial access granted by these forms.
- - **One-Step Registration/Checkout Forms** provide access to any Membership Level and/or Custom Capability package that you configure.
- - **One-Step Billing Modification Forms** make it possible for Users/Members to upgrade or downgrade their account with you.
- - **One-Step Custom Capability “Buy Now” Forms** sell Independent Custom Capabilities to new and/or existing customers wanting more.
- - **One-Step Billing Information Update Forms** let your customers update their billing information to prevent things like credit card expirations.
- - **One-Step Billing Cancellation Forms** give your customers the ability to cancel any future recurring charges.
- - **One-Step Specific Post/Page “Buy Now” Forms** sell Specific Posts or Pages to new and/or existing customers. Membership _not_ required for these.
+#### Stripe™ Pro-Forms
+
+- **One-Step Free Registration Forms** provide access to any Membership Level or Custom Capability package. Free Registration can also be set to self-expire any trial access granted by these forms.
+- **One-Step Registration/Checkout Forms** provide access to any Membership Level and/or Custom Capability package that you configure.
+- **One-Step Billing Modification Forms** make it possible for Users/Members to upgrade or downgrade their account with you.
+- **One-Step Custom Capability “Buy Now” Forms** sell Independent Custom Capabilities to new and/or existing customers wanting more.
+- **One-Step Billing Information Update Forms** let your customers update their billing information to prevent things like credit card expirations.
+- **One-Step Billing Cancellation Forms** give your customers the ability to cancel any future recurring charges.
+- **One-Step Specific Post/Page “Buy Now” Forms** sell Specific Posts or Pages to new and/or existing customers. Membership _not_ required for these.
 
 ---
 
-## What Are The Payment Gateway Requirements For s2Member Pro-Forms?
+#### PayPal® Pro-Forms
+
+- **One-Step Free Registration Forms** provide access to any Membership Level or Custom Capability package. Free Registration can also be set to self-expire any trial access granted by these forms.
+- **One-Step Registration/Checkout Forms** provide access to any Membership Level and/or Custom Capability package that you configure.
+- **One-Step Billing Modification Forms** make it possible for Users/Members to upgrade or downgrade their account with you.
+- **One-Step Custom Capability “Buy Now” Forms** sell Independent Custom Capabilities to new and/or existing customers wanting more.
+- **One-Step Billing Information Update Forms** let your customers update their billing information to prevent things like credit card expirations.
+- **One-Step Billing Cancellation Forms** give your customers the ability to cancel any future recurring charges.
+- **One-Step Specific Post/Page “Buy Now” Forms** sell Specific Posts or Pages to new and/or existing customers. Membership _not_ required for these.
+
+---
+
+#### Authorize.Net® Pro-Forms
+
+- **One-Step Free Registration Forms** provide access to any Membership Level or Custom Capability package. Free Registration can also be set to self-expire any trial access granted by these forms.
+- **One-Step Registration/Checkout Forms** provide access to any Membership Level and/or Custom Capability package that you configure.
+- **One-Step Billing Modification Forms** make it possible for Users/Members to upgrade or downgrade their account with you.
+- **One-Step Custom Capability “Buy Now” Forms** sell Independent Custom Capabilities to new and/or existing customers wanting more.
+- **One-Step Billing Information Update Forms** let your customers update their billing information to prevent things like credit card expirations.
+- **One-Step Billing Cancellation Forms** give your customers the ability to cancel any future recurring charges.
+- **One-Step Specific Post/Page “Buy Now” Forms** sell Specific Posts or Pages to new and/or existing customers. Membership _not_ required for these.
+
+---
+
+## Which Payment Gateways Work w/ s2Member Pro-Forms?
 
 s2Member Pro-Forms will work with Stripe™, PayPal Pro, or Authorize.Net. For more information, see: [s2Member Pro Features](http://s2member.com/features/)
