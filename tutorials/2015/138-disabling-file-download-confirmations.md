@@ -7,7 +7,9 @@ github-issue: https://github.com/websharks/s2member-kb/issues/138
 toc-enable: false
 ---
 
-See: **Dashboard → s2Member → Download Options → Basic Download Restrictions** s2Member will automatically detect links anywhere in your content and/or anywhere in your theme files that contain `s2member_file_download` or `s2member-files`. Whenever a logged-in user clicks a link that contains `s2member_file_download` or `s2member-files` the system will politely ask the user to confirm the download using a very intuitive JavaScript confirmation prompt, which contains specific details about your configured download limitations. This way your users will be aware of how many files they’ve downloaded in the current period; and they’ll be able to make a conscious decision about whether to proceed with a specific download or not.
+See: **Dashboard → s2Member → Download Options → Basic Download Restrictions**
+
+s2Member will automatically detect links anywhere in your content and/or anywhere in your theme files that contain `s2member_file_download` or `s2member-files`. Whenever a logged-in user clicks a link that contains `s2member_file_download` or `s2member-files` the system will politely ask the user to confirm the download using a very intuitive JavaScript confirmation prompt, which contains specific details about your configured download limitations. This way your users will be aware of how many files they’ve downloaded in the current period; and they’ll be able to make a conscious decision about whether to proceed with a specific download or not.
 
 ## Suppressing JavaScript Confirmations
 
