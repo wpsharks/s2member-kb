@@ -24,7 +24,7 @@ Also, to protect your s2Member settings and data during updates or reinstallatio
 
 To test for server configuration issues and/or conflicts, please install and run the: [s2Member Server Scanner](https://github.com/websharks/s2member-kb/issues/133)
 
-## Troubleshooting Conflicting Plugins (or a Conflicting Theme)
+## Conflicting Plugins (or a Conflicting Theme)
 
 Please see: [Testing in a Clean Installation](https://github.com/websharks/s2member-kb/issues/81). Testing in a clean installation involves you setting up a fresh installation of WordPress; i.e., one that does _not_ include any other active plugins and it runs with a default WordPress theme. If you’re using any [Must-Use Plugins](http://codex.wordpress.org/Must_Use_Plugins), please remember to deactivate those as well.
 
