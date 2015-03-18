@@ -302,27 +302,27 @@ s2Member supports ALL [Conditional Tags](http://codex.wordpress.org/Conditional_
 5. **Passing an Array** example:
  - `[s2If is_page({my-cool-page,24,about,contact-form})][/s2If]` (i.e., to pass an array of values, please use comma-delimitation).
 
-**Tip:** do NOT use spaces in your Simple Conditional arguments.
-
-- **INVALID:** `[s2If is_page(My Membership Options Page)][/s2If]` _Use slugs or IDs instead, no spaces please—spaces will break the Shortcode parser._
+- **Tip:** do _not_ use spaces in your Simple Conditional arguments. The following example is **INVALID:**
+ - `[s2If is_page(My Membership Options Page)][/s2If]` _Use slugs or IDs instead, no spaces please—spaces will break the Shortcode parser._
 
 ---
 
 ### Implementing AND/OR Conditional Expressions
 
-**Tip:** do NOT mix AND/OR expressions together in a single expression.
+**Tip:** do _not_ mix AND/OR expressions together in a single expression.
 
-- **INVALID:** `[s2If is_user_logged_in() AND is_page(1) OR is_page(2)][/s2If]` _Use one or the other; do NOT mix AND/OR together. If you need to have both types of logic use nesting._
+- The following example is **INVALID:*
+ - `[s2If is_user_logged_in() AND is_page(1) OR is_page(2)][/s2If]` _Use one or the other; do not mix AND/OR together. If you need to have both types of logic use nesting._
 
-This example demonstrates nested Shortcode Conditionals. Notice that NESTED Conditionals require a preceding underscore (i.e., `_s2If`, `__s2If`, `___s2If`). You can go up to three levels deep (e.g., `___s2If`).
+    This example demonstrates nested Shortcode Conditionals. Notice that NESTED Conditionals require a preceding underscore (i.e., `_s2If`, `__s2If`, `___s2If`). You can go up to three levels deep (e.g., `___s2If`).
 
-```html
-[s2If is_user_logged_in() AND current_user_is(s2member_level1)]
-  [_s2If is_page(1) OR is_page(2)]
-  	Content appears here.
-  [/_s2If]
-[/s2If]
-```
+    ```html
+    [s2If is_user_logged_in() AND current_user_is(s2member_level1)]
+      [_s2If is_page(1) OR is_page(2)]
+      	Content appears here.
+      [/_s2If]
+    [/s2If]
+    ```
 
 ---
 
