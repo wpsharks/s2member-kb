@@ -50,6 +50,8 @@ _**NOTE:** the message you define is only displayed on your Membership Options P
 [s2MOP required_type="ccap" required_value="free_gift"]This content required a Custom Capability called <code>free_gift</code>[/s2MOP]
 ```
 
+---
+
 ## Shortcode Attributes (All Optional)
 
 <div class="li-margins"></div>
