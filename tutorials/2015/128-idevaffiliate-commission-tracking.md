@@ -8,7 +8,7 @@ github-issue: https://github.com/websharks/s2member-kb/issues/128
 
 [iDevAffiliate®](http://s2member.com/r/idev/) (an affiliate management portal) installs in just minutes and it can be integrated seamlessly with s2Member. We recommend iDevAffiliate (Standard Edition is fine) because of its proven track record and its ability to integrate with s2Member using a variety of techniques.
 
-_**Tip:** Advanced Integration is suggested. See: [Advanced Integration Instructions](#-advanced) or watch the video._
+_**Tip:** Advanced Integration is suggested. See: [Advanced Integration Instructions](#-advanced) or watch the video. Advanced integration is more reliable and covers recurring payments and refunds too._
 
 ---
 
@@ -38,7 +38,7 @@ Now (still in iDevAffiliate) please click “**View Integration Instructions**�
 
 ### Example Code Snippets for Simple Integration
 
-See: **Dashboard → s2Member® → API / Tracking Codes → Signup Tracking Codes**
+See: **Dashboard → s2Member → API / Tracking Codes → Signup Tracking Codes**
 
 Relevant Replacement Codes:
 
