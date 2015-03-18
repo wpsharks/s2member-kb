@@ -10,7 +10,7 @@ github-issue: https://github.com/websharks/s2member-kb/issues/81
 
 Here in the s2Member support department, we receive many bug reports that are difficult and/or impossible to reproduce on our side of things. A site owner will write to us and say, "feature X is not working as expected". One of our support reps. will follow-up by testing that specific feature, but the problem does exist on our side. Hmm... what gives? **How can that be?**
 
-**Reason:** WordPress offers you lots of options! As a site owner, you have the ability to mix s2Member with several other plugins and a theme that you like best. So the reason we are unable to reproduce the issue on our side? Your environment is slightly different than ours. Your WordPress installation has different plugins, it's had a different history, and it's probably running with a different theme too.
+**Reason:** WordPress offers you lots of options! As a site owner you have the ability to mix s2Member with other plugins and a theme you like best. So the reason we are unable to reproduce the issue on our side? Your environment is slightly different than ours. Your WordPress installation has different plugins, it's had a different history, and it's probably running with a different theme too.
 
 As you can imagine, testing every feature of s2Member with every possible combination of plugins, and with each and every theme that exists for WordPress — this is nearly impossible. **We need common ground! In fact, our policy is that we require it :-)**
 
@@ -38,4 +38,4 @@ Support policy: <http://s2member.com/support/>
 
 ## How to Report Plugin/Theme Conflicts
 
-If you identify a conflict between s2Member and another plugin, we would love to hear about this! While we cannot offer support for other 3rd-party themes/plugins, we do accept feedback. Theme/plugin conflicts are reviewed by our developers on a regular basis, and efforts to enhance compatibility are always underway. Thanks in advance!
+If you identify a conflict between s2Member and another plugin, we would love to hear about this! While we cannot offer support for other 3rd-party themes/plugins, we do accept feedback. Theme/plugin conflicts are reviewed by our developers on a regular basis, and efforts to enhance compatibility are always underway. Thanks in advance for your patience!
