@@ -10,11 +10,15 @@ We’ve seen a few common problems that site owners run into when using the s2Me
 
 _**Important Note:** Each of the sections below rely on you having the latest up-to-date version of s2Member and s2Member Pro. We also expect that you will conduct your tests and perform all troubleshooting actions in a default/clean installation of WordPress; i.e., if you are having trouble, **the very first thing you should do is isolate your installation of s2Member**. Please see: [Testing in a Clean Installation](https://github.com/websharks/s2member-kb/issues/81)_
 
+---
+
 ## Safety First (Backups and Plugin Deletion Safeguards)
 
 Before we get into the troubleshooting tips it’s important to note that you should **always have a backup** of your WordPress installation. Please see [WordPress Backups](http://codex.wordpress.org/WordPress_Backups) for more information. If something goes wrong you can always revert to the backup and start over. However, if there is no backup it may be a lot harder to recover from a problem. Backups are very important.
 
 Also, to protect your s2Member settings and data during updates or reinstallation, please make sure you have s2Member's "Plugin Deletion Safeguards" enabled. See: **Dashboard → s2Member → General Options → Plugin Deletion Safeguards** for more information.
+
+---
 
 ## Web Server Configuration or Conflicts
 
