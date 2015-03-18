@@ -87,7 +87,7 @@ s2Member’s [Shortcodes](http://codex.wordpress.org/Shortcode_API) can be used 
 
 ### Example 3: Specific content for each different Member Level:
 
-```handlebars
+```
 [s2If current_user_is(s2member_level4)]
     Some premium content for Level 4 Members.
 [/s2If]
