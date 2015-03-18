@@ -12,6 +12,8 @@ The `[s2Member-List /]` shortcodes makes it possible for site owners to build a 
 
 ## `[s2Member-List /]` Shortcode Examples
 
+--
+
 ### Display All Users; 25 Users Per Page (Default)
 
 ```wpsc
@@ -24,7 +26,7 @@ The `[s2Member-List /]` shortcodes makes it possible for site owners to build a 
 [s2Member-List roles="subscriber" /]
 ```
 
-#### or… using the levels attribute (same thing in this case)
+or… using the levels attribute (same thing in this case)
 
 ```wpsc
 [s2Member-List levels="0" /]
