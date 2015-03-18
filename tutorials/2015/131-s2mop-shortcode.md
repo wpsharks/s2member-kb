@@ -10,7 +10,7 @@ There is a new s2Member Pro Shortcode that can be used to enhance your Membershi
 
 So, your Membership Options Page is a key element. In fact, it serves as the focal point of your s2Member installation. Understanding this, we can see it becomes important for s2Member to provide information about what the visitor was attempting to access, _before_ they were redirected to the Membership Options Page. This is where s2Member’s MOP Vars come in (i.e., Membership Options Page Variables). Whenever s2Member redirects a visitor to your Membership Options Page it will include some important MOP Vars in the query string of the URL. These variables can be used to provide more informative messages, or even to provide a different set of Membership Options (i.e., Payment Buttons or a Pro-Form) based on what a visitor was attempting to access.
 
-For further details, please see: **s2Member → API / Scripting → Membership Options Page / Variables**
+For further details, please see: **Dashboard → s2Member → API / Scripting → Membership Options Page / Variables**
 
 ---
 
@@ -87,7 +87,7 @@ _**NOTE:** the message you define is only displayed on your Membership Options P
 
 ## s2Member MOP Vars (Explained)
 
-See also: **Dashboard → API / Scripting → Membership Options Page / Variables**
+See also: **Dashboard → s2Member → API / Scripting → Membership Options Page / Variables**
 
 ```text
 -----------------------------------------------------------------------------------------------------------
