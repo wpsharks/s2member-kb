@@ -12,7 +12,7 @@ _**Important Note:** Each of the sections below rely on you having the latest up
 
 ---
 
-## Safety First (Backups and Plugin Deletion Safeguards)
+## Safety First (Always Have a Backup)
 
 Before we get into the troubleshooting tips it’s important to note that you should **always have a backup** of your WordPress installation. Please see [WordPress Backups](http://codex.wordpress.org/WordPress_Backups) for more information. If something goes wrong you can always revert to the backup and start over. However, if there is no backup it may be a lot harder to recover from a problem. Backups are very important.
 
@@ -51,7 +51,7 @@ Please see: **s2Member ⥱ Log Files (Debug) ⥱ Logging Configuration**
 
 It's a good idea to enable s2Member's logging functionality and review log file entries on your own. s2Member's log files can help you learn more about what is going on behind-the-scenes. Are emails not being sent? Are customers not being upgraded to a paid status? Did you receive an error after checkout? Things like this are often caused by HTTP communication failures that occur behind-the-scenes. s2Member's log files will tell you (and s2Member support representatives) more about these types of problems.
 
-_**Note:** s2Member support representatives may ask for log files so they can be reviewed carefully during their investigation. Please be sure to enable s2Member's logging functionality and have something in your logs before opening a support ticket; i.e., reproduce the issue with s2Member's logging routines enabled please._
+_**Note:** s2Member support representatives may ask for log files so they can be reviewed carefully during their investigation. Please be sure to enable s2Member's logging functionality and have something in your logs before opening a support ticket; i.e., reproduce the issue with logging enabled please._
 
 ## Configuration Issues and/or User Error
 
