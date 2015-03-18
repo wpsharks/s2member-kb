@@ -58,7 +58,7 @@ s2Member’s [Shortcodes](http://codex.wordpress.org/Shortcode_API) can be used 
 
 ### Example 1: Full access for anyone that is logged in:
 
-```html
+```bash
 [s2If is_user_logged_in()]
     Content for anyone that is logged in, regardless of their Membership Level.
 [/s2If]
@@ -73,7 +73,7 @@ s2Member’s [Shortcodes](http://codex.wordpress.org/Shortcode_API) can be used 
 
 ### Example 2: Full access for any Member with a Level >= 1:
 
-```html
+```bash
 [s2If current_user_can(access_s2member_level1)]
     Some content for Members who are logged in with an s2Member Level >= 1.
 [/s2If]
@@ -87,7 +87,7 @@ s2Member’s [Shortcodes](http://codex.wordpress.org/Shortcode_API) can be used 
 
 ### Example 3: Specific content for each different Member Level:
 
-```
+```bash
 [s2If current_user_is(s2member_level4)]
     Some premium content for Level 4 Members.
 [/s2If]
@@ -117,7 +117,7 @@ s2Member’s [Shortcodes](http://codex.wordpress.org/Shortcode_API) can be used 
 
 ### Example 4: Simple Conditionals w/ integrated use of `[s2Get /]`:
 
-```html
+```bash
 [s2If current_user_is(s2member_level1)]
     Content for Members at exactly Level# 1, on this Blog.
 [/s2If]
@@ -154,7 +154,7 @@ s2Member’s [Shortcodes](http://codex.wordpress.org/Shortcode_API) can be used 
 
 This example uses the [is_page()](http://codex.wordpress.org/Function_Reference/is_page) Conditional Tag in WordPress. In this example we only display content in this Text Widget to Members at Level 1 or higher—and only on a specific Page with the Slug: `members-only`. This example also demonstrates nested Shortcode Conditionals. Notice that NESTED Conditionals require a preceding underscore (i.e., `_s2If`, `__s2If`, `___s2If`). You can go up to three levels deep (e.g., `___s2If`).
 
-```html
+```bash
 [s2If is_page(members-only)]
 	[_s2If current_user_can(access_s2member_level1)]
 		We're on a specific Page of the site, with Slug: `members-only`.
@@ -171,7 +171,7 @@ _You can also accomplish this with the [Widget Logic](http://wordpress.org/exten
 
 This example uses the [is_page()](http://codex.wordpress.org/Function_Reference/is_page) Conditional Tag in WordPress (which accepts array values too). In this example we only display content in this Text Widget to Members at Level 1 or higher—and only on specific Pages (plural). This example also demonstrates nested Shortcode Conditionals. Notice that NESTED Conditionals require a preceding underscore (i.e., `_s2If`, `__s2If`, `___s2If`). You can go up to three levels deep (e.g., `___s2If`).
 
-```html
+```bash
 [s2If is_page({members-only,my-profile,123,994})]
 	[_s2If current_user_can(access_s2member_level1)]
 		We're on one of these pages: `members-only`, `my-profile`, Page ID `123` or `994`.
@@ -188,7 +188,7 @@ _You can also accomplish this with the [Widget Logic](http://wordpress.org/exten
 
 This example also demonstrates how to test for access to Custom Capabilities.
 
-```html
+```bash
 [s2If current_user_can(access_s2member_ccap_free_gift)]
     This Member can access Custom Capability: `free_gift`.
     Hi there [s2Get constant="S2MEMBER_CURRENT_USER_DISPLAY_NAME" /]!
@@ -325,7 +325,7 @@ s2Member supports ALL [Conditional Tags](http://codex.wordpress.org/Conditional_
 
 This example demonstrates nested Shortcode Conditionals. Notice that NESTED Conditionals require a preceding underscore (i.e., `_s2If`, `__s2If`, `___s2If`). You can go up to three levels deep (e.g., `___s2If`).
 
-```html
+```bash
 [s2If is_user_logged_in() AND current_user_is(s2member_level1)]
   [_s2If is_page(1) OR is_page(2)]
    Content appears here.
@@ -339,7 +339,7 @@ This example demonstrates nested Shortcode Conditionals. Notice that NESTED Cond
 
 Sometimes you might want to check for a condition, but if that condition is false, you want to do something else by default (thus, an `else` condition). This is a bit tricky if you're not already familar with conditional logic, but the example below should serve you well. To accomplish this with Simple Shortcode Conditionals you combine `[s2If][/s2If]` with a nested `[else]` tag.
 
-```html
+```bash
 [s2If current_user_can(access_s2member_ccap_music)]
 	Content for members with the Custom Capability: music
 	[else]
