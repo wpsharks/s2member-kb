@@ -18,7 +18,7 @@ https://www.youtube.com/watch?v=RDtW-czrdT8
 
 _**Important limitations:** Simple integration does NOT support recurring commission tracking or commission removal on refund/reversal events. Please use the “Advanced” integration instructions if you need things like this. “Advanced” integration is also more reliable overall (recommended)._
 
-For Simple integration, see: **Dashboard → s2Member → API / Tracking**. Here it is possible to provide HTML code snippets (or even PHP code snippets); which will be processed and displayed in key areas of your site whenever a new Membership Signup takes place. Or, when a Membership Modification takes place. There are also slots for things like Custom Capability Sales and Specific Post/Page Sales. Please be sure to cover all of these events (i.e., all possible transaction types). Here is a list of the snippets you will need to perform a “Simple” integration.
+For Simple integration, see: **Dashboard → s2Member → API / Tracking**. Here it is possible to provide HTML code snippets (or even PHP code snippets); which will be processed and displayed in key areas of your site whenever a new Membership Signup takes place. Or, when a Membership Modification takes place. There are also slots for things like Custom Capability Sales and Specific Post/Page Sales. Please be sure to cover all of these events (i.e., all possible transaction types). Here is a list of the instructions you will need to perform a “Simple” integration.
 
 ### Inside your iDevAffiliate Dashboard
 
@@ -30,7 +30,7 @@ Now (still in iDevAffiliate) please click “**View Integration Instructions**�
 
 ![](http://cdn.websharks-inc.com/s2member/uploads/3-15-2013-4-02-43-PM.png)
 
----
+### Example Code Snippets for Simple Integration
 
 See: **Dashboard → s2Member® → API / Tracking Codes → Signup Tracking Codes**
 
@@ -43,8 +43,6 @@ Relevant Replacement Codes:
 ```html
 <img src="http://www.example.com/idevaffiliate/sale.php?profile=xxx&idev_saleamt=%%initial%%&idev_ordernum=%%subscr_id%%" border="0" width="1" height="1" />
 ```
-
----
 
 See: **Dashboard → s2Member → API / Tracking Codes → Modification Tracking Codes**
 
@@ -104,6 +102,8 @@ Copy the URL (and only the URL please):
 
 Now, please take the URL provided by iDevAffiliate and add Replacement Codes made possible by s2Member. To save you some trouble we’ve provided some examples below, one for each important s2Member API Notification. Please follow these instructions carefully.
 
+### Example Code Snippets for Advanced Integration (Step 1)
+
 See: **Dashboard → s2Member → API / Notification → Payment Notification**
 
 Relevant Replacement Codes:
@@ -151,6 +151,8 @@ Choose: Remove/Decline A Commission
 Now, please take the URL provided by iDevAffiliate and add Replacement Codes made possible by s2Member®. To save you some trouble we’ve provided some examples below, one for each important s2Member API Notification. Please follow these instructions carefully.
 
 ![](http://cdn.websharks-inc.com/s2member/uploads/3-15-2013-3-53-34-PM.png)
+
+### Example Code Snippets for Advanced Integration (Step 2)
 
 See: **Dashboard → s2Member → API / Notification → Refund/Reversal**
 
