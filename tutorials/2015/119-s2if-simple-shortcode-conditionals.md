@@ -225,7 +225,9 @@ This example also demonstrates how to test for access to Custom Capabilities.
 
 ## s2Member Supports All WordPress Conditional Tags
 
-s2Member supports ALL [Conditional Tags](http://codex.wordpress.org/Conditional_Tags) in WordPress—plus a few extra variations that are made possible by s2Member. Including, but not limited to:
+s2Member supports ALL [Conditional Tags](http://codex.wordpress.org/Conditional_Tags) in WordPress—plus a few extra variations that are made possible by s2Member.
+
+**Including, but not limited to:**
 
 - `is_user_logged_in()`
 - `is_user_not_logged_in()`
@@ -286,15 +288,17 @@ s2Member supports ALL [Conditional Tags](http://codex.wordpress.org/Conditional_
 
 ## `[s2If /]` Tips & Tricks
 
-1. **True/false** example: `current_user_can()` or false `!current_user_can()` (i.e., the `!` tests for a false value).
-2. **False explicitly** example: `current_user_cannot()` This is a special addition provided by s2Member that makes false testing easier for some.
-3. **Passing an ID** example: `is_page(24)` For functions that require an argument in the form of an ID.
-4. **Passing a Slug** example: `is_page(my-cool-page)` For functions that require an argument in the form of a slug.
-5. **Passing an Array** example: `is_page({my-cool-page,24,about,contact-form})` (i.e., to pass an array of values, please use comma-delimitation).
+<div class="li-margins"></div>
+
+1. **True/false** example: `[s2If current_user_can()][/s2If]` or false `[s2If !current_user_can()][/s2If]` (i.e., the `!` tests for a false value).
+2. **False explicitly** example: `[s2If current_user_cannot()][/s2If]` This is a special addition provided by s2Member that makes false testing easier for some.
+3. **Passing an ID** example: `[s2If is_page(24)][/s2If]` For functions that require an argument in the form of an ID.
+4. **Passing a Slug** example: `[s2If is_page(my-cool-page)][/s2If]` For functions that require an argument in the form of a slug.
+5. **Passing an Array** example: `[s2If is_page({my-cool-page,24,about,contact-form})][/s2If]` (i.e., to pass an array of values, please use comma-delimitation).
 
 **Tip:** do NOT use spaces in your Simple Conditional arguments.
 
-- **INVALID:** `[s2If is_page(My Membership Options Page)]` _Use slugs or IDs instead, no spaces please—spaces will break the Shortcode parser._
+- **INVALID:** `[s2If is_page(My Membership Options Page)][/s2If]` _Use slugs or IDs instead, no spaces please—spaces will break the Shortcode parser._
 
 ---
 
@@ -302,7 +306,7 @@ s2Member supports ALL [Conditional Tags](http://codex.wordpress.org/Conditional_
 
 **Tip:** do NOT mix AND/OR expressions.
 
-- **INVALID:** `[s2If is_user_logged_in() AND is_page(1) OR is_page(2)]` _Use one or the other; do NOT mix AND/OR together. If you need to have both types of logic use nesting._
+- **INVALID:** `[s2If is_user_logged_in() AND is_page(1) OR is_page(2)][/s2If]` _Use one or the other; do NOT mix AND/OR together. If you need to have both types of logic use nesting._
 
 This example demonstrates nested Shortcode Conditionals. Notice that NESTED Conditionals require a preceding underscore (i.e., `_s2If`, `__s2If`, `___s2If`). You can go up to three levels deep (e.g., `___s2If`).
 
@@ -318,7 +322,7 @@ This example demonstrates nested Shortcode Conditionals. Notice that NESTED Cond
 
 ### Implementing an "else" Condition
 
-Sometimes you might want to check for a condition, but if that is false, you do something else by default (i.e., an `else` condition). This is a bit tricky if you're not already familar with conditional logic, but the example below should serve you well. To accomplish this with Simple Shortcode Conditionals you combine `[s2If /]` with a nested `[else]` tag.
+Sometimes you might want to check for a condition, but if that is false, you do something else by default (i.e., an `else` condition). This is a bit tricky if you're not already familar with conditional logic, but the example below should serve you well. To accomplish this with Simple Shortcode Conditionals you combine `[s2If][/s2If]` with a nested `[else]` tag.
 
 ```
 [s2If current_user_can(access_s2member_ccap_music)]
@@ -332,7 +336,7 @@ Sometimes you might want to check for a condition, but if that is false, you do 
 
 ## Straight-Up PHP Conditional Tags
 
-If you're a developer or a site owner and you already have experience with PHP tags, you might have noticed that all of these `[s2If /]` examples are relying upon PHP functions in the WordPress content management system. Understanding this, it becomes obvious that you could also bypass the use of `[s2If /]` in favor of regular PHP tags—if you wanted to. This can be easier in some cases, but really it's a personal preference :-)
+If you're a developer or a site owner and you already have experience with PHP tags, you might have noticed that all of these `[s2If][/s2If]` examples are relying upon PHP functions in the WordPress content management system. Understanding this, it becomes obvious that you could also bypass the use of `[s2If][/s2If]` in favor of regular PHP tags—if you wanted to. This can be easier in some cases, but really it's a personal preference :-)
 
 ```php
 <?php if(current_user_can('access_s2member_ccap_music')): ?>
