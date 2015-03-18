@@ -8,7 +8,7 @@ github-issue: https://github.com/websharks/s2member-kb/issues/81
 
 ## Is it Really a Bug?
 
-Here in the s2Member support department, we receive many bug reports that are difficult and/or impossible to reproduce on our side of things. A site owner will write to us and say, "feature X is not working as expected". One of our support reps. will follow-up by testing that specific feature, but the problem does exist on our side. Hmm... what gives? **How can that be?**
+Here in the s2Member support department, we receive many bug reports that are difficult and/or impossible to reproduce on our side of things. A site owner will write to us and say, _"feature X is not working as expected"_. One of our support reps. will follow-up by testing that specific feature, but the problem doesn't exist on our side. Hmm... what gives? **How can that be?**
 
 **Reason:** WordPress offers you lots of options! As a site owner you have the ability to mix s2Member with other plugins and a theme you like best. So the reason we are unable to reproduce the issue on our side? Your environment is slightly different than ours. Your WordPress installation has different plugins, it's had a different history, and it's probably running with a different theme too.
 
