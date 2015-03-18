@@ -286,30 +286,32 @@ s2Member supports ALL [Conditional Tags](http://codex.wordpress.org/Conditional_
 
 ---
 
-## `[s2If /]` Tips & Tricks
+## `[s2If /]` Advanced Tips & Tricks
 
 <div class="li-margins"></div>
 
-1. **True/false** example:
+- **True/false** example:
  - `[s2If current_user_can()][/s2If]`
  - or false `[s2If !current_user_can()][/s2If]`
    _i.e., the `!` tests for a false value._
-2. **False explicitly** example:
+- **False explicitly** example:
  - `[s2If current_user_cannot()][/s2If]`
    _This is a special addition provided by s2Member that makes false testing easier for some._
-3. **Passing an ID** example:
+- **Passing an ID** example:
  - `[s2If is_page(24)][/s2If]`
    _For functions that require an argument in the form of an ID._
-4. **Passing a Slug** example:
+- **Passing a Slug** example:
  - `[s2If is_page(my-cool-page)][/s2If]`
    _For functions that require an argument in the form of a slug._
-5. **Passing an Array** example:
+- **Passing an Array** example:
  - `[s2If is_page({my-cool-page,24,about,contact-form})][/s2If]`
    _i.e., to pass an array of values, please use comma-delimitation._
-
-- **Tip:** do _not_ use spaces in your Simple Conditional arguments. The following example is **INVALID:**
+- **Warning:** Do _not_ use spaces in your Simple Conditional arguments. The following example is **INVALID:**
  - `[s2If is_page(My Membership Options Page)][/s2If]`
    _Use slugs or IDs instead, no spaces please—spaces will break the Shortcode parser._
+- **Warning:** Do _not_ use double or single quotes around arguments. The following example is **INVALID:**
+  - `[s2If is_page('my-cool-page')][/s2If]`
+    _Using double or single quotes will break the shortcode parser._
 
 ---
 
@@ -359,4 +361,4 @@ If you're a developer and you already have experience with PHP tags, you might h
 <?php endif; ?>
 ```
 
-See also: [ezPHP for WordPress](https://wordpress.org/plugins/ezphp/) if you'd like to use PHP tags in WordPress Posts/Pages.
+**See also:** [ezPHP for WordPress](https://wordpress.org/plugins/ezphp/) if you'd like to use PHP tags in WordPress Posts/Pages.
