@@ -8,6 +8,8 @@ github-issue: https://github.com/websharks/s2member-kb/issues/128
 
 [iDevAffiliate®](http://s2member.com/r/idev/) (an affiliate management portal) installs in just minutes and it can be integrated seamlessly with s2Member. We recommend iDevAffiliate (Standard Edition is fine) because of its proven track record and its ability to integrate with s2Member using a variety of techniques.
 
+_**Tip:** Advanced Integration is suggested. See: [Advanced Integration Instructions](#-advanced) or watch the video._
+
 ---
 
 https://www.youtube.com/watch?v=RDtW-czrdT8
@@ -20,6 +22,8 @@ _**Important limitations:** Simple integration does NOT support recurring commis
 
 For Simple integration, see: **Dashboard → s2Member → API / Tracking**. Here it is possible to provide HTML code snippets (or even PHP code snippets); which will be processed and displayed in key areas of your site whenever a new Membership Signup takes place. Or, when a Membership Modification takes place. There are also slots for things like Custom Capability Sales and Specific Post/Page Sales. Please be sure to cover all of these events (i.e., all possible transaction types). Here is a list of the instructions you will need to perform a “Simple” integration.
 
+---
+
 ### Inside your iDevAffiliate Dashboard
 
 You will need to run your iDevAffiliate → Shopping Cart Integration Wizard. Please choose s2Member from the drop-down menu (or you can also use the Generic Tracking Pixel—that’s fine too).
@@ -29,6 +33,8 @@ You will need to run your iDevAffiliate → Shopping Cart Integration Wizard. Pl
 Now (still in iDevAffiliate) please click “**View Integration Instructions**“ and grab your Hidden Image Tag. Take the code provided by iDevAffiliate and add Replacement Codes to your Hidden Image Tag. To save you some trouble, we’ve provided some examples below, one for each s2Member transaction type.
 
 ![](http://cdn.websharks-inc.com/s2member/uploads/3-15-2013-4-02-43-PM.png)
+
+---
 
 ### Example Code Snippets for Simple Integration
 
@@ -82,9 +88,11 @@ Relevant Replacement Codes:
 
 ---
 
-## Advanced (and Recurring) Integration
+## Advanced (and Recurring) Integration {#-advanced}
 
 It’s really not so hard; it’s just a little more sophisticated. The “Advanced” integration method uses s2Member’s event-driven API Notifications instead of it’s API Tracking Codes. s2Member’s API Notifications are event driven HTTP connections that occur silently behind-the-scene. Since they do _not_ depend upon a browser they are much more reliable. Everything is handled server-side. We don’t need to rely on cookie tracking, or on a browser loading up a 1px IMG tag properly. This “Advanced” method takes care of everything. You will _not_ need to perform a “Simple” integration (nor should you). That would only result in duplicate commission tracking. Please stick with one method of integration or the other. Please do _not_ try to mix these two methods together in any way.
+
+---
 
 ### Step 1: Configuring Payment Notifications
 
@@ -101,6 +109,8 @@ Copy the URL (and only the URL please):
 ![](http://cdn.websharks-inc.com/s2member/uploads/3-15-2013-3-57-43-PM.png)
 
 Now, please take the URL provided by iDevAffiliate and add Replacement Codes made possible by s2Member. To save you some trouble we’ve provided some examples below, one for each important s2Member API Notification. Please follow these instructions carefully.
+
+---
 
 ### Example Code Snippets for Advanced Integration (Step 1)
 
@@ -138,6 +148,8 @@ Place this URL (all on one line); as a URL that s2Member should notify when a Sp
 http://www.example.com/idevaffiliate/sale.php?idev_saleamt=%%amount%%&idev_ordernum=%%txn_id%%&idev_option_1=%%item_name%%&idev_option_2=%%txn_id%%&idev_option_3=%%cv0%%&ip_address=%%user_ip%%
 ```
 
+---
+
 ### Step 2: Configuring Commission Terminations
 
 Log into your iDevAffiliate Dashboard and go to: **Setup & Tools → Advanced Developer Tools → API Scripts**
@@ -151,6 +163,8 @@ Choose: Remove/Decline A Commission
 Now, please take the URL provided by iDevAffiliate and add Replacement Codes made possible by s2Member®. To save you some trouble we’ve provided some examples below, one for each important s2Member API Notification. Please follow these instructions carefully.
 
 ![](http://cdn.websharks-inc.com/s2member/uploads/3-15-2013-3-53-34-PM.png)
+
+---
 
 ### Example Code Snippets for Advanced Integration (Step 2)
 
