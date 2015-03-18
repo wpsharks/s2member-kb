@@ -14,9 +14,11 @@ Understanding this, we can see it becomes important for s2Member to provide info
 
 For further details on this feature and a few examples of its use, please check your Dashboard under: **s2Member → API / Scripting → Membership Options Page / Variables**
 
+---
+
 ## Introducing the `[s2MOP /]` Shortcode
 
-Up until now, using s2Member’s MOP Vars in any meaningful way required the use of PHP tags and some knowledge of web programming and query string data. These things are not super complex, but now the `[s2MOP]` Shortcode** makes it easy for _anyone_ to implement messages based on this data in a variety of ways. You could even wrap the `[s2MOP /]` shortcode with [s2If Conditionals](https://github.com/websharks/s2member-kb/issues/119) :-)
+Up until now, using s2Member’s MOP Vars in any meaningful way required the use of PHP tags and some knowledge of web programming and query string data. These things are not super complex, but now the `[s2MOP /]` Shortcode makes it easy for _anyone_ to implement messages based on this data in a variety of ways. You could even wrap the `[s2MOP /]` shortcode with [Simple Shortcode Conditionals](https://github.com/websharks/s2member-kb/issues/119) :-)
 
 The `[s2MOP /]` shortcode is optional of course, but for those of you who would like to greet potential customers with a message (one that can also be quite specific)—this is for you! When a visitor is redirected away from members-only content and over to your Membership Options Page, the `[s2MOP /]` shortcode can be used to display a message for them. This can help to avoid confusion, and it may also impress your visitors; thereby building confidence in your site, products and/or services.
 
@@ -99,6 +101,8 @@ _**NOTE:** the message you define is only displayed on your Membership Options P
 -   `%%POST_EXCERPT%%` – If used, will be replaced with an excerpt of the post the visitor is attempting to access. If no excerpt is set, one will be generated using the first 55 words (configurable via `excerpt_length`; see the [WordPress Codex](https://codex.wordpress.org/Plugin_API/Filter_Reference/excerpt_length)). Note that you may want to surround this replacement tag with `[s2If has_excerpt()][/s2If]` to prevent the raw replacement tag from appearing when the restricted content doesn’t support excerpts. (See [Simple Shortcode Conditionals](https://github.com/websharks/s2member-kb/issues/119).)
 -   `%%PAGE_TITLE%%` – If used, will be replaced with the title of the Page the visitor is attempting to access.
 
+---
+
 ## s2Member MOP Vars (Explained)
 
 See also: **Dashboard → API / Scripting → Membership Options Page / Variables**
@@ -161,6 +165,8 @@ Here is a breakdown that explains each of the values:
 
 * The use of MOP Vars is 100% completely optional (for advanced site owners).
 ```
+
+---
 
 ## PHP Example Code (For Developers Choosing NOT to use the Shortcode)
 
