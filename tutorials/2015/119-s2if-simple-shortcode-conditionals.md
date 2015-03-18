@@ -8,7 +8,7 @@ github-issue: https://github.com/websharks/s2member-kb/issues/119
 
 ## A Quick Overview of Conditionals
 
-s2Member makes it very simple to protect entire Posts/Pages/Categories/Tags/URIs/etc. This can be accomplished from inside WordPress. See: **Dashboard → s2Member → Restriction Options**. Or, from your Post/Page editing station in WordPress. We consider this to be point-and-click functionality. Very easy.
+s2Member makes it very simple to protect entire Posts/Pages/Categories/Tags/URIs/etc. This can be accomplished from inside WordPress. See: **Dashboard → s2Member → Restriction Options**. Or, from your Post/Page editing station in WordPress. This to be point-and-click functionality.
 
 **What many site owners don’t realize though**, is that s2Member _also_ makes it easy to protect “parts” of a Post or Page. You can even get creative about what you display to certain members, based on custom criteria. s2Member’s **Simple Shortcode Conditionals** are the key to accomplishing this. In fact, to say that s2Member can merely protect “parts” of a Post/Page is an understatement. With s2Member’s **Simple Shortcode Conditionals** you can not only protect parts of your content, you can also deal with other kinds of conditions; making these a vital part of a successful membership site.
 
@@ -337,7 +337,7 @@ This example demonstrates nested Shortcode Conditionals. Notice that NESTED Cond
 
 ### Implementing an "else" Condition
 
-Sometimes you might want to check for a condition, but if that is false, you do something else by default (i.e., an `else` condition). This is a bit tricky if you're not already familar with conditional logic, but the example below should serve you well. To accomplish this with Simple Shortcode Conditionals you combine `[s2If][/s2If]` with a nested `[else]` tag.
+Sometimes you might want to check for a condition, but if that condition is false, you want to do something else by default (thus, an `else` condition). This is a bit tricky if you're not already familar with conditional logic, but the example below should serve you well. To accomplish this with Simple Shortcode Conditionals you combine `[s2If][/s2If]` with a nested `[else]` tag.
 
 ```html
 [s2If current_user_can(access_s2member_ccap_music)]
