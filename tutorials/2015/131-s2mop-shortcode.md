@@ -8,11 +8,11 @@ github-issue: https://github.com/websharks/s2member-kb/issues/131
 
 There is a new s2Member Pro Shortcode that can be used to enhance your Membership Options Page (i.e., the page in s2Member where you list membership options).
 
-Your Membership Options Page is also the page where people without access to certain areas of your site are redirected to; e.g., when a visitor tries to access members-only content, but they are not yet a member. Or, perhaps they are, but they don’t yet have a membership which allows access to something available only at a higher Membership Level. So, your Membership Options Page is a key element of your site. It serves as the focal point of your s2Member installation.
+Your Membership Options Page (in the context of s2Member) is also the page where people without access to certain areas of your site are redirected to; e.g., when a visitor tries to access members-only content, but they are not yet a member. Or, perhaps they are a member, but they don’t yet have a membership which allows access to something available only at a higher Membership Level. So, your Membership Options Page is a key element. In fact, it serves as the focal point of your s2Member installation.
 
 Understanding this, we can see it becomes important for s2Member to provide information about what the visitor was attempting to access, before they were redirected to the Membership Options Page. This is where s2Member’s MOP Vars come in (i.e., Membership Options Page Variables). Whenever s2Member redirects a visitor to your Membership Options Page it will include some important MOP Vars in the query string of the URL. These variables can be used to provide more informative messages, or even to provide a different set of Membership Options (i.e., Payment Buttons or a Pro-Form) based on what a visitor was attempting to access.
 
-For further details on this feature and a few examples of its use, please check your Dashboard under: **s2Member → API / Scripting → Membership Options Page / Variables**
+For further details, please see: **s2Member → API / Scripting → Membership Options Page / Variables**
 
 ---
 
@@ -44,29 +44,11 @@ _**NOTE:** the message you define is only displayed on your Membership Options P
 
 ```html
 [s2MOP]You were trying to access a protected: %%SEEKING_TYPE%%[/s2MOP]
-```
-
-```html
 [s2MOP]You were trying to access content that requires a %%REQUIRED_TYPE%% that you don't have.[/s2MOP]
-```
-
-```html
 [s2MOP]You were trying to access content protected via %%RESTRICTION_TYPE%% restrictions[/s2MOP]
-```
-
-```html
 [s2MOP seeking_type="post" required_type="level" restriction_type="post"]You were trying to access a restricted post with Post ID %%SEEKING_POST_ID%% which requires that you be a Member at Level #%%REQUIRED_LEVEL%%[/s2MOP]
-```
-
-```html
 [s2MOP required_type="level"]"%%POST_TITLE%%" is a protected %%SEEKING_TYPE%% that requires Membership Level %%REQUIRED_LEVEL%%[/s2MOP]
-```
-
-```html
 [s2MOP required_type="level" required_value="0|1"]You were trying to access a Post that requires Level <code>0</code> or <code>1</code>[/s2MOP]
-```
-
-```html
 [s2MOP required_type="ccap" required_value="free_gift"]This content required a Custom Capability called <code>free_gift</code>[/s2MOP]
 ```
 
