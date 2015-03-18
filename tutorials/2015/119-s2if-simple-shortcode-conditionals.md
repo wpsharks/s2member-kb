@@ -292,18 +292,24 @@ s2Member supports ALL [Conditional Tags](http://codex.wordpress.org/Conditional_
 
 1. **True/false** example:
  - `[s2If current_user_can()][/s2If]`
- - or false `[s2If !current_user_can()][/s2If]` (i.e., the `!` tests for a false value).
+ - or false `[s2If !current_user_can()][/s2If]`
+   _i.e., the `!` tests for a false value._
 2. **False explicitly** example:
- - `[s2If current_user_cannot()][/s2If]` This is a special addition provided by s2Member that makes false testing easier for some.
+ - `[s2If current_user_cannot()][/s2If]`
+   _This is a special addition provided by s2Member that makes false testing easier for some._
 3. **Passing an ID** example:
- - `[s2If is_page(24)][/s2If]` For functions that require an argument in the form of an ID.
+ - `[s2If is_page(24)][/s2If]`
+   _For functions that require an argument in the form of an ID._
 4. **Passing a Slug** example:
- - `[s2If is_page(my-cool-page)][/s2If]` For functions that require an argument in the form of a slug.
+ - `[s2If is_page(my-cool-page)][/s2If]`
+   _For functions that require an argument in the form of a slug._
 5. **Passing an Array** example:
- - `[s2If is_page({my-cool-page,24,about,contact-form})][/s2If]` (i.e., to pass an array of values, please use comma-delimitation).
+ - `[s2If is_page({my-cool-page,24,about,contact-form})][/s2If]`
+   _i.e., to pass an array of values, please use comma-delimitation._
 
 - **Tip:** do _not_ use spaces in your Simple Conditional arguments. The following example is **INVALID:**
- - `[s2If is_page(My Membership Options Page)][/s2If]` _Use slugs or IDs instead, no spaces please—spaces will break the Shortcode parser._
+ - `[s2If is_page(My Membership Options Page)][/s2If]`
+   _Use slugs or IDs instead, no spaces please—spaces will break the Shortcode parser._
 
 ---
 
@@ -311,8 +317,9 @@ s2Member supports ALL [Conditional Tags](http://codex.wordpress.org/Conditional_
 
 **Tip:** do _not_ mix AND/OR expressions together in a single expression.
 
-- The following example is **INVALID:*
- - `[s2If is_user_logged_in() AND is_page(1) OR is_page(2)][/s2If]` _Use one or the other; do not mix AND/OR together. If you need to have both types of logic use nesting._
+- The following example is **INVALID:**
+ - `[s2If is_user_logged_in() AND is_page(1) OR is_page(2)][/s2If]`
+   _Use one or the other; do not mix AND/OR together. If you need to have both types of logic use nesting._
 
     This example demonstrates nested Shortcode Conditionals. Notice that NESTED Conditionals require a preceding underscore (i.e., `_s2If`, `__s2If`, `___s2If`). You can go up to three levels deep (e.g., `___s2If`).
 
@@ -342,7 +349,7 @@ Sometimes you might want to check for a condition, but if that is false, you do 
 
 ## Straight-Up PHP Conditional Tags (e.g., `<?php if(): ?>`)
 
-If you're a developer or a site owner and you already have experience with PHP tags, you might have noticed that all of these `[s2If][/s2If]` examples are relying upon PHP functions in the WordPress content management system. Understanding this, it becomes obvious that you could also bypass the use of `[s2If][/s2If]` in favor of regular PHP tags—if you wanted to. This can be easier in some cases, but really it's a personal preference :-)
+If you're a developer and you already have experience with PHP tags, you might have noticed that all of these `[s2If][/s2If]` examples are relying upon PHP functions in the WordPress content management system. Understanding this, it becomes obvious that you could also bypass the use of `[s2If][/s2If]` in favor of regular PHP tags—if you wanted to. This can be easier in some cases, but really it's a personal preference :-)
 
 ```php
 <?php if(current_user_can('access_s2member_ccap_music')): ?>
