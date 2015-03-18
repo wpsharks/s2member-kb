@@ -6,6 +6,8 @@ author: jaswsinc
 github-issue: https://github.com/websharks/s2member-kb/issues/123
 ---
 
+---
+
 ## `[s2Member-List /]` Shortcode Examples
 
 ### Display All Users; 25 Users Per Page (Default)
@@ -84,6 +86,8 @@ _This assumes the Super Admin is user ID `1`. That may not always be the case. P
 
 _To learn more about `[s2If /]`, see: [Simple Shortcode Conditionals](https://github.com/websharks/s2member-kb/issues/119)_
 
+---
+
 ## Optional Shortcode Attributes (Documentation)
 
 ### These Attributes Impact the User Query (i.e. the Search Itself)
@@ -102,6 +106,8 @@ _To learn more about `[s2If /]`, see: [Simple Shortcode Conditionals](https://gi
 -   `orderby` Optional. Defaults to `registered`. Sort by `ID`, `login`, `nicename`, `email`, `url`, `registered`, `display_name`, or `post_count`.
 -   `limit` Optional. Defaults to `25` results per page.
 
+---
+
 ### These Attributes Control Output Display (i.e., the Template)
 
 <div class="li-margins"></div>
@@ -117,10 +123,12 @@ _To learn more about `[s2If /]`, see: [Simple Shortcode Conditionals](https://gi
   
   **TIP `show_fields`:** By default, each field’s label is generically constructed from the field’s ID. However, you can customize the field labels (optionally) using a special `:` colon-delimited format as follows: `show_fields="Field Label 1:field_id1,Field Label 2:field_id2"`. This produces a table with the following format:
   
-     `Field Label 1`       |     `Field Label 2`
-  -----------------------  |  ---------------------
-   `[value for field_id1]` | `[value for field_id2]`
+  |      `Field Label 1`     |     `Field Label 2`     |
+  |  ----------------------- |  ---------------------  |
+  |  `[value for field_id1]` | `[value for field_id2]` |
 -   `template` Optional. If you would like to use a custom template file for the final output display, you can specify a file path relative to `WP_CONTENT_DIR` here. Please grab the default template file and make a copy to work from. Put your copy somewhere in the `WP_CONTENT_DIR`. See `s2member-pro/includes/templates/members/member-list.php`
+
+---
 
 ### This Attribute Enables Search Box Functionality
 
@@ -135,6 +143,8 @@ _To learn more about `[s2If /]`, see: [Simple Shortcode Conditionals](https://gi
     -   `action` Optional, defaults to `""` (i.e., an empty string); which will work just fine if your list of members is on the same page as your search box. This correlates with the `<form action="">` used by the search box. If your search box is located on a different page set `action="http://example/path/to/my/list/of/members"`; i.e., the URL to a page where an `[s2Member-List enable_list_search="yes" /]` shortcode is being used.
     -   `placeholder` Optional, defaults to `Search users…`. If you would like to change the default watermark that appears inside the search box set this to whatever you like better.
     -   `template` Optional. If you would like to use a custom template file for the search box markup, you can specify a file path relative to `WP_CONTENT_DIR` here. Please grab the default template file and make a copy to work from. Put your copy somewhere in the `WP_CONTENT_DIR`. See `s2member-pro/includes/templates/members/member-list-search-box.php`
+
+---
 
 ### These Attributes are Rarely Used (i.e., for Advanced Site Owners)
 
