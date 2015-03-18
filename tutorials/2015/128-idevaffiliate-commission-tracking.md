@@ -6,11 +6,15 @@ author: jaswsinc
 github-issue: https://github.com/websharks/s2member-kb/issues/128
 ---
 
-[iDevAffiliate®](http://s2member.com/r/idev/) (an affiliate management portal) installs in just minutes and it can be integrated seamlessly with s2Member. We recommend iDevAffiliate (Standard Edition is fine) because of its proven track record and its ability to integrate with s2Member using a variety of techniques. The most popular being a Hidden Image Tag (aka: **Simple Integration**).
+[iDevAffiliate®](http://s2member.com/r/idev/) (an affiliate management portal) installs in just minutes and it can be integrated seamlessly with s2Member. We recommend iDevAffiliate (Standard Edition is fine) because of its proven track record and its ability to integrate with s2Member using a variety of techniques.
+
+---
 
 https://www.youtube.com/watch?v=RDtW-czrdT8
 
-## Simple iDevAffiliate Integration
+---
+
+## Simple iDevAffiliate Integration (Has Limitations)
 
 _**Important limitations:** Simple integration does NOT support recurring commission tracking or commission removal on refund/reversal events. Please use the “Advanced” integration instructions if you need things like this. “Advanced” integration is also more reliable overall (recommended)._
 
@@ -77,6 +81,8 @@ Relevant Replacement Codes:
 ```html
 <img src="http://www.example.com/idevaffiliate/sale.php?profile=xxx&idev_saleamt=%%amount%%&idev_ordernum=%%txn_id%%" border="0" width="1" height="1" />
 ```
+
+---
 
 ## Advanced (and Recurring) Integration
 
