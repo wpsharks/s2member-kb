@@ -4,6 +4,7 @@ categories: questions
 tags: rtmp, jw-player, download-options, s2stream
 author: raamdev
 github-issue: https://github.com/websharks/s2member-kb/issues/89
+toc-enable: false
 ---
 
 No, the iOS operating system, which both iPads and iPhones use, is unable to play RTMP streams.
@@ -12,5 +13,5 @@ The problem is that HTML5 video tags do not support RTMP. Therefore, Flash is re
 
 If you want iPads and iPhones to play audio/video when using RTMP streams with JW Player, you'll need to configure fallback options that will use an MP4 or MP3 file as a fallback option when RTMP streaming is not supported.
 
-Please see the fallback examples in your Dashboard:
-**s2Member ⥱ Download Options ⥱ JW Player v6 & RTMP Protocol Examples**
+Please see the fallback examples here:
+**Dashboard → s2Member ⥱ Download Options ⥱ JW Player v6 & RTMP Protocol Examples**
