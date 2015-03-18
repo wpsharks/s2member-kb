@@ -28,7 +28,7 @@ The `[s2MOP /]` Shortcode can be called upon using `[s2MOP][/s2MOP]` or `[s2MOPN
 
 ### Example `[s2MOP /]` Shortcode
 
-##### The easiest way to use the s2MOP Shortcode
+#### The easiest way to use the s2MOP Shortcode
 
 _This goes at the top of your Membership Options Page, using the WordPress editor._
 
