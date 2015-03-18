@@ -32,9 +32,7 @@ _**Tip:** One of the most compelling reasons to upgrade to s2Member Pro is so th
 
 Increased conversion rates is at the top of the list though. In the free version of s2Member all customers use PayPal, when in fact there are many people that prefer to pay with a credit card on your site instead of being sent to PayPal. With s2Member Pro-Forms you’re keeping customers on your site throughout the entire checkout process. You can control the surrounding elements on the page, the flow of events, and do a better job at building confidence in your products/services. Customers can pay with any major credit card, or if they _prefer_ to pay with PayPal they can do that too!
 
-So, Pro-Forms improve sales volume and they offer a lot of added flexibility. s2Member Pro-Form Shortcodes make this very easy. With Stripe, PayPal Pro, and/or Authorize.Net Pro-Forms (remember, Pro-Forms come with [s2Member Pro](http://s2member.com/pro/)) you can support on-site credit card processing for Visa, MasterCard, American Express and Discover.
-
-If you decide to go with PayPal Pro you can also accept Maestro, Solo (from UK customers) and PayPal Express Checkout; i.e., for customers around the world that _prefer_ to pay with PayPal. If you integrate with Stripe™ you can accept all major credit cards and now Bitcoin too! This is becoming very popular.
+So, Pro-Forms improve sales volume and they offer a lot of added flexibility. s2Member Pro-Form Shortcodes make this very easy. With Stripe, PayPal Pro, and/or Authorize.Net Pro-Forms (remember, Pro-Forms come with [s2Member Pro](http://s2member.com/pro/)) you can support on-site credit card processing for Visa, MasterCard, American Express and Discover. If you decide to go with PayPal Pro you can also accept Maestro, Solo (from UK customers) and PayPal Express Checkout; i.e., for customers around the world that _prefer_ to pay with PayPal. If you integrate with Stripe™ you can accept all major credit cards and now Bitcoin too! This is becoming very popular.
 
 ---
 
@@ -46,21 +44,21 @@ So Pro-Forms are integrated with easy-to-use [WordPress Shortcodes](http://codex
 
 ---
 
-### Generating A Pro-Form Shortcode
+### Generating A Pro-Form Shortcode {.text-center}
 
-![](https://www.filepicker.io/api/file/RFycel8uTrlK2aZPlj9J#.png)
-
----
-
-### Pasting It Into A WordPress Post or Page
-
-![](https://www.filepicker.io/api/file/onOmdLTHScKV2E4vHFrw#.png)
+![](https://www.filepicker.io/api/file/RFycel8uTrlK2aZPlj9J#.png) {.aligncenter .fancy-image}
 
 ---
 
-### Voila! You Now Have On-Site Credit Card Processing
+### Pasting It Into A WordPress Post or Page {.text-center}
 
-![](https://www.filepicker.io/api/file/AsE8hvunTmmWFZFi2Uh4#.png)
+![](https://www.filepicker.io/api/file/onOmdLTHScKV2E4vHFrw#.png) {.aligncenter .fancy-image}
+
+---
+
+### Voila! You Now Have On-Site Credit Card Processing {.text-center}
+
+![](https://www.filepicker.io/api/file/AsE8hvunTmmWFZFi2Uh4#.png) {.aligncenter .fancy-image}
 
 ---
 
