@@ -12,7 +12,7 @@ The `[s2Member-List /]` shortcodes makes it possible for site owners to build a 
 
 ## `[s2Member-List /]` Shortcode Examples
 
---
+---
 
 ### Display All Users; 25 Users Per Page (Default)
 
