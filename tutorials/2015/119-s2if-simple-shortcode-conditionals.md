@@ -308,7 +308,7 @@ s2Member supports ALL [Conditional Tags](http://codex.wordpress.org/Conditional_
    _i.e., to pass an array of values, please use comma-delimitation._
 - **Warning:** Do _not_ use spaces in your Simple Conditional arguments. The following example is **INVALID:**
  - `[s2If is_page(My Membership Options Page)][/s2If]`
-   _Use slugs or IDs instead, no spaces please—spaces will break the Shortcode parser._
+   _Use slugs or IDs instead, no spaces please—spaces will break the shortcode parser._
 - **Warning:** Do _not_ use double or single quotes around arguments. The following example is **INVALID:**
   - `[s2If is_page('my-cool-page')][/s2If]`
     _Using double or single quotes will break the shortcode parser._
