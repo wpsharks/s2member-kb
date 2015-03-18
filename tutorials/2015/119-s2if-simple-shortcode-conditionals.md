@@ -163,7 +163,7 @@ This example uses the [is_page()](http://codex.wordpress.org/Function_Reference/
 [/s2If]
 ```
 
-_You can also accomplish this with the [Widget Logic](http://wordpress.org/extend/plugins/widget-logic/) plugin (compatible with s2Member). However, the syntax is slightly different; it uses 100% PHP syntax. See also: [Menu Items Visibility Control](http://wordpress.org/extend/plugins/menu-items-visibility-control/)_
+_You can also accomplish this with the [Widget Logic](http://wordpress.org/extend/plugins/widget-logic/) plugin (compatible with s2Member). However, the syntax is slightly different; it uses 100% PHP syntax. See also: [Menu Items Visibility Control](http://wordpress.org/extend/plugins/menu-items-visibility-control/) if you'd like more control over menu items._
 
 ---
 
@@ -180,7 +180,7 @@ This example uses the [is_page()](http://codex.wordpress.org/Function_Reference/
 [/s2If]
 ```
 
-_You can also accomplish this with the [Widget Logic](http://wordpress.org/extend/plugins/widget-logic/) plugin (compatible with s2Member). However, the syntax is slightly different; it uses 100% PHP syntax. See also: [Menu Items Visibility Control](http://wordpress.org/extend/plugins/menu-items-visibility-control/)_
+_You can also accomplish this with the [Widget Logic](http://wordpress.org/extend/plugins/widget-logic/) plugin (compatible with s2Member). However, the syntax is slightly different; it uses 100% PHP syntax. See also: [Menu Items Visibility Control](http://wordpress.org/extend/plugins/menu-items-visibility-control/) if you'd like more control over menu items._
 
 ---
 
