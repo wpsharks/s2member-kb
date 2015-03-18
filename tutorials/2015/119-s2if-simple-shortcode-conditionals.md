@@ -10,7 +10,7 @@ github-issue: https://github.com/websharks/s2member-kb/issues/119
 
 s2Member makes it very simple to protect entire Posts/Pages/Categories/Tags/URIs/etc. This can be accomplished from inside WordPress. See: **Dashboard → s2Member → Restriction Options**. Or, from your Post/Page editing station in WordPress. We consider this to be point-and-click functionality. Very easy.
 
-**What many site owners don’t realize though**, is that s2Member _also_ makes it easy to protect “parts” of a Post or Page. You can even get creative about what you display to certain Users/Members, based upon your own custom criteria. s2Member’s **Simple Shortcode Conditionals** are the key to accomplishing this. In fact, to say that s2Member can merely protect “parts” of a Post or Page is an understatement. With s2Member’s **Simple Shortcode Conditionals** you can not only protect parts of your content, you can also deal with other kinds of conditions; making these a vital part of a successful membership site.
+**What many site owners don’t realize though**, is that s2Member _also_ makes it easy to protect “parts” of a Post or Page. You can even get creative about what you display to certain members, based on custom criteria. s2Member’s **Simple Shortcode Conditionals** are the key to accomplishing this. In fact, to say that s2Member can merely protect “parts” of a Post/Page is an understatement. With s2Member’s **Simple Shortcode Conditionals** you can not only protect parts of your content, you can also deal with other kinds of conditions; making these a vital part of a successful membership site.
 
 ---
 
@@ -323,15 +323,15 @@ s2Member supports ALL [Conditional Tags](http://codex.wordpress.org/Conditional_
  - `[s2If is_user_logged_in() AND is_page(1) OR is_page(2)][/s2If]`
    _Use one or the other; do not mix AND/OR together. If you need to have both types of logic use nesting._
 
-    This example demonstrates nested Shortcode Conditionals. Notice that NESTED Conditionals require a preceding underscore (i.e., `_s2If`, `__s2If`, `___s2If`). You can go up to three levels deep (e.g., `___s2If`).
+This example demonstrates nested Shortcode Conditionals. Notice that NESTED Conditionals require a preceding underscore (i.e., `_s2If`, `__s2If`, `___s2If`). You can go up to three levels deep (e.g., `___s2If`).
 
-    ```html
-    [s2If is_user_logged_in() AND current_user_is(s2member_level1)]
-      [_s2If is_page(1) OR is_page(2)]
-      	Content appears here.
-      [/_s2If]
-    [/s2If]
-    ```
+```html
+[s2If is_user_logged_in() AND current_user_is(s2member_level1)]
+  [_s2If is_page(1) OR is_page(2)]
+   Content appears here.
+  [/_s2If]
+[/s2If]
+```
 
 ---
 
