@@ -136,6 +136,8 @@ Having said that, some site owners have asked if it’s possible to get even mor
 
 ### Pro-Forms Come In Many Flavors
 
+---
+
 #### Stripe™ Pro-Forms
 
 - **One-Step Free Registration Forms** provide access to any Membership Level or Custom Capability package. Free Registration can also be set to self-expire any trial access granted by these forms. You can use this Pro-Form even if you don't integrate payment gateway details.
