@@ -144,7 +144,7 @@ Having said that, some site owners have asked if it’s possible to get even mor
 - **One-Step Custom Capability “Buy Now” Forms** sell Independent Custom Capabilities to new and/or existing customers wanting more.
 - **One-Step Billing Information Update Forms** let your customers update their billing information to prevent things like credit card expirations.
 - **One-Step Billing Cancellation Forms** give your customers the ability to cancel any future recurring charges.
-- **One-Step Specific Post/Page “Buy Now” Forms** sell Specific Posts or Pages to new and/or existing customers. Membership _not_ required for these.
+- **One-Step Specific Post/Page “Buy Now” Forms** sell Specific Posts or Pages to new and/or existing customers. Membership _not_ required for these; i.e., you can sell access to a Post/Page and the customer does not need to have a username or log into your site.
 
 ---
 
