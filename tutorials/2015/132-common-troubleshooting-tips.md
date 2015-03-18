@@ -33,7 +33,7 @@ If you test in a clean installation of WordPress and the problem does _not_ exis
 **Note:** Reproducing a theme or plugin conflict is 90% of the work involved in resolving such a conflict. Identifying the conflicting theme or plugin will give you a few options:
 
 - Look carefully at the configuration of a conflicting theme or plugin. Are there any config. changes you can make that might resolve the conflict? Either in the conflicting theme/plugin, or in s2Member itself?
-- Is there another plugin that offers similar functionality, but perhaps does _not_ introduce a conflict; i.e., it works without causing the problem you experienced?
+- Is there another plugin that offers similar functionality, but perhaps does _not_ introduce a conflict?
 - Have you contacted the s2Member developers and also the developers of the conflicting plugin to ask questions?
 
 ## Outdated s2Member (or s2Member Pro) Installation
@@ -44,6 +44,14 @@ For this reason, and, so that everyone is on the same page, we ask that you upda
 
 - Please see: [Update Instructions](http://s2member.com/updating/)
 - See also: [s2Member Unified Changelog](http://s2member.com/changelog/) for further details.
+- 
+## Log Files (i.e., Using s2Member's Built-in Debugger)
+
+Please see: **s2Member ⥱ Log Files (Debug) ⥱ Logging Configuration**
+
+It's always a good idea to enable s2Member's logging functionality and review log file entries on your own. s2Member's log files can help you learn more about what is going on behind-the-scenes. For instance, are emails not being sent? Are customers not being upgraded to a paid status? Things like this are often caused by HTTP communication failure that occurs behind-the-scenes. s2Member's log files will tell you more about these types of problems.
+
+_**Note:** s2Member support representatives may ask for log files so they can be reviewed carefully during an investigation that is related to a bug that you report. So please be sure to enable s2Member's logging functionality and have something in your logs before opening a support ticket._
 
 ## Configuration Issues and/or User Error
 
