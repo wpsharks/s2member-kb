@@ -8,7 +8,7 @@ github-issue: https://github.com/websharks/s2member-kb/issues/130
 
 s2Member comes with the `[s2Get /]` shortcode and also with an API Function `get_user_field()` for use in PHP template files. Both of these do much the same thing, so I’m going to discuss them both together.
 
-The `[s2Get /]` shortcode is actually powered by the `get_user_field()` API Function. Both of these tools are used to retrieve details about a specific user. For instance, you might need to display a user’s first or last name, their email address, or another custom field that you’ve added with s2Member. Both `[s2Get /]` and `get_user_field()` are great for this! _The `[s2Get /]` shortcode can also be used to retrieve site-specific configuration details too; see example of `[s2Get constant="" /]` at the bottom of this article._
+The `[s2Get /]` shortcode is actually powered by `get_user_field()`. Both of these tools are used to retrieve details about a specific user. For instance, you might need to display a user’s first or last name, their email address, or another custom field that you’ve added with s2Member. Both `[s2Get /]` and `get_user_field()` are great for this! _The `[s2Get /]` shortcode can also be used to retrieve site-specific configuration details too; see example of `[s2Get constant="" /]` at the bottom of this article._
 
 ---
 
