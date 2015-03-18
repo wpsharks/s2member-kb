@@ -30,7 +30,7 @@ See also: [Common Troubleshooting Tips](https://github.com/websharks/s2member-kb
 
 ## Our Support Policy
 
-Support policy: <http://www.s2member.com/support/>
+Support policy: <http://s2member.com/support/>
 
 > We will NOT provide support and/or troubleshooting assistance for any Product which has been integrated with another 3rd-party theme or plugin. If you discover a bug, or an inconsistent behavior with a Product which is integrated into a mixture of other themes/plugins for WordPress®, we ask that you start by disabling all other plugins and revert to the default theme for your current version of WordPress®.
 
