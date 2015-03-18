@@ -28,9 +28,7 @@ To test for server configuration issues and/or conflicts, please install and run
 
 Please review this article carefully: [Testing in a Clean Installation](https://github.com/websharks/s2member-kb/issues/81). Testing in a clean installation involves you setting up a fresh installation of WordPress; i.e., one that does _not_ include any other active plugins and it runs with a default WordPress theme. If you’re using any [Must-Use Plugins](http://codex.wordpress.org/Must_Use_Plugins), please remember to deactivate those as well.
 
-If you test in a clean installation of WordPress and the problem does _not_ exist there, you _now_ know that a theme or plugin conflict exists on your live site. The next step is to begin installng other plugins (one-by-one, on the test installation of WordPress) until you can reproduce the same issue that you're experiencing on the live site.
-
-**Note:** Reproducing a theme or plugin conflict is 90% of the work involved in resolving such a conflict. Identifying the conflicting theme or plugin will give you a few options:
+If you test in a clean installation of WordPress and the problem does _not_ exist there, you _now_ know that a theme or plugin conflict exists on your live site. The next step is to begin installng other plugins (one-by-one, on the test installation of WordPress) until you can reproduce the same issue that you're experiencing on the live site. Reproducing a theme or plugin conflict is 90% of the work involved in resolving such a conflict. Identifying the conflicting theme or plugin will give you a few options:
 
 - Look carefully at the configuration of a conflicting theme or plugin. Are there any config. changes you can make that might resolve the conflict? Either in the conflicting theme/plugin, or in s2Member itself?
 - Is there another plugin that offers similar functionality, but perhaps does _not_ introduce a conflict?
