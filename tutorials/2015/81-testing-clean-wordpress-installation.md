@@ -16,15 +16,15 @@ As you can imagine, testing every feature of s2Member with every possible combin
 
 ## Reproduce Problems in a Clean WordPress Environment
 
-Like most WordPress plugins, s2Member was created, tested, and tuned on a default installation of WordPress. Therefore, we ask that you refrain from reporting a bug until you have been able to successfully reproduce the bug in a default installation of WordPress; i.e. an installation of WordPress where s2Member is the only plugin that has ever been installed; and one where you are using a default theme for WordPress; e.g. Twenty Fifteen or Twenty Fourteen.
+Like most WordPress plugins, s2Member was created, tested, and tuned on a default installation of WordPress. Therefore, we ask that you refrain from reporting a bug until you have been able to successfully reproduce the bug in a default installation of WordPress; i.e. an installation of WordPress where s2Member is the only plugin that has ever been installed; and one where you are using a default theme for WordPress; e.g., Twenty Fifteen or Twenty Fourteen. If you’re using any [Must-Use Plugins](http://codex.wordpress.org/Must_Use_Plugins), please remember to deactivate those as well.
 
-This will allow you to experience the intended behavior. If you find that the bug still exists, please report it! Most of the time though, bugs that exist in a live site, cannot be reproduced once s2Member is isolated. This is an indication that there is a theme/plugin conflict on your live site.
+This will allow you to experience the intended behavior. If you find that the bug still exists, please report it! Most of the time though, bugs that exist in a live site cannot be reproduced once s2Member is isolated. This is an indication that there is a theme/plugin conflict on your live site.
 
-Starting from a clean installation is key. If you start from a clean installation where s2Member behaves as expected, you can begin debugging your installation by adding one plugin and/or theme at a time; until you can successfully reproduce the issue; i.e. identify the conflicting plugin/theme.
+Starting from a clean installation is key. If you start from a clean installation where s2Member behaves as expected, you can begin debugging your installation by adding one plugin and/or theme at a time; until you can successfully reproduce the issue; i.e., identify the conflicting plugin/theme.
 
 ## Getting Help with Theme/Plugin Conflicts
 
-If you are integrating s2Member into a larger set of themes/plugins, we ask that you seek assistance from an experienced WordPress developer who can do a full review of your site and make the proper recommendations (e.g. helping you resolve conflicts between all plugins working together). If you followed the steps above, you should now have some idea of which plugin/theme combination is causing a problem for you. Please pass that information on to your developer.
+If you're integrating s2Member into a larger set of themes/plugins, we ask that you seek assistance from an experienced WordPress developer who can do a full review of your site and make the proper recommendations (e.g., helping you resolve conflicts between all plugins working together). If you followed the steps above, you should now have some idea of which plugin/theme combination is causing a problem for you. Please pass that information on to your developer.
 
 See also: [Common Troubleshooting Tips](https://github.com/websharks/s2member-kb/issues/132)
 
