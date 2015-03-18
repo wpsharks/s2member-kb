@@ -42,7 +42,7 @@ For this reason, and, so that everyone is on the same page, we ask that you upda
 
 - Please see: [Update Instructions](http://s2member.com/updating/)
 - See also: [s2Member Unified Changelog](http://s2member.com/changelog/) for further details.
-- 
+
 ## Log Files (s2Member's Built-in Debugger)
 
 Please see: **s2Member ⥱ Log Files (Debug) ⥱ Logging Configuration**
