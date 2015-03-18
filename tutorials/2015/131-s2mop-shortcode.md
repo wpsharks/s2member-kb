@@ -6,9 +6,7 @@ author: jaswsinc
 github-issue: https://github.com/websharks/s2member-kb/issues/131
 ---
 
-There is a new s2Member Pro Shortcode that can be used to enhance your Membership Options Page (i.e., the page in s2Member where you list membership options).
-
-Your Membership Options Page (in the context of s2Member) is also the page where people without access to certain areas of your site are redirected to; e.g., when a visitor tries to access members-only content, but they are not yet a member. Or, perhaps they are a member, but they don’t yet have a membership which allows access to something available only at a higher Membership Level. So, your Membership Options Page is a key element. In fact, it serves as the focal point of your s2Member installation.
+There is a new s2Member Pro Shortcode that can be used to enhance your Membership Options Page (i.e., the page in s2Member where you list membership options). Your Membership Options Page (in the context of s2Member) is also the page where people without access to certain areas of your site are redirected to; e.g., when a visitor tries to access members-only content, but they are not yet a member. Or, perhaps they are a member, but they don’t yet have a membership which allows access to something available only at a higher Membership Level. So, your Membership Options Page is a key element. In fact, it serves as the focal point of your s2Member installation.
 
 Understanding this, we can see it becomes important for s2Member to provide information about what the visitor was attempting to access, before they were redirected to the Membership Options Page. This is where s2Member’s MOP Vars come in (i.e., Membership Options Page Variables). Whenever s2Member redirects a visitor to your Membership Options Page it will include some important MOP Vars in the query string of the URL. These variables can be used to provide more informative messages, or even to provide a different set of Membership Options (i.e., Payment Buttons or a Pro-Form) based on what a visitor was attempting to access.
 
