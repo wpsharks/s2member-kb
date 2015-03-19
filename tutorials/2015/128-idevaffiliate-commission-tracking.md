@@ -30,7 +30,7 @@ You will need to run your iDevAffiliate → Shopping Cart Integration Wizard. Pl
 
 ---
 
-![](http://cdn.websharks-inc.com/s2member/uploads/3-15-2013-2-09-13-PM.png)
+![](http://cdn.websharks-inc.com/s2member/uploads/3-15-2013-2-09-13-PM.png){.fancy-image}
 
 ---
 
@@ -38,7 +38,7 @@ Now (still in iDevAffiliate) please click “**View Integration Instructions**�
 
 ---
 
-![](http://cdn.websharks-inc.com/s2member/uploads/3-15-2013-4-02-43-PM.png)
+![](http://cdn.websharks-inc.com/s2member/uploads/3-15-2013-4-02-43-PM.png){.fancy-image}
 
 ---
 
@@ -110,7 +110,7 @@ It’s really not so hard; it’s just a little more sophisticated. The “Advan
 
 Log into your iDevAffiliate Dashboard and go to: **Setup & Tools → Advanced Developer Tools → Custom Functions**
 
-![](http://cdn.websharks-inc.com/s2member/uploads/3-15-2013-3-11-35-PM.png)
+![](http://cdn.websharks-inc.com/s2member/uploads/3-15-2013-3-11-35-PM.png){.fancy-image}
 
 ---
 
@@ -118,7 +118,7 @@ Choose: **cURL Tracking Pixel**
 
 ---
 
-![](http://cdn.websharks-inc.com/s2member/uploads/3-15-2013-3-13-03-PM.png)
+![](http://cdn.websharks-inc.com/s2member/uploads/3-15-2013-3-13-03-PM.png){.fancy-image}
 
 ---
 
@@ -126,7 +126,7 @@ Copy the URL (and only the URL please):
 
 ---
 
-![](http://cdn.websharks-inc.com/s2member/uploads/3-15-2013-3-57-43-PM.png)
+![](http://cdn.websharks-inc.com/s2member/uploads/3-15-2013-3-57-43-PM.png){.fancy-image}
 
 ---
 
@@ -178,7 +178,7 @@ http://www.example.com/idevaffiliate/sale.php?idev_saleamt=%%amount%%&idev_order
 
 Log into your iDevAffiliate Dashboard and go to: **Setup & Tools → Advanced Developer Tools → API Scripts**
 
-![](http://cdn.websharks-inc.com/s2member/uploads/3-15-2013-3-39-32-PM.png)
+![](http://cdn.websharks-inc.com/s2member/uploads/3-15-2013-3-39-32-PM.png){.fancy-image}
 
 ---
 
@@ -186,7 +186,7 @@ Choose: Remove/Decline A Commission
 
 ---
 
-![](http://cdn.websharks-inc.com/s2member/uploads/3-15-2013-3-40-46-PM.png)
+![](http://cdn.websharks-inc.com/s2member/uploads/3-15-2013-3-40-46-PM.png){.fancy-image}
 
 ---
 
@@ -194,7 +194,7 @@ Now, please take the URL provided by iDevAffiliate and add Replacement Codes mad
 
 ---
 
-![](http://cdn.websharks-inc.com/s2member/uploads/3-15-2013-3-53-34-PM.png)
+![](http://cdn.websharks-inc.com/s2member/uploads/3-15-2013-3-53-34-PM.png){.fancy-image}
 
 ---
 
