@@ -4,6 +4,7 @@ categories: questions
 tags: paypal
 author: brucewsinc
 github-issue: https://github.com/websharks/s2member-kb/issues/59
+toc-enable: false
 ---
 
 ## Future PayPal Subscriptions
