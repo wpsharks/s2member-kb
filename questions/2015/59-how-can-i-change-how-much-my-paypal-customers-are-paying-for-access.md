@@ -9,9 +9,7 @@ toc-enable: false
 
 ## Future PayPal Subscriptions
 
-**Quick Review:** Your customers agree to create a Subscription via PayPal and have that payment recur. With s2Member shortcodes you can customize both the initial amount and all recurring amounts via shortcode attributes (e.g., `ta=""` and `ra=""`).
-
-See: **Dashboard → s2Member → PayPal Buttons (or Pro-Forms) → Shortcode Attributes (Explained)**
+**Quick Review:** Your customers agree to create a Subscription via PayPal and have that payment recur. With s2Member shortcodes you can customize both the initial amount and all recurring amounts via shortcode attributes (e.g., `ta=""` and `ra=""`). See: **Dashboard → s2Member → PayPal Buttons (or Pro-Forms) → Shortcode Attributes (Explained)**
 
 ### Changing the Amount(s) That You Bill
 
