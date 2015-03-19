@@ -68,9 +68,15 @@ See also: **Amazon Web Services Console → IAM → Create New User** s2Member w
 
 ![](https://www.filepicker.io/api/file/9XIHeQ1hToil5agLYXwo#.png){.aligncenter .fancy-image}
 
+---
+
 ![](https://www.filepicker.io/api/file/kElK4VFDQdaDMfR1Ar8S#.png){.aligncenter .fancy-image}
 
+---
+
 ![](https://www.filepicker.io/api/file/qN6r5FNySDuhm2VDsrzN#.png){.aligncenter .fancy-image}
+
+---
 
 ![](https://www.filepicker.io/api/file/QyZGG4ElRLR7frm7YkQq#.png){.aligncenter .fancy-image}
 
@@ -100,6 +106,8 @@ See: [Amazon CloudFront](http://aws.amazon.com/cloudfront/). Amazon Simple Stora
 
 One of the greatest things about Amazon CloudFront is its ability to stream/seek media files in the truest sense of the word. For sites delivering protected FLV/MP4/OGG/WEBM and other streaming audio/video file types over the [RTMP protocol](http://en.wikipedia.org/wiki/Real_Time_Messaging_Protocol), Amazon CloudFront is our recommendation. It’s _important_ to realize what RTMP streams really mean—from a security standpoint. When you stream over the RTMP protocol you are making audio/video files available for playback, but _not_ for download or redistribution. For some business models this is critical_!_ For instance, instead of pushing an entire MP4 video to your clients (which is actually downloadable), an [RTMP stream](http://en.wikipedia.org/wiki/Real_Time_Messaging_Protocol), is just that; it’s a stream. It can be viewed, but not easily downloaded in whole (or redistributed).
 
+---
+
 #### Step 2: Give s2Member Your Amazon CloudFront Keys
 
 See: **Dashboard → s2Member → Download Options → Amazon S3/CloudFront CDN Delivery Option**
@@ -108,9 +116,15 @@ See also: **Amazon Management Console → Security Credentials → Cloudfront Ke
 
 ![](https://www.filepicker.io/api/file/a8zonXHQkyYkqGWR5Tvr#.png){.aligncenter .fancy-image}
 
+---
+
 ![](http://cdn.websharks-inc.com/s2member/uploads/1-21-2013-12-39-34-PM.png){.aligncenter .fancy-image}
 
+---
+
 ![](https://www.filepicker.io/api/file/frJPbN1iT8uHvJtXz6NJ#.png){.aligncenter .fancy-image}
+
+---
 
 #### Step 3: Tell s2Member to Auto-Configure S3/CloudFront for You
 
@@ -125,6 +139,8 @@ _**Propagation Time:** After you’ve integrated Amazon CloudFront, please wait 
 ## Uploading Sample Audio/Video Files
 
 I’m attaching a ZIP file to this article that contains both the **audio.mp3** and **video.mp4** sample files I used for this tutorial. Please download **[audio-video-samples.zip](http://cdn.websharks-inc.com/s2member/uploads/audio-video-samples.zip)**. Extract the samples and upload them to your S3 Bucket please. If you have _not_ integrated with Amazon S3 please upload the examples to your website instead. They should be uploaded locally, to this security-enabled directory that comes with s2Member. Upload to: `/wp-content/plugins/s2member-files/`
+
+---
 
 ### Uploading Sample Audio/Videos Files to Your Amazon S3 Bucket
 
@@ -146,6 +162,8 @@ https://www.youtube.com/watch?v=ZTopRQQAELw
 
 ## `[s2Stream /]` Shortcode Examples
 
+---
+
 ### JW Player v6 (HTTP MP4 Video via Rewrite URLs; S3/CloudFront Not Required)
 
 Please follow this example if you are _not_ integrating with Amazon CloudFront, only with Amazon S3. Or, if you have not integrated with _either_ of these services, and you’re simply serving protected audio/video files from the local `/s2member-files/` directory. This works with any audio/video file. This does _not_ require s2Member to be integrated with Amazon S3/CloudFront. If you’ve integrated with Amazon S3, that’s fine; but it’s not a requirement for this to function properly. Audio/video will play fine via HTTP. However, this is NOT a true [RTMP stream](http://en.wikipedia.org/wiki/Real_Time_Messaging_Protocol).
@@ -157,6 +175,8 @@ Please follow this example if you are _not_ integrating with Amazon CloudFront, 
 ```
 
 _There are many shortcode attributes that can be customized. See documentation below for more information._
+
+---
 
 ### JW Player v6 (RTMP Stream + MP4 Video Fallback; Both S3/CloudFront Required)
 
@@ -170,6 +190,8 @@ This is a true [RTMP stream](http://en.wikipedia.org/wiki/Real_Time_Messaging_Pr
 
 _There are many shortcode attributes that can be customized. See documentation below for more information._
 
+---
+
 ### JW Player v6 (RTMP Video Stream Only; Both S3/CloudFront Required)
 
 This is a true [RTMP stream](http://en.wikipedia.org/wiki/Real_Time_Messaging_Protocol), and _only_ an RTMP stream. s2Member will _not_ use a full download of the MP4 video file as a fallback on devices that do not support RTMP streams. When you set `player="jwplayer-v6-rtmp-only"` (as seen in the example below), you _must_ have both Amazon S3/CloudFront integrated with s2Member; i.e., RTMP requires Cloudfront, and Cloudfront requires Amazon S3.
@@ -181,6 +203,8 @@ This is a true [RTMP stream](http://en.wikipedia.org/wiki/Real_Time_Messaging_Pr
 ```
 
 _There are many shortcode attributes that can be customized. See documentation below for more information._
+
+---
 
 ### JW Player v6 (HTTP MP3 Audio via Rewrite URLs; S3/CloudFront Not Required)
 
@@ -194,6 +218,8 @@ Please follow this example if you are _not_ integrating with Amazon CloudFront, 
 
 _There are many shortcode attributes that can be customized. See documentation below for more information._
 
+---
+
 ### JW Player v6 (RTMP Stream + MP3 Audio Fallback; Both S3/CloudFront Required)
 
 This is a true [RTMP stream](http://en.wikipedia.org/wiki/Real_Time_Messaging_Protocol). Plus, s2Member will use a full download of the MP3 audio file as a fallback on devices that do not support RTMP streams (e.g., mobile phones and some tablets). When you set `player="jwplayer-v6-rtmp"` (as seen in the example below), you _must_ have both Amazon S3/CloudFront integrated with s2Member; i.e., RTMP requires Cloudfront, and Cloudfront requires Amazon S3.
@@ -205,6 +231,8 @@ This is a true [RTMP stream](http://en.wikipedia.org/wiki/Real_Time_Messaging_Pr
 ```
 
 _There are many shortcode attributes that can be customized. See documentation below for more information._
+
+---
 
 ### JW Player v6 (RTMP Audio Stream Only; Both S3/CloudFront Required)
 
