@@ -21,9 +21,7 @@ If you already have customers and you want to alter the amount they are charged 
 
 <div class="li-margins"></div>
 
-1. You can log into your PayPal account and alter the Recurring Billing Profiles associated with your existing customers; i.e., change the amount that you charge.
+1. You can log into your PayPal account and alter the Recurring Billing Profiles associated with your existing customers.
   
   _**Note:** Depending on the type of PayPal account that you have, whether you are raising or lowering the price, and in what dollar amount; there might be limitations imposed by PayPal. If you run into trouble or confusion, please contact PayPal support for assistance._
-2. You can lead existing customers to an upgrade and/or downgrade process, which can result in a change in the payment plan and Membershp Level on the site.
-  
-  See: **Dashboard → s2Member → PayPal Pro-Forms → Billing Modification Forms**
+2. You can lead existing customers to an upgrade and/or downgrade process, which can result in a change in the payment plan and Membershp Level on the site. See: **Dashboard → s2Member → PayPal Pro-Forms → Billing Modification Forms**
