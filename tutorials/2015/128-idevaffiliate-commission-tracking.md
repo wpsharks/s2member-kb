@@ -28,9 +28,15 @@ For Simple integration, see: **Dashboard → s2Member → API / Tracking**. Here
 
 You will need to run your iDevAffiliate → Shopping Cart Integration Wizard. Please choose s2Member from the drop-down menu (or you can also use the Generic Tracking Pixel—that’s fine too).
 
+---
+
 ![](http://cdn.websharks-inc.com/s2member/uploads/3-15-2013-2-09-13-PM.png)
 
+---
+
 Now (still in iDevAffiliate) please click “**View Integration Instructions**“ and grab your Hidden Image Tag. Take the code provided by iDevAffiliate and add Replacement Codes to your Hidden Image Tag. To save you some trouble, we’ve provided some examples below, one for each s2Member transaction type.
+
+---
 
 ![](http://cdn.websharks-inc.com/s2member/uploads/3-15-2013-4-02-43-PM.png)
 
