@@ -13,8 +13,6 @@ toc-enable: false
 
 See: **Dashboard → s2Member → PayPal Buttons (or Pro-Forms) → Shortcode Attributes (Explained)**
 
-![](https://cloud.githubusercontent.com/assets/1568616/5868071/9aa7db6e-a272-11e4-8268-d8d2f6cdc001.png)
-
 ### Changing the Amount(s) That You Bill
 
 If you decide to change the amount(s) that you bill, you simply change the shortcode attributes in your PayPal Button and/or Pro-Form. Or, you can generate a new shortcode to replace the old one. In this way, you are changing the amount(s) that any NEW customers will be charged; i.e., this does _not_ impact existing customers in any way, which is ideal in most cases.
