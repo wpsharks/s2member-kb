@@ -10,7 +10,7 @@ github-issue: https://github.com/websharks/s2member-kb/issues/125
 
 A popular [s2Member Pro](http://s2member.com/pro/) feature is the ability to import and/or mass-update users in WordPress. Import files (and/or mass-update files) can be uploaded in [CSV file](http://en.wikipedia.org/wiki/Comma-separated_values) format. Or, you can copy/paste data into a form field provided by s2Member Pro.
 
-## Having Trouble Structuring Your CSV Import File?
+## Having Trouble w/ CSV Import Structure?
 
 If you have any trouble, please perform an export first. s2Member’s export files are already formatted for easy reimportation. In other words, you can use them as a guideline for building your own import files. All data fields are properly encapsulated by double-quotes and separated by commas. You’ll also need to make sure that all of your data fields are in the proper order.
 
