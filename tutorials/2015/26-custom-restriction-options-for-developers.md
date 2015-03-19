@@ -4,9 +4,12 @@ categories: tutorials
 tags: restriction-options,mu-plugins-hacks
 author: jaswsinc
 github-issue: https://github.com/websharks/s2member-kb/issues/26
+toc-enable: false
 ---
 
 https://www.youtube.com/watch?v=gpkM147RAgY
+
+---
 
 The s2Member UI in the WordPress Dashboard provides site owners with many ways to protect their content within WordPress. That's a great place to start with s2Member, and it's certainly very easy to work with from a client perspective. However, there is more than one way to protect your content with s2Member, and from a developer's perspective, protecting content using PHP conditionals could be simpler, and provide you with the added flexibility that is needed to meet client demands.
 
