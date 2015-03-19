@@ -168,6 +168,6 @@ This data classification deals with Custom Registration/Profile Fields you confi
 	 
 Notice the `custom_field_key__ prefix` here? This is what pulls certain columns in your CSV file into the **Custom Fields** classification. The actual key names (e.g., `company` or `dept`; in this particular example) are based on the “Unique ID” value that you configure for a given field whenever you generate them in the Dashboard with s2Member. Again, the easiest way is just to generate some fields and pull an export to be sure that you’re on the right path before working hard to build your import file.
 
-#### Custom Fields w/ Array Values
+**Custom Fields w/ Array Values**
 
 It is possible, with s2Member, to configure certain fields that collect more than a single value; e.g., a select menu that allows multiple sections, or a series of multiple checkboxes. If you configure any of these, s2Member uses a simple array in JSON format in your CSV column. So for instance, if you find that one of your Custom Field columns in the export file contains something like: `["Fishing", "Sports", "Computers"]`, this is three separate values that form a simple array in JSON format.
