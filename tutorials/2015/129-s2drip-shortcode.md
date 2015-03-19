@@ -22,7 +22,7 @@ The `[s2Drip][/s2Drip]` Shortcode tags are inserted into a Post/Page with the Wo
 
 ### `[s2Drip /]` Example #1
 
-```text
+```wpsc
 [s2Drip access="level1" from_day="4"]
     Some content for Members at Level 1 (or higher).
 
@@ -35,7 +35,7 @@ The `[s2Drip][/s2Drip]` Shortcode tags are inserted into a Post/Page with the Wo
 
 ### `[s2Drip /]` Example #2
 
-```text
+```wpsc
 [s2Drip access="level1" from_day="4" to_day="30"]
     Some content for Members at Level 1 (or higher).
 
@@ -49,7 +49,7 @@ The `[s2Drip][/s2Drip]` Shortcode tags are inserted into a Post/Page with the Wo
 
 ### `[s2Drip /]` Example #3
 
-```text
+```wpsc
 [s2Drip access="level1 AND (ccap_music OR ccap_videos)" from_day="4" to_day="30"]
     Some content for Members at Level 1 (or higher).
     They must also have the CCAP `music` or the CCAP `videos` too.
