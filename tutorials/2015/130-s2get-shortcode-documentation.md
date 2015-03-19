@@ -136,4 +136,4 @@ $user_login = get_user_field('user_login', 123);
 [s2Get constant="S2MEMBER_LOGIN_PAGE_URL" /] # Login Welcome Page URL.
 ```
 
-See also: **s2Member ⥱ API / Scripting ⥱ s2Member PHP/API Constants**
+See also: **Dashboard → s2Member ⥱ API / Scripting ⥱ s2Member PHP/API Constants**
