@@ -4,6 +4,7 @@ categories: questions
 tags: pro-forms, checkout-options
 author: raamdev
 github-issue: https://github.com/websharks/s2member-kb/issues/39
+toc-enable: false
 ---
 
 > How do I display multiple checkout options on a single checkout page?
