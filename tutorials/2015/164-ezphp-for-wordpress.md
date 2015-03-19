@@ -39,7 +39,7 @@ You can use regular `<?php ?>` tags. Or, you can use `[php][/php]` shortcode tag
 
 ### Using `<?php ?>` Tags in a Post/Page/Widget
 
-```php
+```html
 <?php if(is_user_logged_in()): ?>
 	Content for a user that is logged-in.
 <?php else: // Otherwise show this.
@@ -49,7 +49,7 @@ You can use regular `<?php ?>` tags. Or, you can use `[php][/php]` shortcode tag
 
 ### Using `[php][/php]` Shortcodes in a Post/Page/Widget
 
-```wpsc
+```text
 [php]if(is_user_logged_in()):[/php]
 	Content for a user that is logged-in.
 [php]else: // Otherwise show this.[/php]
