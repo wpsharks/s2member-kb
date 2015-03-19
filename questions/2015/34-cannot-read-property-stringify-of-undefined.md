@@ -14,4 +14,4 @@ I have seen this reported in the past and the two errors that you are experienci
 
 That would explain why you are seeing the `stringify` error, as the underlying JavaScript/CSS resources are failing to load. There are also high odds that the s2Member UI looks bad in this case; i.e., not what was intended for you to see in the Dashboard.
 
-Please see: [How to Correct 500 Internal Server Errors](https://github.com/websharks/s2member-kb/issues/35)
+**Please see:** [How to Correct 500 Internal Server Errors](https://github.com/websharks/s2member-kb/issues/35)
