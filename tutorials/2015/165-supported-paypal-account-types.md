@@ -21,4 +21,6 @@ Please see: [PayPal Website Payments Pro](https://www.paypal.com/webapps/mpp/pay
 - [PayPal Website Payments Pro](https://www.paypal.com/webapps/mpp/paypal-payments-pro)
 - and [PayPal Website Payments Pro (Payflow Edition)](https://developer.paypal.com/docs/classic/products/ppp-payflow-edition/).
 
-_**Note:** s2Member Pro does **NOT** support Payflow as a stand-alone product. There is a difference. s2Member's support for Payflow is limited to "PayPal Website Payments Pro (Payflow Edition)"; where the Payflow "Edition" of PayPal Pro is now very common in newer PayPal Pro accounts; i.e., if you signup for [PayPal Website Payments Pro](https://www.paypal.com/webapps/mpp/paypal-payments-pro) today you will get the Payflow Edition automatically—and that's fine! It's the [stand-alone Payflow Payment Gateway](https://www.paypal.com/webapps/mpp/payflow-payment-gateway) that we do not support._
+_**Note:** s2Member Pro does **NOT** support Payflow as a stand-alone product. There is a difference. s2Member's support for Payflow is limited to "PayPal Website Payments Pro (Payflow Edition)"; where the Payflow "Edition" of PayPal Pro is now very common in newer PayPal Pro accounts; i.e., if you signup for [PayPal Website Payments Pro](https://www.paypal.com/webapps/mpp/paypal-payments-pro) today you will get the Payflow Edition automatically—and that's fine!_
+
+_It's the [stand-alone Payflow Payment Gateway](https://www.paypal.com/webapps/mpp/payflow-payment-gateway) that we do not support._
