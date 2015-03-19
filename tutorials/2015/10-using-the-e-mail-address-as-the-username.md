@@ -4,6 +4,7 @@ categories: tutorials
 tags: login-registration,mu-plugins-hacks,email-config
 author: raamdev
 github-issue: https://github.com/websharks/s2member-kb/issues/10
+toc-enable: false
 ---
 
 It is possible to modify the s2Member Pro-Form to hide the username field (via CSS) and then use JavaScript to dynamically auto-generate a username in the background when the user types in their email address in the email field. That auto-generated username would be added to the hidden username field so that when the form is submitted, it looks like they entered a username.
