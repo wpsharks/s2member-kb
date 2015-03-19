@@ -12,7 +12,7 @@ toc-enable: false
 ```wpsc
 Intro content goes here--everyone will see this.
 
-<!--more-->
+&lt;!--more--&gt;
 
 [s2If current_user_can(access_s2member_level1)]
     Some content for Members who are logged in with an s2Member Level >= 1.
@@ -49,6 +49,5 @@ function s2if_more_filter($content) {
     $content = $before_more_tag . $s2if_start . $s2if_message . $after_more_tag . $s2if_end;
     return $content;
 }
-
 add_filter('the_content', 's2if_more_filter', 10, 1);
 ```
