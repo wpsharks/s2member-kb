@@ -118,7 +118,7 @@ _Note that `meta_key__wp_capabilities` is a core WordPress meta field that is of
 
 ### 3. Meta Fields
 
-This is by far the largest data classification. The data columns in this classification correlate with those in your WordPress [`wp_usermeta` table](http://codex.wordpress.org/Database_Description#Table:_wp_usermeta). Every user in WordPress has metadata associated with their account. This metadata includes things like their Paid Subscr. ID, which payment gateway they completed checkout with, the time of their last payment, Custom Capability access times recorded by s2Member, a login counter, and much much more.
+This is by far the largest data classification. The data columns in this classification correlate with those in your WordPress [`wp_usermeta` table](http://codex.wordpress.org/Database_Description#Table:_wp_usermeta). Every user in WordPress has metadata associated with their account. This metadata includes things like their Paid Subscr. ID, which payment gateway they completed checkout with, the time of their last payment, Custom Capability access times, a login counter, and much much more.
 
 WordPress itself uses metadata fields to store a user’s first name, last name, and a few other things. There can be many of these Meta Fields. Depending on the number of plugins that you run, you could even have hundreds of fields for each user. It is best to consult the documentation for each of your plugins to determine which metadata fields contain the data you would like to modify or better understand. In the context of this article I will only cover those which s2Member creates.
 
