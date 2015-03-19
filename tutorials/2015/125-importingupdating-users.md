@@ -6,6 +6,10 @@ author: jaswsinc
 github-issue: https://github.com/websharks/s2member-kb/issues/125
 ---
 
+s2Member comes with two different Import/Export Tool flavors. Both flavors import/export in the [CSV (comma-separated values)](http://en.wikipedia.org/wiki/Comma-separated_values) format. However, they each construct CSV data differently.
+
+Advanced Import/Export Tools allow for a _much_ larger set of data to be manipulated. In this article I will discuss the Simple Import/Export Tools. If you would like to learn more about the [Advanced Import/Export Tools](https://github.com/websharks/s2member-kb/issues/121) please [click here](https://github.com/websharks/s2member-kb/issues/121).
+
 ## A Quick Overview Of User Importation
 
 A popular [s2Member Pro](http://s2member.com/pro/) feature is the ability to import and/or mass-update users in WordPress. Import files (and/or mass-update files) can be uploaded in [CSV file](http://en.wikipedia.org/wiki/Comma-separated_values) format. Or, you can copy/paste data into a form field provided by s2Member Pro.
