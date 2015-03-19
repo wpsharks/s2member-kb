@@ -12,7 +12,7 @@ toc-enable: false
 ```wpsc
 Intro content goes here--everyone will see this.
 
-<!!--more-->
+<!--more-->
 
 [s2If current_user_can(access_s2member_level1)]
     Some content for Members who are logged in with an s2Member Level >= 1.
