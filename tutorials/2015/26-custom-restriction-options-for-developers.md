@@ -1,6 +1,6 @@
 ---
 title: Custom Restriction Options (for Developers)
-categories: tutorials
+categories: tutorials, videos
 tags: restriction-options,mu-plugins-hacks
 author: jaswsinc
 github-issue: https://github.com/websharks/s2member-kb/issues/26
