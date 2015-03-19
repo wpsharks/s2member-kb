@@ -21,8 +21,9 @@ In this video tutorial, lead developer Jason Caldwell provides an overview of th
 
 - [WordPress Conditional Tags](http://codex.wordpress.org/Conditional_Tags)
 - [WordPress MU Plugins](http://codex.wordpress.org/Must_Use_Plugins)
-- [s2Member Simple Shortcode Conditionals](http://www.s2member.com/kb/simple-shortcode-conditionals/)
-- [s2Member Roles/Capabilities](http://www.s2member.com/kb/roles-caps/)
+- [s2Member Simple Shortcode Conditionals](http://s2member.com/kb-article/s2if-simple-shortcode-conditionals/)
+- [s2Member Roles/Capabilities](http://s2member.com/kb-article/s2member-rolescapabilities/)
+- [s2Member Roles/Capabilities via PHP](http://s2member.com/kb-article/rolescapabilities-via-php/)
 - Code sample used in the video w/ a little cleanup:
   `/wp-content/mu-plugins/s2-hacks.php`
 	```php
