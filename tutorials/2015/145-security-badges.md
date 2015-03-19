@@ -31,11 +31,15 @@ What we want to see is that you’ve made an effort to tighten security on your 
 
   Please see: **Dashboard → s2Member → General Options → Security Badge → Badge Status API**
 
+---
+
 - ### Does your `/wp-config.php` file have all of these configuration values filled in properly (e.g., have you setup your WordPress Security Keys)?
 
   See: [http://codex.wordpress.org/Editing_wp-config.php#Security_Keys](http://codex.wordpress.org/Editing_wp-config.php#Security_Keys)
 
   _Each of these MUST be at least 60 characters and must NOT contain the default: `unique phrase` values that come with WordPress. We suggest using the [super easy Security Key Generator](https://api.wordpress.org/secret-key/1.1/salt/)._
+
+---
 
 - ### Have you created a Security Encryption Key for your s2Member installation?
 
@@ -43,11 +47,15 @@ What we want to see is that you’ve made an effort to tighten security on your 
 
   _This MUST be at least 60 characters in length._
 
+---
+
 - ### Does your `/wp-config.php` file have both of these configuration values?
 
   These configuration values MUST be filled in: `DB_USER` & `DB_PASSWORD`. See: [http://codex.wordpress.org/Editing_wp-config.php#Set_Database_Name](http://codex.wordpress.org/Editing_wp-config.php#Set_Database_Name)
 
   _These values must NOT be exactly the same._
+
+---
 
 - ### Have you configured your s2Member Unique IP Restriction Options yet?
 
@@ -55,11 +63,15 @@ What we want to see is that you’ve made an effort to tighten security on your 
   
   _This must NOT be set to a value of: infinite._
 
+---
+
 - ### Have you configured your s2Member Brute Force IP Restrictions yet?
 
   Please see: **Dashboard → s2Member → Restriction Options → Brute Force IP Restrictions**
   
   _This must NOT be set to a value of: infinite._
+
+---
 
 - ### Have you disabled debug logging in your s2Member configuration yet?
 
