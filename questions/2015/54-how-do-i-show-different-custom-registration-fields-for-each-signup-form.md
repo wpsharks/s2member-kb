@@ -6,9 +6,9 @@ author: raamdev
 github-issue: https://github.com/websharks/s2member-kb/issues/54
 ---
 
-Each Custom Registration Field can be assigned to a specific Membership Level, so that it only shows up on Pro-Forms for that particular Level.
+Each Custom Registration Field can be assigned to a specific Membership Level, so that it only shows up on Pro-Forms for that particular Level. For example, if you had one set of Custom Registration Fields that were applicable to Level 1 memberships and another set of Custom Registration Fields that were applicable to Level 2 memberships, you could create your Custom Registration Fields and set the Applicable Level.
 
-For example, if you had one set of Custom Registration Fields that were applicable to Level 1 memberships and another set of Custom Registration Fields that were applicable to Level 2 memberships, you could create your Custom Registration Fields and set the Applicable Level (see: **Dashboard → s2Member (Pro) → General Options → Registration/Profile Fields & Options → Add New Field**):
+See: **Dashboard → s2Member (Pro) → General Options → Registration/Profile Fields & Options → Add New Field**
 
 ---
 
