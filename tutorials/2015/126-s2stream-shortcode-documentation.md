@@ -14,9 +14,9 @@ https://www.youtube.com/watch?v=ZTopRQQAELw
 
 ## Basic Download Restrictions (Required)
 
-See: **Dashboard → s2Member → Download Options → Basic Download Restrictions**
+See: **Dashboard → s2Member → Download Options → Basic Download Restrictions**. As a security precaution, s2Member will _not_ deliver protected File Downloads (including audio/video files) until you’ve setup Basic Download Restrictions.
 
-As a security precaution, s2Member will _not_ deliver protected File Downloads (including audio/video files) until you’ve setup Basic Download Restrictions. Even if you’re not planning to limit the number of File Downloads (i.e., audio/video files are considered File Downloads too), you still need to specify at least one Download Restriction in this section of your Dashboard. This enables s2Member’s File Download functionality on your installation. You can set things up for UNLIMITED File Downloads if you like, but please complete this step first.
+Even if you’re not planning to limit the number of File Downloads (i.e., audio/video files are considered File Downloads too), you still need to specify at least one Download Restriction in this section of your Dashboard. This enables s2Member’s File Download functionality on your installation. You can set things up for UNLIMITED File Downloads if you like, but please complete this step first.
 
 <img src="https://www.filepicker.io/api/file/FHDDUmdtTayg4yV5WW4q#.png" class="aligncenter fancy-image" style="max-width:65%;" alt="" />
 
