@@ -19,7 +19,7 @@ toc-enable: false
 
 ### Troubleshooting the Coupon Code Field
 
-If you are not seeing the Coupon Code field in your Pro Form, here are some possible reasons
+If you are not seeing the Coupon Code field in your Pro Form, here are some possible reasons:
 
 <div class="li-margins"></div>
 
