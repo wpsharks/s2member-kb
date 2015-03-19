@@ -10,6 +10,6 @@ Each s2Member Pro Form includes built-in CSS class names that allow you to apply
 
 The easiest way to find these class names and to customize your Pro-Forms with custom CSS that takes advantage of them; is to open a page containing a Pro-Form in a browser that supports a Web Developer Console (e.g., Chrome, Firefox). The Developer Console makes it easy for you to fiddle with custom CSS and see immediate results. See: https://developer.chrome.com/devtools/docs/elements-styles
 
-When you have things just the way you like, take the modifications that you've made and add those to the `style.css` in your WordPress theme of choice.
+When you have things just the way you like, take the modifications that you've made and add those to the `style.css` in your WordPress theme of choice. See: `/wp-content/themes/[YOUR THEME]/style.css`
 
 **See also:** [Customizing Pro-Forms](http://s2member.com/kb-article/s2member-pro-forms/#-customizing-pro-forms)
