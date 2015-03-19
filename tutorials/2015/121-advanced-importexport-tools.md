@@ -91,21 +91,25 @@ Each line in s2Member’s Advanced Export File (which is the same format used fo
 
 ### 1. User Fields
 
-If you pull a quick export using the Advanced Export Tool, look at the first line of the exported CSV data. This line includes a list of CSV headers. While the order of your CSV data columns doesn’t matter, s2Member always spits out the **User Fields** first in export files, just to keep data classifications easy to understand. So, from left-to-right, you will find the following **User Field** headers. These correlate with the column names in your [`wp_users` database table](http://codex.wordpress.org/Database_Description#Table:_wp_users).
+If you pull a quick export using the Advanced Export Tool, look at the first line of the exported CSV data. This line includes a list of CSV headers. While the order of your CSV data columns doesn’t matter, s2Member always spits out the **User Fields** first in export files, just to keep data classifications easy to understand. So, from left-to-right, you will find the following **User Field** headers.
 
 ```text
 "ID","user_login","user_nicename","user_email","user_url","user_registered","user_activation_key","user_status","display_name"
 "1", "johndoe22", "johndoe22", "john@example.com", "http://john.example.com", "2014-04-04 17:06:50", "", "", "John Doe"
 ```
 
+_These correlate with the column names in your [`wp_users` database table](http://codex.wordpress.org/Database_Description#Table:_wp_users)._
+
 ### 2. Capability Fields
 
-This data classification consists of only three data columns. These include `role`, `ccaps`, and `meta_key__wp_capabilities`. While there are three, you can simplify this a bit and _only_ use `role` and `ccaps`. s2Member exports all three of these data columns, but when you import and/or mass update users; s2Member will give precedence to `role` and `ccaps` if they exist, and only look at `meta_key__wp_capabilities` if they don’t. Note that `meta_key__wp_capabilities` is a core WordPress meta field that is often difficult to deal with. It exists in this classification only for advanced site owners and developers that fully understand it. All others can simply use `role` and `ccaps`. s2Member will deal with the particulars automatically for you.
+This data classification consists of only three data columns. These include `role`, `ccaps`, and `meta_key__wp_capabilities`. While there are three, you can simplify this a bit and _only_ use `role` and `ccaps`. s2Member exports all three of these data columns, but when you import and/or mass update users; s2Member will give precedence to `role` and `ccaps` if they exist, and only look at `meta_key__wp_capabilities` if they don’t.
 
 ```text
 "role","ccaps"
 "s2member_level1", "music,videos"
 ```
+
+_Note that `meta_key__wp_capabilities` is a core WordPress meta field that is often difficult to deal with. It exists in this classification only for advanced site owners and developers that fully understand it. All others can simply use `role` and `ccaps`. s2Member will deal with the particulars automatically for you._
 
 <div class="li-margins"></div>
 
