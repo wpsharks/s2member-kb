@@ -9,7 +9,7 @@ toc-enable: false
 
 Unfortunately, the solution is not the same for everyone. What might be causing 500 errors on your server could be different from what causes this on another.
 
-##### Possible causes of 500 internal server error:
+### Possible causes of 500 internal server error:
 
 <div class="li-margins"></div>
 
