@@ -1,7 +1,7 @@
 ---
 title: '[s2Stream /] Shortcode Documentation'
-categories: tutorials
-tags: download-options,s2stream,shortcodes,amazon-s3-cloudfront
+categories: tutorials, videos
+tags: download-options,s2stream,shortcodes,amazon-s3-cloudfront-cdn-storage-option
 author: jaswsinc
 github-issue: https://github.com/websharks/s2member-kb/issues/126
 ---
