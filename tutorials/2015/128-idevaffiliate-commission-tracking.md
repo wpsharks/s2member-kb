@@ -100,13 +100,23 @@ Log into your iDevAffiliate Dashboard and go to: **Setup & Tools → Advanced De
 
 ![](http://cdn.websharks-inc.com/s2member/uploads/3-15-2013-3-11-35-PM.png)
 
+---
+
 Choose: **cURL Tracking Pixel**
+
+---
 
 ![](http://cdn.websharks-inc.com/s2member/uploads/3-15-2013-3-13-03-PM.png)
 
+---
+
 Copy the URL (and only the URL please):
 
+---
+
 ![](http://cdn.websharks-inc.com/s2member/uploads/3-15-2013-3-57-43-PM.png)
+
+---
 
 Now, please take the URL provided by iDevAffiliate and add Replacement Codes made possible by s2Member. To save you some trouble we’ve provided some examples below, one for each important s2Member API Notification. Please follow these instructions carefully.
 
@@ -156,11 +166,19 @@ Log into your iDevAffiliate Dashboard and go to: **Setup & Tools → Advanced De
 
 ![](http://cdn.websharks-inc.com/s2member/uploads/3-15-2013-3-39-32-PM.png)
 
+---
+
 Choose: Remove/Decline A Commission
+
+---
 
 ![](http://cdn.websharks-inc.com/s2member/uploads/3-15-2013-3-40-46-PM.png)
 
+---
+
 Now, please take the URL provided by iDevAffiliate and add Replacement Codes made possible by s2Member®. To save you some trouble we’ve provided some examples below, one for each important s2Member API Notification. Please follow these instructions carefully.
+
+---
 
 ![](http://cdn.websharks-inc.com/s2member/uploads/3-15-2013-3-53-34-PM.png)
 
