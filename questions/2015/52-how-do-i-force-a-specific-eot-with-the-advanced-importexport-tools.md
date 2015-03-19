@@ -4,6 +4,7 @@ categories: questions
 tags: importexport-tools
 author: raamdev
 github-issue: https://github.com/websharks/s2member-kb/issues/52
+toc-enable: off
 ---
 
 If you want to force a specific EOT (End of Term) for multiple users, you can use the [Advanced Import/Export Tools](http://s2member.com/kb/kb-q/importing/) to export your users, edit the resulting CSV file, and then add the new EOT value. When you import the modified CSV file, the users' EOT times will be updated.
