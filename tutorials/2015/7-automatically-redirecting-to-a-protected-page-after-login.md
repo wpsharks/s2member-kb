@@ -11,13 +11,13 @@ If you link to a page protected by s2Member and an existing member clicks on tha
 
 If you want them to be able to login and then immediately get redirected to that protected page they were trying to access (as opposed to getting redirected to the Login Welcome Page), you'll need to add a special "Login" link to your Membership Options Page that passes the link to the protected page to the Login page, so that after logging in WordPress can properly redirect the user to the protected page.
 
-The WordPress `wp_login_url()` function (see http://codex.wordpress.org/Function_Reference/wp_login_url) lets you pass in a redirect URL. We'll use this to create the special Login link.
+**Quick Tip:** The WordPress [`wp_login_url()` function](http://codex.wordpress.org/Function_Reference/wp_login_url) lets you pass in a redirect URL (perfect!). We'll use this to create the special Login link that we need.
 
-The Membership Options Page Variables contain the "Seeking URI", i.e., the URI to the protected page that the user was trying to access. We'll extract this URI from the Membership Options Page variables and then pass it into the `wp_login_url()` function.
+s2Member's MOP Vars (Membership Options Page Variables) contain the "Seeking URI", i.e., the URI to the protected page that the user was trying to access. We'll extract this URI from the MOP Vars and then pass it into the `wp_login_url()` function.
 
 _Note: You'll need to make sure you have the [ezPHP](http://wordpress.org/plugins/ezphp/) plugin installed and activated, so that you can run PHP code directly inside your WordPress pages._
 
-Add the following code to the top of your Membership Options Page:
+### Add the following code to the top of your Membership Options Page:
 
 ```php
 <?php
@@ -31,7 +31,7 @@ if (!empty($seeking_uri)) {
 ?>
 ```
 
-Now, we can check if we have a URI available, and if so, output a special Login link:
+### Now, we can check if we have a URI available, and if so, output a special Login link:
 
 ```
 <?php if(!empty($URI)) { ?>
@@ -43,7 +43,7 @@ That's it! Now when someone attempts to access a protected page, they can click 
 
 ---
 
-If you want to automatically add a login/logout link to a nav menu that contains the redirect URI when attempting to access a protected page, you can use the following code:
+**Ninja Tip:** If you want to automatically add a login/logout link to a nav menu that contains the redirect URI when attempting to access a protected page, you can use the following code:
 
 ```php
 // Filter wp_nav_menu() to add a login/logout link to the nav menu
