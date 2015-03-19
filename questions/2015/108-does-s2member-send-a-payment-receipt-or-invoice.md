@@ -6,7 +6,7 @@ author: raamdev
 github-issue: https://github.com/websharks/s2member-kb/issues/108
 ---
 
-By default, s2Member sends a Signup Confirmation Email with basic instructions and a polite thank-you message. However, this email (and others like it) are highly customizable. s2Member provides several Replacement Codes that you can use to turn the default Signup Confirmation Email into a receipt and/or invoice if you like.
+By default, s2Member sends a Signup Confirmation Email with basic instructions and a polite thank-you message. However, this email (and others like it) are highly customizable. s2Member provides several Replacement Codes that you can use to turn the default Signup Confirmation Email into a payment receipt and/or invoice if you like.
 
 See: **Dashboard → [Payment Gateway] Options → Signup Confirmation Email**
 
