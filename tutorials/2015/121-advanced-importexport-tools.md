@@ -128,7 +128,7 @@ Each **Meta Field** (as seen in your CSV headers) should have the following pref
 	 
 ```text
 "meta_key__wp_s2member_custom","meta_key__wp_s2member_subscr_id","meta_key__wp_s2member_subscr_baid","meta_key__wp_s2member_subscr_cid","meta_key__wp_s2member_subscr_gateway","meta_key__wp_s2member_registration_ip","meta_key__wp_s2member_ipn_signup_vars","meta_key__wp_s2member_paid_registration_times","meta_key__wp_s2member_access_cap_times","meta_key__wp_s2member_sp_references","meta_key__wp_s2member_last_status_scan","meta_key__wp_s2member_first_payment_txn_id","meta_key__wp_s2member_last_payment_time","meta_key__wp_s2member_auto_eot_time","meta_key__wp_s2member_file_download_access_arc","meta_key__wp_s2member_file_download_access_log"
-        "www.example.com","9983JKSD03343","2098234DF","980234LSEFJ","stripe","123.456.789.0","{private: JSON object}","{""level"":1406275414,""level1"":1406275414}","{""1406275414.0001"":""level1""}","{private: JSON object}","1406271660","90823GAUI92323F","1406554660","1406271700","{private: JSON object}","{private: JSON object}"
+"www.example.com","9983JKSD03343","2098234DF","980234LSEFJ","stripe","123.456.789.0","{private: JSON object}","{""level"":1406275414,""level1"":1406275414}","{""1406275414.0001"":""level1""}","{private: JSON object}","1406271660","90823GAUI92323F","1406554660","1406271700","{private: JSON object}","{private: JSON object}"
 ```
 
 **s2Member-Related Meta Fields**
