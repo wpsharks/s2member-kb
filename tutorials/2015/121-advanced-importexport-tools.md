@@ -6,7 +6,9 @@ author: jaswsinc
 github-issue: https://github.com/websharks/s2member-kb/issues/121
 ---
 
-s2Member comes with two different Import/Export Tool flavors. Both flavors import/export in the [CSV (comma-separated values)](http://en.wikipedia.org/wiki/Comma-separated_values) format. However, they each construct CSV data differently. Advanced Import/Export Tools allow for a _much_ larger set of data to be manipulated. In this article I will discuss the Advanced Import/Export Tools. If you would like to learn more about the [default Simple Import/Export Tools](https://github.com/websharks/s2member-kb/issues/125) please [click here](https://github.com/websharks/s2member-kb/issues/125).
+s2Member comes with two different Import/Export Tool flavors. Both flavors import/export in the [CSV (comma-separated values)](http://en.wikipedia.org/wiki/Comma-separated_values) format. However, they each construct CSV data differently.
+
+Advanced Import/Export Tools allow for a _much_ larger set of data to be manipulated. In this article I will discuss the Advanced Import/Export Tools. If you would like to learn more about the [default Simple Import/Export Tools](https://github.com/websharks/s2member-kb/issues/125) please [click here](https://github.com/websharks/s2member-kb/issues/125).
 
 ---
 
