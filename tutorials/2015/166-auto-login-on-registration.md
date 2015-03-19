@@ -10,9 +10,7 @@ toc-enable: false
 
 ## Brief History Behind This
 
-There have been numerous attempts at this throughout the s2Member forums and elsewhere. Some have worked, some have caused problems.
-
-For instance, there was a version of this hack circulating the s2Member Forums which is now known to cause numerous problems, such as preventing s2Member’s post-processing routines from completing, or disabling the `success=""` shortcode attribute that’s possible with shortcodes produced by s2Member Pro. 
+There have been numerous attempts at this throughout the s2Member forums and elsewhere. Some have worked, some have caused problems. For instance, there was a version of this hack circulating the s2Member Forums which is now known to cause numerous problems, such as preventing s2Member’s post-processing routines from completing, or disabling the `success=""` shortcode attribute that’s possible with shortcodes produced by s2Member Pro. 
 
 <i class="fa fa-exclamation-triangle"></i> _**WARNING:** Please ignore any other hacks you might have seen that do not reference this KB article specifically. Please use the MU plugin posted below for the best compatibility; i.e., to avoid accidentally using a hack from the past that did not work._
 
