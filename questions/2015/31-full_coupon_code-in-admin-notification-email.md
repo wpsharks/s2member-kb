@@ -19,7 +19,7 @@ _These have been documented in your Dashboard in places where transaction-relate
 
 Administrative notifications regarding a new user are not transaction-related. This notification is sent by WordPress and can be customized further when s2Member is installed; but unfortunately, this email is not sent within a context that would allow s2Member to fill it with a coupon code at this time.
 
-The emails that support the coupon replacement codes are: Signup Confirmation Email, Modification Confirmation Email, Capability Confirmation Email, etc. All of these are displayed in areas such as: PayPal Pro Options, Stripe Options, and/or Authorize.Net Options. For example, see: **Dashboard → PayPal Options → Signup Confirmation Email**
+The emails that support the coupon replacement codes are: Signup Confirmation Email, Modification Confirmation Email, Capability Confirmation Email, etc. All of these are displayed in areas such as: PayPal Pro Options, Stripe Options, and/or Authorize.Net Options. For example, see: **Dashboard → s2Member → PayPal Options → Signup Confirmation Email**
 
 ---
 
