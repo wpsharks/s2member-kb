@@ -13,4 +13,4 @@ See: **Dashboard → s2Member (Pro) → Restriction Options → URI Restrictions
 
 That will allow you to define specific URIs that certain Membership Levels can access. For example, to require Level 1 to access `/groups/` you would put `/groups/` in the Level 1 field.
 
-If you haven't already, I recommend watching the [BuddyPress + s2Member](http://s2member.com/kb-article/s2member-buddypress/) tutorial video.
+_**Tip:** If you haven't already, I recommend watching the [BuddyPress + s2Member](http://s2member.com/kb-article/s2member-buddypress/) tutorial video._
