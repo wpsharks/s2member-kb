@@ -33,4 +33,8 @@ if (!empty($requirement_type)) {
 ?>
 ```
 
-**See also:** [`[s2MOP /]` Shortcode Documentation](http://s2member.com/kb-article/s2mop-shortcode/) for an even easier way to do this!
+---
+
+### **See also:** [`[s2MOP /]` Shortcode Documentation](http://s2member.com/kb-article/s2mop-shortcode/)
+
+If you use the `[s2MOP /]` shortcode you won't need the code sample above; i.e., the shortcode does it all.
