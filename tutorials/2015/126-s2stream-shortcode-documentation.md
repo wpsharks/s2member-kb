@@ -6,6 +6,12 @@ author: jaswsinc
 github-issue: https://github.com/websharks/s2member-kb/issues/126
 ---
 
+https://www.youtube.com/watch?v=ZTopRQQAELw
+
+---
+
+%%toc%%
+
 ## Basic Download Restrictions (Required)
 
 See: **Dashboard → s2Member → Download Options → Basic Download Restrictions**
@@ -68,7 +74,7 @@ See also: **Amazon Web Services Console → IAM → Create New User** s2Member w
 
 ---
 
-### Integrating Amazon CloudFront Distributions
+## Integrating Amazon CloudFront Distributions
 
 https://www.youtube.com/watch?v=Gr87ZBJQE0I
 
@@ -363,35 +369,33 @@ See also: [s2member_file_download_url()](http://www.s2member.com/codex/stable/s2
 ```php
 <?php
 // Configuration.
-$s2_jw_config["jwplayer"] = "/jwplayer/"; // Relative URL path to JW Player files directory.
-$s2_jw_config["mp4_video_file_name"] = "video.mp4"; // Name of your MP4 test file.
+$s2_jw_config['jwplayer']            = '/jwplayer/'; // Relative URL path to JW Player files directory.
+$s2_jw_config['mp4_video_file_name'] = 'video.mp4'; // Name of your MP4 test file.
 // Don't edit anything else below unless you know what you're doing.
 ?>
 
-<div id="jw-container">JW Player appears here.</div>
-<script type="text/javascript" src="<?php echo $s2_jw_config["jwplayer"]; ?>jwplayer.js"></script>
+	<div id="jw-container">JW Player appears here.</div>
+	<script type="text/javascript" src="<?php echo $s2_jw_config["jwplayer"]; ?>jwplayer.js"></script>
 
 <?php // A direct URL to the RTMP source; counting the file against the current User in real-time.
-$cfg = array ("file_download" => $s2_jw_config["mp4_video_file_name"], "url_to_storage_source" => true, "count_against_user" => true); ?>
+$cfg = array('file_download' => $s2_jw_config['mp4_video_file_name'], 'url_to_storage_source' => TRUE, 'count_against_user' => TRUE); ?>
 
 <?php // API Function `s2member_file_download_url()` returns false if access is denied to the current User.
-if (($mp4 = s2member_file_download_url ($cfg, "get-streamer-array"))) { ?>
+if(($mp4 = s2member_file_download_url($cfg, 'get-streamer-array'))): ?>
 
-    <script type="text/javascript">
-        jwplayer('jw-container').setup({
-                playlist:
-                    [{
-                        sources:
-                            [
-                                {type: 'rtmp', file: '<?php echo $mp4["streamer"]; ?>/mp4:<?php echo $mp4["file"]; ?>'},
-                                {type: 'mp4', file: '<?php echo $mp4["url"]; ?>'}
-                            ]
-                    }],
-                primary: 'flash', width: 480, height: 270
-            });
-    </script>
+	<script type="text/javascript">
+		jwplayer('jw-container').setup({
+			                               playlist: [{
+				                                          sources: [
+					                                          {type: 'rtmp', file: '<?php echo $mp4['streamer']; ?>/mp4:<?php echo $mp4['file']; ?>'},
+					                                          {type: 'mp4', file: '<?php echo $mp4['url']; ?>'}
+				                                          ]
+			                                          }],
+			                               primary : 'flash', width: 480, height: 270
+		                               });
+	</script>
 
-<?php } else /* Access is denied to the current User. */ { ?>
-    Sorry, you do NOT have access to this file.
-<?php } ?>
+<?php else: /* Access is denied to the current User. */ ?>
+	Sorry, you do NOT have access to this file.
+<?php endif; ?>
 ```
