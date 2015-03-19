@@ -10,9 +10,7 @@ github-issue: https://github.com/websharks/s2member-kb/issues/39
 
 ## Using Pro-Form Checkout Options
 
-If you would like to offer a single Pro-Form with multiple "Checkout Options", it's quite easy.
-
-See **Dashboard → s2Member (Pro) → PayPal Pro-Forms → Wrapping Multiple Shortcodes as "Checkout Options"**.
+If you would like to offer a single Pro-Form with multiple "Checkout Options", it's quite easy. See: **Dashboard → s2Member (Pro) → PayPal Pro-Forms → Wrapping Multiple Shortcodes as "Checkout Options"**
 
 First, generate each of your Pro-Form shortcodes the same as you normally would (using some of the Pro-Form generators). Then, you can simply wrap them all inside another Pro-Form shortcode (as seen below). 
 
