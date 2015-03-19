@@ -89,6 +89,8 @@ _The use of a double quote as the escape char (and as the encapsulation) is a st
 
 Each line in s2Member’s Advanced Export File (which is the same format used for importation) consists of four data classifications. Understanding these classifications is important if you intend to fully understand what you're dealing with. The four classifications are: **User Fields**, **Capability Fields**, **Meta Fields**, and **Custom Fields**.
 
+---
+
 ### 1. User Fields
 
 If you pull a quick export using the Advanced Export Tool, look at the first line of the exported CSV data. This line includes a list of CSV headers. While the order of your CSV data columns doesn’t matter, s2Member always spits out the **User Fields** first in export files, just to keep data classifications easy to understand. So, from left-to-right, you will find the following **User Field** headers.
@@ -99,6 +101,8 @@ If you pull a quick export using the Advanced Export Tool, look at the first lin
 ```
 
 _These correlate with the column names in your [`wp_users` database table](http://codex.wordpress.org/Database_Description#Table:_wp_users)._
+
+---
 
 ### 2. Capability Fields
 
@@ -115,6 +119,8 @@ _Note that `meta_key__wp_capabilities` is a core WordPress meta field that is of
 
 - **`role`** This can be a number (i.e., a Membership Level: `1`, `2`, `3`, `4`, etc) or any WordPress Role name (e.g., `subscriber`, `s2member_level1`, etc). See: [this KB article](https://github.com/websharks/s2member-kb/issues/122) for clarification.
 - **`ccaps`** This can be a comma-delimited list of Custom Capabilities the user should have. This is an advanced feature provided by s2Member. For further details, please watch [this video](https://github.com/websharks/s2member-kb/issues/73/) about how to extend s2Member beyond just Membership Levels.
+
+---
 
 ### 3. Meta Fields
 
@@ -162,6 +168,8 @@ _It’s also worth mentioning that you can always import any data columns you li
 - **`meta_key__wp_s2member_last_login_time`** This is a UNIX timestamp indicating the time that a user’s last login session began (i.e., the last time they actually logged into your site). **Tip:** this field is also visible in the s2Member UI. In the list of Users within WordPress, this is an available column to show or hide.
 - **`meta_key__wp_s2member_login_counter`** This is a running counter which indicates the total number of times that a user has logged into their account at your site. **Tip:** this field is also visible in the s2Member UI. In the list of Users within WordPress, this is an available column to show or hide.
 - **`meta_key__wp_s2member_notes`** For administrative use only. These are administrative notes (if any) that you’ve kept, regarding a particular user. **Tip:** this field is also editable in the s2Member UI. Click `[edit]` next to any user, then scroll down to edit this field for a particular user.
+
+---
 
 ### 4. Custom Fields
 
