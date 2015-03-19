@@ -4,6 +4,7 @@ categories: tutorials
 tags: s2mop,mu-plugins-hacks,membership-options-page
 author: raamdev
 github-issue: https://github.com/websharks/s2member-kb/issues/4
+toc-enable: false
 ---
 
 For this trick you'll need to install something like the [ezPHP](http://wordpress.org/plugins/ezphp/) plugin to enable PHP code inside your Membership Options Page. Then, you can use the following PHP code on the Membership Options Page to show a message that states what type of Level, Custom Capability, or Specific Post/Page is required to access the content that caused the redirect to the Membership Options Page.
