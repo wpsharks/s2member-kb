@@ -24,6 +24,7 @@ In this video tutorial, lead developer Jason Caldwell provides an overview of th
 - [s2Member Simple Shortcode Conditionals](http://s2member.com/kb-article/s2if-simple-shortcode-conditionals/)
 - [s2Member Roles/Capabilities](http://s2member.com/kb-article/s2member-rolescapabilities/)
 - [s2Member Roles/Capabilities via PHP](http://s2member.com/kb-article/rolescapabilities-via-php/)
+- [Hacking s2Member with Hooks/Filters](http://s2member.com/kb-article/hacking-s2member-plugin-w-hooksfilters-for-wordpress/)
 - Code sample used in the video w/ a little cleanup:
   `/wp-content/mu-plugins/s2-hacks.php`
 	```php
