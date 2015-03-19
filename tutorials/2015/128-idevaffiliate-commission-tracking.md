@@ -56,6 +56,8 @@ Relevant Replacement Codes:
 <img src="http://www.example.com/idevaffiliate/sale.php?profile=xxx&idev_saleamt=%%initial%%&idev_ordernum=%%subscr_id%%" border="0" width="1" height="1" />
 ```
 
+---
+
 See: **Dashboard → s2Member → API / Tracking Codes → Modification Tracking Codes**
 
 Relevant Replacement Codes:
@@ -68,6 +70,8 @@ Relevant Replacement Codes:
 <img src="http://www.example.com/idevaffiliate/sale.php?profile=xxx&idev_saleamt=%%initial%%&idev_ordernum=%%subscr_id%%" border="0" width="1" height="1" />
 ```
 
+---
+
 See: **Dashboard → s2Member → API / Tracking Codes → Capability Tracking Codes**
 
 Relevant Replacement Codes: 
@@ -79,6 +83,8 @@ Relevant Replacement Codes:
 ```html
 <img src="http://www.example.com/idevaffiliate/sale.php?profile=xxx&idev_saleamt=%%amount%%&idev_ordernum=%%txn_id%%" border="0" width="1" height="1" />
 ```
+
+---
 
 See: **Dashboard → s2Member → API / Tracking Codes → Specific Post/Page Tracking Codes**
 
@@ -146,6 +152,8 @@ Place this URL (all on one line); as a URL that s2Member should notify when a pa
 ```text
 http://www.example.com/idevaffiliate/sale.php?idev_saleamt=%%amount%%&idev_ordernum=%%txn_id%%&idev_option_1=%%item_name%%&idev_option_2=%%subscr_id%%&idev_option_3=%%cv0%%&ip_address=%%user_ip%%
 ```
+
+---
 
 See: **Dashboard → s2Member → API / Notification → Specific Post/Page Sale**
 
