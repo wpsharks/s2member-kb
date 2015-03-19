@@ -1,5 +1,5 @@
 ---
-title: Automatically Redirecting to a Protected Page after Login
+title: Automatically Redirecting to a Protected Page After a User Logs In to Your Site
 categories: tutorials
 tags: mu-plugins-hacks,login-registration
 author: raamdev
