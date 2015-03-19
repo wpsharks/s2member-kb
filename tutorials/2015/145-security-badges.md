@@ -11,9 +11,9 @@ github-issue: https://github.com/websharks/s2member-kb/issues/145
 	[s2Member-Security-Badge v="1" /]
 </div>
 
-An s2Member Security Badge can be used to express your site’s concern for security. Demonstrating to all Users/Members that your site (and the s2Member software) take security seriously.
+An s2Member Security Badge can be used to express your site’s concern for security. Demonstrating to all users that your site (and s2Member) take security seriously.
 
-From your WordPress Dashboard, see: **s2Member® → General Optionals → Security Badge**
+See: **Dashboard → s2Member → General Optionals → Security Badge**
 
 ---
 
