@@ -33,7 +33,7 @@ if (!empty($seeking_uri)) {
 
 ### Now, we can check if we have a URI available, and if so, output a special Login link:
 
-```
+```html
 <?php if(!empty($URI)) { ?>
 	Existing members can <a href="<?php echo wp_login_url( esc_url($URI) ); ?>" title="Login">Login</a> to access this page.
 <?php } ?>
