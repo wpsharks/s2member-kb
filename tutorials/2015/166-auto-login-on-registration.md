@@ -4,6 +4,8 @@ categories: tutorials
 tags: login-registration,mu-plugins-hacks
 author: jaswsinc
 github-issue: https://github.com/websharks/s2member-kb/issues/166
+toc-enable: false
+
 ---
 
 ## Brief History Behind This
@@ -14,6 +16,7 @@ For instance, there was a version of this hack circulating the s2Member Forums w
 
 <i class="fa fa-exclamation-triangle"></i> _**WARNING:** Please ignore any other hacks you might have seen that do not reference this KB article specifically. Please use the MU plugin posted below for the best compatibility; i.e., to avoid accidentally using a hack from the past that did not work._
 
+---
 
 ## MU Plugin for Auto-Login on Registration
 
@@ -21,7 +24,9 @@ I’m posting this here as a resource for those of you that would like to implem
 
 The following MU Plugin is compatible with both s2Member and with s2Member Pro. It works for _any_ user registration that occurs within WordPress (so long as s2Member is installed on the site). It also works with s2Member Pro Forms, where a new user/member/customer is creating a username on your site; either during a Free Registration, or during checkout for Membership Access.
 
-In addition, this does _not_ deny you the ability to set a custom `success=""` shortcode attribute in your s2Member Payment Buttons/Forms. If you want to do that you can.
+In addition, this does _not_ cause a problem with the `success=""` shortcode attribute in s2Member Pro.
+
+---
 
 ### Simple Installation Instructions
 
