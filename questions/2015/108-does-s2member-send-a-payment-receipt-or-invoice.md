@@ -1,5 +1,5 @@
 ---
-title: Does s2Member send a payment receipt or invoice?
+title: Does s2Member send a payment receipt or automatically generate PDF invoices?
 categories: questions
 tags: email-config
 author: raamdev
