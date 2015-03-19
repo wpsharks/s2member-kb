@@ -22,7 +22,7 @@ As a security precaution, s2Member will _not_ deliver protected File Downloads (
 
 ---
 
-## Amazon S3/CDN Storage Option (Highly Recommended)
+## Amazon S3/CDN Storage Option
 
 https://www.youtube.com/watch?v=Gr87ZBJQE0I
 
@@ -74,7 +74,7 @@ See also: **Amazon Web Services Console → IAM → Create New User** s2Member w
 
 ---
 
-## Integrating Amazon CloudFront Distributions
+## Amazon CloudFront Storage/Distribution Option
 
 https://www.youtube.com/watch?v=Gr87ZBJQE0I
 
@@ -86,13 +86,19 @@ s2Member can be configured to _only_ use Amazon S3 (i.e., without Amazon CloudFr
 
 _**However,** if you choose not to integrate Amazon CloudFront, you will not be capable of serving true audio/video streams over the RTMP protocol. Audio/video files will play fine, but they won’t [stream](http://en.wikipedia.org/wiki/Real_Time_Messaging_Protocol)._
 
-### Step 1: Signup for Amazon CloudFront Service
+---
+
+### Integrating Amazon CloudFront Distributions
+
+---
+
+#### Step 1: Signup for Amazon CloudFront Service
 
 See: [Amazon CloudFront](http://aws.amazon.com/cloudfront/). Amazon Simple Storage Service ([Amazon S3](http://aws.amazon.com/s3/)) combined with [Amazon CloudFront](http://aws.amazon.com/cloudfront/); makes RTMP streams possible, and it comes with a number of other advantages too. Amazon CloudFront is a web service for content delivery. It integrates with other Amazon Web Services (such as Amazon S3) to give developers and businesses an easy way to distribute content to end users with low latency, and with high data transfer speeds. Amazon CloudFront delivers your static and streaming content using a global network of edge locations. Requests for your Amazon S3 Bucket Objects (i.e., your protected files) are automatically routed to the nearest edge location, so content is delivered with the best possible performance.
 
 One of the greatest things about Amazon CloudFront is its ability to stream/seek media files in the truest sense of the word. For sites delivering protected FLV/MP4/OGG/WEBM and other streaming audio/video file types over the [RTMP protocol](http://en.wikipedia.org/wiki/Real_Time_Messaging_Protocol), Amazon CloudFront is our recommendation. It’s _important_ to realize what RTMP streams really mean—from a security standpoint. When you stream over the RTMP protocol you are making audio/video files available for playback, but _not_ for download or redistribution. For some business models this is critical_!_ For instance, instead of pushing an entire MP4 video to your clients (which is actually downloadable), an [RTMP stream](http://en.wikipedia.org/wiki/Real_Time_Messaging_Protocol), is just that; it’s a stream. It can be viewed, but not easily downloaded in whole (or redistributed).
 
-### Step 2: Give s2Member Your Amazon CloudFront Keys
+#### Step 2: Give s2Member Your Amazon CloudFront Keys
 
 See: **Dashboard → s2Member → Download Options → Amazon S3/CloudFront CDN Delivery Option**
 
@@ -104,7 +110,7 @@ See also: **Amazon Management Console → Security Credentials → Cloudfront Ke
 
 ![](https://www.filepicker.io/api/file/frJPbN1iT8uHvJtXz6NJ#.png){.aligncenter .fancy-image}
 
-### Step 3: Tell s2Member to Auto-Configure S3/CloudFront for You
+#### Step 3: Tell s2Member to Auto-Configure S3/CloudFront for You
 
 ![](https://www.filepicker.io/api/file/kxghUedoQICOHbODIOSR#.png){.aligncenter .fancy-image}
 
