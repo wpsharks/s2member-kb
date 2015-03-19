@@ -11,7 +11,7 @@ If you link to a page protected by s2Member and an existing member clicks on tha
 
 If you want them to be able to login and then immediately get redirected to that protected page they were trying to access (as opposed to getting redirected to the Login Welcome Page), you'll need to add a special "Login" link to your Membership Options Page that passes the link to the protected page to the Login page, so that after logging in WordPress can properly redirect the user to the protected page.
 
-**Quick Tip:** The WordPress [`wp_login_url()` function](http://codex.wordpress.org/Function_Reference/wp_login_url) lets you pass in a redirect URL (perfect!). We'll use this to create the special Login link that we need.
+**Quick Tip:** The [`wp_login_url()` function](http://codex.wordpress.org/Function_Reference/wp_login_url) lets you pass in a redirect URL (perfect!). We'll use this to create the special Login link that we need.
 
 s2Member's MOP Vars (Membership Options Page Variables) contain the "Seeking URI", i.e., the URI to the protected page that the user was trying to access. We'll extract this URI from the MOP Vars and then pass it into the `wp_login_url()` function.
 
