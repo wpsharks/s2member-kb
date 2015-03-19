@@ -17,6 +17,4 @@ Integrated specifically to meet the needs of s2Member installations; s2Member Pr
 
 ## [Sidebar Login](http://wordpress.org/extend/plugins/sidebar-login/) (Free Alternative)
 
-Sidebar Login is a free alternative to the s2Member Pro Login Widget.
-
-See: [http://wordpress.org/extend/plugins/sidebar-login/](http://wordpress.org/extend/plugins/sidebar-login/)
+Sidebar Login is a free alternative to the s2Member Pro Login Widget. See: [http://wordpress.org/extend/plugins/sidebar-login/](http://wordpress.org/extend/plugins/sidebar-login/)
