@@ -42,7 +42,7 @@ You can use regular `<?php ?>` tags. Or, you can use `[php][/php]` shortcode tag
 ```html
 <?php if(is_user_logged_in()): ?>
 	Content for a user that is logged-in.
-<?php else: // Otherwise show this.
+<?php else: // Otherwise show this. ?>
 	Content for everyone else.
 <?php endif; ?>
 ```
