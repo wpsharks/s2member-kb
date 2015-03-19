@@ -4,6 +4,7 @@ categories: questions
 tags: troubleshooting, log-files-debug
 author: raamdev
 github-issue: https://github.com/websharks/s2member-kb/issues/37
+toc-enable: false
 ---
 
 If you see a log entry like the following in your `gateway-core-ipn.log`:
@@ -47,7 +48,7 @@ In the case of a Pro-Form, this "Transient Queue" would not occur. With a Pro-Fo
 
 ---
 
-## Customers report successful payment, but they don't receive access; why?
+## Customers pay, but they don't receive access; why?
 
 Best guess here, would be that instructions on the site are not clear enough, or they are misleading in some way. 
 
