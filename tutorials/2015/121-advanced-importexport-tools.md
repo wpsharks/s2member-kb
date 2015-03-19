@@ -165,7 +165,11 @@ _It’s also worth mentioning that you can always import any data columns you li
 
 ### 4. Custom Fields
 
-This data classification deals with Custom Registration/Profile Fields you configure with s2Member. See: **Dashboard → s2Member → General Options → Registration Profile Fields**. If you want to import Custom Fields, the easiest way to build your import file is to go ahead and configure those fields with s2Member in the Dashboard. Fill them in for at least one user and then pull an export file using s2Member’s Advanced Export Tool. If you look at the very end of any line (Custom Fields generally come last; though the order does not matter) you will find something like this:
+This data classification deals with Custom Registration/Profile Fields you configure with s2Member.
+
+See: **Dashboard → s2Member → General Options → Registration Profile Fields**
+
+If you want to import Custom Fields, the easiest way to build your import file is to go ahead and configure those fields with s2Member in the Dashboard. Fill them in for at least one user and then pull an export file using s2Member’s Advanced Export Tool. If you look at the very end of any line (Custom Fields generally come last; though the order does not matter) you will find something like this:
 
 ```text
 "custom_field_key__company","custom_field_key__dept"
