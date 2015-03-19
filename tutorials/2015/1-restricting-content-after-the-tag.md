@@ -28,7 +28,7 @@ See also: [s2Member Simple Shortcode Conditionals](http://s2member.com/kb-articl
 
 ## Taking it A Step Further
 
-**Ninja Tip:** Working example of programatic protection of content below the `<!--more-->` tag in WordPress.
+**Ninja Tip:** Working example of programmatic protection of content below the `<!--more-->` tag in WordPress.
 
 Create this directory and file:
 `/wp-content/mu-plugins/s2if-more-filter.php`
