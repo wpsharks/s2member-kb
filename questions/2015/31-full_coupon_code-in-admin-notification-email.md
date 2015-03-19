@@ -1,5 +1,5 @@
 ---
-title: %%full_coupon_code%% in Admin Notification Email?
+title: '%%full_coupon_code%% in Admin Notification Email?'
 categories: questions
 tags: pro-forms,pro-coupon-codes,troubleshooting
 author: jaswsinc
