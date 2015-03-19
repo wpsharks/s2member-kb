@@ -10,7 +10,9 @@ By default, s2Member sends a Signup Confirmation Email with basic instructions a
 
 See: **Dashboard → [Payment Gateway] Options → Signup Confirmation Email**
 
-You'll find a full list of all Replacement Codes there, along with descriptions. _**Note:** It is also possible to use PHP tags inside s2Member email templates. This exposes all the power of WordPress too._
+You'll find a full list of all Replacement Codes there, along with descriptions.
+
+_**Note:** It is also possible to use PHP tags inside s2Member email templates. This exposes all the power of WordPress too._
 
 _**Tip:** Along with emails that you can customize with s2Member, many payment gateways make it possible for you to have emails sent out automatically in response to completed transactions. Please review the documentation and configuration panel that is supplied by your payment gateway to learn more._
 
