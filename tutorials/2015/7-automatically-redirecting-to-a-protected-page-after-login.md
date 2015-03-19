@@ -43,7 +43,7 @@ That's it! Now when someone attempts to access a protected page, they can click 
 
 ---
 
-**Ninja Tip:** If you want to automatically add a login/logout link to a nav menu that contains the redirect URI when attempting to access a protected page, you can use the following code:
+**Ninja Tip:** If you want to automatically add a login/logout link to a WordPress Navigation Menu; i.e., one that contains the redirect URI when attempting to access a protected page, you can use the following code:
 
 ```php
 // Filter wp_nav_menu() to add a login/logout link to the nav menu
