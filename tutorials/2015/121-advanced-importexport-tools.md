@@ -29,11 +29,11 @@ s2Member comes with two different Import/Export Tool flavors. Both flavors impor
 
 ---
 
-### A Few Quick Import Examples
+## A Few Quick Import Examples
 
 ---
 
-#### Creating New Users
+### Creating New Users
 
 ```text
 "user_login", "user_email", "user_pass"
@@ -45,7 +45,7 @@ The order of your columns does not matter, so long as your CSV headers contain t
 
 ---
 
-#### Mass-Updating Existing Users
+### Mass-Updating Existing Users
 
 ```text
 "ID", "role", "ccaps", "meta_key__wp_s2member_subscr_gateway", "meta_key__wp_s2member_subscr_id", "meta_key__wp_s2member_subscr_cid"
@@ -57,7 +57,7 @@ The order of your columns does not matter, so long as your CSV headers contain t
 
 ---
 
-#### Forcing a Specific EOT Time
+### Forcing a Specific EOT Time
 
 ```text
 "ID", "meta_key__wp_s2member_auto_eot_time"
@@ -69,7 +69,7 @@ EOT = End of Term. This is given as a UNIX timestamp. See details below regardin
 
 ---
 
-#### Adding Administrative Notes
+### Adding Administrative Notes
 
 ```text
 "ID", "meta_key__wp_s2member_notes"
