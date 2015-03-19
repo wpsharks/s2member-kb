@@ -124,7 +124,7 @@ WordPress itself uses metadata fields to store a user’s first name, last name,
 
 **Meta Field Prefix**
 
-Each **Meta Field** (as seen in your CSV headers) should have the following prefix to place it into a **Meta Field** data classification. If you pull a quick export using s2Member’s Advanced Export Tool you will find several data columns like these. Notice the `meta_key__ prefix`? This is required for Meta Fields.
+Each **Meta Field** (as seen in your CSV headers) should have the following prefix to place it into a **Meta Field** data classification. If you pull a quick export using s2Member’s Advanced Export Tool you will find several data columns like these. Notice the `meta_key__ prefix`? It is this prefix that places these fields into the **Meta Fields** classification.
 	 
 ```text
 "meta_key__wp_s2member_custom","meta_key__wp_s2member_subscr_id","meta_key__wp_s2member_subscr_baid","meta_key__wp_s2member_subscr_cid","meta_key__wp_s2member_subscr_gateway","meta_key__wp_s2member_registration_ip","meta_key__wp_s2member_ipn_signup_vars","meta_key__wp_s2member_paid_registration_times","meta_key__wp_s2member_access_cap_times","meta_key__wp_s2member_sp_references","meta_key__wp_s2member_last_status_scan","meta_key__wp_s2member_first_payment_txn_id","meta_key__wp_s2member_last_payment_time","meta_key__wp_s2member_auto_eot_time","meta_key__wp_s2member_file_download_access_arc","meta_key__wp_s2member_file_download_access_log"
@@ -133,9 +133,9 @@ Each **Meta Field** (as seen in your CSV headers) should have the following pref
 
 **s2Member-Related Meta Fields**
 
-_**Note:** each of these fields many not always be included in **your* export file. Typically you will have some and not others. s2Member only includes data that it actually has; i.e., that s2Member has found a reason to store. Therefore, if you find that your export file is missing any of these columns, it means s2Member has never collected that specific information for any of your users (e.g., if you are missing the download-related meta values, it might be because your site doesn’t use s2Member’s File Download functionality)._
+_**Note:** each of these fields many not always be included in your export file. Typically you will have some and not others. s2Member only includes data that it actually has; i.e., that s2Member has found a reason to store. Therefore, if you find that your export file is missing any of these columns, it means s2Member has never collected that specific information for any of your users (e.g., if you are missing the download-related meta values, it might be because your site doesn’t use s2Member’s File Download functionality)._
 	 
-_It’s also worth mentioning that you can always import **any* data columns you like. Just because s2Member doesn’t export certain columns (because there is no data for them yet), you can still import whatever you want to. In fact, you can even import your own custom Meta Field columns if you so choose. Just give them a unique name, prefixed with `meta_key__` of course._
+_It’s also worth mentioning that you can always import any data columns you like. Just because s2Member doesn’t export certain columns (because there is no data for them yet), you can still import whatever you want to. In fact, you can even import your own custom Meta Field columns if you so choose. Just give them a unique name, prefixed with `meta_key__` of course._
 
 <div class="li-margins"></div>
 
