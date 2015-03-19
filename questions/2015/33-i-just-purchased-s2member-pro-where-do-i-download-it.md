@@ -7,7 +7,7 @@ github-issue: https://github.com/websharks/s2member-kb/issues/33
 toc-enable: false
 ---
 
-After purchasing s2Member Pro, a new download link will appear in your s2Member Account when you log in at [s2Member.com](http://s2member.com).
+After purchasing s2Member Pro, a download link will appear in your account at [s2Member.com](http://s2member.com).
 
 ![](https://www.filepicker.io/api/file/vJs3HAPoTo2ExSLEE6l7#.png)
 
