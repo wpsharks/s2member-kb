@@ -4,6 +4,7 @@ categories: questions
 tags: pro-forms, pro-coupon-codes
 author: jaswsinc
 github-issue: https://github.com/websharks/s2member-kb/issues/36
+toc-enable: false
 ---
 
 > I changed my Pro Form Shortcode to include `accept_coupons="1"` on the form, I also get the fact that you will need to place the coupon discount in coupon code configuration, such as `SAVE-10|10%` ... what I am struggling with is where to input the code!
