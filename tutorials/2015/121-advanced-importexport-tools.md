@@ -116,7 +116,7 @@ This is by far the largest data classification. The data columns in this classif
 
 WordPress itself uses metadata fields to store a user’s first name, last name, and a few other things. There can be many of these Meta Fields. Depending on the number of plugins that you run, you could even have hundreds of fields for each user. It is best to consult the documentation for each of your plugins to determine which metadata fields contain the data you would like to modify or better understand. In the context of this article I will only cover those which s2Member creates.
 
-#### Meta Field Prefix
+**Meta Field Prefix**
 
 Each **Meta Field** (as seen in your CSV headers) should have the following prefix to place it into a **Meta Field** data classification. If you pull a quick export using s2Member’s Advanced Export Tool you will find several data columns like these. Notice the `meta_key__ prefix`? This is required for Meta Fields.
 	 
@@ -125,7 +125,7 @@ Each **Meta Field** (as seen in your CSV headers) should have the following pref
         "www.example.com","9983JKSD03343","2098234DF","980234LSEFJ","stripe","123.456.789.0","{private: JSON object}","{""level"":1406275414,""level1"":1406275414}","{""1406275414.0001"":""level1""}","{private: JSON object}","1406271660","90823GAUI92323F","1406554660","1406271700","{private: JSON object}","{private: JSON object}"
 ```
 
-#### s2Member-Related Meta Fields
+**s2Member-Related Meta Fields**
 
 _**Note:** each of these fields many not always be included in **your* export file. Typically you will have some and not others. s2Member only includes data that it actually has; i.e., that s2Member has found a reason to store. Therefore, if you find that your export file is missing any of these columns, it means s2Member has never collected that specific information for any of your users (e.g., if you are missing the download-related meta values, it might be because your site doesn’t use s2Member’s File Download functionality)._
 	 
