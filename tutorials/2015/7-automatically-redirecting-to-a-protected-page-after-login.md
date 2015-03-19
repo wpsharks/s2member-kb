@@ -35,13 +35,15 @@ if (!empty($seeking_uri)) {
 
 ```
 <?php if(!empty($URI)) { ?>
-Existing members can <a href="<?php echo wp_login_url( esc_url($URI) ); ?>" title="Login">Login</a> to access this page.
+	Existing members can <a href="<?php echo wp_login_url( esc_url($URI) ); ?>" title="Login">Login</a> to access this page.
 <?php } ?>
 ```
 
 That's it! Now when someone attempts to access a protected page, they can click on the Login link, enter their login details, and be automatically redirected to the protected link they were trying to access!
 
 ---
+
+### Taking It A Step Further
 
 **Ninja Tip:** If you want to automatically add a login/logout link to a WordPress Navigation Menu; i.e., one that contains the redirect URI when attempting to access a protected page, you can use the following code:
 
