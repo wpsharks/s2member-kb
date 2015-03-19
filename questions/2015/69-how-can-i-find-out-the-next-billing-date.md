@@ -13,6 +13,7 @@ toc-enable: false
 This functionality is not built into the UI for the s2Member. However, s2Member Pro (when integrated with PayPal Pro) comes with the following API Functions that are not too difficult to work with, and they make this possible.
 
 ```php
+<?php
 s2member_pro_paypal_rbp_times_for_user($user_id);
 s2member_pro_payflow_rbp_times_for_user($user_id); // Payflow Edition.
 ```
