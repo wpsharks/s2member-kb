@@ -43,7 +43,7 @@ This function is part of the WordPress core. See: [Function Reference/get user o
 
 This function accepts two arguments:
 
-- **`$option_name`** Required. Any WordPress user option name, or the Unique ID for a custom field generated with s2Member (optionally prefixed with `s2_`).
+- **`$option_name`** Required. Any WordPress user option name, or the Unique ID for a custom field generated with s2Member (optionally prefixed with `s2_`). The optional `s2_` prefix is suggested in order to avoid ambiguity.
 - **`$user_id`** Optional. Defaults to the current user ID; i.e., the ID of the user currently logged into the site.
 
 ### Example PHP Code
