@@ -33,6 +33,7 @@ If you want to hide specific Custom Fields on the form (instead of hiding the en
 Please create this file and directory: `wp-content/mu-plugins/s2member-hide-custom-fields-profile.php`
 
 ```php
+<?php
 add_filter('ws_plugin__s2member_during_profile_during_fields_during_custom_fields_display', '__s2member_hide_specific_custom_fields', 10, 2);
 
 function __s2member_hide_specific_custom_fields($boolean, $vars) {
