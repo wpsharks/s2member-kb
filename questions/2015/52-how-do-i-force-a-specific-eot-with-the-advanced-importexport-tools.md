@@ -19,7 +19,7 @@ Here's an example that modifies the EOT time for two users (IDs `123` and `456`)
 
 _EOT = End of Term. This is given as a UNIX timestamp. See details below regarding this Meta Field._
 
-**`meta_key__wp_s2member_auto_eot_time`** EOT = End of Term. This is one of the _most_ useful fields when importing users from another/previous membership platform. If you fill this field in (it’s a UNIX timestamp), you are telling s2Member to terminate account access at that specific time. This is extremely helpful when you import customers from another membership platform into s2Member. For instance, if you don’t care to deal with the hassle of synchronizing all of the accounts (or if that just isn’t possible), you can simply flag each of your past account holders with an expiration time at which they will lose membership access in the new system. **Tip:** this field is also editable in the s2Member UI. Click `[edit]` next to any user, then scroll down to edit this field for a particular user.
+**`meta_key__wp_s2member_auto_eot_time`** This is one of the _most_ useful fields when importing users from another/previous membership platform. If you fill this field in (it’s a UNIX timestamp), you are telling s2Member to terminate account access at that specific time. This is extremely helpful when you import customers from another membership platform into s2Member. For instance, if you don’t care to deal with the hassle of synchronizing all of the accounts (or if that just isn’t possible), you can simply flag each of your past account holders with an expiration time at which they will lose membership access in the new system. **Tip:** this field is also editable in the s2Member UI. Click `[edit]` next to any user, then scroll down to edit this field for a particular user.
 
 ### UNIX Timestamps vs Regular Dates
 
@@ -33,7 +33,7 @@ There are many sites out there that can help you generate UNIX Timestamps. Here'
 
 The minimum required fields to modify the EOT for a user via a CSV file are as follows:
 
-```
+```text
 "ID", "meta_key__wp_s2member_auto_eot_time"
 "123", "1406281258"
 "456", "1406222258"
