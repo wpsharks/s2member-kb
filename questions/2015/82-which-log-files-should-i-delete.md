@@ -4,6 +4,7 @@ categories: questions
 tags: log-files-debug, troubleshooting
 author: jaswsinc
 github-issue: https://github.com/websharks/s2member-kb/issues/82
+toc-enable: false
 ---
 
 > In order to resolve an issue with live site we left debugging active. I now have various log files stored on the server.  Which can I or should I delete now that I have switched off logs/debugging?  I could not find this information anywhere on forum or knowledgebase.
