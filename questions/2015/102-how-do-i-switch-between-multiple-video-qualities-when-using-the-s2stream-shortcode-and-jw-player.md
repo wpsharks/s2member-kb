@@ -4,6 +4,7 @@ categories: questions
 tags: jw-player, s2stream, shortcodes, download-options
 author: raamdev
 github-issue: https://github.com/websharks/s2member-kb/issues/102
+toc-enable: off
 ---
 
 The `[s2Stream /]` shortcode includes a  `player_resolutions=""` shortcode attribute. The `player_resolutions=""` shortcode attribute is a comma-delimited list of all available resolution options, which allows you to specify multiple videos, each with their own quality/resolution. This can be tricky to setup, so please read carefully. You'll also want to review and reference the [[[s2Stream /]] Shortcode Documentation](http://s2member.com/kb-article/s2stream-shortcode-documentation/).
