@@ -8,7 +8,7 @@ github-issue: https://github.com/websharks/s2member-kb/issues/169
 
 Whenever you create a Custom Registration/Profile Field with s2Member, you are required to assign it a Unique ID. s2Member takes the Unique ID that you assign—replacing anything that is not `a-z0-9` with an `_` underscore. This sanitized Unique ID is used to reference the custom field in code.
 
-See: **s2Member ⥱ General Options ⥱ Registration/Profile Fields & Options**
+See: **Dashboard → s2Member ⥱ General Options ⥱ Registration/Profile Fields & Options**
 
 ![](https://www.filepicker.io/api/file/NnxnjO37RcyQTYWYsSvX#.png)
 
