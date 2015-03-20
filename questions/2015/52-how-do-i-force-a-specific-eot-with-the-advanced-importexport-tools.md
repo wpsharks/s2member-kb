@@ -1,7 +1,7 @@
 ---
 title: How do I force a specific EOT with the Advanced Import/Export Tools?
 categories: questions
-tags: importexport-tools
+tags: import-export-tools
 author: raamdev
 github-issue: https://github.com/websharks/s2member-kb/issues/52
 toc-enable: off
