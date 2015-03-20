@@ -28,7 +28,9 @@ You can change `ws_plugin__s2member_during_profile_during_fields_display_email` 
 
 ### How Can I Hide Specific Custom Fields?
 
-If you want to hide specific Custom Fields on the form, instead of hiding the entire Custom Field section, you can use the following code inside an [Must-Use Plugin](http://codex.wordpress.org/Must_Use_Plugins):
+If you want to hide specific Custom Fields on the form (instead of hiding the entire Custom Field section), you can use the following code inside a [Must-Use Plugin](http://codex.wordpress.org/Must_Use_Plugins). 
+
+Please create this file and directory: `wp-content/mu-plugins/s2member-hide-custom-fields-profile.php`
 
 ```php
 add_filter('ws_plugin__s2member_during_profile_during_fields_during_custom_fields_display', '__s2member_hide_specific_custom_fields', 10, 2);
