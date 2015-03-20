@@ -112,7 +112,7 @@ One of the greatest things about Amazon CloudFront is its ability to stream/seek
 
 See: **Dashboard → s2Member → Download Options → Amazon S3/CloudFront CDN Delivery Option**
 
-See also: **Amazon Management Console → Security Credentials → Cloudfront Key Pairs** _You will need to generate a new Cloudfront Key Pair here. When you do this you'll be prompted to down both a Public Key and Private Key. s2Member will need your Private Key (PEM) file, so be sure to save this in a safe place. You will also get a Cloudfront Access Key ID in this step—s2Member needs that too please._
+See also: **Amazon Management Console → Security Credentials → Cloudfront Key Pairs** _You will need to generate a new Cloudfront Key Pair here. When you do this you'll be prompted to download both a Public Key and Private Key. s2Member will need your Private Key (PEM) file, so be sure to save this in a safe place. You will also get a Cloudfront Access Key ID in this step—s2Member needs that too please._
 
 ![](https://www.filepicker.io/api/file/a8zonXHQkyYkqGWR5Tvr#.png){.aligncenter .fancy-image}
 
