@@ -4,6 +4,7 @@ categories: questions
 tags: eot-time, pro-forms, manual-intervention
 author: raamdev
 github-issue: https://github.com/websharks/s2member-kb/issues/75
+toc-enable: off
 ---
 
 Members can cancel their membership using a Billing Cancellation Form that you can generate for the Payment Gateway you're using (e.g., **s2Member → Stripe Pro-Forms → Stripe Billing Cancellation Forms**). When a subscribed member uses the form, their recurring subscription will be canceled and their account will be downgraded as per your Automatic EOT Behavior settings (**s2Member → Stripe Options → Automatic EOT Behavior**). 
