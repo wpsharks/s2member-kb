@@ -1,5 +1,5 @@
 ---
-title: How do I switch between multiple video qualities when using the [s2Stream /] shortcode and JW Player?
+title: How do I switch between multiple video resolutions using the [s2Stream /] shortcode and JW Player?
 categories: questions
 tags: jw-player, s2stream, shortcodes, download-options
 author: raamdev
