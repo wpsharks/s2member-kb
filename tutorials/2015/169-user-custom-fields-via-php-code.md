@@ -37,7 +37,7 @@ $company = get_user_field('company', $user_id);
 
 ---
 
-## User the `get_user_option()` Function in WordPress
+## Using the `get_user_option()` Function in WordPress
 
 This function is part of the WordPress core. See: [Function Reference/get user option « WordPress Codex](http://codex.wordpress.org/Function_Reference/get_user_option)
 
