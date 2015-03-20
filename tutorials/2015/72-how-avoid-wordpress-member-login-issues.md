@@ -17,19 +17,19 @@ Some site owners don't realize that all browsers consider variations in your dom
 4. https://www.example.com/		:: different sub-domain and protocol.
 ```
 
-If I visit `http://example.com/` and I enter my username/password, I am logged-in at `example.com` (no `www`); and over the `http://` protocol. However, if you post links on your site that point to `https://example.com/` or `www.example.com` (with the `www`), the user **may not be logged-in there**.
+If I visit `http://example.com/` and I enter my username/password, I'm logged-in at `example.com` (no `www`); and over the `http://` protocol. However, if you post links that point to `https://example.com/` or `www.example.com` (with the `www`), the user **may not be logged-in there**.
 
 ### Sub-Domains: `www` vs. without `www`
 
-Your domain name has a root. It's the domain without anything in front of it; e.g. `example.com`. While most people tend to think of `example.com` and `www.example.com` as the same, they are in fact not the same. The `www.` prefix is not a magic mirror, it's just another sub-domain.
+Your domain name has a root. It's the domain without anything in front of it; e.g., `example.com`. While most people tend to think of `example.com` and `www.example.com` as the same, they are in fact not the same. The `www.` prefix is not a magic mirror, it's just another sub-domain.
 
-So a `www.` prefix indicates a sub-domain like any other; e.g. `a.example.com`, `b.example.com`, `c.example`, `www.example.com`. All of these are sub-domains; i.e. not quite the same as your root, which is: `example.com`. When it comes to WordPress and the way WordPress sets login cookies, these are all _completely_ different, because WordPress sets a logged-in cookie for the current domain. If the current domain (in the address bar of your browser) is a sub-domain, your logged-in cookie is valid for the sub-domain only; i.e. **not functional at `example.com`**.
+So a `www.` prefix indicates a sub-domain like any other; e.g. `a.example.com`, `b.example.com`, `c.example`, `www.example.com`. All of these are sub-domains; i.e. not quite the same as your root, which is: `example.com`. When it comes to WordPress and the way WordPress sets login cookies, these are all _completely_ different, because WordPress sets a logged-in cookie for the current domain. If the current domain (in the address bar of your browser) is a sub-domain, your logged-in cookie is valid for the sub-domain only; i.e., **not functional at `example.com`**.
 
 Therefore, if a user logs into your site at `www.example.com`, but you allow your site to be accessed with or without the `www.` prefix, this can lead to many issues. Most site owners that understand this will work to adjust their server configuration so it forces one variation to be used across the entire site. See: http://davidwalsh.name/no-www for some quick examples of this.
 
 ### HTTPS vs. HTTP (Subtle Differences)
 
-In browsers like Google Chrome, Safari, Firefox, Opera, and _another I dare not mention_; it is possible for WordPress to set a cookie that is only available over the `https://` protocol (i.e. a secure "https only" cookie). See: http://en.wikipedia.org/wiki/HTTP_cookie#Secure_cookie
+In browsers like Google Chrome, Safari, Firefox, Opera, and _another I dare not mention_; it is possible for WordPress to set a cookie that is only available over the `https://` protocol (i.e., a secure "https only" cookie). See: http://en.wikipedia.org/wiki/HTTP_cookie#Secure_cookie
 
 In WordPress, if a user logs into the site over `https://`, WordPress will generally set the cookie as "https only". This is done as an added layer of security. WordPress assumes this is what you'd want whenever you ask users to log into the site over `https://`.
 
@@ -39,9 +39,9 @@ In WordPress, if a user logs into the site over `https://`, WordPress will gener
 
 1. It means that a user logging into the site over `http://`, _will_ be able to access the site over `https://` also. There's no issue with this, because WordPress only makes the cookie "https only" if the login occurred over `https://` to begin with. A cookie that is not "https only" can be read from either protocol without issue.
 
-2. **Important:** ... if a user logs into the site over `https://`, where the form action is something like `https://example.com/wp-login.php`, there is a good chance they will **not** be thought of as logged-in on the `http://` protocol.  Their logged-in cookie is only good over SSL in this case.
+2. **Important:** ... if a user logs into the site over `https://`, where the form action is something like `https://example.com/wp-login.php`, there is a good chance they will **not** be thought of as logged-in on the `http://` protocol. Their logged-in cookie is only good over SSL in this case.
 
-  Therefore, visiting `http://example.com/` after logging in from `https://example.com/` will lead to confusion. This is because WordPress sets the cookie in such a way that it is only accessible over SSL; i.e. on the original protocol they logged into the site with: `https://`.
+  Therefore, visiting `http://example.com/` after logging in from `https://example.com/` will lead to confusion. This is because WordPress sets the cookie in such a way that it is only accessible over SSL; i.e., on the original protocol they logged into the site with: `https://`.
 
 ---
 
@@ -49,7 +49,7 @@ In WordPress, if a user logs into the site over `https://`, WordPress will gener
 
 ### Decide on a Domain Variation for WordPress
 
-Decide early-on which domain variation you're going to use, and make sure that your installation of WordPress® is configured to match what you intend to use. Check your Dashboard under: `Settings -> General`. All of the URLs configured in that panel need to match what you intend to use.
+Decide early-on which domain variation you're going to use, and make sure that your installation of WordPress® is configured to match what you intend to use. See: **Dashboard → Settings → General**. All of the URLs configured in that panel need to match what you intend to use.
 
 ### Remain Consistent when Building WordPress Links
 
