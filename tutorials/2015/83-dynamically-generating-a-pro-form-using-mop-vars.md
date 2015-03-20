@@ -1,7 +1,7 @@
 ---
 title: Dynamically Generating a Pro-Form Using MOP Vars
 categories: tutorials
-tags: mu-plugins-hacks,s2mop
+tags: mu-plugins-hacks,s2mop,pro-forms
 author: brucewsinc
 github-issue: https://github.com/websharks/s2member-kb/issues/83
 toc-enable: false
