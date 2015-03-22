@@ -4,6 +4,7 @@ categories: questions
 tags: login-welcome-page, mu-plugins-hacks
 author: raamdev
 github-issue: https://github.com/websharks/s2member-kb/issues/53
+toc-enable: off
 ---
 
 To display the EOT date/time, you will first need to install a plugin that allows you to run PHP code inside your WordPress Pages. We recommend [ezPHP](http://wordpress.org/plugins/ezphp/).
