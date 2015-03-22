@@ -1,12 +1,12 @@
 ---
-title: How do I display the EOT on my Login Welcome Page?
+title: How do I display the EOT Date/Time?
 categories: questions
 tags: login-welcome-page, mu-plugins-hacks
 author: raamdev
 github-issue: https://github.com/websharks/s2member-kb/issues/53
 ---
 
-To display the EOT on the Login Welcome Page, you will first need to install a plugin that allows you to run PHP code inside your WordPress Pages. We recommend [ezPHP](http://wordpress.org/plugins/ezphp/).
+To display the EOT date/time, you will first need to install a plugin that allows you to run PHP code inside your WordPress Pages. We recommend [ezPHP](http://wordpress.org/plugins/ezphp/).
 
 _**Important Note:** When including PHP inside your WordPress Post/Page, it's very important that you only use the Text mode in the Post/Page Editor. If you use the Visual mode, the PHP code will likely become corrupt and will not work as expected._
 
@@ -24,3 +24,11 @@ if(($s2member_auto_eot_time = get_user_field('s2member_auto_eot_time'))) {
 ```
 
 You can change the "Your membership expires on: " portion to whatever is applicable for your scenario. You can also change the `F j, Y` portion of the code to display a different date format (`F j, Y` shows something like `January 21st, 2015`). See the [PHP `date()`](http://php.net/manual/en/function.date.php) formatting options.
+
+### Why isn't the EOT Date/Time showing?
+
+If the above code shows up blank for some users, that would indicate that user does not have an EOT Date/Time set (you can edit the user's account in **WordPress Dashboard → Users → Edit User** and scroll down to the **Automatic EOT Time** field).
+
+If you're using Recurring Subscriptions on your site (e.g., monthly recurring, yearly recurring), the EOT field will only be populated when a member cancels their membership or the membership is canceled due to multiple failed payments. On the other hand, if you're using Fixed-Term Subscriptions, where members pay for a fixed period of access (e.g., 1 day, 1 month, 1 year), the EOT field will be populated as soon as they pay for access.
+
+You can also manually add an EOT Time to any users account by editing their account and entering a valid date/time (click the `?` next to the **Automatic EOT Time** field for further details).
