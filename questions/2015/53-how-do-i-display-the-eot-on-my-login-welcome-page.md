@@ -32,3 +32,5 @@ If the above code shows up blank for some users, that would indicate that user d
 If you're using Recurring Subscriptions on your site (e.g., monthly recurring, yearly recurring), the EOT field will only be populated when a member cancels their membership or the membership is canceled due to multiple failed payments. On the other hand, if you're using Fixed-Term Subscriptions, where members pay for a fixed period of access (e.g., 1 day, 1 month, 1 year), the EOT field will be populated as soon as they pay for access.
 
 You can also manually add an EOT Time to any users account by editing their account and entering a valid date/time (click the `?` next to the **Automatic EOT Time** field for further details).
+
+![2015-03-21_21-34-30](https://cloud.githubusercontent.com/assets/53005/6767655/21322b54-d012-11e4-87e0-2a55ab621ec4.png)
