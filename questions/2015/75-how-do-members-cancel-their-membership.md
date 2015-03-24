@@ -7,9 +7,9 @@ github-issue: https://github.com/websharks/s2member-kb/issues/75
 toc-enable: off
 ---
 
-Members can cancel their membership using a Billing Cancellation Form that you can generate for the Payment Gateway you're using (e.g., **s2Member → Stripe Pro-Forms → Stripe Billing Cancellation Forms**). When a subscribed member uses the form, their recurring subscription will be canceled and their account will be downgraded as per your Automatic EOT Behavior settings (**s2Member → Stripe Options → Automatic EOT Behavior**). 
+Members can cancel their membership using a Billing Cancellation Form that you can generate for the Payment Gateway you're using (e.g., **Dashboard → s2Member → Stripe Pro-Forms → Stripe Billing Cancellation Forms**). When a subscribed member uses the form, their recurring subscription will be canceled and their account will be downgraded as per your Automatic EOT Behavior settings (**Dashboard → s2Member → Stripe Options → Automatic EOT Behavior**). 
 
-Canceling a membership generally implies that access is revoked, whether that be access to their account entirely (i.e., preventing a member from logging in) or revoking access to specific content while still allowing access to the account (i.e., a member can login, but they can't access restricted content). What happens when a membership is canceled depends on your Automatic EOT Behavior settings (**s2Member → Stripe Options → Automatic EOT Behavior**). 
+Canceling a membership generally implies that access is revoked, whether that be access to their account entirely (i.e., preventing a member from logging in) or revoking access to specific content while still allowing access to the account (i.e., a member can login, but they can't access restricted content). What happens when a membership is canceled depends on your Automatic EOT Behavior settings (**Dashboard → s2Member → Stripe Options → Automatic EOT Behavior**). 
 
 We recommend that you always start protecting content with a **Level 1** restriction and that you reserve **Level 0 / Subscriber** for members who should not have any access to protected content. That way a member can be downgraded to **Level 0 / Subscriber** and keep their account, while simultaneously revoking their access to any content protected at **Level 1** or higher.
 
@@ -19,15 +19,15 @@ Note that if you're running a free membership system, you can still utilize this
 
 ### How Do Paid Members Cancel Their Membership?
 
-To offer your paying subscribers the option to cancel their subscription, you can create a "Cancel Membership" page and then place the Billing Cancellation Form (e.g., **s2Member → Stripe Pro-Forms → Stripe Billing Cancellation Forms**) on that page.
+To offer your paying subscribers the option to cancel their subscription, you can create a "Cancel Membership" page and then place the Billing Cancellation Form (e.g., **Dashboard → s2Member → Stripe Pro-Forms → Stripe Billing Cancellation Forms**) on that page.
 
 ![2015-03-20_15-23-08](https://cloud.githubusercontent.com/assets/53005/6759284/3d007604-cf15-11e4-9c5c-f673a90ec415.png)
 
-You can then link to the "Cancel Membership" page from their "My Account" page (i.e., the Login Welcome Page). When a member cancels their membership using the form, their recurring subscription will be canceled on the payment gateway and their account will be downgraded as per your Automatic EOT Behavior settings (**s2Member → Stripe Options → Automatic EOT Behavior**). 
+You can then link to the "Cancel Membership" page from their "My Account" page (i.e., the Login Welcome Page). When a member cancels their membership using the form, their recurring subscription will be canceled on the payment gateway and their account will be downgraded as per your Automatic EOT Behavior settings (**Dashboard → s2Member → Stripe Options → Automatic EOT Behavior**). 
 
 ### How Do Free Members Cancel Their Membership?
 
-Free memberships can be cancelled (so-to-speak), by setting an EOT Time on the account (edit the users account and set a date/time you want the account to expire in the `Automatic EOT Time` field). When the EOT Time arrives, the account will be "downgraded" as per your Automatic EOT Behavior settings (**s2Member → Stripe Options → Automatic EOT Behavior**).
+Free memberships can be cancelled (so-to-speak), by setting an EOT Time on the account (edit the users account and set a date/time you want the account to expire in the `Automatic EOT Time` field). When the EOT Time arrives, the account will be "downgraded" as per your Automatic EOT Behavior settings (**Dashboard → s2Member → Stripe Options → Automatic EOT Behavior**).
 
 ![2015-03-20_15-25-56](https://cloud.githubusercontent.com/assets/53005/6759400/234b42b0-cf16-11e4-913c-87c47dbc1022.png)
 
