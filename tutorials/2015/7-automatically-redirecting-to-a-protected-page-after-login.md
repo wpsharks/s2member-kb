@@ -45,7 +45,9 @@ That's it! Now when someone attempts to access a protected page, they can click 
 
 ### Taking It A Step Further
 
-**Ninja Tip:** If you want to automatically add a login/logout link to a WordPress Navigation Menu; i.e., one that contains the redirect URI when attempting to access a protected page, you can use the following code:
+**Developer Tip:** If you want to automatically add a login/logout link to a WordPress Navigation Menu; i.e., one that contains the redirect URI when attempting to access a protected page, you can add the following code your theme's `functions.php` file. The exact code to use here will depend on your WordPress theme. If you're not familiar with WordPress theme development and/or PHP, please consult with your theme developer to find out exactly how the following code should be implemented.
+
+**Note: This only works from the Membership Options Page.** This will only redirect a user who clicks a login link _from the Membership Options Page_, after they have been redirected to the Membership Options Page because they tried to access some protected content. This code _does not_ simply redirect a visitor to any previous page they were on.
 
 ```php
 // Filter wp_nav_menu() to add a login/logout link to the nav menu
