@@ -15,14 +15,14 @@ If you want to process credit cards on-site though, you _must_ have a PayPal Pro
 
 Although not ideal, it's also possible to integrate s2Member Pro-Forms with only PayPal Express Checkout (**no PayPal Pro account required**). If you are unable to obtain a PayPal Pro, Stripe, or Authorize.Net account, you can still use s2Member Pro-Forms with the free version of PayPal by following these instructions:
 
-In your s2Member Pro-Form Shortcode change these shortcode attributes:
+### In your s2Member Pro-Form Shortcode change these shortcode attributes:
 
 ```text
 accept="paypal,visa,mastercard,amex,discover,maestro,solo"
 accept_via_paypal="paypal"
 ```
 
-Change them to:
+### Change them to:
 
 ```text
 accept="paypal" accept_via_paypal="paypal"
