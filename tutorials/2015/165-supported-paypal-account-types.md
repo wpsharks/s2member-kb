@@ -24,3 +24,7 @@ Please see: [PayPal Website Payments Pro](https://www.paypal.com/webapps/mpp/pay
 _**Note:** s2Member Pro does **NOT** support Payflow as a stand-alone product. There is a difference. s2Member's support for Payflow is limited to "PayPal Website Payments Pro (Payflow Edition)"; where the Payflow "Edition" of PayPal Pro is now very common in newer PayPal Pro accounts; i.e., if you signup for [PayPal Website Payments Pro](https://www.paypal.com/webapps/mpp/paypal-payments-pro) today you will get the Payflow Edition automatically—and that's fine!_
 
 _It's the [stand-alone Payflow Payment Gateway](https://www.paypal.com/webapps/mpp/payflow-payment-gateway) that we do not support._
+
+---
+
+_**See also:** [Do s2Member Pro-Forms work with PayPal Standard; i.e., **without PayPal Pro?**](http://s2member.com/kb-article/do-s2member-pro-forms-work-with-paypal-standard-i-e-without-paypal-pro/)_
