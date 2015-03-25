@@ -3,8 +3,8 @@ title: Do s2Member Pro-Forms work with PayPal Standard; i.e., without PayPal Pro
 categories: questions
 tags: paypal,pro-forms
 author: jaswsinc
-github-issue:
 github-issue: https://github.com/websharks/s2member-kb/issues/171
+toc-enable: false
 ---
 
 Using s2Member Pro does _not_ mean that you must use PayPal Pro integration. Just don't generate any PayPal Pro-Form Shortcodes. Instead, you could use Standard PayPal Buttons, Stripe, ClickBank, or Authorize.Net if you prefer (you could even use them all together at the same time).
