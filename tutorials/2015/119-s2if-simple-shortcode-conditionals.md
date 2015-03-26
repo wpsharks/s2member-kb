@@ -353,7 +353,7 @@ Sometimes you might want to check for a condition, but if that condition is fals
 
 If you're a developer and you already have experience with PHP tags, you might have noticed that all of these `[s2If][/s2If]` examples are relying upon PHP functions in the WordPress content management system. Understanding this, it becomes obvious that you could also bypass the use of `[s2If][/s2If]` in favor of regular PHP tags—if you wanted to. This can be easier in some cases, but really it's a personal preference :-)
 
-```php
+```html
 <?php if(current_user_can('access_s2member_ccap_music')): ?>
 	Content for members with the Custom Capability: music
 <?php else: // Else show this. ?>
