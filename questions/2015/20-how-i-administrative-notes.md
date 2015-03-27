@@ -1,5 +1,5 @@
 ---
-title: How can I search the Administrative Notes field?
+title: How can I search the Admin. Notes field?
 categories: questions
 tags: wp-users-list
 author: jaswsinc
