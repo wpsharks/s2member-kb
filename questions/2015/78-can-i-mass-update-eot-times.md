@@ -1,5 +1,5 @@
 ---
-title: Can I mass-update EOT Times?
+title: How can I mass-update EOT Times?
 categories: questions
 tags: eot-time, import-export-tools, mu-plugins-hacks
 author: jaswsinc
