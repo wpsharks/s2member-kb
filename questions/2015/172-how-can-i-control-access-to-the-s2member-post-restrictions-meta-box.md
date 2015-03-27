@@ -1,5 +1,5 @@
 ---
-title: How can I control access to the s2Member Post Restrictions Meta Box?
+title: How can I control access to the s2Member Post/Page Restrictions Meta Box?
 categories: questions
 tags: mu-plugins-hacks
 author: raamdev
