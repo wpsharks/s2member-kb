@@ -6,8 +6,6 @@ author: jaswsinc
 github-issue: https://github.com/websharks/s2member-kb/issues/58
 ---
 
-> When is an EOT Time set for each user?
-
 ## EOT Time is Not Always Present in WordPress
 
 The EOT field is not always present, because sometimes this is controlled by the underlying Subscription Profile; i.e., on the payment gateway side. The EOT field is only filled if s2Member needs to control this without the use of a Subscription Profile, or when an EOT has actually occurred against a Subscription Profile on the payment gateway side.
