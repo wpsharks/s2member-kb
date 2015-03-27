@@ -1,5 +1,5 @@
 ---
-title: How can I mass-update EOT Times?
+title: How can I update the EOT Time for multiple users?
 categories: questions
 tags: eot-time, import-export-tools, mu-plugins-hacks
 author: jaswsinc
