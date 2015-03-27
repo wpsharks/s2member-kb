@@ -1,5 +1,5 @@
 ---
-title: Will PayPal SSL updates in 2015-2016 impact my installation of s2Member?
+title: Will PayPal's planned SSL updates in 2015-2016 impact my installation of s2Member?
 categories: questions
 tags: paypal, troubleshooting
 author: jaswsinc
@@ -17,9 +17,7 @@ In the early part of 2015, PayPal sent a notice to merchants informing them they
 
 No, not really. These changes are occurring on PayPal side of things. s2Member and s2Member Pro both communicate with PayPal through the [`WP_Http`](https://codex.wordpress.org/HTTP_API) class. This is a part of the WordPress core, and it is designed to support SSL communication.
 
-However, **you should check your webserver** for compatibility with the new SHA-256 certificate technology. This will be required by most web services in 2015.
-
-We suggest that you contact your hosting company to inquire about compatibility with remote HTTPS communication through the `WP_Http` class, and ask them to be sure their servers will support the new SHA-256 certificate technology. There are high odds that your server will not need to be updated, but it is a great idea to check on this ahead of time, just in case!
+However, **you should check your webserver** for compatibility with the new SHA-256 certificate technology. This will be required by most web services in 2015. We suggest that you contact your hosting company to inquire about compatibility with remote HTTPS communication through the `WP_Http` class, and ask them to be sure their servers will support the new SHA-256 certificate technology. There are high odds that your server will not need to be updated, but it is a great idea to check on this ahead of time, just in case!
 
 ---
 
