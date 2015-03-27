@@ -14,7 +14,7 @@ If you want to enable that functionality however, please create the following di
 
 `/wp-content/mu-plugins/s2-hacks.php`
 
-```
+```php
 <?php
 add_filter('ws_plugin__s2member_users_list_search_admin_notes', '__return_true');
 ```
