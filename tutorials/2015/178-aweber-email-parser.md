@@ -7,7 +7,9 @@ github-issue: https://github.com/websharks/s2member-kb/issues/178
 toc-enable: false
 ---
 
-Starting w/ s2Member™ v141007+, you can now integrate with AWeber's API (recommended) instead of through an Email Parser. However, if you decide to use an AWeber Email Parser instead, please don't use the built-in PayPal Email Parser that AWeber provides. Instead, s2Member would really prefer that you use a Custom Email Parser, specifically for s2Member (as seen below).
+In the latest versions of s2Member you can integrate with AWeber's API (recommended) instead of through an Email Parser. However, if you decide to use an AWeber Email Parser instead, please don't use the built-in PayPal Email Parser that AWeber provides. Instead, s2Member would really prefer that you use a Custom Email Parser, specifically for s2Member (as seen below).
+
+See: **Dashboard → s2Member → API / List Servers → AWeber Integration**
 
 ## AWeber Email Parser For s2Member
 
