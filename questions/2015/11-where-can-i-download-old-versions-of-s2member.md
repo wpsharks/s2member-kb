@@ -1,5 +1,5 @@
 ---
-title: Where can I download old versions of s2Member?
+title: Where can I download old versions of the s2Member Framework and/or s2Member Pro?
 categories: questions
 tags: troubleshooting
 author: raamdev
