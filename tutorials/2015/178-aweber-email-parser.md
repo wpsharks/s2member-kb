@@ -11,12 +11,12 @@ Starting w/ s2Member™ v141007+, you can now integrate with AWeber's API (recom
 
 ## AWeber Email Parser For s2Member
 
-**Description:** `s2Member Email Parser`
-**Trigger Rule:** `s2Member Subscription Request\n` (match on: **Body**)
-**Rule 1:** `\nEMail Address: *(.+?)\n` (match on: **Body**, store in: **Email**)
-**Rule 2:** `\nFull Name: *(.*?)\n` (match on: **Body**, store in: **Name**)
-**Rule 3:** `\nAd Tracking: *(.*?)\n` (match on: **Body**, store in: **Ad Tracking**)
-**Rule 4:** `\nRole: *(.*?)\n` (match on: **Body**, store in: **Misc**)
+- **Description:** `s2Member Email Parser`
+- **Trigger Rule:** `s2Member Subscription Request\n` (match on: **Body**)
+- **Rule 1:** `\nEMail Address: *(.+?)\n` (match on: **Body**, store in: **Email**)
+- **Rule 2:** `\nFull Name: *(.*?)\n` (match on: **Body**, store in: **Name**)
+- **Rule 3:** `\nAd Tracking: *(.*?)\n` (match on: **Body**, store in: **Ad Tracking**)
+- **Rule 4:** `\nRole: *(.*?)\n` (match on: **Body**, store in: **Misc**)
 
 ---
 
