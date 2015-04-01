@@ -5,7 +5,9 @@ tags: troubleshooting
 author: raamdev
 github-issue: https://github.com/websharks/s2member-kb/issues/11
 ---
-You can download old versions of s2Member Framework and s2Member Pro from the [Release Archive](http://s2member.com/release-archive/). **Important Note:** When installing s2Member Framework and the s2Member Pro add-on, you must make sure that you install identical versions (e.g., s2Member Pro v150311 will only work with s2Member Framework v150311); the versions for both must always match.
+You can download old versions of s2Member Framework and s2Member Pro from the [Release Archive](http://s2member.com/release-archive/). 
+
+**Important Note:** When installing s2Member Framework and the s2Member Pro add-on, you must make sure that you install identical versions (e.g., s2Member Pro v150311 will only work with s2Member Framework v150311); the versions for both must always match.
 
 You can find older versions here:
 
