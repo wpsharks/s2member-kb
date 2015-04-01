@@ -10,7 +10,7 @@ github-issue: https://github.com/websharks/s2member-kb/issues/179
 
 See: **Dashboard → s2Member → API / List Servers**
 
-In this article I'll discuss the Double Opt-In Checkbox that can be configured to display in registration/checkout forms.
+In this article I'll discuss the Double Opt-In Checkbox that can be configured to display in registration/checkout forms. How to configure it, what's possible, etc.
 
 See: **Dashboard → s2Member → API / List Servers → Double Opt-In Checkbox**
 
@@ -36,6 +36,8 @@ All of these options are presented under the assumption that your list server wi
 Both of these options mean the same thing. The only difference is that the box is either checked by default (or not). Both of these settings tell s2Member that it _should_ connect with your list server if the box is checked.
 
 Both of these options also assume that this connection (via the API) is going to result in a confirmation email being sent to the potential subscriber. If you find a way to circumvent this (e.g., by getting permission from your list server to do so), then this simply means that a subscriber would be added to the list (with no confirmation) if the box is checked.
+
+---
 
 #### No, no not display (or require) the checkbox.
 
