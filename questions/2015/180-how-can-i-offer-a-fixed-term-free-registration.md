@@ -6,9 +6,9 @@ author: raamdev
 github-issue: https://github.com/websharks/s2member-kb/issues/180
 ---
 
-A fixed-term free registration allows you to offer a free registration that will expire after a certain amount of time. However, since there is no payment associated with a free subscription, you must use the Trial Period functionality to create a fixed-term free registration.
+A fixed-term free registration allows you to offer a free registration that will expire after a certain amount of time. However, since there is no payment associated with a free registration, you must use the Trial Period functionality to create a fixed-term free registration.
 
-## Creating a Fixed-Term Free Registration using a Trial Period
+## Creating a Fixed-Term Free Registration
 
 ### Generating the Free Registration Pro-Form
 
@@ -39,11 +39,11 @@ Now that you've configured the Pro-Form, the last and perhaps most important ste
 
 While it might make sense to use the default of **Level 0 / Subscriber**, we recommend that you try to avoid doing so when creating a subscription that should expire. The reason for this is that if you start at **Level 0 / Subscriber**, there is no lower level to which expired accounts can be demoted.
 
-If you plan to use an Automatic EOT Behavior configuration (see **WordPress Dashboard → s2Member → Stripe Options → Automatic EOT Behavior**) that says to Delete the account when it expires, then you can leave the default and have new subscribers use **Level 0 / Subscriber**. 
+If you plan to use an Automatic EOT Behavior configuration that says to Delete the account when it expires (see **WordPress Dashboard → s2Member → Stripe Options → Automatic EOT Behavior**), then you can leave the default and have new subscribers use **Level 0 / Subscriber**. 
 
-However, if you want expired Free Registration accounts to simply be demoted to a lower level that prevents them from having access to content that you've restricted to **Level 1** (more common), then you'll need to make sure that Free Registrations start at **Level 1**, so that when the free account expires they can be demoted to **Level 0 / Subscriber**. 
+However, if you want expired Free Registration accounts to simply be demoted to a lower level that prevents them from having access to content that you've restricted to **Level 1** (more common), then you'll need to make sure that Free Registrations start at **Level 1**, so that when the free account expires they can be demoted by the Automatic EOT System to **Level 0 / Subscriber**. 
 
-To use **Level 1**, simply modify the `level=""` shortcode attribute to read `level="1"`.
+To have Free Registrations start at **Level 1**, simply modify the `level=""` shortcode attribute to read `level="1"`.
 
 ### What happens when the Trial Period is over?
 
@@ -53,4 +53,4 @@ When someone signs up using a Free Registration form that includes a Trial Perio
 
 ![2015-04-01_17-22-48](https://cloud.githubusercontent.com/assets/53005/6952893/bd77cf80-d893-11e4-88b8-18a62b487d57.png)
 
-Once that date/time as passed, s2Member will demote or delete the account according to your Automatic EOT Behavior configuration (**WordPress Dashboard → s2Member → Stripe Options → Automatic EOT Behavior**).
+Once that date/time as passed, s2Member will demote or delete that account according to your Automatic EOT Behavior configuration (**WordPress Dashboard → s2Member → Stripe Options → Automatic EOT Behavior**).
