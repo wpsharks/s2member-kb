@@ -6,7 +6,7 @@ author: raamdev
 github-issue: https://github.com/websharks/s2member-kb/issues/181
 ---
 
-The `[s2Member-List /]` shortcode (see [[s2Member-List /] Documentation](http://s2member.com/kb-article/s2member-list-shortcode-documentation/)), allows you to include any number of additional fields in the output using the `show_fields=""` shortcode attribute. If you don't give these fields a specific label, they will just output a default value:
+The `[s2Member-List /]` shortcode (see [`[s2Member-List /]` Documentation](http://s2member.com/kb-article/s2member-list-shortcode-documentation/)), allows you to include any number of additional fields in the output using the `show_fields=""` shortcode attribute. If you don't give these fields a specific label, they will just output a default value:
 
 ```text
 [s2Member-List show_fields="s2member_access_label" /]
