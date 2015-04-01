@@ -39,6 +39,6 @@ Both of these options also assume that this connection (via the API) is going to
 
 ---
 
-#### No, no not display (or require) the checkbox/
+#### No, no not display (or require) the checkbox.
 
 This tells s2Member that your list server integration is not dependent upon the checkbox. In short, all new registrants receive the confirmation email, because the checkbox is actually not in use at all. So checked or unchecked; it does not matter; the checkbox is not even being used. In a case like this, there is only a single opt-in (the confirmation email). If you find a way to circumvent the confirmation email (by getting permission from your list server to do so), this would be a blind subscription (no opt-in at all).
