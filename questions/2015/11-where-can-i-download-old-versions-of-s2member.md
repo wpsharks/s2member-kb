@@ -13,5 +13,5 @@ You can find older versions here:
 
 - s2Member Release Archive <http://s2member.com/release-archive/>
 
-![2015-04-01_15-58-05](https://cloud.githubusercontent.com/assets/53005/6950291/ec5d8ce2-d887-11e4-912b-7da755131bff.png)
+[![2015-04-01_15-58-05](https://cloud.githubusercontent.com/assets/53005/6950291/ec5d8ce2-d887-11e4-912b-7da755131bff.png)](http://s2member.com/release-archive/)
 
