@@ -4,6 +4,7 @@ categories: questions
 tags: s2member-list, shortcodes
 author: raamdev
 github-issue: https://github.com/websharks/s2member-kb/issues/181
+toc-enable: off
 ---
 
 The `[s2Member-List /]` shortcode (see [`[s2Member-List /]` Documentation](http://s2member.com/kb-article/s2member-list-shortcode-documentation/)), allows you to include any number of additional fields in the output using the `show_fields=""` shortcode attribute. If you don't give these fields a specific label, they will just output a default value:
