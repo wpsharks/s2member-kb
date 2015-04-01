@@ -24,6 +24,6 @@ To customize the labels, simply prepend the label name to the field name and sep
 
 Note that this works when including multiple fields as well; simply separate each `label:field` pair with a comma, e.g., `Membership Level:s2member_access_label,Expiration Date:s2member_auto_eot_time`.
 
-### Can I customize the [s2Member-List /] output even more?
+### Can I customize the `[s2Member-List /]` output even more?
 
-Yes. See [Custom Template for [s2Member-List /]](http://s2member.com/kb-article/using-a-custom-template-for-s2member-list/).
+Yes. See [Custom Template for `[s2Member-List /]`](http://s2member.com/kb-article/using-a-custom-template-for-s2member-list/).
