@@ -7,7 +7,7 @@ github-issue: https://github.com/websharks/s2member-kb/issues/181
 toc-enable: off
 ---
 
-The `[s2Member-List /]` shortcode (see [Shortcode Documentation](http://s2member.com/kb-article/s2member-list-shortcode-documentation/)), allows you to include any number of additional fields in the output using the `show_fields=""` shortcode attribute.
+The `[s2Member-List /]` shortcode (see [Shortcode Documentation](http://s2member.com/kb-article/s2member-list-shortcode-documentation/)), allows you to include any number of additional fields in the output using the `show_fields=""` shortcode attribute; i.e., field label/value pairs.
 
 ## Default Behavior
 
