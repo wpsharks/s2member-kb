@@ -10,7 +10,7 @@ github-issue: https://github.com/websharks/s2member-kb/issues/154
 
 ### Easiest Way to Recover a Lost Password
 
-**If you simply forgot your password,** you should able to use the “Lost Password” functionality that is already provided by WordPress via `/wp-login.php?action=lostpassword`. Simply visit that URL on your site and WordPress will allow you to reset your password via email confirmation.
+**If you simply forgot your password,** you should be able to use the “Lost Password” functionality that is already provided by WordPress via `/wp-login.php?action=lostpassword`. Simply visit that URL on your site and WordPress will allow you to reset your password via email confirmation.
 
 ![](http://cdn.websharks-inc.com/s2member/uploads/2014/07/2014-07-02_13-17-021.jpg){.aligncenter}
 
