@@ -31,9 +31,9 @@ To customize the labels, simply prepend the label name to the field name and sep
 
 ![2015-04-01_17-39-07](https://cloud.githubusercontent.com/assets/53005/6953416/37693736-d897-11e4-99e0-1d03458dff3a.png){.fancy-image}
 
----
+_**Note:** this works when including multiple fields as well; simply separate each `label:field` pair with a comma, e.g., `Membership Level:s2member_access_label,Expiration Date:s2member_auto_eot_time`._
 
-Note that this works when including multiple fields as well; simply separate each `label:field` pair with a comma, e.g., `Membership Level:s2member_access_label,Expiration Date:s2member_auto_eot_time`.
+---
 
 ## Can I customize the `[s2Member-List /]` output even more?
 
