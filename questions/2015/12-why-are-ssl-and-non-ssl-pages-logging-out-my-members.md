@@ -18,7 +18,7 @@ The solution is to stick with one and avoid mixing the two wherever possible. Yo
 
 ---
 
-![](https://cloud.githubusercontent.com/assets/53005/5545251/b935624e-8aea-11e4-9903-c8eb045f2c3d.png)
+![](https://cloud.githubusercontent.com/assets/53005/6974129/edfe8e6c-d95d-11e4-8756-e3a083f88ae0.png)
 
 ---
 
@@ -32,4 +32,4 @@ You may also want to check your WordPress configuration (see: **Dashboard → Se
 
 Finally, if you're still having trouble, there are WordPress plugins out there that help you force SSL site-wide: https://wordpress.org/plugins/search.php?q=force+ssl
 
-If you need more help getting your WordPress installation working site-wide with SSL, the [WordPress Support Forum](http://wordpress.org/support/) is a great place to find help with that.
+If you need more help getting your WordPress installation working site-wide with SSL, the [WordPress Support Forum](http://wordpress.org/support/) is a great place to find help with that. 
