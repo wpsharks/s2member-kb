@@ -11,6 +11,8 @@ When you create an s2Member export using the [Import/Export Tools](http://s2memb
 
 ![2015-04-02_00-18-04](https://cloud.githubusercontent.com/assets/53005/6957775/29caf550-d8cf-11e4-9ddf-31fdcf00fbc0.png)
 
+After selecting the proper options, you should see the Fields section update to reflect how OpenOffice will read your data. It should show the data organized by column, as the highlighted in the screenshot above.
+
 ### Saving your changes
 
 After you make changes to the CSV file and you save it by selecting **File → Save**, be sure to choose **Keep Current Format** if the following dialog pops up:
