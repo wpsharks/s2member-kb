@@ -9,8 +9,8 @@ toc-enable: off
 
 If you see the "Card Start Date or Issue Number" field on your Pro-Form even when no Billing Method has been selected, then you likely have two Pro-Forms on the same page:
 
-![2015-04-03_14-20-26](https://cloud.githubusercontent.com/assets/53005/6986756/78b6791a-da0e-11e4-8d15-8ca4417c06ff.png)
-![2015-04-03_14-23-40](https://cloud.githubusercontent.com/assets/53005/6986764/7b1ae1fa-da0e-11e4-90a6-938a6a83e093.png)
+![](https://cloud.githubusercontent.com/assets/53005/6986923/0d383abe-da10-11e4-8d90-358e001ae0b4.png)
+![](https://cloud.githubusercontent.com/assets/53005/6986764/7b1ae1fa-da0e-11e4-90a6-938a6a83e093.png)
 
 ### Using Separate Pages for Billing Update, Billing Cancellation, and Billing Modification
 
