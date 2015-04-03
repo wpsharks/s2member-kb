@@ -10,6 +10,8 @@ A fixed-term free registration allows you to offer a free registration that will
 
 ## Creating a Fixed-Term Free Registration
 
+_**Note:** In the examples below, we're using a Stripe Pro-Form. If you're using PayPal instead of Stripe as a payment gateway, please replace any references to Stripe with PayPal._
+
 ### Generating the Free Registration Pro-Form
 
 To generate the Free Registration Pro-Form, visit **WordPress Dashboard → s2Member → Stripe Pro-Forms → Stripe / Free Registration Forms**. Here's an example of what the shortcode will look like (note that your `custom=""` attribute should contain your domain):
