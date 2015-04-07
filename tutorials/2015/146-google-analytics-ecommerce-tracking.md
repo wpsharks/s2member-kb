@@ -74,3 +74,5 @@ The code snippet (below) should be pasted into the field for **Signup Tracking C
 	ga('ecommerce:send'); // Send transaction and item data to Google Analytics.
 </script>
 ```
+
+**See also:** [Official Instructions for ECommerce Tracking](http://s2member.com/r/universal-ga-ecommerce-tracking/)
