@@ -13,6 +13,8 @@ This can happen when/if you have plugins running in WordPress that periodically 
 
 Enabling it again and saving your s2Member options recreates the WP Cron task automaticaly. However, that's only a short-term solution. This is not a bug in s2Member, but with rogue plugins installed alongside s2Member—it can happen! It may continue to happen until you find the conflicting theme or plugin that is causing a corruption of the WP Cron task.
 
-![](https://www.filepicker.io/api/file/UtzrElGsRySqcWMBdUsJ#.png)
-
 ### Suggested next step: [Testing in a Clean Installation](http://s2member.com/kb-article/testing-in-a-clean-wordpress-installation/)
+
+---
+
+![](https://www.filepicker.io/api/file/UtzrElGsRySqcWMBdUsJ#.png){.aligncenter}
