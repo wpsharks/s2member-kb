@@ -4,6 +4,7 @@ categories: questions
 tags: eot-time, troubleshooting
 author: jaswsinc
 github-issue: https://github.com/websharks/s2member-kb/issues/189
+toc-enable: false
 ---
 
 > s2Member's automatic EOT system usually works flawlessly, however over the past couple of months I've noticed an issue wherein the option to "Enable s2Member's Auto-EOT system" periodically goes blank.
