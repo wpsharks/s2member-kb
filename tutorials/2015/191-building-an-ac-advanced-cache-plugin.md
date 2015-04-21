@@ -1,6 +1,6 @@
 ---
-title: Building an AC (Advanced Cache) Plugin
-categories: tutorials
+title: PayPal Error: DPRP is disabled for this vendor?
+categories: questions
 tags: error-messages,troubleshooting,paypal
 author: jaswsinc
 github-issue: https://github.com/websharks/s2member-kb/issues/191
