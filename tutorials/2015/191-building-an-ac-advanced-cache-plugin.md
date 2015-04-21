@@ -23,4 +23,4 @@ The drop-down menus in s2Member Pro-Form Generators have been marked "Subscripti
 
 From that section, you can see which options will require the use of PayPal's [Recurring Billing](http://www.s2member.com/paypal-pro-recurring-payments-faqs) service. PayPal will charge you a small monthly fee for their Recurring Billing service; which is an add-on for PayPal Pro accounts.
 
-![](https://www.filepicker.io/api/file/tLcjEKIjTkCj2hGNYByZ#.png){.fancy-image .aligncenter}
+![](https://www.filepicker.io/api/file/tLcjEKIjTkCj2hGNYByZ#.png){.aligncenter}
