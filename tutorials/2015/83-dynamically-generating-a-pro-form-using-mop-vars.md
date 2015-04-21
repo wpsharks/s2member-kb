@@ -15,6 +15,8 @@ See also: **Dashboard → s2Member → API / Scripting → Membership Options Pa
 
 ## Example: Auto-Generating Pro-Forms That Sell Custom Capabilities
 
+**NOTE:** This is very advanced functionality and requires experience working with PHP code.
+
 **Prerequisite:** Please install the [ezPHP](https://wordpress.org/plugins/ezphp/) plugin for WordPress so you can use PHP code in Posts/Pages.
 
 Now, you can auto-generate Pro-Forms that sell the _exact_ set of Custom Capabilities that a customer needs in order to access the content they requested. This is accomplished by reading `_s2member_vars` (MOP Vars), breaking them apart, checking for CCAPs being required, and then constructing a Pro-Form that sells those Custom Capabilities.
@@ -37,3 +39,5 @@ if(!empty($_REQUEST["_s2member_vars"])) {
 }
 ?>
 ```
+
+After updating this example to reflect your specific site configuration (i.e., you need to update the `$shortcode` value), you would add this code your Membership Options Page (remember, you'll need to install the [ezPHP](http://wordpress.org/plugins/ezphp/) plugin to be able to use PHP code inside a WordPress Post/Page).
