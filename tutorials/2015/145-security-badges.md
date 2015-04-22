@@ -82,9 +82,9 @@ What we want to see is that you’ve made an effort to tighten security on your 
   ```php
   <?php
   add_filter('ws_plugin__s2member_logs_dir', function($dir){
-    return ($dir = '/absolute/path/to/my/custom/logs/dir');
-    // Ideally a location outside of the HTTP space (more secure).
-    // Something like: /var/logs/s2member
+      return ($dir = '/absolute/path/to/my/custom/logs/dir');
+      // Ideally a location outside of the HTTP space (more secure).
+      // Something like: /var/logs/s2member
   });
   ```
 
