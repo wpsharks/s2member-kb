@@ -4,6 +4,7 @@ categories: features
 tags: s2member-profile
 author: raamdev
 github-issue: https://github.com/websharks/s2member-kb/issues/195
+toc-enable: off
 ---
 
 The `[s2Member-Profile /]` Shortcode makes it easy for users to edit/update their profile upon logging into your site. See: **WordPress Dashboard → s2Member → General Options → Member Profile Modifications** for additional details and other options. 
