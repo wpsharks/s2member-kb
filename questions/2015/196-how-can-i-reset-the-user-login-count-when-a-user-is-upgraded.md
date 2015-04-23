@@ -8,7 +8,7 @@ github-issue: https://github.com/websharks/s2member-kb/issues/196
 
 If you're using One-Time Offers (**WordPress Dashboard → s2Member → General Options → One-Time-Offers (Upon Login)**) to show members a special page upon their first login, you may want to reset the login counter if you plan to show those One-Time Offers to members after they upgrade their membership.
 
-The number of logins is not reset when they upgrade, so someone upgrading from one level to another would not see a one-time login offer that is configured to be shown on the first login. 
+The number of logins is not reset when someone upgrades from one level to another, so a member who upgrades from one level to another would not see a one-time login offer that is configured to be shown upon the first login. 
 
 However, you could reset the login counter to `0` whenever a user is upgraded from one level to another. To do this, create an [MU-Plugin](http://codex.wordpress.org/Must_Use_Plugins) with the following code, which will trigger whenever a user's role is changed (e.g., when they are upgraded from one Level to another). 
 
