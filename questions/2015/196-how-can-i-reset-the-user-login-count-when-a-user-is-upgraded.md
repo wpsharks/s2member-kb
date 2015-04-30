@@ -18,7 +18,7 @@ Create the following directory and file: `wp-content/mu-plugins/s2-reset-login-c
 <?php
 add_action('set_user_role', function($user_id, $new_role, $old_role)
 {
-    if(strpos($new_role, 's2member_') === 0)
+    if(strpos($new_role, 's2member_') === 0 || $new_role === 'subscriber')
         update_user_option($user_id, 's2member_login_counter', 0);
 }, 10, 3);
 ```
