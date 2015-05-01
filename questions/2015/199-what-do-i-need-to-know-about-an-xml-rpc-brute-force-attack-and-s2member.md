@@ -21,5 +21,5 @@ The XML-RPC (`xmlrpc.php`) is a feature of WordPress itself and is not specific 
 
 As far as s2Member itself: There's nothing specifically related to the XML-RPC attack that you need to do on the s2Member side of things. However, you may want to review these sections of the plugin to ensure that you have appropriate options chosen (the defaults should work fine, but you might want to tweak them):
 
-- **s2Member → Restriction Options → Unique IP Access Restrictions**
-- **s2Member → Restriction Options → Bruce Force IP/Login Restrictions**
+- **Dashboard → s2Member → Restriction Options → Unique IP Access Restrictions**
+- **Dashboard → s2Member → Restriction Options → Bruce Force IP/Login Restrictions**
