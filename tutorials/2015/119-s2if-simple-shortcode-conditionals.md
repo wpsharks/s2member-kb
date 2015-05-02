@@ -234,6 +234,32 @@ This example demonstrates how you might test for specific Custom Capabilities to
 [/s2If]
 ```
 
+### Example 9: If/ElseIf Conditional
+
+This example demonstrates an if/elseif conditional, by nesting an `_s2If` shortcode inside the `[else]` portion you gain more control and are able to create a more reliable conditional.
+
+For example, if you're using Custom Capabilities to track which subscription plan a user has (e.g., Monthly vs Yearly; see [Using Custom Capabilities as Product Identifiers](https://github.com/websharks/s2member-kb/issues/202)), and you're also using Custom Capabilities to track which course or product a user purchased, you could use an if/elseif conditional to ensure, for example, that only users who are Yearly subscribers _and_ have purchased Product A are able to see some specific content:
+
+```wpsc
+[s2If current_user_can(access_s2member_ccap_monthly)]
+  You are on a monthly plan.
+  [else]
+  [_s2If current_user_can(access_s2member_ccap_yearly) AND current_user_can(access_s2member_ccap_product_a)]
+     You are on a yearly plan AND you purchased Product A.
+  [/_s2If]
+[/s2If]
+```
+
+If you were writing this same conditional with PHP, it would look like this:
+
+```php
+<?php if(current_user_can('access_s2member_ccap_monthly')): ?>
+  You are on a monthly plan.
+<?php elseif(current_user_can('access_s2member_ccap_yearly') && current_user_can('access_s2member_ccap_product_a')): ?>
+ You are on a yearly plan AND you purchased Product A.
+<?php endif; ?>
+```
+
 ---
 
 ## s2Member Supports All WordPress Conditional Tags
