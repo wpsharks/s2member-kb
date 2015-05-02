@@ -223,7 +223,7 @@ This example also demonstrates how to test for access to Custom Capabilities.
 
 ### Example 8: Testing for Custom Capabilities
 
-This example demonstrates how you might test for specific Custom Capabilities to show differnet content to different users. See also: [Using Custom Capabilities as Product Identifiers](https://github.com/websharks/s2member-kb/issues/202).
+This example demonstrates how you might test for specific Custom Capabilities to show different content to different users. See also: [Using Custom Capabilities as Product Identifiers](https://github.com/websharks/s2member-kb/issues/202).
 
 ```wpsc
 [s2If current_user_can(access_s2member_ccap_monthly)]
