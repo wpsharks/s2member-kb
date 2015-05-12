@@ -27,4 +27,4 @@ For more information, see the [[s2Stream /] Shortcode Documentation](http://s2me
 
 # An Important Note Regarding RTMP Streaming
 
-If you are using RTMP Streaming, note that using RTMP will always require S3+CF, because RTMP requires a dedicated media server—which is a function of CloudFront. You cannot use RTMP Streaming when specifying the local storage option.
+If you are using RTMP Streaming, note that using RTMP will always require Amazon S3 + CloudFront, because RTMP requires a dedicated media server—which is a function of Amazon CloudFront. You cannot use RTMP Streaming when specifying the local storage option.
