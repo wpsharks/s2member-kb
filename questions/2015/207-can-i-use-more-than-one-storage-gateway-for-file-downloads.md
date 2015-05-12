@@ -7,7 +7,7 @@ github-issue: https://github.com/websharks/s2member-kb/issues/207
 toc-enable: off
 ---
 
-Yes. If you're storing protected files locally (in the `s2member-files` directory) but you want to store some of the files on Amazon S3/CloudFront, this can be achieved by manually specifying the file storage gateway. By default, s2Member will default to using local storage (`s2member-files`) when Amazon S3/CloudFront is not configured and it will default to using Amazon S3/CloudFront when it is configured.
+Yes. If you're storing protected files locally (in the `wp-content/plugins/s2member-files/` directory) but you want to store some of the files on Amazon S3/CloudFront, this can be achieved by manually specifying the file storage gateway. By default, s2Member will default to using local storage (`s2member-files`) when Amazon S3/CloudFront is not configured and it will default to using Amazon S3/CloudFront when it is configured.
 
 If you want to override the default behavior and host some of your protected files locally, while hosting other protected files on Amazon S3/CloudFront, simply configure Amazon S3/CloudFront (**WordPress Dashboard → s2Member → Download Options → Amazon S3/CDN Storage Option**) and then specify the file storage gateway in your File Download Links and/or `[s2File /]` or `[s2Stream /]` shortcodes using `&s2member_file_storage=` (links) or `storage=` (shortcodes).
 
