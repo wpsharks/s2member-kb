@@ -17,7 +17,7 @@ To force a particular storage gateway whenever you generate a download link, you
 
 For example, to force a local storage location (`s2member-files`) when you have Amazon S3/CloudFront configured, you would add `&s2member_file_storage=local` to your file download links.
 
-## <samp>[s2File /]</samp> and <samp>[s2Stream /]</samp> Shortcodes
+## s2File and s2Stream Shortcodes
 
 The `[s2File /]` and `[s2Stream /]` shortcodes both support a `storage=""` attribute that allows you to pass in one of three options: `local`, `s3`, or `cf` (CloudFront). 
 
