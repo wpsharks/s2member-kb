@@ -4,6 +4,7 @@ categories: questions
 tags: login-welcome-page, troubleshooting
 author: jaswsinc
 github-issue: https://github.com/websharks/s2member-kb/issues/209
+toc-enable: false
 ---
 
 > What would cause free subscribers to be taken to the WordPress dashboard after login and paid members to go to the home page. Neither going to a login welcome page?
