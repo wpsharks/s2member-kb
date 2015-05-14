@@ -30,7 +30,7 @@ See: **Dashboard → s2Member → API / List Servers → MailChimp Integration**
 
 ## Step 2: Adding Your List IDs
 
-You will find a list of all of your MailChimp List IDs, at MailChimp.com
+You will find a list of all of your MailChimp Lists, at MailChimp.com
 <https://us1.admin.mailchimp.com/lists/>
 
 You need to locate the List ID(s) you intend to integrate with s2Member. Here is a screenshot that shows where to find your MailChimp List ID for each of the lists that you want to integrate with s2Member.
