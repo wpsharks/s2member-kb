@@ -53,6 +53,8 @@ add_action('ws_plugin__s2member_during_configure_user_registration', 's2_auto_lo
 	  }
 ```
 
+---
+
 ## Forcing A Specific `redirect_to` Upon Login
 
 This line is added to the plugin, as seen in full below.
