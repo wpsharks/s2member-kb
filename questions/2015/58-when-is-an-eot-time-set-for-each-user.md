@@ -37,8 +37,8 @@ For this reason, anytime there is a "Subscription Profile" used, s2Member leaves
 
 There are three possible scenarios here:
 
-1. If your EOT Behavior option is set to Auto-Extend (like we have at ZenCache.com) and the new purchase is for fixed-term access, the existing EOT Time (if it is a future date) will be automatically extended with the amount of time that you are now paying for. For instance, if a site owner has 3 years of support at ZC and they purchase another year; they now have a total of 4 years.
+1. If your EOT Behavior option is set to 'Auto-Extend' and the new purchase is for fixed-term access, the existing EOT Time (if it is a future date) will be automatically extended with the amount of time that you are now paying for.
 
-2. Or, if your EOT Behavior options have Auto-Extend off, the old time is erased and replaced by the new time associated with a new fixed-term purchase.
+2. Or, if your Automatic EOT Behavior options have Auto-Extend off, the old time is erased and replaced by the new time associated with a new fixed-term purchase.
 
-3. The new purchase is a "Subscription" (i.e., not fixed-term). In this case, s2Member will simply erase the old EOT Time and wait for a new one to occur. No matter what Auto-Extend is set to.
+3. The new purchase is a "Subscription" (i.e., not fixed-term). In this case, s2Member will simply erase the old EOT Time and wait for a new one to occur, no matter what Auto-Extend is set to.
