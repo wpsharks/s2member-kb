@@ -45,7 +45,7 @@ For this reason, and, so that everyone is on the same page, we ask that you upda
 
 ## Log Files (s2Member's Built-in Debugger)
 
-Please see: **s2Member ⥱ Log Files (Debug) ⥱ Logging Configuration**
+Please see: **Dashboard → s2Member → Log Files (Debug) → Logging Configuration**
 
 It's a good idea to enable s2Member's logging functionality and review log file entries on your own. s2Member's log files can help you learn more about what is going on behind-the-scenes. Are emails not being sent? Are customers not being upgraded to a paid status? Did you receive an error after checkout? Things like this are often caused by HTTP communication failures that occur behind-the-scenes. s2Member's log files will tell you (and s2Member support representatives) more about these types of problems.
 
