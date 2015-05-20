@@ -6,7 +6,7 @@ author: raamdev
 github-issue: https://github.com/websharks/s2member-kb/issues/212
 ---
 
-s2Member Pro enables the s2Member Pro-Forms, which includes Free Registration Forms (see **WordPress Dashboard → s2Member → PayPal Pro-Forms → PayPal Pro / Free Registration Forms**). Using these forms in combination with a Trial Period, you can offer a limited-time Free Membership. 
+s2Member Pro enables the s2Member Pro-Forms, which includes Free Registration Forms. Using these forms in combination with a Trial Period, you can offer a limited-time Free Membership. 
 
 **Note:** These Free Registration forms _do not_ require the associated payment gateway to be configured, as the Free Registration forms do not make any contact with a payment gateway. If all you're going to use are the Free Registration forms on your site, you can skip the payment gateway configuration and ignore any associated warning messages.
 
