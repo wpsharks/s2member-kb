@@ -39,6 +39,8 @@ add_action('ws_plugin__s2member_during_configure_user_registration', 's2_auto_lo
 		  if(is_admin()) return; // Not when an Admin is creating accounts.
 
 		  wp_set_auth_cookie($vars['user_id'], FALSE, FALSE); // Log the user in.
+		  
+		  remove_all_filters('login_redirect'); // BuddyPress compatibility.
 
 		  if(did_action('login_form_register')) // For `/wp-login.php?action=register` compatibility.
 			  c_ws_plugin__s2member_login_redirects::login_redirect($vars['login'], $vars['user']);
@@ -57,32 +59,35 @@ add_action('ws_plugin__s2member_during_configure_user_registration', 's2_auto_lo
 
 ## Forcing A Specific `redirect_to` Upon Login
 
-This line is added to the plugin, as seen in full below.
+These lines are added to the plugin, as seen in full below.
 
 ```php
-$_REQUEST['redirect_to'] = $_GET['redirect_to'] = 'http://example.com/my-thank-you-page/';
+$_REQUEST['redirect_to_automatic'] = 'http://example.com/my-thank-you-page/'; # Change this.
+add_filter('ws_plugin__s2member_login_redirect', function(){ return $_REQUEST['redirect_to_automatic']; });
 ```
 
 ```php
 <?php
 add_action('ws_plugin__s2member_during_configure_user_registration', 's2_auto_login_after_registration');
   function s2_auto_login_after_registration($vars = array())
-	  {
-		  if(is_admin()) return; // Not when an Admin is creating accounts.
+      {
+          if(is_admin()) return; // Not when an Admin is creating accounts.
 
-		  wp_set_auth_cookie($vars['user_id'], FALSE, FALSE); // Log the user in.
-		  
-		  $_REQUEST['redirect_to'] = $_GET['redirect_to'] = 'http://example.com/my-thank-you-page/';
+          wp_set_auth_cookie($vars['user_id'], FALSE, FALSE); // Log the user in.
 
-		  if(did_action('login_form_register')) // For `/wp-login.php?action=register` compatibility.
-			  c_ws_plugin__s2member_login_redirects::login_redirect($vars['login'], $vars['user']);
+          $_REQUEST['redirect_to_automatic'] = 'http://example.com/my-thank-you-page/'; # Change this.
+          add_filter('ws_plugin__s2member_login_redirect', function(){ return $_REQUEST['redirect_to_automatic']; });
+          remove_all_filters('login_redirect'); // BuddyPress compatibility.
 
-		  $GLOBALS['_s2_auto_login_after_registration_vars'] = $vars; // For Pro Form compatibility.
-		  add_action('template_redirect', '_s2_auto_login_after_registration', 1);
-	  }
+          if(did_action('login_form_register')) // For `/wp-login.php?action=register` compatibility.
+              c_ws_plugin__s2member_login_redirects::login_redirect($vars['login'], $vars['user']);
+
+          $GLOBALS['_s2_auto_login_after_registration_vars'] = $vars; // For Pro Form compatibility.
+          add_action('template_redirect', '_s2_auto_login_after_registration', 1);
+      }
   function _s2_auto_login_after_registration() // Pro Form redirection handler.
-	  {
-		  $vars = $GLOBALS['_s2_auto_login_after_registration_vars'];
-		  c_ws_plugin__s2member_login_redirects::login_redirect($vars['login'], $vars['user']);
-	  }
+      {
+          $vars = $GLOBALS['_s2_auto_login_after_registration_vars'];
+          c_ws_plugin__s2member_login_redirects::login_redirect($vars['login'], $vars['user']);
+      }
 ```
