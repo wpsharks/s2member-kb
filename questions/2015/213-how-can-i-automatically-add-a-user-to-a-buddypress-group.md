@@ -4,6 +4,7 @@ categories: questions
 tags: buddypress, api-scripting, mu-plugins-hacks
 author: jaswsinc
 github-issue: https://github.com/websharks/s2member-kb/issues/213
+toc-enable: false
 ---
 
 Yes, but this requires a small bit of custom code. You can use the example below and configure it to automatically add users who register at specific s2Member Levels to BuddyPress Groups of your choosing.
