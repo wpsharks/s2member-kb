@@ -17,7 +17,7 @@ Yes, but this requires a small bit of custom code. You can use the example below
 
 ```php
 <?php
-add_action('ws_plugin__s2member_during_configure_user_registration', function (array$vars) {
+add_action('ws_plugin__s2member_during_configure_user_registration', function (array $vars) {
     extract($vars); // Variables from registration context.
 
     # Configuration. Array keys are s2Member Role names.
