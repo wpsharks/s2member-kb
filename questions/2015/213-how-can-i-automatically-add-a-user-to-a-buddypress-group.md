@@ -1,5 +1,5 @@
 ---
-title: How can I automatically add a user to a BuddyPress Group?
+title: Can I automatically add users to BuddyPress Groups whenever they complete registration/checkout?
 categories: questions
 tags: buddypress, api-scripting, mu-plugins-hacks
 author: jaswsinc
