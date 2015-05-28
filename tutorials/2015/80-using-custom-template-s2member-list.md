@@ -14,3 +14,8 @@ If you find yourself wishing that you could do something more with the `[s2Membe
 
   Place your copy into `/wp-content/member-list.php`
 2. Edit `/wp-content/member-list.php` using any custom PHP or WordPress functionality that you like.
+3. Add the following shortcode attribute to `[s2Member-List /]`
+
+  ```
+  [s2Member-List ... template="member-list.php" /]
+  ```
