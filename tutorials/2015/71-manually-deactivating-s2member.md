@@ -14,4 +14,4 @@ s2Member is located in your `wp-content/plugins` directory. If you're using s2Me
 
 ![screen shot 2015-01-28 at 2 13 46 am](https://cloud.githubusercontent.com/assets/1568616/5933808/a1d50c3e-a693-11e4-973b-a4841d3d80b0.png)
 
-Once you fix the issue, you can enable s2Member again via the WordPress Dashboard.
+Once you fix the issue, you can **restore the original directory name** of `s2member` (don't forget this part), then renable s2Member via the WordPress Dashboard.
