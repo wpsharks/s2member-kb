@@ -7,8 +7,6 @@ github-issue: https://github.com/websharks/s2member-kb/issues/220
 toc-enable: false
 ---
 
-## Running BuddyPress?
-
 You can create custom profile fields with BuddyPress. Or, you can create custom profile fields with s2Member. Or, you can use a mix of both. s2Member adapts to any of these use cases. How you choose to create profile fields is entirely up to you. There are advantages and disadvantages in both cases.
 
 ## Advantages vs. Disadvantages
