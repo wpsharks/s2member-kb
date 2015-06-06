@@ -33,3 +33,11 @@ If you've created Custom Registration/Profile Fields (see **WordPress Dashboard 
 Custom Registration/Profile Fields can be configured to show up during registration, only after registration, or not at all (hidden from the user and only visible to the site owner). Examples of such fields may include the member's primary domain, if your site is selling a software application like s2Member, or a Terms and Conditions checkbox to show that the member has agreed to the Terms and Conditions.
 
 ![2015-04-22_19-02-20](https://cloud.githubusercontent.com/assets/53005/7287451/ae361294-e922-11e4-8b7b-76e7df8eb5ca.png)
+
+### Further Customizations
+
+There are many ways you can customize the "My Account" page. The following KB Articles will give you a few ideas:
+
+- [Customizing your Login Welcome Page](http://s2member.com/kb-article/customizing-your-login-welcome-page/)
+- [\[s2Get /\] Shortcode Documentation](http://s2member.com/kb-article/s2get-shortcode-documentation/)
+- [How do I display the EOT Date/Time?](http://s2member.com/kb-article/how-do-i-display-the-eot-on-my-login-welcome-page/)
