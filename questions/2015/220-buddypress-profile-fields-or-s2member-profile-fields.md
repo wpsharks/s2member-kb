@@ -1,5 +1,5 @@
 ---
-title: BuddyPress profile fields or s2Member profile fields?
+title: BuddyPress profile fields or s2Member profile fields? Which should I choose?
 categories: questions
 tags: buddypress, registration-profile-fields
 author: jaswsinc
