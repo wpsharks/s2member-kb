@@ -36,7 +36,7 @@ Custom Registration/Profile Fields can be configured to show up during registrat
 
 ## Further Customizations
 
-There are many ways you can customize the "My Account" page. The following KB Articles will give you a few ideas:
+There are many ways you can customize the "My Profile" page. The following KB Articles will give you a few ideas:
 
 - [Customizing your Login Welcome Page](http://s2member.com/kb-article/customizing-your-login-welcome-page/)
 - [\[s2Get /\] Shortcode Documentation](http://s2member.com/kb-article/s2get-shortcode-documentation/)
