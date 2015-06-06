@@ -34,7 +34,7 @@ Custom Registration/Profile Fields can be configured to show up during registrat
 
 ![2015-04-22_19-02-20](https://cloud.githubusercontent.com/assets/53005/7287451/ae361294-e922-11e4-8b7b-76e7df8eb5ca.png)
 
-### Further Customizations
+## Further Customizations
 
 There are many ways you can customize the "My Account" page. The following KB Articles will give you a few ideas:
 
