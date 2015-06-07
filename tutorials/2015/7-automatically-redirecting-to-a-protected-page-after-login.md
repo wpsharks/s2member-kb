@@ -34,9 +34,7 @@ if (!empty($seeking_uri)) {
 ### Now, we can check if we have a URI available, and if so, output a special Login link:
 
 ```html
-<?php if(!empty($URI)) { ?>
-	Existing members can <a href="<?php echo wp_login_url( esc_url($URI) ); ?>" title="Login">Login</a> to access this page.
-<?php } ?>
+	Existing members can <a href="<?php echo ( !empty($URI) ? wp_login_url( esc_url($URI) ) : wp_login_url() ); ?>" title="Login">Login</a> to access this page.
 ```
 
 That's it! Now when someone attempts to access a protected page, they can click on the Login link, enter their login details, and be automatically redirected to the protected link they were trying to access!
