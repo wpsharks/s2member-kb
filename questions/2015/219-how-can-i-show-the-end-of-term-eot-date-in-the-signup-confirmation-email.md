@@ -12,10 +12,10 @@ There are many special Replacement Codes that can be used in the Signup Confirma
 If you are using a Fixed-Term Subscription model on your site and you want to include the EOT Date inside the Signup Confirmation Email, you can use the following bit of PHP code to query the database and display the EOT Date in Signup Confirmation Email:
 
 ```php
-<?php
-$user = c_ws_plugin__s2member_utils_users::get_user_id_with($paypal['subscr_id']);
-$eot_time = get_user_option('s2member_auto_eot_time', $user->ID);
-echo date('F jS, Y, g:i a', $eot_time); // See: <http://php.net/manual/en/function.date.php>
+<?php 
+$user_id = c_ws_plugin__s2member_utils_users::get_user_id_with($paypal['subscr_id']);
+$eot_time = get_user_option('s2member_auto_eot_time', $user_id);
+echo date('F jS, Y, g:i a', $eot_time); // See: <http://php.net/manual/en/function.date.php
 ?>
 ```
 
