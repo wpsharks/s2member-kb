@@ -1,9 +1,8 @@
 ---
 title: Why are my registration links returning a 404 Error (when using BuddyPress)?
 categories: questions
-tags: error-messages, login-registration
+tags: error-messages, login-registration, buddypress
 author: raamdev
-github-issue:
 github-issue: https://github.com/websharks/s2member-kb/issues/222
 ---
 
