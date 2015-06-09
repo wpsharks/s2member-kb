@@ -1,5 +1,5 @@
 ---
-title: How do you create a subscription that ends on a fixed date?
+title: How do you create a subscription that ends on a fixed date? i.e., same day for everyone.
 categories: questions
 tags: eot-time, mu-plugins-hacks, tricks, paypal, pro-forms
 author: patdumond
