@@ -23,11 +23,11 @@ add_filter('ws_plugin__s2member_mailchimp_merge_array', function ($custom_fields
     # print_r($args); // for a full list of all properties.
 
     $custom_fields = array_merge($custom_fields, array(
-        'role'    => $args->role,
-        'level'   => $args->level,
-        'ccaps'   => $args->ccaps,
-        'login'   => $args->login,
-        'user_id' => $args->user_id,
+        'ROLE'    => $args->role,
+        'LEVEL'   => $args->level,
+        'CCAPS'   => $args->ccaps,
+        'LOGIN'   => $args->login,
+        'USER_ID' => $args->user_id,
     ));
     return $custom_fields;
 
