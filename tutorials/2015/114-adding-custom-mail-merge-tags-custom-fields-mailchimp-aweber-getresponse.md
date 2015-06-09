@@ -39,6 +39,10 @@ add_filter('ws_plugin__s2member_mailchimp_merge_array', function ($custom_fields
 }, 10, 2);
 ```
 
+On the Mailchimp side, you should have the following MERGE fields configured as so.
+
+![2015-06-09_03-17-00](https://cloud.githubusercontent.com/assets/1563559/8056574/099d679c-0e56-11e5-8c99-9d7f850b272f.png)
+
 ## For AWeber
 
 Please create this directory and file:
