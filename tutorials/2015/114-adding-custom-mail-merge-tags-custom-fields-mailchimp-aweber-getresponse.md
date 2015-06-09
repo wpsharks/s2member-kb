@@ -39,7 +39,7 @@ add_filter('ws_plugin__s2member_mailchimp_merge_array', function ($custom_fields
 }, 10, 2);
 ```
 
-_On the Mailchimp side, you should have the following MERGE fields configured as so._
+_**Tip:** On the Mailchimp side, you should have the following MERGE fields configured as so._
 
 ![2015-06-09_03-21-23](https://cloud.githubusercontent.com/assets/1563559/8056637/a2a59748-0e56-11e5-805b-565266059aae.png)
 
