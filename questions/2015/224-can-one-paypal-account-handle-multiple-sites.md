@@ -1,5 +1,5 @@
 ---
-title: Can one PayPal account handle multiple sites?
+title: Can one PayPal account handle multiple sites / plugins?
 categories: questions
 tags: paypal
 author: raamdev
