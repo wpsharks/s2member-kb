@@ -3,8 +3,8 @@ title: Can one PayPal account handle multiple sites?
 categories: questions
 tags: paypal
 author: raamdev
-github-issue:
 github-issue: https://github.com/websharks/s2member-kb/issues/224
+toc-enable: off
 ---
 
 Yes, if you have multiple sites (or multiple plugins) that are all configured to use the same PayPal account that you plan to use with s2Member, this will generally work fine (there is one exception; see below).
