@@ -59,3 +59,27 @@ _x('Submit Form', 's2member-front', 's2member')
 ```
 
 So searching the s2Member codebase for instances of `_x` will reveal the portions of s2Member that are translatable. **TIP:** There is also a [master POT translation file](http://plugins.svn.wordpress.org/s2member/trunk/includes/translations/s2member.pot) for s2Member that lists every translatable string in both s2Member and s2Member Pro.
+
+## Why isn't the text changing?
+
+One important thing to note (as described above), is that the _exact_ original message from the source code must be used--it's not enough to simply copy/paste the message shown on the front-end of the site. If there isn't an exact match to what is shown in the code (i.e., the full text passed to `_x()`), then the replacement won't work.
+
+For example, if this was the message in the code that you were trying to change:
+
+```php
+_x('<strong>Thank you.</strong> Your account has been approved.<br />&mdash; Please <a href="%s" rel="nofollow">login</a>.', "s2member-front", "s2member")
+```
+
+Setting `$original` to the following would NOT work:
+
+```php
+$original = 'Thank you. Your account has been approved.';
+```
+
+You would need to use the exact, full line from the code like this:
+
+```php
+$original = '<strong>Thank you.</strong> Your account has been approved.<br />&mdash; Please <a href="%s" rel="nofollow">login</a>.';
+```
+
+To find the exact original message in the source code, you can search the codebase for a phrase or part of the phrase you are looking for, and then inspect the code inside any files that you find until you locate the message you're trying to change.
