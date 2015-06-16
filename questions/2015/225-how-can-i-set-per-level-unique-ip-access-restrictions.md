@@ -4,6 +4,7 @@ categories: questions
 tags: restriction-options
 author: raamdev
 github-issue: https://github.com/websharks/s2member-kb/issues/225
+toc-enable: off
 ---
 
 The s2Member Unique IP Access Restrictions (**WordPress Dashboard → s2Member → Restriction Options → Unique IP Access Restrictions**) apply to all s2Member Levels, however if you need to fine-tune these settings to apply different rules for different levels, you can use an [MU-Plugin](http://codex.wordpress.org/Must_Use_Plugins) with some PHP code to achieve this.
