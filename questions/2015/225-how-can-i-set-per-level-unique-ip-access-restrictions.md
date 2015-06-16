@@ -1,7 +1,7 @@
 ---
 title: How can I set Per-Level Unique IP Access Restrictions?
 categories: questions
-tags: restriction-options
+tags: restriction-options, mu-plugins-hacks
 author: raamdev
 github-issue: https://github.com/websharks/s2member-kb/issues/225
 toc-enable: off
