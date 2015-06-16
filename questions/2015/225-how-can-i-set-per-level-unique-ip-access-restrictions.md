@@ -21,7 +21,7 @@ add_filter('ws_plugin__s2member_disable_specific_ip_restriction', '__s2_disable_
 
 function __s2_disable_certain_ip_restrictions ($bool, $vars) { 
     if(username_exists($vars['restriction'])) { 
-        $user = new WP_User($vars['restriction']); 
+        $user = new WP_User(0, $vars['restriction']); 
 
         if($user->has_cap('access_s2member_level4')) 
             $bool = true; 
