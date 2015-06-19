@@ -10,7 +10,7 @@ s2Member and s2Member Pro are equipped with support for front-end translation, u
 
 For instance: Profile panels, Login/Registration Fields, and Pro-Form integrations; as well as error messages displayed to Users/Members. _Translation support for back-end admin panels provided by s2Member will come in a future release, along with more extensive translation support for front-end aspects._
 
-Like WordPress itself, we chose to use the GNU `gettext` localization framework to provide localization infrastructure for s2Member. GNU `gettext` is a mature, widely used framework for modular translation of software, and is the *de facto* standard for localization in the open source/free software realm.
+Like WordPress itself, we chose to use the GNU `gettext` localization framework to provide localization infrastructure for s2Member. GNU `gettext` is a mature, widely used framework for modular translation of software, and is the *de facto* standard for localization in the open source/free software realm. See also: [WordPress In Your Langauge](https://make.wordpress.org/polyglots/teams/)
 
 ## Building a Translation `.mo` File
 
