@@ -29,11 +29,11 @@ Now if we want to turn this into a Fixed-Term Free Registration Pro-Form, we sim
 
 _For more details about Shortcode Attributes, please see **WordPress Dashboard → s2Member → Stripe Pro-Forms → Stripe Shortcode Attributes (Explained)**._
 
-If we want to provide a Free Registration that expires after 3 Days, we would set `tp="D" tt="3"`.
+If we want to provide a Free Registration that expires after 3 Days, we would set `tp="3" tt="D"`.
 
-If we want to provide a Free Registration that expires after 2 Weeks, we would set `tp="W" tt="2"`.
+If we want to provide a Free Registration that expires after 2 Weeks, we would set `tp="2" tt="W"`.
 
-If we want to provide a Free Registration that expires after 1 Year, we would set `tp="Y" tt="1"`.
+If we want to provide a Free Registration that expires after 1 Year, we would set `tp="1" tt="Y"`.
 
 ### Should you use Level 0 or Level 1?
 
