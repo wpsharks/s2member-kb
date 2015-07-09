@@ -1,5 +1,5 @@
 ---
-title: How can I let a customer set the amount they will pay?
+title: How can I let a customer set the amount they will pay? i.e., can I accept donations?
 categories: questions
 tags: mu-plugins-hacks, tricks, pro-forms
 author: jaswsinc
@@ -43,7 +43,7 @@ The URL to this page might be something like:
 
 Working with: `http://example.com/checkout/`
 
-This is where the magic happens. Using the ezPHP plugin, we set the `$amount` variable to the value of `$_GET['amount']`. The superglobal variable `$_GET['amount']` comes from the query string; e.g., `http://example.com/checkout/?amount=5.00`. Thus, the amount that a customer is charged is defined by the query string variable: `?amount=[amount]`.
+This is where the magic happens. Using the ezPHP plugin, we set the `$amount` variable to the value of `$_GET['amount']`. The superglobal variable `$_GET['amount']` comes from the query string; e.g., `http://example.com/checkout/?amount=5.00`. Thus, the amount that a customer is charged is defined by the query string variable: `?amount=[amount]`
 
 ```php
 <?php
