@@ -30,6 +30,13 @@ _**Note:** This is really all that's required. It's the easiest way to use `[s2E
 
 _**Note:** The above examples show the output text only. The output is actually displayed in rich text with HTML markup and CSS class names for easy customization via `style.css` in your WordPress theme of choice. Customizing the CSS is completely optional though; i.e., not necessary._
 
+**Full HTML Output Example:**
+
+```html
+<strong class="s2member-sc-eot-label -future">Access Expires:</strong>
+<span class="s2member-sc-eot-date -future">Jul 16th, 2025, 12:00 am UTC</span>
+```
+
 ---
 
 ### Example 2 (Specific User ID)
