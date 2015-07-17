@@ -1,5 +1,5 @@
 ---
-title: What do I need to know about the ccBill Phaseout?
+title: What do I need to know about the ccBill phaseout?
 categories: questions
 tags: other-integrations, billing, pre-sale-faqs
 author: raamdev
