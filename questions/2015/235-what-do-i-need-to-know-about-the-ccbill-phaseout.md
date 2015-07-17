@@ -5,6 +5,7 @@ tags: other-integrations, billing, pre-sale-faqs
 author: raamdev
 github-issue:
 github-issue: https://github.com/websharks/s2member-kb/issues/235
+toc-enable: off
 ---
 
 s2Member Pro has included a ccBill payment gateway integration for quite a few years now. However, we stopped advertising and/or featuring this integration in any official way approximately 2 years ago. **Now, as of July 1st, 2015** we are officially deprecating this integration with ccBill, and announcing that our intention is to phase support for ccBill out over a short period of time. To clarify, we will not be working to enhance or update the existing integration with ccBill. However, we will continue to offer assistance with our existing ccBill integration until November 2015.
