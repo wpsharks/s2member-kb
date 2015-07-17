@@ -16,7 +16,7 @@ The `[s2Eot /]` shortcode can be used to display a user's EOT (End of Term) time
 
 ### Example 1 (Suggested Usage)
 
-_**Note:** This is really all that's required. It's the easiest way to use `[s2Eot /]`; i.e., just insert the shortcode as-is without needing to specify any additional shortcode attributes. The defaults work just fine for most site owners._
+_**Note:** This is really all that's required. It's the easiest way to use `[s2Eot /]`; i.e., just insert the shortcode as-is without needing to specify any additional shortcode attributes. The defaults work just fine for most site owners. This goes into a WordPress Post or Page of your choosing. Your Login Welcome Page is suggested, since that is where members are going to be._
 
 ```wpsc
 [s2Eot /]
