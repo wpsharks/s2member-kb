@@ -163,7 +163,7 @@ _**Note:** Dates are formatted using special characters supported by the PHP `da
 
 ---
 
-- `round_to=""` In some cases you might like to round the date in a certain way. For instance, if you want to round the date/time to a time relative to the date itself, you could set this to `round_to="tomorrow"`; i.e., the day after the time that is returned. Or, you could set this to `round_to="yesterday"`; i.e., the day before the time that is returned. This shortcode also supports anything that is accepted by PHP's `strtotime()` function. Equivalent to: `strotime('[round_to]', '%%date%%')`; i.e., relative to the `%%date%%`.
+- `round_to=""` In some cases you might like to round the date in a certain way. For instance, if you want to round the date/time to a time relative to the date itself, you could set this to `round_to="tomorrow"`; i.e., the day after the time that is returned. Or, you could set this to `round_to="yesterday"`; i.e., the day before the time that is returned. This shortcode also supports anything that is accepted by PHP's `strtotime()` function. Equivalent to: `strtotime('[round_to]', '%%date%%')`; i.e., relative to the `%%date%%`.
 
 ---
 
