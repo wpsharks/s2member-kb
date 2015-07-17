@@ -181,7 +181,7 @@ function s2member_eot($user_id = 0, $check_gateway = true, $favor = 'fixed');
 
 ---
 
-## Limitations (Payment Gateways){#-limitations}
+## Limitations (Payment Gateways) {#-limitations}
 
 ### Fully Supported Payment Gateways
 
