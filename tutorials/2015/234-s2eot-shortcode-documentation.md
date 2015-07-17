@@ -10,6 +10,8 @@ The `[s2Eot /]` shortcode can be used to display a user's EOT (End of Term) time
 
 **Important, see**: [`s2Eot` Limitations (Supported Payment Gateways)](#-limitations)
 
+---
+
 ## `[s2Eot /]` Shortcode Examples
 
 ### Example 1 (Suggested Usage)
