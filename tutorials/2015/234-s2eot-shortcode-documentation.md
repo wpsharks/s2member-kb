@@ -169,7 +169,7 @@ _**Note:** Dates are formatted using special characters supported by the PHP `da
 
 - `offset="0"` In some cases you might like to offset the time in a certain way. For instance, if you want to display the EOT or next payment time, plus one extra day to help avoid confusion, this could be set to `86400`; i.e., the number of seconds in one day. This value, if given, should always be provided as a number of seconds. You can use a positive or negative value.
 
-  _**Note:** s2Member already includes what is referred to an EOT Grace Period, which can be configured in your Dashboard under: **s2Member → [Payment Gateway] Options → EOT Behavior**. When the shortcode returns a fixed EOT time, that times already includes your grace period to help avoid confusion. Thus, any offset that you provide here will be in addition to any configured grace period that is already being applied internally._
+  _**Note:** s2Member already includes what is referred to as an EOT Grace Period, which can be configured in your Dashboard under: **s2Member → [Payment Gateway] Options → EOT Behavior**. When the shortcode returns a fixed EOT time, that times already includes your grace period to help avoid confusion. Thus, any offset that you provide here will be in addition to any configured grace period that is already being applied internally._
 
 ---
 
