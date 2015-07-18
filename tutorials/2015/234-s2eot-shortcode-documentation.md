@@ -6,7 +6,7 @@ author: jaswsinc
 github-issue: https://github.com/websharks/s2member-kb/issues/234
 ---
 
-The `[s2Eot /]` shortcode can be used to display a user's EOT (End of Term) time; i.e., the date when the customer will lose access. Or, if an EOT cannot be determined, an NPR (next payment time) can be displayed. For instance, if the customer has an ongoing recurring plan, there is no fixed EOT time. In this case, it is more appropriate to display the NPR (next payment time).
+The `[s2Eot /]` shortcode can be used to display a user's EOT (End of Term) time; i.e., the date when the customer will lose access. Or, if an EOT cannot be determined, an NPT (next payment time) can be displayed. For instance, if the customer has an ongoing recurring plan, there is no fixed EOT time. In this case, it is more appropriate to display the NPT (next payment time).
 
 **Important, see**: [`s2Eot` Limitations (Supported Payment Gateways)](#-limitations)
 
@@ -87,13 +87,13 @@ _**Note:** Dates are formatted using special characters supported by the PHP `da
 
 ---
 
-- `mode=""` In some cases you might want to request a specific type of EOT; i.e., a fixed EOT (if available), or only the NPT (next payment time). If you don't set a mode, the default behavior is to display a fixed EOT if it can be determined; else display the NPR (next payment time) if it can be determined. Otherwise, nothing is returned.
+- `mode=""` In some cases you might want to request a specific type of EOT; i.e., a fixed EOT (if available), or only the NPT (next payment time). If you don't set a mode, the default behavior is to display a fixed EOT if it can be determined; else display the NPT (next payment time) if it can be determined. Otherwise, nothing is returned.
 
   **Available Modes (Optional):**
 
   - `mode=""` Default. Fixed EOT; else NPT (next payment time); else empty format.
   - `mode="fixed"` Only display a fixed EOT (if possible), else display the empty format.
-  - `mode="next"` Only display an NPR (next payment time), else display the empty format.
+  - `mode="next"` Only display an NPT (next payment time), else display the empty format.
 
   **Example Use:**
 
@@ -154,7 +154,7 @@ _**Note:** Dates are formatted using special characters supported by the PHP `da
 
   - If `mode="next|fixed"`, the default output format is simply `empty_format="N/A"` to indicate that the value is empty (not applicable). In the case of partially-supported payment gateway, instead of `N/A`, a value of `—` is used, because time calculations are still a bit fuzzy with partially-supported payment gateways. See [limitations](#-limitations) below for additional details on this.
 
-  - Otherwise, if `mode=""` (default behavior), the default format is nothing; i.e., an empty string and nothing is displayed. In this way, the default behavior is for nothing to be displayed whenever there is no fixed EOT and no NPR (next payment time) either.
+  - Otherwise, if `mode=""` (default behavior), the default format is nothing; i.e., an empty string and nothing is displayed. In this way, the default behavior is for nothing to be displayed whenever there is no fixed EOT and no NPT (next payment time) either.
 
 ---
 
@@ -191,7 +191,7 @@ print_r($eot = s2member_eot());
 
 ```php
 /**
-* Auto EOT time, else NPR (next payment time).
+* Auto EOT time, else NPT (next payment time).
 *
 * @param string|int $user_id Defaults to the current user ID.
 * @param bool $check_gateway Defaults to a true value. If this is false, it is only possible to return a fixed EOT time.
@@ -216,7 +216,7 @@ function s2member_eot($user_id = 0, $check_gateway = true, $favor = 'fixed');
 
 ### Fully Supported Payment Gateways
 
-_If you've integrated with one of these payment gateways you can take full advantage of the `[s2Eot /]` shortcode for both fixed EOT and NPR (next payment time) calculations._
+_If you've integrated with one of these payment gateways you can take full advantage of the `[s2Eot /]` shortcode for both fixed EOT and NPT (next payment time) calculations._
 
 - Stripe _(best support, most accurate)_
 - PayPal Pro _(good support, fairly accurate)_
@@ -230,11 +230,11 @@ _If you've integrated with one of these payment gateways you can take full advan
 - ccBill Buttons
 - AliPay Buttons
 
-_**Note:** If you've integrated with Authorize.Net, you will only be able to display fixed EOT times that s2Member records in WordPress; i.e., determining an exact NPR (next payment time) is currently not possible given limitations in the Authorize.Net API for Automated Recurring Billing (ARB) profiles._
+_**Note:** If you've integrated with Authorize.Net, you will only be able to display fixed EOT times that s2Member records in WordPress; i.e., determining an exact NPT (next payment time) is currently not possible given limitations in the Authorize.Net API for Automated Recurring Billing (ARB) profiles._
 
 #### What does "partially" supported mean exactly?
 
-You can still use the `[s2Eot /]` shortcode with partially-supported payment gateways. However, the `[s2Eot /]` shortcode will only return a fixed EOT time if there is one set by s2Member within WordPress. This is due to limitations in the APIs provided by these payment gateways; i.e., is not possible (at this time) for s2Member to accurately report specific NPRs (next payment times) or calculate recurring intervals later once a subscription has already been created on the payment gateway side.
+You can still use the `[s2Eot /]` shortcode with partially-supported payment gateways. However, the `[s2Eot /]` shortcode will only return a fixed EOT time if there is one set by s2Member within WordPress. This is due to limitations in the APIs provided by these payment gateways; i.e., is not possible (at this time) for s2Member to accurately report specific NPTs (next payment times) or calculate recurring intervals later once a subscription has already been created on the payment gateway side.
 
 See also: [When is an EOT Time set for each user?](http://s2member.com/kb-article/when-is-an-eot-time-set-for-each-user/)
 
