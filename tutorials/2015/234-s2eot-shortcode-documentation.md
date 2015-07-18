@@ -152,7 +152,7 @@ _**Note:** Dates are formatted using special characters supported by the PHP `da
 
   **Default value for `empty_format=""` is dynamic:**
 
-  - If `mode="next|fixed"`, the default output format is simply `empty_format="N/A"` to indicate that the value is empty (not applicable). In the case of partially-supported payment gateway, instead of `N/A`, a value of `—` is used, because time calculations are still a bit fuzzy with partially-supported payment gateways. See [limitations](#-limitations) below for additional details on this.
+  - If `mode="next|fixed"`, the default output format is simply `empty_format="N/A"` to indicate that the value is empty (not applicable). In the case of a partially-supported payment gateway, instead of `N/A`, a value of `—` is used, because time calculations are still a bit fuzzy with partially-supported payment gateways. See [limitations](#-limitations) below for additional details on this.
 
   - Otherwise, if `mode=""` (default behavior), the default format is nothing; i.e., an empty string and nothing is displayed. In this way, the default behavior is for nothing to be displayed whenever there is no fixed EOT and no NPT (next payment time) either.
 
