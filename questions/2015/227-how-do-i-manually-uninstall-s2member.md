@@ -55,7 +55,7 @@ If you've decided you are never going to use s2Member again, you should complete
 
 If you're having some problems with s2Member and you just need to remove and reinstall the plugin, follow this checklist:
 
-1. Backup your files and database. 
+1. Backup your files and database. See https://codex.wordpress.org/WordPress_Backups
 1. Enable s2Member *Plugin Deletion Safeguards*: **WordPress Dashboard → s2Member → General Options → Plugin Deletion Safeguards**. Set to "Yes (safeguard  all data/options)".
 1. Navigate to **WordPress Dashboard → Plugins**.
 1. Deactivate the *s2Member Framework* plugin.
