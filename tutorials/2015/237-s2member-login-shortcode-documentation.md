@@ -10,7 +10,7 @@ The `[s2Member-Login /]` shortcode makes it possible for you to introduce a logi
 
 **NOTE: This shortcode requires s2Member Pro.**
 
-## `[s2Member-Login /]` Shortcode Example 1
+## Shortcode Example 1
 
 ```wpsc
 [s2Member-Login /]
@@ -20,7 +20,7 @@ _Displays a simple login box. If the user is already logged-in, it displays noth
 
 ---
 
-## `[s2Member-Login /]` Shortcode Example 2
+## Shortcode Example 2
 
 ```wpsc
 [s2Member-Login login_redirect="http://example.com/account/" /]
@@ -30,7 +30,7 @@ _Upon logging in, the user is redirected immediately to: `http://example.com/acc
 
 ---
 
-## `[s2Member-Login /]` Shortcode Example 3
+## Shortcode Example 3
 
 ```wpsc
 [s2Member-Login show_summary_if_logged_in="1" /]
@@ -40,7 +40,7 @@ _If the user is already logged in, a profile summary is displayed instead, inclu
 
 ---
 
-## `[s2Member-Login /]` Attributes (Explained)
+## Shortcode Attributes (Explained)
 
 ---
 
@@ -85,3 +85,7 @@ _If the user is already logged in, a profile summary is displayed instead, inclu
 ## PHP Equivalent For Developers
 
 See: [Embedding the Pro Login Widget via PHP](https://s2member.com/kb-article/pro-login-widget/#toc-3610725f)
+
+```php
+<?php echo s2member_pro_login_widget(); ?>
+```
