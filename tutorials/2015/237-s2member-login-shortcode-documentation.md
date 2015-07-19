@@ -46,6 +46,8 @@ _If the user is already logged in, a profile summary is displayed instead, inclu
 
 ### When Not Logged In Yet
 
+<div class="li-margins"></div>
+
 - `title="Membership Login"` Title when _not_ logged in. Defaults to `Membership Login`. You can set this to an empty string if you want to exclude the title.
 
 -  `signup_url="%%automatic%%"` Default value is `%%automatic%%`, which creates a "Signup Now" link which leads to the Membership Options Page that you configured with s2Member. Or, you can enter a full Signup URL of your own. If you set this to an empty string it will not be shown.
@@ -61,6 +63,8 @@ _If the user is already logged in, a profile summary is displayed instead, inclu
 - `show_summary_if_logged_in="0"` This defaults to a value of `0` (off). If you want to display the user's profile summary if they are already logged in, you must set this to `1` (true). Otherwise, with the default behavior, the remaining shortcode attributes documented below are not applicable.
 
 ---
+
+<div class="li-margins"></div>
 
 - `profile_title="My Profile Summary"` Title when a user is already logged in. You can set this to an empty string if you want to exclude the title.
 
