@@ -65,7 +65,7 @@ If you're having some problems with s2Member and you just need to remove and rei
 	- `s2member-pro`
 1. Make another backup of your files and database. 
 
-Now you can reinstall *s2Member* and *s2Member (Pro)**. See [s2Member Installation](http://s2member.com/installation/). (Don't forget to make another backup when you're finished! :) )
+Now you can reinstall *s2Member* and **s2Member (Pro)**. See [s2Member Installation](http://s2member.com/installation/). (Don't forget to make another backup when you're finished! :) )
 
 ## What are the s2Member Folders / Directories?
 
