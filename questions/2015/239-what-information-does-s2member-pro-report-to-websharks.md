@@ -1,5 +1,5 @@
 ---
-title: What information does s2Member Pro report to WebSharks?
+title: What anonymous information does s2Member Pro report to WebSharks, and why?
 categories: questions
 tags: security
 author: jaswsinc
@@ -12,7 +12,7 @@ s2Member Pro collects and reports basic environment information to WebSharks (ou
 
 ## s2Member Pro collects and reports to WebSharks:
 
-- MD5 Hash of the server IP address (e.g., `2909a2c64757ce93daa60e3cfc653ef1`; note: we do not store any IP addresses; all reported data is stored anonymously; we use this hash to filter out duplicate reports from the same server)
+- An MD5 Hash of the server IP address (e.g., `2909a2c64757ce93daa60e3cfc653ef1`; note: we do not store any IP addresses; all reported data is stored anonymously; we use this hash to filter out duplicate reports from the same server)
 - Server OS (e.g., `Linux`)
 - PHP Version (e.g., `5.4`)
 - MySQL Version (e.g., `5.5`)
