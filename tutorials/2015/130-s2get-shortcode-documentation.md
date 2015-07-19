@@ -22,6 +22,7 @@ $first_name = get_user_field('first_name'); # First Name for the current User.
 $last_name = get_user_field('last_name'); # Last Name for the current User.
 $full_name = get_user_field('full_name'); # First and Last Name for the current User.
 $display_name = get_user_field('display_name'); # Display Name for the current User.
+$avatar = get_user_field('avatar', 0, array('size' => 96)); # Avatar <img> tag.
 ?>
 ```
 
@@ -34,6 +35,7 @@ $display_name = get_user_field('display_name'); # Display Name for the current U
 [s2Get user_field="last_name" /] # Last Name for the current User.
 [s2Get user_field="full_name" /] # First and Last Name for the current User.
 [s2Get user_field="display_name" /] # Display Name for the current User.
+[s2Get user_field="avatar" size="96" /] # Avatar <img> tag.
 ```
 
 ## More Examples with s2Member-Specific Data
@@ -67,6 +69,8 @@ $s2member_login_counter = get_user_field('s2member_login_counter'); # Number of 
 [s2Get user_field="s2member_subscr_or_wp_id" /] # Paid Subscr. ID, else WordPress® User ID.
 [s2Get user_field="s2member_subscr_gateway" /] # Paid Subscr. Gateway Code for the current User.
 [s2Get user_field="s2member_registration_ip" /] # IP Address the current User had during registration.
+[s2Get user_field="s2member_auto_eot_time" date_format="M jS, Y, g:i a T" /] # Auto EOT-Time for the current User (when applicable). Use date_format="" with any PHP date formatting chars you like. If you don't pass this, a timestamp is given instead. See: http://php.net/manual/en/function.date.php
+[s2Get user_field="s2member_last_payment_time" date_format="M jS, Y, g:i a T" /] # Timestamp. Last time an actual payment was received by s2Member. Use date_format="" with any PHP date formatting chars you like. If you don't pass this, a timestamp is given instead. See: http://php.net/manual/en/function.date.php
 [s2Get user_field="s2member_access_role" /] # A WordPress® Role ID (i.e. s2member_level[0-9]+, administrator, editor, author, contributor, subscriber).
 [s2Get user_field="s2member_access_level" /] # An s2Member Membership Access Level number.
 [s2Get user_field="s2member_access_label" /] # An s2Member Membership Access Label (i.e. Bronze, Gold, Silver, Platinum, or whatever is configured).
