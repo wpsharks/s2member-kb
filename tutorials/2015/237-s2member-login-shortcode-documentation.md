@@ -6,7 +6,7 @@ author: jaswsinc
 github-issue: https://github.com/websharks/s2member-kb/issues/237
 ---
 
-The `[s2Member-Login /]` shortcode makes it possible for you to introduce a login form in any Post/Page that you create with WordPress. It can also double as a way to display a profile summary whenever a user is already logged-in (optional).
+The `[s2Member-Login /]` shortcode makes it possible for you to introduce a login form in any Post/Page that you create with WordPress. It can also double as a way to display a profile summary whenever a user is already logged-in (optional). **Requires s2Member Pro!**
 
 ## `[s2Member-Login /]` Shortcode Example 1
 
@@ -40,6 +40,8 @@ _If the user is already logged in, a profile summary is displayed instead, inclu
 
 ## `[s2Member-Login /]` Attributes (Explained)
 
+--
+
 ### When Not Logged In Yet
 
 - `title="Membership Login"` Title when _not_ logged in. Defaults to `Membership Login`. You can set this to an empty string if you want to exclude the title.
@@ -49,6 +51,8 @@ _If the user is already logged in, a profile summary is displayed instead, inclu
   _Note: If this is `%%automatic%%` and the current user has just completed a "Button" transaction and is now able to register for paid access, this dynamically changes to a Registration Access Link for that paying customer. Applicable with PayPal "Buttons" or ClickBank "Buttons" only._
 
 - `login_redirect=""` The default value is an empty string, which indicates that the user should be redirected to their Login Welcome Page that you configured with s2Member. Or, you can set this to `%%previous%%` (Previous Page), `%%home%%` (Home Page). Or, use a full URL of your own.
+
+---
 
 ### When Already Logged In
 
