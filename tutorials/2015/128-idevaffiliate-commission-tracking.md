@@ -106,7 +106,19 @@ It’s really not so hard; it’s just a little more sophisticated. The “Advan
 
 ---
 
-### Step 1: Configuring Payment Notifications
+_**IMPORTANT NOTE:** If you are paying commissions on a recurring basis, it is important that you configure iDevAffiliate so that your strategy is "**First to Send Visitor Gets Credit**". See: **iDev → Dashboard → General Settings → Customer Tracking** (screenshot below)._
+
+_**Why is this important?** It's important, because s2Member will notify iDevAffiliate about each payment that a customer makes, and s2Member will send iDevAffiliate the customer's original purchase IP address for each recurring payment that you receive from the customer. Whenever iDevAffiliate receives this IP address, it will find the referring affiliate and give them a commission (based on your commission strategy). If you don't choose "**First to Send Visitor gets Credit**", this can create the following problem..._
+
+_Imagine a customer that makes a purchase on Jan 1st by finding your site via a link posted by Affiliate ID: `123`. Later (after their original purchase; e.g., on Jan 3rd), your customer is surfing the web and clicks another affiliate's link (Affiliate ID: `456`). No problem so far, but wait! In the following month, on Feb 1st when this customer's payment renews, if you have iDevAffiliate configured with "**Last to Send Visitor Gets Credit**", the original affiliate loses, and instead, Affiliate ID `456` gets the commission. Not cool! :-)_
+
+### Step 1: Suggested iDevAffiliate Configuration
+
+![2015-07-18_23-01-46](https://cloud.githubusercontent.com/assets/1563559/8764917/0251d81e-2da1-11e5-8081-086168032578.png)
+
+---
+
+### Step 2: Configuring Payment Notifications
 
 Log into your iDevAffiliate Dashboard and go to: **Setup & Tools → Advanced Developer Tools → Custom Functions**
 
@@ -134,7 +146,7 @@ Now, please take the URL provided by iDevAffiliate and add Replacement Codes mad
 
 ---
 
-### Example Code Snippets for Advanced Integration (Step 1)
+### Example Code Snippets for Advanced Integration (Step 2)
 
 See: **Dashboard → s2Member → API / Notification → Payment Notification**
 
@@ -174,7 +186,7 @@ http://www.example.com/idevaffiliate/sale.php?idev_saleamt=%%amount%%&idev_order
 
 ---
 
-### Step 2: Configuring Commission Terminations
+### Step 3: Configuring Commission Terminations
 
 Log into your iDevAffiliate Dashboard and go to: **Setup & Tools → Advanced Developer Tools → API Scripts**
 
@@ -198,7 +210,7 @@ Now, please take the URL provided by iDevAffiliate and add Replacement Codes mad
 
 ---
 
-### Example Code Snippets for Advanced Integration (Step 2)
+### Example Code Snippets for Advanced Integration (Step 3)
 
 See: **Dashboard → s2Member → API / Notification → Refund/Reversal**
 
