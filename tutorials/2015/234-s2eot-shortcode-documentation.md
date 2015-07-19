@@ -97,7 +97,7 @@ _**Note:** Dates are formatted using special characters supported by the PHP `da
 
   **Example Use:**
 
-  ```html
+  ```text
   Access Expires: [s2Eot mode="fixed" /]
   Next Payment: [s2Eot mode="next" /]
   ```
@@ -106,44 +106,41 @@ _**Note:** Dates are formatted using special characters supported by the PHP `da
 
 ---
 
-- `past_format=""` The output display format when a fixed EOT exists and it is a date in the past; i.e., less than the current time. You can use the `%%date%%` replacement code in order to inject the EOT date/time into this output variation if you like.
+- `past_format=""` The output display format when a fixed EOT exists and it is a date in the past; i.e., less than the current time. You can use the `%%date%%` replacement code in order to inject the EOT date/time into this output variation if you like. _**Tip:** This attribute supports HTML markup._
 
   **Default value for `past_format=""` is dynamic:**
 
   - If `mode="fixed"`, the default output format is simply `past_format="%%date%%"`; i.e., the shortcode assumes that you only want the date whenever you put the shortcode into a specific `mode`.
 
   - Otherwise, if `mode=""` (default behavior), the default format is:
-  ```html
-  <strong class="s2member-sc-eot-label -past">Access Expired:</strong>
-  <span class="s2member-sc-eot-date -past">%%date%%</span>
+  ```text
+  past_format="<strong class='s2member-sc-eot-label -past'>Access Expired:</strong> <span class='s2member-sc-eot-date -past'>%%date%%</span>"
   ```
 
 ---
 
-- `future_format=""` The output display format when a fixed EOT exists and it is a date in the future; i.e., greater than the current time. You can use the `%%date%%` replacement code in order to inject the EOT date/time into this output variation if you like.
+- `future_format=""` The output display format when a fixed EOT exists and it is a date in the future; i.e., greater than the current time. You can use the `%%date%%` replacement code in order to inject the EOT date/time into this output variation if you like. _**Tip:** This attribute supports HTML markup._
 
   **Default value for `future_format=""` is dynamic:**
 
   - If `mode="fixed"`, the default output format is simply `future_format="%%date%%"`; i.e., the shortcode assumes that you only want the date whenever you put the shortcode into a specific `mode`.
 
   - Otherwise, if `mode=""` (default behavior), the default format is:
-  ```html
-  <strong class="s2member-sc-eot-label -future">Access Expires:</strong>
-  <span class="s2member-sc-eot-date -future">%%date%%</span>
+  ```text
+  future_format="<strong class='s2member-sc-eot-label -future'>Access Expires:</strong> <span class='s2member-sc-eot-date -future'>%%date%%</span>"
   ```
 
 ---
 
-- `next_format=""` The output display format when a next payment time is available and in the future; i.e., greater than the current time. You can use the `%%date%%` replacement code in order to inject the next payment date/time into this output variation if you like.
+- `next_format=""` The output display format when a next payment time is available and in the future; i.e., greater than the current time. You can use the `%%date%%` replacement code in order to inject the next payment date/time into this output variation if you like. _**Tip:** This attribute supports HTML markup._
 
   **Default value for `next_format=""` is dynamic:**
 
   - If `mode="next"`, the default output format is simply `next_format="%%date%%"`; i.e., the shortcode assumes that you only want the date whenever you put the shortcode into a specific `mode`.
 
   - Otherwise, if `mode=""` (default behavior), the default format is:
-  ```html
-  <strong class="s2member-sc-eot-label -next">Next Payment:</strong>
-  <span class="s2member-sc-eot-date -next">%%date%%</span>
+  ```text
+  next_format="<strong class='s2member-sc-eot-label -next'>Next Payment:</strong> <span class='s2member-sc-eot-date -next'>%%date%%</span>"
   ```
 
 ---
