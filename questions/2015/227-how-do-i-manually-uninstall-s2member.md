@@ -2,7 +2,7 @@
 title: How do I manually uninstall s2Member?
 categories: questions
 tags: troubleshooting, uninstalling
-author: raamdev
+author: patdumond
 github-issue: https://github.com/websharks/s2member-kb/issues/227
 ---
 
