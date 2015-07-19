@@ -113,7 +113,7 @@ _**Note:** Dates are formatted using special characters supported by the PHP `da
   - If `mode="fixed"`, the default output format is simply `past_format="%%date%%"`; i.e., the shortcode assumes that you only want the date whenever you put the shortcode into a specific `mode`.
 
   - Otherwise, if `mode=""` (default behavior), the default format is:
-   <pre>past_format="&lt;strong class='s2member-sc-eot-label -past'&gt;Access Expired:&lt;/strong&gt; &lt;span class='s2member-sc-eot-date -past'&gt;%%date%%&lt;/span&gt;"</pre>
+    <pre>past_format="&lt;strong class='s2member-sc-eot-label -past'&gt;Access Expired:&lt;/strong&gt; &lt;span class='s2member-sc-eot-date -past'&gt;%%date%%&lt;/span&gt;"</pre>
 
 ---
 
@@ -124,7 +124,7 @@ _**Note:** Dates are formatted using special characters supported by the PHP `da
   - If `mode="fixed"`, the default output format is simply `future_format="%%date%%"`; i.e., the shortcode assumes that you only want the date whenever you put the shortcode into a specific `mode`.
 
   - Otherwise, if `mode=""` (default behavior), the default format is:
-   <pre>future_format="&lt;strong class='s2member-sc-eot-label -future'&gt;Access Expires:&lt;/strong&gt; &lt;span class='s2member-sc-eot-date -future'>%%date%%&lt;/span&gt;"</pre>
+    <pre>future_format="&lt;strong class='s2member-sc-eot-label -future'&gt;Access Expires:&lt;/strong&gt; &lt;span class='s2member-sc-eot-date -future'>%%date%%&lt;/span&gt;"</pre>
 
 ---
 
@@ -135,7 +135,7 @@ _**Note:** Dates are formatted using special characters supported by the PHP `da
   - If `mode="next"`, the default output format is simply `next_format="%%date%%"`; i.e., the shortcode assumes that you only want the date whenever you put the shortcode into a specific `mode`.
 
   - Otherwise, if `mode=""` (default behavior), the default format is:
-   <pre>next_format="&lt;strong class='s2member-sc-eot-label -next'&gt;Next Payment:&lt;/strong&gt; &lt;span class='s2member-sc-eot-date -next'>%%date%%&lt;/span&gt;"&lt;/pre>
+    <pre>next_format="&lt;strong class='s2member-sc-eot-label -next'&gt;Next Payment:&lt;/strong&gt; &lt;span class='s2member-sc-eot-date -next'>%%date%%&lt;/span&gt;"</pre>
 
 ---
 
