@@ -7,7 +7,7 @@ github-issue:
 github-issue: https://github.com/websharks/s2member-kb/issues/238
 ---
 
-The `[s2Member-Summary /]` shortcode makes it possible for you to introduce a profile summary (including the user's avatar) in any Post/Page that you create with WordPress. It can also double as a way to display a login box whenever a user is not logged-in yet (optional).
+The `[s2Member-Summary /]` shortcode makes it very easy for you to introduce a profile summary (including the user's avatar) in any Post/Page that you create with WordPress. This shortcode can also double as a way to display a login box whenever a user is not logged-in yet (optional).
 
 **NOTE: This shortcode requires s2Member Pro.**
 
