@@ -67,24 +67,24 @@ Now you can reinstall *s2Member* and *s2Member (Pro)**. See [s2Member Installati
 
 ## What are the s2Member Folders / Directories?
 
-- `/wp-content/plugins/`
+`/wp-content/plugins/`
 
-     This is where all of your WordPress plugins live. This is the default path to all of the s2Member directories.
+- This is where all of your WordPress plugins live. This is the default path to all of the s2Member directories.
 
-- `/wp-content/plugins/s2member`
+`/wp-content/plugins/s2member`
 
-     The `s2member` directory contains the s2Member Framework--this is the s2Member plugin itself (i.e., the s2Member Framework). It is safe to remove this folder (and its contents) as part of the uninstall process. In fact, WordPress should remove this automatically whenever you deactivate and delete the plugin from your WordPress Dashboard.
+- The `s2member` directory contains the s2Member Framework--this is the s2Member plugin itself (i.e., the s2Member Framework). It is safe to remove this folder (and its contents) as part of the uninstall process. In fact, WordPress should remove this automatically whenever you deactivate and delete the plugin from your WordPress Dashboard.
 
-- `/wp-content/plugins/s2member-files` 
+`/wp-content/plugins/s2member-files` 
 
-     The `s2member-files` directory is generated automatically by s2Member. It's usually okay to just delete this folder and its contents as part of the uninstall process. In fact, s2Member will do this for you automatically when **Plugin Deletion Safeguards** are disabled. However, the purpose of this directory is to store file downloads that you want to have protected by s2Member. 
+- The `s2member-files` directory is generated automatically by s2Member. It's usually okay to just delete this folder and its contents as part of the uninstall process. In fact, s2Member will do this for you automatically when **Plugin Deletion Safeguards** are disabled. However, the purpose of this directory is to store file downloads that you want to have protected by s2Member. 
 
-     **Note:** If s2Member sees that you've placed any files in this directory when you uninstall s2Member, it will be left as-is for your review; i.e., you will need to remove it manually. If you find that to be the case, it's worth a quick review of what this directory contains before you delete it. In other words, make sure you're not deleting downloadable files that you intend to keep as part of your offering to users.
+     **Note:** If s2Member sees that you've placed any files in the `s2member-files` directory when you uninstall s2Member, it will be left as-is for your review; i.e., you will need to remove it manually. If you find that to be the case, it's worth a quick review of what this directory contains before you delete it. In other words, make sure you're not deleting downloadable files that you intend to keep as part of your offering to users.
 
-- `/wp-content/plugins/s2member-logs` 
+`/wp-content/plugins/s2member-logs` 
 
-     The `s2member-logs` directory is generated automatically by s2Member. You can usually just delete this folder and its contents as part of the uninstall. s2Member will do this for you automatically when **Plugin Deletions Safeguards** are disabled. However, if you find that it still exists for some reason, it might be worth a quick review before you delete it. Just check to see if there are any archived log files in this directory that you care about, and back those up before you wipe them away.
+- The `s2member-logs` directory is generated automatically by s2Member. You can usually just delete this folder and its contents as part of the uninstall. s2Member will do this for you automatically when **Plugin Deletions Safeguards** are disabled. However, if you find that it still exists for some reason, it might be worth a quick review before you delete it. Just check to see if there are any archived log files in this directory that you care about, and back those up before you wipe them away.
 
-- `/wp-content/plugins/s2member-pro` 
+`/wp-content/plugins/s2member-pro` 
 
-     The `s2member-pro` directory contains all of the s2Member Pro add-on files; e.g., additional payment gateway integrations and code that powers pro-only features in s2Member. It is safe to remove this folder (and its contents) as part of the uninstall process.
+- The `s2member-pro` directory contains all of the s2Member Pro add-on files; e.g., additional payment gateway integrations and code that powers pro-only features in s2Member. It is safe to remove this folder (and its contents) as part of the uninstall process.
