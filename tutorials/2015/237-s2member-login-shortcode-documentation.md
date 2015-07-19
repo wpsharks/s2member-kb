@@ -42,7 +42,7 @@ _If the user is already logged in, a profile summary is displayed instead, inclu
 
 ## `[s2Member-Login /]` Attributes (Explained)
 
---
+---
 
 ### When Not Logged In Yet
 
