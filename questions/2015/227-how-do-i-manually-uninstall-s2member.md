@@ -24,6 +24,8 @@ To backup your s2Member configuration for use later, you can use the s2Member Pr
 
 No. Even if you disable the Plugin Deletion Safeguards, **s2Member will never delete users**. However, some s2Member-related user information _will_ be lost when Plugin Deletion Safeguards have been turned off (if you leave Plugin Deletion Safeguards enabled, then no s2Member-related user information will be lost). 
 
+### What is deleted when Plugin Deletion Safeguards are disabled? 
+
 Here is a list of the things that s2Member deletes during the uninstallation process whenever Plugin Deletion Safeguards have been turned off.
 
 - s2Member-generated Roles in WordPress; e.g., s2Member Level1, s2Member Level 2, etc. Note that the "Subscriber" Role is also used by s2Member, but that Role is actually a part of the WordPress core, so it is left intact.
@@ -38,7 +40,7 @@ Here is a list of the things that s2Member deletes during the uninstallation pro
 
 - s2Member-related metadata; i.e., data that is attached to user accounts, or to specific posts/pages in WordPress. For instance, the Paid Subscr. ID for each customer, the payment gateway they used, the CCAPs they have, their EOT time, etc. In the case of posts/pages, s2Member will drop restriction options, CCAP requirements, and things like `s2member_force_ssl`. These bits of information are only used by s2Member, and therefore it is all deleted when s2Member is removed.
 
-## How to Completely Remove All s2Member Files and Data
+## How do I completely remove all s2Member files and data?
 
 If you've decided you are never going to use s2Member again, you should completely remove all files and data associated with the plugin. Keep in mind that if you follow this route and then later change your mind about using s2Member, you will have to reinstall and reconfigure everything. So be sure this is what you want to do, especially if you've been using s2Member for some time and have it deeply woven into your website.
 
@@ -49,7 +51,7 @@ If you've decided you are never going to use s2Member again, you should complete
 1. Delete the *s2Member Framework* plugin. Select "Yes, Delete these files and data" when prompted.
 1. Using your preferred method of file access on your web server, delete the `/wp-content/plugins/s2member-pro/`directory. This should be the only s2Member directory remaining if you followed the instructions above. If it is not, review the **s2Member Folders** section above and delete the remaining folders after careful review of their contents as described.
 
-## How to Reinstall s2Member and Save Existing Configuration
+## How do I reinstall s2Member and save existing configuration?
 
 If you're having some problems with s2Member and you just need to remove and reinstall the plugin, follow this checklist:
 
