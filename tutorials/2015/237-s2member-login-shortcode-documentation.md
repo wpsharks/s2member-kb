@@ -6,7 +6,9 @@ author: jaswsinc
 github-issue: https://github.com/websharks/s2member-kb/issues/237
 ---
 
-The `[s2Member-Login /]` shortcode makes it possible for you to introduce a login form in any Post/Page that you create with WordPress. It can also double as a way to display a profile summary whenever a user is already logged-in (optional). **Requires s2Member Pro!**
+The `[s2Member-Login /]` shortcode makes it possible for you to introduce a login form in any Post/Page that you create with WordPress. It can also double as a way to display a profile summary whenever a user is already logged-in (optional).
+
+**NOTE: This shortcode requires s2Member Pro.**
 
 ## `[s2Member-Login /]` Shortcode Example 1
 
