@@ -1,5 +1,5 @@
 ---
-title: How do I manually uninstall s2Member?
+title: How do I uninstall s2Member?
 categories: questions
 tags: troubleshooting, uninstalling
 author: patdumond
