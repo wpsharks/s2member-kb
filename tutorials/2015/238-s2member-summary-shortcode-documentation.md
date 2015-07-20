@@ -19,6 +19,8 @@ The `[s2Member-Summary /]` shortcode makes it very easy for you to introduce a p
 
 _Displays a profile summary. If the user is not logged-in, it displays nothing._
 
+![Example Profile Summary Output from [s2Member-Summary /] Shortcode](https://cloud.githubusercontent.com/assets/53005/8788167/7df4e180-2f06-11e5-9521-82bd0f8d1c6f.png)
+
 ---
 
 ## Shortcode Example 2
