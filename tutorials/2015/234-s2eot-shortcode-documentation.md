@@ -105,7 +105,7 @@ _**Note:** Dates are formatted using special characters supported by the PHP `da
 
 ---
 
-- `past_format=""` The output display format when a fixed EOT exists and it is a date in the past; i.e., less than the current time. You can use the `%%date%%` replacement code in order to inject the EOT date/time into this output variation if you like. _**Tip:** This attribute supports HTML markup (be sure to use single-quotes instead of double-quotes in any HTML Markup)._
+- `past_format=""` The output display format when a fixed EOT exists and it is a date in the past; i.e., less than the current time. You can use the `%%date%%` replacement code in order to inject the EOT date/time into this output variation if you like. _**Tip:** This attribute supports HTML markup (use single-quotes instead of double-quotes in any HTML Markup)._
 
   **Default value for `past_format=""` is dynamic:**
 
@@ -116,7 +116,7 @@ _**Note:** Dates are formatted using special characters supported by the PHP `da
 
 ---
 
-- `future_format=""` The output display format when a fixed EOT exists and it is a date in the future; i.e., greater than the current time. You can use the `%%date%%` replacement code in order to inject the EOT date/time into this output variation if you like. _**Tip:** This attribute supports HTML markup (be sure to use single-quotes instead of double-quotes in any HTML Markup)._
+- `future_format=""` The output display format when a fixed EOT exists and it is a date in the future; i.e., greater than the current time. You can use the `%%date%%` replacement code in order to inject the EOT date/time into this output variation if you like. _**Tip:** This attribute supports HTML markup (use single-quotes instead of double-quotes in any HTML Markup)._
 
   **Default value for `future_format=""` is dynamic:**
 
@@ -127,7 +127,7 @@ _**Note:** Dates are formatted using special characters supported by the PHP `da
 
 ---
 
-- `next_format=""` The output display format when a next payment time is available and in the future; i.e., greater than the current time. You can use the `%%date%%` replacement code in order to inject the next payment date/time into this output variation if you like. _**Tip:** This attribute supports HTML markup (be sure to use single-quotes instead of double-quotes in any HTML Markup)._
+- `next_format=""` The output display format when a next payment time is available and in the future; i.e., greater than the current time. You can use the `%%date%%` replacement code in order to inject the next payment date/time into this output variation if you like. _**Tip:** This attribute supports HTML markup (use single-quotes instead of double-quotes in any HTML Markup)._
 
   **Default value for `next_format=""` is dynamic:**
 
