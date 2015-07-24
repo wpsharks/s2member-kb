@@ -8,7 +8,7 @@ github-issue: https://github.com/websharks/s2member-kb/issues/119
 
 ## A Quick Overview of Conditionals
 
-s2Member makes it very simple to protect entire Posts/Pages/Categories/Tags/URIs/etc. This can be accomplished from inside WordPress. See: **Dashboard → s2Member → Restriction Options**. Or, from your Post/Page editing station in WordPress. This to be point-and-click functionality.
+s2Member makes it very simple to protect entire Posts/Pages/Categories/Tags/URIs/etc. This can be accomplished from inside WordPress. See: **Dashboard → s2Member → Restriction Options**. Or, from your Post/Page editing station in WordPress. This is point-and-click functionality.
 
 **What many site owners don’t realize though**, is that s2Member _also_ makes it easy to protect “parts” of a Post or Page. You can even get creative about what you display to certain members, based on custom criteria. s2Member’s **Simple Shortcode Conditionals** are the key to accomplishing this. In fact, to say that s2Member can merely protect “parts” of a Post/Page is an understatement. With s2Member’s **Simple Shortcode Conditionals** you can not only protect parts of your content, you can also deal with other kinds of conditions; making these a vital part of a successful membership site.
 
