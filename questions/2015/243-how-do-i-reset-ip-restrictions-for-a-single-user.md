@@ -14,4 +14,4 @@ If you have spoken to a legitimate Customer that is receiving an error upon logg
 ![Reset IP Access Restrictions for a User](https://cloud.githubusercontent.com/assets/53005/8890474/2cf256dc-32d0-11e5-83e5-5b25ad2bc3c3.png)
 
 
-If the abusive behavior continues, s2Member will automatically re-instate IP Restrictions in the future. If you would like to gain further control over IP Restrictions, please check your General Options panel for s2Member.
+If the abusive behavior continues, s2Member will automatically re-instate IP Restrictions in the future. If you would like to gain further control over IP Restrictions, please check your Restriction Options panel for s2Member.
