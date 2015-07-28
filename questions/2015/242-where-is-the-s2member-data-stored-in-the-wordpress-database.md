@@ -66,6 +66,7 @@ User-specific option keys include, but are not limited to:
 - `s2member_file_download_access_arc`
 - `s2member_file_download_access_log`
 - `s2member_notes`
+- `s2m_gcs_[post ID]_[MD5 hash]_[MD5 hash]` (stores Gift/Redemption Codes purchased by a user)
 
 ---
 
