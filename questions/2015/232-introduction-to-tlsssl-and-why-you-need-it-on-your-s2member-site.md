@@ -6,17 +6,19 @@ author: patdumond
 github-issue: https://github.com/websharks/s2member-kb/issues/232
 ---
 
-What do words like "cyber-stalking", "identity theft", "credit card fraud", and "packet sniffing" have to do with your website? Hopefully, not much. If you are reading this, however, then you probably either own or manage a membership website. Almost by definition, you collect your members' personally identifiable information on that site. If you are doing that on an unencrypted web page, you are placing your members' data and your website (and livelihood) in jeopardy.  Everytime a user fills out a form on your site their information may be leaving your site in clear text any hacker or "script kiddie" can grab. If you display user information on profile pages or membership directories, that information is unencrypted as well. 
+What do words like "cyber-stalking", "identity theft", "credit card fraud", and "packet sniffing" have to do with your website? Hopefully, not much. If you are reading this, however, then you probably either own or manage a membership website. 
+
+If you own or manage a membership website then almost by definition you collect your members' personally identifiable information on that site. If you are doing that on an unencrypted web page, you are placing your members' data and your website (and livelihood) in jeopardy. Everytime a user fills out a form on your site their information may be leaving your site in clear text and any hacker or "script kiddie" can grab it. If you display user information on profile pages or membership directories, that information is unencrypted as well. 
 
 ## What is TLS/SSL? 
 
-According to [Wikipedia](https://en.wikipedia.org/wiki/Transport_Layer_Security) (which just recently implemented the HTTPS protocol on all of their websites):
+According to [Wikipedia](https://en.wikipedia.org/wiki/Transport_Layer_Security) (which just recently started using the HTTPS protocol on all of their websites by default):
 
- >Transport Layer Security (TLS) and its predecessor Secure Sockets Layer (SSL) are cryptographic protocols designed to provide communications security over a computer network.
+> Transport Layer Security (TLS) and its predecessor Secure Sockets Layer (SSL) are cryptographic protocols designed to provide communications security over a computer network.
 
 SSL is an out-dated protocol and has been superseded by TLS. However, the term "SSL" is commonly used to describe the protocols implemented by the **HTTPS** protocol on the web. These protocols use certificates and asymmetric cryptography to ensure that your web browser is talking to the site you intended. This is called "authentication." 
 
-Once each side of the connection is sure they know who is on the other end of the link, they negotiate a session key to encrypt all data flow for the duration of the connection. Authentication ensures that the computer on the other end of the connection is PayPal, not some "man in the middle". Encryption ensures the data cannot be read without the session key. 
+Once each side of the connection is sure they know who is on the other end of the link, they negotiate a session key to encrypt all data flow for the duration of the connection. Authentication ensures that the computer on the other end of the connection is PayPal, for example, and not some "man in the middle". Encryption ensures the data cannot be read without the session key. 
 
 You can tell you are using `HTTPS` and not plain old `HTTP` by looking at the address bar of your browser. The address of the website should be preceded by `HTTPS` instead of `HTTP`. If you have a valid `HTTPS` connection, you'll see a closed padlock.  If the padlock is not closed or you see another symbol instead of a padlock, hover your cursor over the image, and you'll get more information about the connection. 
 
@@ -40,7 +42,7 @@ Google started giving a [slight ranking benefit to websites using `HTTPS` in 201
 
 ## How Do I Implement SSL?
 
-You've seen the benefits of using TSL/SSL:
+You've now heard the benefits of using TSL/SSL:
 
 * Securing user's personal information during network transport.
 * Engendering user trust with that "little green padlock."
