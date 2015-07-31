@@ -23,7 +23,9 @@ If you're using several different levels of membership and you only want to use 
 
 Once you've configured the generator and clicked the "Generate Form Code" button, copy the resulting shortcode onto your Upgrade page. The shortcode should look something like this:
 
-> [s2Member-Pro-PayPal-Form modify="1" level="4" ccaps="" desc="Free Level 4 Upgrade!" ps="paypal" lc="" cc="USD" dg="0" ns="1" ta="0" tp="0" tt="D" ra="0" rp="1" rt="M" rr="1" rrt="" rra="2" accept="paypal" accept_via_paypal="paypal" coupon="" accept_coupons="0" default_country_code="" captcha="0" /]
+```wpsc
+[s2Member-Pro-PayPal-Form modify="1" level="4" ccaps="" desc="Free Level 4 Upgrade!" ps="paypal" lc="" cc="USD" dg="0" ns="1" ta="0" tp="0" tt="D" ra="0" rp="1" rt="M" rr="1" rrt="" rra="2" accept="paypal" accept_via_paypal="paypal" coupon="" accept_coupons="0" default_country_code="" captcha="0" /]
+```
 
 You can review a description of each of the shortcode attributes in **Dashboard → s2Member → [Payment Gateway] Pro-Forms → Shortcode Attributes (Explained)**.
 
