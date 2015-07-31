@@ -1,6 +1,6 @@
 ---
 title: Introduction to TLS/SSL and Why You Need It on Your s2Member Site
-categories: questions
+categories: tutorials
 tags: security, s2member-security-badge
 author: patdumond
 github-issue: https://github.com/websharks/s2member-kb/issues/232
