@@ -158,3 +158,27 @@ _To learn more about `[s2If /]`, see: [Simple Shortcode Conditionals](https://gi
 
 -   **`blog`** Optional, for multisite WP installations only. This defaults to the current blog, but if you prefer to list members from a specific blog you can pass a numeric blog ID in this shortcode attribute. **Note:** If you have a [Multisite Network Support License](http://s2member.com/prices/) for s2Member Pro and you `define('MULTISITE_FARM', TRUE);` in your `/wp-config.php` file, this will ONLY work from the Main Site in your Network (for security purposes). However, if `MULTISITE_FARM` is not set to `TRUE`, this works from any child blog in a network.
 -   **`args`** Optional, for advanced use only. Here you can provide a full set of your own arguments to the WordPress core function [get_users()](http://codex.wordpress.org/Function_Reference/get_users). If this shortcode attribute is supplied, many of the other shortcode attributes are ignored in favor of what you specify here. In short, if you supply `args` you don’t need to specify other shortcode attributes that deal with the user query. However, you may still want to customize shortcode attributes that impact the final template display. Such as those prefixed with `show_` or `link_`. _**Note:** multiple `args` should be passed in query string format so they can be parsed by [wp_parse_args()](https://codex.wordpress.org/Function_Reference/wp_parse_args); e.g., `role=s2member_level1&orderby=registered&order=DESC`_
+
+---
+
+## Search Functionality (Explained)
+
+If you implement the `[s2Member-List-Search-Box /]` shortcode that produces a search box for visitors to use. Or, if you add the `search="{query}"` attribute to hard-code a search of your own; it's important to be aware of the way in which matching occurs.
+
+### Fuzzy Matches (Default Behavior)
+
+By default, all matches are fuzzy. If you search for the word `green`, it is automatically transformed into `*green*` behind-the-scenes; where `*` equals zero or more leading or trailing characters. In other words, the search finds anything that _contains_ the word `green`. It's not an exact match. The same goes for phrases. Searching for `green bananas` looks for a fuzzy match of: `*green bananas*`
+
+_**IMPORTANT NOTE:** Fuzzy matching only applies when the search term is `>= 2` characters in length. If you search for `gr` it works as expected; i.e., `*gr*` behind-the-scenes. If you search for `g` (less than two characters) it looks for an exact match, and this is generally going to produce zero results. This minimum character requirement is intentionally designed to prevent performance issues._
+
+_**IMPORTANT NOTE:** Due to a limitation in the WordPress core (and for performance reasons), fuzzy matching does NOT work when searching for a user by their WordPress user ID. It's best to search for a user by ID using the full ID; e.g., `123` to find user ID `123`; instead of searching for `12` and expecting to find all users with an ID that begins with `12` (does not work with user IDs)._
+
+### Custom Fuzzy Matches
+
+You can also choose to search for a fuzzy match on your own. If your search query contains a `*` wildcard character, the automatic fuzzy search functionality is disabled in favor of what you are looking for. In other words, if you search for `green*` (i.e., you enter a `*` wildcard in the query), you will get results that match words starting with `green` followed by zero or more other characters. The default leading `*` and trailing `*` is not applied on both sides, because you included your own `*` wildcard character in the search query. It's taken literally and not manipulated any further.
+
+_**IMPORTANT NOTE:** Due to a limitation in the WordPress core, is is currently not possible to use a `*` wildcard character in the middle of a search query. If you want a custom fuzzy match, your `*` character can be at the beginning or at the end, not in the middle anywhere._
+
+### Exact Match Syntax (Coming Soon)
+
+_This is not possible yet. However, we are planning to add this in the next release of s2Member Pro._
