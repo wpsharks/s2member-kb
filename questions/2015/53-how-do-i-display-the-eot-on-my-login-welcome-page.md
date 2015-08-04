@@ -1,37 +1,25 @@
 ---
 title: How do I display the EOT Date/Time?
 categories: questions
-tags: login-welcome-page, mu-plugins-hacks
+tags: login-welcome-page, mu-plugins-hacks, s2eot, eot-time
 author: raamdev
 github-issue: https://github.com/websharks/s2member-kb/issues/53
 toc-enable: off
 ---
+To display the EOT date/time, we recommend using the `[s2Eot /]` shortcode (see [\[s2Eot /\] Shortcode Documentation](http://s2member.com/kb-article/s2eot-shortcode-documentation/)). The `[s2Eot /]` shortcode is the easiest way to display the EOT Date/Time and has many options that will allow you to handle various scenarios (Fixed-Term Subscriptions, Recurring Subscriptions, and scenarios where there is no EOT time at all).
 
-To display the EOT date/time, you will first need to install a plugin that allows you to run PHP code inside your WordPress Pages. We recommend [ezPHP](http://wordpress.org/plugins/ezphp/).
+The easiest way to use the `[s2Eot /]` shortcode is to place the shortcode on a single line by itself with no options.
 
-_**Important Note:** When including PHP inside your WordPress Post/Page, it's very important that you only use the Text mode in the Post/Page Editor. If you use the Visual mode, the PHP code will likely become corrupt and will not work as expected._
-
-![2015-01-21_17-23-29](https://cloud.githubusercontent.com/assets/53005/5846531/41a299ae-a192-11e4-97d1-5e7cf23cef41.png)
-
-After you've installed a plugin such as [ezPHP](http://wordpress.org/plugins/ezphp/), you can add the following PHP code wherever you want to show the EOT for the user:
-
-```php
-<?php
-if(($s2member_auto_eot_time = get_user_field('s2member_auto_eot_time'))) {
-        // See <http://php.net/manual/en/function.date.php> for formatting options.
-	echo 'Your membership expires on: '.esc_html(date('F j, Y', $s2member_auto_eot_time));
-}
-?>
+```wpsc
+[s2Eot /]
 ```
 
-You can change the "Your membership expires on: " portion to whatever is applicable for your scenario. You can also change the `F j, Y` portion of the code to display a different date format (`F j, Y` shows something like `January 21st, 2015`). See the [PHP `date()`](http://php.net/manual/en/function.date.php) formatting options.
+If an EOT can be determined (common with Fixed-Term Subscriptions), this will output something like `Access Expires: Jul 16th, 2025, 12:00 am UTC`. If an NPT (next payment time) can be determined (common with Recurring Subscriptions), you'll see something like `Next Payment: Mar 5th, 2022, 12:00 am UTC`. Otherwise, if an EOT cannot be determined at all, the shortcode will display nothing.
 
-### Why isn't the EOT Date/Time showing?
+**Note**: There are _many_ other options for the `[s2Eot /]` shortcode, including ways to customize the message that is shown. Please review the [\[s2Eot /\] Shortcode Documentation](http://s2member.com/kb-article/s2eot-shortcode-documentation/) for futher details.
 
-If the above code shows up blank for some users, that would indicate that user does not have an EOT Date/Time set (you can edit the user's account in **WordPress Dashboard → Users → Edit User** and scroll down to the **Automatic EOT Time** field).
+## Displaying the EOT Date/Time with PHP 
 
-If you're using Recurring Subscriptions on your site (e.g., monthly recurring, yearly recurring), the EOT field will only be populated when a member cancels their membership or the membership is canceled due to multiple failed payments. On the other hand, if you're using Fixed-Term Subscriptions, where members pay for a fixed period of access (e.g., 1 day, 1 month, 1 year), the EOT field will be populated as soon as they pay for access.
+While the `[s2Eot /]` shortcode will be sufficient for most site owners, developers may want even finer control. Please see the [\[s2Eot /\] PHP Equivalent for Developers](http://s2member.com/kb-article/s2eot-shortcode-documentation/#toc-e00e3e46).
 
-You can also manually add an EOT Time to any users account by editing their account and entering a valid date/time (click the `?` next to the **Automatic EOT Time** field for further details).
-
-![2015-03-21_21-34-30](https://cloud.githubusercontent.com/assets/53005/6767655/21322b54-d012-11e4-87e0-2a55ab621ec4.png)
+**Tip**: If you plan to use PHP inside a WordPress Post/Page, you will first need to install a plugin that allows you to run PHP code inside your WordPress Pages. We recommend [ezPHP](http://wordpress.org/plugins/ezphp/).
