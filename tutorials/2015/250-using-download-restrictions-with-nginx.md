@@ -24,7 +24,7 @@ location /wordpress/wp-content/plugins/s2member-files {
 
 ## Basic Download Restrictions
 
-Yes, Basic Download Restrictions (**s2Member → Download Options → Basic Download Restrictions**) will work just fine with NGINX.
+Basic Download Restrictions (**s2Member → Download Options → Basic Download Restrictions**) should work just fine with NGINX.
 
 ## Using the `[s2File /]` Shortcode
 
@@ -46,7 +46,7 @@ Yes, Advanced Download Restrictions (**s2Member → Download Options → Advance
 
 ## Remote Auth / Podcasting
 
-Yes, Remote Authentication, most commonly used with podcasting (**s2Member → Download Options → Remote Auth / Podcasting**), should work fine with NGINX. The remote auth headers are sent via PHP and not the web server, so the s2Member implementation of this should work with NGINX.
+Remote Authentication, most commonly used with podcasting (**s2Member → Download Options → Remote Auth / Podcasting**), should work fine with NGINX. The remote auth headers are sent via PHP and not the web server, so the s2Member implementation of this should work with NGINX.
 
 ## Summary
 
