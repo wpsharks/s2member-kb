@@ -9,7 +9,7 @@ github-issue: https://github.com/websharks/s2member-kb/issues/250
 
 The s2Member Download Restrictions will work with NGINX, as the access control relies almost entirely on PHP and not the web server. However, there are a few things to keep in mind if you're using NGINX with s2Member Download Restrictions.
 
-## Preventing Access to `/s2member-files/`
+### Preventing Access to `/s2member-files/`
 
 All files that you want to protect with s2Member must reside in `wp-content/plugins/s2member-files/`. s2Member adds an `.htaccess` file to that directory to prevent public access. However, NGINX does not support .htaccess files. This means that you will need to update your NGINX server configuration to prevent public access to files in that directory.
 
@@ -22,29 +22,29 @@ location /wordpress/wp-content/plugins/s2member-files {
 }
 ```
 
-## Basic Download Restrictions
+### Basic Download Restrictions
 
 Basic Download Restrictions (**s2Member → Download Options → Basic Download Restrictions**) should work just fine with NGINX.
 
-## Using the `[s2File /]` Shortcode
+### Using the `[s2File /]` Shortcode
 
 The `[s2File /]` shortcode should work just fine with NGINX. No additional configuration is necessary.
 
-## Advanced Mod-Rewrite Linkage
+### Advanced Mod-Rewrite Linkage
 
 This feature will _not_ work with NGINX. Rewriting in s2Member depends on using an `.htaccess` file, which means that rewriting will not work with NGINX.
 
-## Using the `[s2Stream /]` Shortcode and JWPlayer
+### Using the `[s2Stream /]` Shortcode and JWPlayer
 
 If you are self-hosting your video files (i.e., in `wp-content/plugins/s2member-files/`), then you must set the shortcode attribute `rewrite="no"`, to tell the `[s2Stream /]` shortcode _not_ to do any rewriting, as rewriting will not work with NGINX.
 
 If you are using Amazon S3/CloudFront integration and hosting your video files with Amazon, you don't need to do anything special--the default `[s2Stream /]` shortcode should work as expected. 
 
-## Advanced Download Restrictions
+### Advanced Download Restrictions
 
 Yes, Advanced Download Restrictions (**s2Member → Download Options → Advanced Download Restrictions**) should work just fine with NGINX, as that functionality relies on PHP and is not dependent on the web server.
 
-## Remote Auth / Podcasting
+### Remote Auth / Podcasting
 
 Remote Authentication, most commonly used with podcasting (**s2Member → Download Options → Remote Auth / Podcasting**), should work fine with NGINX. The remote auth headers are sent via PHP and not the web server, so the s2Member implementation of this should work with NGINX.
 
