@@ -4,6 +4,7 @@ categories: questions
 tags:  mu-plugins-hacks, registration-profile-fields, login-registration, pro-forms
 author: kristineds
 github-issue: https://github.com/websharks/s2member-kb/issues/254
+toc-enable: off
 ---
 
 s2Member automatically assigns a `tabindex` value to each Custom Field and the default setting usually works fine, however some themes and/or custom integrations may interfere with the default setting and require that you take control of the `tabindex` value s2Member assigns to each Custom Field.
