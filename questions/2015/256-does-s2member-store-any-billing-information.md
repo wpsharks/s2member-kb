@@ -1,7 +1,7 @@
 ---
 title: Does s2Member store any billing information?
 categories: questions
-tags: billing
+tags: billing, pre-sale-faqs
 author: raamdev
 toc-enable: off
 github-issue: https://github.com/websharks/s2member-kb/issues/256
