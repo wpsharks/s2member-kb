@@ -26,7 +26,7 @@ _**Note Also:** The name of this hack file (`s2member-o.php`) is very important.
 <?php
 add_filter('gettext_with_context', function ($translated, $original, $context, $text_domain)
 	{
-		if($context === 's2member-front' && $text_domain=== 's2member')
+		if($context === 's2member-front' && $text_domain === 's2member')
 			{
 				if($original === 'Password (type this twice please)')
 					$translated = 'Password (enter twice to confirm)';
