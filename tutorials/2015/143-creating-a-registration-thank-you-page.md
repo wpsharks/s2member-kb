@@ -96,3 +96,19 @@ First Name: <?php echo esc_html($_REQUEST['fname']); ?>
 ```
 
 Please see: **Dashboard → s2Member → PayPal Pro Forms → Custom Return URLs Upon Success** for a complete list of replacement codes that can be used in the `success=""` attribute. For more details on shortcode attributes, please see: **Dashboard → s2Member → PayPal Pro Forms → Shortcode Attributes (Explained)**
+
+### What About Billing Modifications?
+
+In Pro-Forms, the `success=""` attribute works for all types of transactions, whether it's for an existing user or a new user who is just registering (or buying) for the first time. No special consideration necessary.
+
+However, if you're using this with a "Button" integration (e.g., PayPal or ClickBank "Buttons"), then `success=""` impacts new customers only. If it's an existing user (paid or not) that is making a purchase, this becomes a Billing Modification, and the return URL is handled dynamically for Button integrations. You can customize the dynamic return URL for "Button" modifications with the following MU plugin:
+
+Create the following directory and file:
+`/wp-content/mu-plugins/modification-ty-page.php`
+
+```php
+<?php
+add_filter('ws_plugin__s2member_redirection_url_after_modification', function(){
+	return 'http://example.com/thank-you/';
+});
+```
