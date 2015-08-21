@@ -15,7 +15,9 @@ If you are using a Fixed-Term Subscription model on your site and you want to in
 <?php 
 $user_id = c_ws_plugin__s2member_utils_users::get_user_id_with($paypal['subscr_id']);
 $eot_time = get_user_option('s2member_auto_eot_time', $user_id);
-echo date('F jS, Y, g:i a', $eot_time); // See: <http://php.net/manual/en/function.date.php
+if ($eot_time) { // Does the customer have an EOT time?
+  echo date('F jS, Y, g:i a', $eot_time); // See: <http://php.net/manual/en/function.date.php
+}
 ?>
 ```
 
