@@ -45,7 +45,7 @@ In the above code, change `[secret key]` to a random password that only you know
 
 Format (one per line):
 
-```
+```text
 code|discount|start(YYYY-MM-DD)~end(YYYY-MM-DD)|directive|singulars|users|max-uses
 ```
 
