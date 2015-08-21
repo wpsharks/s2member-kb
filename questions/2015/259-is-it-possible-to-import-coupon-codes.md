@@ -54,7 +54,7 @@ For additional details on each of these fields, see:
 
 Example file: `/s2-new-coupons.txt`
 
-```
+```text
 SAVE5PERCENT|5%
 SAVE10|10
 CHRISTMAS2015|25%|2015-12-01~2016-01-01
@@ -68,7 +68,7 @@ Upload `/s2-new-coupons.txt` via FTP, to the root of your WordPress installation
 
 ### 5. Access this URL in your browser to do the import.
 
-```
+```text
 http://yoursite.com/?s2_new_coupons=[secret key]
 ```
 
