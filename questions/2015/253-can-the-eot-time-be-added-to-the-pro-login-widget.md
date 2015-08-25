@@ -10,7 +10,7 @@ Yes, the Pro Login Widget supports arbitrary **XHTML/PHP** and even shortcodes i
 
 ![Pro Login Widget](https://cloud.githubusercontent.com/assets/53005/9455502/dd98876e-4a99-11e5-8b63-4b796ccec706.png)
 
-Since the "Additional XHTML/PHP Code?" field of the widget also supports PHP, you could even use the [PHP-equivalent of the s2Eot shortcode](http://s2member.com/kb-article/s2eot-shortcode-documentation/#toc-e00e3e46) to achieve even finer control over how the information is displayed.
+Since the "Additional XHTML/PHP Code?" field of the widget also supports PHP, you could even use the [PHP-equivalent of the \[s2Eot /\] shortcode](http://s2member.com/kb-article/s2eot-shortcode-documentation/#toc-e00e3e46) to achieve even finer control over how the information is displayed.
 
 ## Further Reading
 - [\[s2Eot /\] Shortcode Documentation](http://s2member.com/kb-article/s2eot-shortcode-documentation/)
