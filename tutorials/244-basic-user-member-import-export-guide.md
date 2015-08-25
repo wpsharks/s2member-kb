@@ -4,7 +4,7 @@ categories: tutorials
 tags: import-export-tools
 author: renzms
 github-issue: https://github.com/websharks/s2member-kb/issues/244
-toc-enable: off
+toc-enable: on
 ---
 
 With s2Member, you can easily Import and Export your User/Member information to a  [CSV](https://en.wikipedia.org/wiki/Comma-separated_values) file, a 'Comma-Separated Values' file. (A CSV file is a simple text file that can be read with any text editor or spreadsheet program, such as Excel.) You may want to use the Import/Export tools for simple backup purposes, or to easily make many changes to user/member information and then re-import those changes into s2Member. This short guide will explain how to export and import user/member information.
@@ -16,7 +16,7 @@ To get started, visit **Wordpress Dashboard → s2Member → Import/Export**. Yo
 ![s2Member User/Member Import/Export](https://cloud.githubusercontent.com/assets/53005/9456203/7afbc68a-4aa2-11e5-88dd-c1a4fb63c696.png)
 
 
-### Exporting User/Member Information
+## Exporting User/Member Information
 
 Click on the panel that says **User/Member CSV Exportation** to expand that panel. This panel allows us to download (export) a copy of all user/member information inside our WordPress site (i.e., all of the information related to all users found in **Dashboard → Users**). 
 
@@ -28,7 +28,7 @@ The default settings work just fine for most site owners and usually all you nee
 - **Add UTF-8 BOM (Byte Order Marker)?**. The default here is, `No`, which means that when you open the CSV file with Excel or a similar spreadsheet program, you will need to ensure that "UTF-8 encoding" is selected (most programs will prompt you for the encoding type when opening a CSV file). If you are using a Mac or if you're using OpenOffice, we recommend changing this option to `Yes`, as programs on a Mac often _don't_ prompt you for the encoding type.
 - **CSV File Exportation**. Again, the default here is usually fine. This option simply allows you to choose how many members you want to export. If you have more than 1,000 members, you may want to backup the information in segments (e.g., 1 - 1000, 1001 - 2000, etc.). If you have less than 1000 members and you want to export all member information, leave this setting at the default.
 
-### Importing User/Member Information
+## Importing User/Member Information
 
 Click on the panel that says **User/Member CSV Importation** to expand that panel. This panel allows us to upload (import) an existing CSV file that contains user/member information, either from a backup you made by exporting, or from a file you may have generated manually (see [Importing/Updating Users](http://s2member.com/kb-article/importingupdating-users/)).
 
