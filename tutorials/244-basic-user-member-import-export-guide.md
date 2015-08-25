@@ -1,7 +1,7 @@
 ---
 title: Basic User/Member Import/Export Guide
 categories: tutorials
-tags: importexport-tools
+tags: import-export-tools
 author: renzms
 github-issue: https://github.com/websharks/s2member-kb/issues/244
 toc-enable: off
