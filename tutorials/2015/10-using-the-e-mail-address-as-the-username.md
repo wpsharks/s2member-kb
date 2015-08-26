@@ -13,7 +13,9 @@ _**Note:** WordPress itself does not allow users to register without a username,
 
 ---
 
-An idea about how this might work in code ([original post](http://www.primothemes.com/forums/viewtopic.php?f=4&t=15672&p=49082#p49082); note that the following code has not been tested in a few years):
+An idea about how this might work in code (you can see the [original post here](http://www.primothemes.com/forums/viewtopic.php?f=4&t=15672&p=49082#p49082); note that the following code has not been tested in a few years and this example is provided simply as a way of demonstrating how you might achieve such a thing--there is no warranty provided with this code, as this is a hack that is customizing the way WordPress itself is designed to work, i.e., you're hiding the username):
+
+_**What about Stripe Pro-Forms?** If you're using Stripe, simply replace any occurrence of `paypal` with `stripe` in the example below._
 
 Create this directory and file:
 `/wp-content/mu-plugins/email-to-username.php`
@@ -130,4 +132,4 @@ add_filter(
 	'hide_username_in_edit_profile');
 ```
 
-The downside here would be that if your email address changed, you would't be able to update your username (since usernames cannot be changed once the account is created), so you'd end up with an old email address as the username and a current email address as the email.
+The downside here would be that if your email address changed, you wouldn't be able to update your username (WordPress doesn't allow changing usernames once the account has been created), so you'd end up with an old email address as the username and a current email address as the email.
