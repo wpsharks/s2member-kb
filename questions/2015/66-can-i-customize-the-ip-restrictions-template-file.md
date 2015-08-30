@@ -24,7 +24,7 @@ and place it into a new file of your own here:
 /wp-content/ip-restrictions.php
 ```
 
-How you can customize `/wp-content/ip-restrictions.php` in whatever way you like.
+Now you can customize `/wp-content/ip-restrictions.php` in whatever way you like.
 
 You can use PHP, WordPress, and s2Member functionality in this template file; i.e., `<?php ?>` tags can be used in this template if you need them.
 
