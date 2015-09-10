@@ -1,6 +1,6 @@
 ---
-title: How Do I Implement SSL (HTTPS) on My s2Member Site?
-categories: Questions
+title: Implementing SSL (HTTPS) on an s2Member Site
+categories: tutorials
 tags:  s2member-security-badge, security
 author: patdumond
 github-issue: https://github.com/websharks/s2member-kb/issues/249
