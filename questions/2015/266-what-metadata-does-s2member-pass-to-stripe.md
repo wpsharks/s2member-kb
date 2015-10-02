@@ -6,11 +6,13 @@ author: jaswsinc
 github-issue: https://github.com/websharks/s2member-kb/issues/266
 ---
 
-## Stripe Metadata Properties Passed by s2Member Pro
+## Metadata Passed by s2Member Pro
+
+**See also:** Dev Notes below.
 
 ### The Stripe **Customer** object receives:
 
-```
+```json
 metadata: {
   "name": "John Doe",
   "ip": "xxx.xxx.xxx.xxx"
@@ -19,7 +21,7 @@ metadata: {
 
 ### The Stripe **Source** object receives:
 
-```
+```json
 metadata: {
   "name": "John Doe",
   "ip": "xxx.xxx.xxx.xxx",
@@ -32,7 +34,7 @@ metadata: {
 
 ### The Stripe **Charge** object receives:
 
-```
+```json
 metadata: {
   "coupon": [JSON-encoded object; e.g., {"code":"SAVE10"}],
   "tax_info": [JSON-encoded object; e.g., {"tax":"3.45","tax_per":"8.5"}]
@@ -41,7 +43,7 @@ metadata: {
 
 ### The Stripe **Subscription** object receives:
 
-```
+```json
 metadata: {
   "coupon": [JSON-encoded object; e.g., {"code":"SAVE10"}],
   "trial_tax_info": [JSON-encoded object; e.g., {"tax":"3.45","tax_per":"8.5"}],
