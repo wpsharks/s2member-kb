@@ -3,8 +3,8 @@ title: How do I offer an installment plan?
 categories: questions
 tags: pro-forms
 author: raamdev
-github-issue:
 github-issue: https://github.com/websharks/s2member-kb/issues/265
+toc-enable: off
 ---
 
 The [s2Member Pro-Forms](http://s2member.com/kb-article/s2member-pro-forms/) support a Recurring Times attribute (`rrt=""`) which allows you to define the number of times a payment should recur, i.e., a fixed number of installments. Note that this functionality is only valid with Membership Level Access (i.e., when the Recurring directive is set to true (`rr="1"`, i.e., when you are creating a recurring Subscription).
