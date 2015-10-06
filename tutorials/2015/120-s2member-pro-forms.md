@@ -81,7 +81,7 @@ Please be sure these files exist in your active WordPress theme directory, and p
 
 s2Member Pro also makes it possible for you to select specific custom templates from your `/wp-content` directory. When you create an s2Member Pro-Form, you’ll be using an s2Member Shortcode, where you might have something like `[s2Member-Pro-PayPal-Form ... /]`. In this Shortcode, you could add the `template=""` attribute to call upon a specific custom template file that exists in your `/wp-content` directory. If you call upon custom template files this way (i.e., with the `template=""` shortcode attribute) you can name your custom template files anything you like. This can become a more flexible approach for some site owners.
 
-**Example:** `[s2Member-Pro-PayPal-Form ... template="/my-pro-forms/checkout-form.php" /]`
+**Example:** `[s2Member-Pro-PayPal-Form ... template="/my-pro-forms/paypal-checkout-form.php" /]`
 
 For additional details on this, please see: **Dashboard → s2Member → [Payment Gateway] Pro-Forms → Shortcode Attributes (Explained)**, where the `template=""` shortcode attribute has been documented, along with all the other shortcode attributes s2Member Pro makes available for you.
 
