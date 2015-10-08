@@ -46,4 +46,4 @@ Now that you know how to hide menu items, there may be a time where you would li
 
 If you want everyone to see all menu items, you can simply uncheck the Nav Menus option in Alternative View Protection so that s2Member does not hide any menu items.
 
-![2](https://cloud.githubusercontent.com/assets/13220018/10281361/8c7fe196-6ba6-11e5-8354-5a282cdfba4a.png)
+![s2Member Alternative View Protection](https://cloud.githubusercontent.com/assets/13220018/10281361/8c7fe196-6ba6-11e5-8354-5a282cdfba4a.png)
