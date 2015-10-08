@@ -32,9 +32,9 @@ By editing the theme template files directly, you can get as elaborate as necess
 ```php
 <?php
 if( is_user_logged_in() ) {
-    wp_nav_menu( array( 'theme_location' => 'logged-users' ) );
+    wp_nav_menu( array( 'theme_location' => 'logged-in-users' ) );
 } else {
-    wp_nav_menu( array( 'theme_location' => 'not-logged-users' ) );
+    wp_nav_menu( array( 'theme_location' => 'logged-out-users' ) );
 }
 ```
 
