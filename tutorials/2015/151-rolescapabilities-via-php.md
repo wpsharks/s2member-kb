@@ -94,7 +94,7 @@ $user->set_role('administrator');
 
 ### Example of a Post/Page Level Restriction Change
 
-The following example will add several Post IDs and several Page IDs to the ones already protected by a Level 1 restriction.
+The following example will add two Post IDs and two Page IDs to the ones already protected by a Level 1 restriction.
 
 ```php
 <?php
