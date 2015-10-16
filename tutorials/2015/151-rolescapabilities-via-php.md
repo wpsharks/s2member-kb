@@ -97,6 +97,7 @@ $user->set_role('administrator');
 The following example will add several Post IDs and several Page IDs to the ones already protected by a Level 1 restriction.
 
 ```php
+<?php
 $options = &$GLOBALS['WS_PLUGIN__']['s2member']['o'];
 
 $options['level1_posts'] .= ',5664,2232'; // Add these Post IDs to those that are already protected.
@@ -112,6 +113,7 @@ See also: [https://codex.wordpress.org/Function_Reference/update_option](https:/
 The following example will add two Custom Capability requirements (`pro` and `unlimited`) to a Post with ID `123`.
 
 ```php
+<?php
 $ccaps_required = array('pro', 'unlimited');
 update_post_meta(123, 's2member_ccaps_req', $ccaps_required);
 ```
