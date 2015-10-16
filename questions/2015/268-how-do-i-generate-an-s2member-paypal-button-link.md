@@ -10,7 +10,7 @@ With s2Member you can generate PayPal Button shortcodes (see **Dashboard → s2M
 
 To generate a PayPal button link, you'll need to start by generating the PayPal Button shortcode as you would if you were using the shortcode itself. You'll need to configure the PayPal button to charge the right amount and provide the proper access.
 
-Once you've genearted the PayPal Button shortcode, you can use the `output=` attribute of the shortcode to tell s2Member to output a link instead of a button when the shortcode is processed. Then you can use the generated link in any `<a></a>` anchor element. 
+Once you've generated the PayPal Button shortcode, you can use the `output=` attribute of the shortcode to tell s2Member to output a link instead of a button when the shortcode is processed. Then you can use the generated link in any `<a></a>` anchor element. 
 
 1. Generate the desired shortcode using **Dashboard → s2Member  → PayPal Buttons**.
 1. Copy the generated shortcode to a new WordPress page.
