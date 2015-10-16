@@ -8,6 +8,8 @@ github-issue: https://github.com/websharks/s2member-kb/issues/266
 
 ## Metadata Passed by s2Member Pro
 
+[Stripe Metadata](https://stripe.com/docs/api#metadata) is available for advanced site owners and 3rd-party services that interact with the Stripe API. The metadata that s2Member pushes over to Stripe is listed below. This information is useful when/if you build applications or integrate with services that might need to access additional details related to coupon codes, tax info, or geo-location. Metadata is almost always accessed through scripts that communicate with the Stripe API. See [official docs here](https://stripe.com/docs/api#metadata).
+
 **See also:** Dev Notes below.
 
 ### The Stripe **Customer** object receives:
