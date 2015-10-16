@@ -110,7 +110,7 @@ See also: [https://codex.wordpress.org/Function_Reference/update_option](https:/
 
 ### Example of a Post/Page Capabilities Restriction Change
 
-The following example will set two Custom Capability requirements (`pro` and `unlimited`) to a Post with ID `123`.
+The following example will set two Custom Capability requirements (`pro` and `unlimited`) for a Post with ID `123`.
 
 ```php
 <?php
