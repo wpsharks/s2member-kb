@@ -98,12 +98,14 @@ The following example will add two Post IDs and two Page IDs to the ones already
 
 ```php
 <?php
-$options = &$GLOBALS['WS_PLUGIN__']['s2member']['o'];
+add_action('ws_plugin__s2member_after_loaded', function(){
+    $options = &$GLOBALS['WS_PLUGIN__']['s2member']['o'];
 
-$options['level1_posts'] .= ',5664,2232'; // Add these Post IDs to those that are already protected.
-$options['level1_pages'] .= ',4688,3320'; // Add these Page IDs to those that are already protected.
+    $options['level1_posts'] .= ',5664,2232'; // Add these Post IDs to those that are already protected.
+    $options['level1_pages'] .= ',4688,3320'; // Add these Page IDs to those that are already protected.
 
-update_option('ws_plugin__s2member_options', $options);
+    update_option('ws_plugin__s2member_options', $options);
+});
 ```
 
 See also: [https://codex.wordpress.org/Function_Reference/update_option](https://codex.wordpress.org/Function_Reference/update_option)
