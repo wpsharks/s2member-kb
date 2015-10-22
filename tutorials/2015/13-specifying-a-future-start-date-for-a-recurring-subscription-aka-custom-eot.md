@@ -88,7 +88,7 @@ $cycle_start_year = date('Y'); // Always use the current year
 
 ### Relative Date for the Cycle Start
 
-This example shows how to use the infamous [strtotime()](http://php.net/manual/en/function.strtotime.php) function in PHP to build dates that are relative; i.e., cycle begins on the first day of the next month in this case.
+This example shows how to use the infamous [strtotime()](http://php.net/manual/en/function.strtotime.php) function in PHP to build dates that are relative; i.e., cycle begins on the first day of the next month in this case. Note the use of the `Y`, `n`, and `j` format chars, which correlates with the format expected by `mktime()`.
 
 ```php
 $cycle_start_year = date('Y', strtotime('first day of next month'));
