@@ -85,3 +85,13 @@ If you always want the cycle start year to be the current year, you can modify t
 ```php
 $cycle_start_year = date('Y'); // Always use the current year
 ```
+
+### Relative Date for the Cycle Start
+
+This example shows how to use the infamous [strtotime()](http://php.net/manual/en/function.strtotime.php) function in PHP to build dates that are relative; i.e., cycle begins on the first day of the next month in this case.
+
+```php
+$cycle_start_year = date('Y', strtotime('first day of next month'));
+$cycle_start_month = date('n', strtotime('first day of next month'));
+$cycle_start_day = date('j', strtotime('first day of next month'));
+```
