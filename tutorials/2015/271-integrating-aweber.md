@@ -14,7 +14,7 @@ To get started, you will need your [AWeber account](http://s2member.com/AWeber),
 
 ---
 
-## Step 1: Create An AWeber API Key
+## Step 1: Create an AWeber API Key
 
 You can create an AWeber API Key inside your AWeber account here: <http://s2member.com/r/AWeber-api-key>
 
