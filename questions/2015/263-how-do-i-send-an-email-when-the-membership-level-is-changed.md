@@ -4,6 +4,7 @@ categories: questions
 tags: mu-plugins-hacks,roles-capabilities,email-config
 author: kristineds
 github-issue: https://github.com/websharks/s2member-kb/issues/263
+toc-enable: off
 ---
 
 With s2Member, you can set up your site such that when a user registers, they must be manually approved before they can login and access their membership account. A common scenario would be if your users prefer to send payment through cash or check instead of one of the supported payment gateways (*Paypal, Stripe, Authorize.Net, ClickBank*) options. Manually approving user roles is discussed in [this article](http://s2member.com/kb-article/how-can-i-manually-approve-user-accounts/).
