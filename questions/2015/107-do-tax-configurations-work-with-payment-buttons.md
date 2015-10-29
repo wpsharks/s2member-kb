@@ -14,7 +14,7 @@ In s2Member, the Pro Tax Configuration panel is only for Pro Forms. When it come
 
 ## How to Configure Taxes
 
-If you are using Pro Forms, you should configure taxes with s2Member Pro. Taxes can be configured here. Please see: `s2Member ⥱ PayPal Pro-Forms ⥱ Tax Rate Calculations`.
+If you are using Pro Forms, you should configure taxes with s2Member Pro. Taxes can be configured here. Please see: `s2Member ⥱ PayPal Options ⥱ Tax Rate Calculations`.
 
 ![2015-02-11_09-20-16](https://cloud.githubusercontent.com/assets/1563559/6153170/3c73b72c-b1cf-11e4-8898-2837cc7e0a11.png)
 
