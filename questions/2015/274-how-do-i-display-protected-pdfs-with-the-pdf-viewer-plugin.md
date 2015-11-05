@@ -13,7 +13,7 @@ There are three ways of linking to s2Member-protected files: 1) Using the `[s2Fi
 
 The last method, using Mod-Rewrite, is the only method that will work with the PDF Viewer plugin. To use the Mod-Rewrite method, simply build the link to your protected PDF file inside the `/s2member-files/` directory as follows:
 
-```
+```text
 http://example.com/wp-content/plugins/s2member-files/s2member-file-inline-no/EXAMPLE.pdf
 ```
 
@@ -21,7 +21,7 @@ In the above example, we have a file called `EXAMPLE.pdf` that has been uploaded
 
 Using that Mod-Rewrite URL to the protected PDF file, you can then tell the PDF Viewer to load the file (assuming the user has permission to download the file):
 
-```
+```text
 [pdfviewer width="600px" height="849px"]http://example.com/wp-content/plugins/s2member-files/s2member-file-inline-no/EXAMPLE.pdf[/pdfviewer]
 ```
 
