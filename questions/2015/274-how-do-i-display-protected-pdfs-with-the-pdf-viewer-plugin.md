@@ -30,3 +30,21 @@ Using that Mod-Rewrite URL to the protected PDF file, you can then tell the PDF 
 ```
 
 ![2015-11-04_21-56-14](https://cloud.githubusercontent.com/assets/53005/10958701/e93952aa-833e-11e5-8cdd-1d5b992277c3.png)
+
+## What if I'm using Amazon S3/CloudFront?
+
+If you are hosting your s2Member-protected files on Amazon S3/CloudFront, you can simply adjust the URL to the PDF to include the storage location (`s2member-file-storage-s3` for Amazon S3 or `s2member-file-storage-cf` for Amazon S3/CloudFront).
+
+**Amazon S3**:
+
+```text
+http://example.com/wp-content/plugins/s2member-files/s2member-file-storage-s3/s2member-file-inline-no/EXAMPLE.pdf
+```
+
+**Amazon S3/CloudFront**:
+
+```text
+http://example.com/wp-content/plugins/s2member-files/s2member-file-storage-cf/s2member-file-inline-no/EXAMPLE.pdf
+```
+
+For more examples and more information about how this works, please see **Dashboard → s2Member → Download Options → Advanced Mod-Rewrite Linkage**.
