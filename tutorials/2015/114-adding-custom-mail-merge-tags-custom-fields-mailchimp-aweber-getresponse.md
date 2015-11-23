@@ -70,7 +70,7 @@ add_filter('ws_plugin__s2member_aweber_custom_fields_array', function ($custom_f
         
         // A Custom Registration/Profile Field in s2Member can be obtained like this.
         // Note that `my_custom_field_id` should be replaced with the Unique ID that you configured for a field in s2Member.
-        'my_custom_field' => get_user_field('my_custom_field_id', $args->user_id),
+        // 'my_custom_field' => get_user_field('my_custom_field_id', $args->user_id),
     ));
     return $custom_fields;
 
@@ -105,7 +105,7 @@ add_filter('ws_plugin__s2member_getresponse_customs_array', function ($custom_fi
         
         // A Custom Registration/Profile Field in s2Member can be obtained like this.
         // Note that `my_custom_field_id` should be replaced with the Unique ID that you configured for a field in s2Member.
-        'my_custom_field' => get_user_field('my_custom_field_id', $args->user_id),
+        // 'my_custom_field' => get_user_field('my_custom_field_id', $args->user_id),
     ));
     return $custom_fields;
 
