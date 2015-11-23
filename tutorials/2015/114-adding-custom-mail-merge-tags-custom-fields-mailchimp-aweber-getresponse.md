@@ -31,7 +31,7 @@ add_filter('ws_plugin__s2member_mailchimp_merge_array', function ($custom_fields
         
         // A Custom Registration/Profile Field in s2Member can be obtained like this.
         // Note that `my_custom_field_id` should be replaced with the Unique ID that you configured for a field in s2Member.
-        'MY_CUSTOM_FIELD' => get_user_field('my_custom_field_id', $args->user_id),
+        // 'MY_CUSTOM_FIELD' => get_user_field('my_custom_field_id', $args->user_id),
     ));
     return $custom_fields;
 
@@ -67,6 +67,10 @@ add_filter('ws_plugin__s2member_aweber_custom_fields_array', function ($custom_f
         'ccaps'   => $args->ccaps,
         'login'   => $args->login,
         'user_id' => $args->user_id,
+        
+        // A Custom Registration/Profile Field in s2Member can be obtained like this.
+        // Note that `my_custom_field_id` should be replaced with the Unique ID that you configured for a field in s2Member.
+        'my_custom_field' => get_user_field('my_custom_field_id', $args->user_id),
     ));
     return $custom_fields;
 
@@ -98,6 +102,10 @@ add_filter('ws_plugin__s2member_getresponse_customs_array', function ($custom_fi
         'ccaps'   => $args->ccaps,
         'login'   => $args->login,
         'user_id' => $args->user_id,
+        
+        // A Custom Registration/Profile Field in s2Member can be obtained like this.
+        // Note that `my_custom_field_id` should be replaced with the Unique ID that you configured for a field in s2Member.
+        'my_custom_field' => get_user_field('my_custom_field_id', $args->user_id),
     ));
     return $custom_fields;
 
