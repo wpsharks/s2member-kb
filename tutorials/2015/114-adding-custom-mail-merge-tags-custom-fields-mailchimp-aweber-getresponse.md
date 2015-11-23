@@ -28,6 +28,10 @@ add_filter('ws_plugin__s2member_mailchimp_merge_array', function ($custom_fields
         'CCAPS'   => $args->ccaps,
         'LOGIN'   => $args->login,
         'USER_ID' => $args->user_id,
+        
+        // A Custom Registration/Profile Field in s2Member can be obtained like this.
+        // Note that `my_custom_field_id` should be replaced with the Unique ID that you configured for a field in s2Member.
+        'MY_CUSTOM_FIELD' => get_user_field('my_custom_field_id', $args->user_id),
     ));
     return $custom_fields;
 
