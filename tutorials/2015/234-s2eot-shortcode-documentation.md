@@ -211,6 +211,7 @@ _If you've integrated with one of these payment gateways you can take full advan
 - Stripe _(best support, most accurate)_
 - PayPal Pro _(good support, fairly accurate)_
 - PayPal Pro Payflow Edition _(good support, fairly accurate)_
+- PayPal Standard w/ Express Checkout only (e.g., a Pro-Form w/ only Express Checkout)
 - ClickBank _(good support, fairly accurate)_
 
 ### Partially-Supported Payment Gateways
