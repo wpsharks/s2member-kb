@@ -216,7 +216,7 @@ _If you've integrated with one of these payment gateways you can take full advan
 
 ### Partially-Supported Payment Gateways
 
-- PayPal Standard; i.e., Standard Buttons
+- PayPal Standard "Buttons"
 - Authorize.Net
 - ccBill Buttons
 - AliPay Buttons
