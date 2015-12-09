@@ -1,7 +1,7 @@
 ---
 title: Why can't I use the same Trial Amount and Regular Amount with PayPal?
 categories: questions
-tags: 
+tags: paypal, pro-forms, error-messages
 author: raamdev
 toc-enable: off
 github-issue: https://github.com/websharks/s2member-kb/issues/279
