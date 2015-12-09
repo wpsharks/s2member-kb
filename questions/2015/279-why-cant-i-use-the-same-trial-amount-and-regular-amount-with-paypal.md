@@ -3,7 +3,7 @@ title: Why can't I use the same Trial Amount and Regular Amount with PayPal?
 categories: questions
 tags: 
 author: raamdev
-github-issue:
+toc-enable: off
 github-issue: https://github.com/websharks/s2member-kb/issues/279
 ---
 
