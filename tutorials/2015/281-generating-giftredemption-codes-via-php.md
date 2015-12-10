@@ -7,13 +7,15 @@ github-issue: https://github.com/websharks/s2member-kb/issues/281
 toc-enable: true
 ---
 
-s2Member provides an easy-to-use shortcode called [`[s2Member-Gift-Codes /]`](http://s2member.com/kb-article/can-i-sell-gift-certificates/). The shortcode makes it easy to create and sell Gift Codes (aka: Redemption Codes) to new and/or existing customers in a variety of ways. **However**, a developer might like to generate these codes on their own, in response to specific events that occur. This can be done using PHP tags in s2Member Pro.
+s2Member provides an easy-to-use shortcode called [`[s2Member-Gift-Codes /]`](http://s2member.com/kb-article/can-i-sell-gift-certificates/). The shortcode makes it easy to create and sell Gift Codes (aka: Redemption Codes) to new and/or existing customers in a variety of ways. **However**, a developer might like to generate these codes on their own, in response to specific events that occur.
+
+This can be done using PHP tags in s2Member Pro.
 
 ## PHP Code Samples
 
 _**Note:** These samples require PHP 5.4+._
 
-### Generate one new gift/redemption code (100% off discount).
+### 100% Off
 
 ```php
 <?php
@@ -21,7 +23,7 @@ echo s2member_pro_redemption_code_generate()['code'];
     // Output: GC00K1BUA2NZ5CTRCL5M31
 ```
 
-### Generate one new gift/redemption code that provides 50% off.
+### 50% Off (i.e., Passing Arguments)
 
 ```php
 <?php
@@ -30,7 +32,7 @@ echo s2member_pro_redemption_code_generate($args)['code'];
     // Output: GC00K1BUA74Z5CTRCL5M31
 ```
 
-### Generate one new gift/redemption code that provides 50% off, and it will only apply the discount to an initial/trial period.
+### 50% Off (Initial Amount Only)
 
 ```php
 <?php
@@ -39,7 +41,9 @@ echo s2member_pro_redemption_code_generate($args)['code'];
     // Output: GC87K1BUA2NZ5CTRCL5M31
 ```
 
-### Generate one new gift/redemption code that provides 50% off, and it will only apply the discount to the regular/recurring rate; not to any initial/trial period.
+### 50% Off (Regular|Recurring Amount Only)
+
+_i.e., does not discount any initial/trial period. Only impacts the regular Buy Now rate. Or, the regular recurring rate if you are selling a subscription plan._
 
 ```php
 <?php
@@ -48,7 +52,9 @@ echo s2member_pro_redemption_code_generate($args)['code'];
     // Output: GC55K1BUA2NZ5CTRCL5M31
 ```
 
-### Generate one new gift/redemption code that only works in a Pro-Form that lives in Post ID 123 or Post ID 456.
+### Post ID #123 or Post ID #456 Only
+
+_This prevents the code from being used anywhere other than these Post IDs._
 
 ```php
 <?php
