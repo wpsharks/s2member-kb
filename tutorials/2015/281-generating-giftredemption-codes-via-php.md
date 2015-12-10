@@ -71,3 +71,15 @@ $args = ['discount' => '50%', 'singulars' => '123,456'];
 echo s2member_pro_redemption_code_generate($args)['code'];
     // Output: GC99K1BUA2NZ5CTRCL5M31
 ```
+
+## Frequently Asked Questions
+
+### When I generate codes are they stored in my database?
+
+Yes. Generating a Redemption Code triggers a database write, which stores a new row in your `wp_options` table. This row is used to identify the Redemption Code as being valid, and also to flag it as having been used once a customer redeems it.
+
+### How can a customer use the Redemption Code(s) that I generate?
+
+You will need to generate an s2Member Pro-Form and set `accept_coupons="1"` to enable a box that allows a customer to enter a Coupon Code (aka: Gift Code; aka: Redemption Code).
+
+See: **Dashboard → s2Member → Pro Coupon Codes** for further details.
