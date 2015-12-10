@@ -181,6 +181,6 @@ You can also choose to search for a fuzzy match on your own. If your search quer
 
 _**IMPORTANT NOTE:** Due to a limitation in the WordPress core, it is currently not possible to use a `*` wildcard character in the middle of a search query. If you want a custom fuzzy match, your `*` character can be at the beginning or at the end, not in the middle anywhere._
 
-### Exact Match Syntax (Coming Soon)
+### Exact Match Syntax
 
 Starting with s2Member Pro v151210 (or higher) you can surround your query with double quotes to force an exact match; e.g., `"find this"`. The double quotes prevent the default behavior described above, which is a fuzzy match.
