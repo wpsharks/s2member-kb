@@ -32,6 +32,15 @@ echo s2member_pro_redemption_code_generate($args)['code'];
     // Output: GC00K1BUA74Z5CTRCL5M31
 ```
 
+### $5.00 Off (i.e., Flat-Rate)
+
+```php
+<?php
+$args = ['discount' => '5.00'];
+echo s2member_pro_redemption_code_generate($args)['code'];
+    // Output: GC00K1BUA74Z5CTRCL5M31
+```
+
 ### 50% Off (Initial Amount Only)
 
 ```php
