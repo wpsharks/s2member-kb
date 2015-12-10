@@ -179,7 +179,7 @@ _**IMPORTANT NOTE:** Due to a limitation in the WordPress core (and for performa
 
 You can also choose to search for a fuzzy match on your own. If your search query contains a `*` wildcard character, the automatic fuzzy search functionality is disabled in favor of what you are looking for. In other words, if you search for `green*` (i.e., you enter a `*` wildcard in the query), you will get results that match words starting with `green` followed by zero or more other characters. The default leading `*` and trailing `*` is not applied on both sides, because you included your own `*` wildcard character in the search query. It's taken literally and not manipulated any further.
 
-_**IMPORTANT NOTE:** Due to a limitation in the WordPress core, is is currently not possible to use a `*` wildcard character in the middle of a search query. If you want a custom fuzzy match, your `*` character can be at the beginning or at the end, not in the middle anywhere._
+_**IMPORTANT NOTE:** Due to a limitation in the WordPress core, it is currently not possible to use a `*` wildcard character in the middle of a search query. If you want a custom fuzzy match, your `*` character can be at the beginning or at the end, not in the middle anywhere._
 
 ### Exact Match Syntax (Coming Soon)
 
