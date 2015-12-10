@@ -107,9 +107,7 @@ _To learn more about `[s2If /]`, see: [Simple Shortcode Conditionals](https://gi
   
   **Note:** It is also possible to search any usermeta field in WordPress; e.g., `description`, `s2member_subscr_id`, `s2member_subscr_gateway`, or any other usermeta field added by a plugin other than s2Member.
 
-  **Note:** It is also possible to search Custom Registration/Profile Fields you created with s2Member. To search custom fields use `s2member_custom_field_[my unique id]`, where you replace `[my unique id]` with the Unique ID that you gave the field when you created it with s2Member.
-
-  _Please be advised that searching Custom Registration/Profile Fields may result in a slower DB query; i.e., at this time is not recommended on sites with more than 5000 users._
+  **Note:** It is also possible to search Custom Registration/Profile Fields you created with s2Member. To search custom fields use `s2member_custom_field_[my unique id]`, where you replace `[my unique id]` with the Unique ID that you gave the field when you created it with s2Member. _Please be advised that searching Custom Registration/Profile Fields may result in a slower DB query; i.e., at this time is not recommended on sites with more than 25,000 users._
 -   **`include`** Optional. This will limit the set of results to only a specific user ID that you list, or a comma-delimited list of multiple user IDs is also acceptable. Note: **this does NOT simply include additional users by ID** (i.e., it’s NOT in addition to other query vars). Instead, this filters the set of results to include only those user IDs that you list. For instance, you might want to query all users at Membership Level 1, but then you might choose to include only specific user IDs from that set of results using the `include` attribute. The `include` attribute could also be used on it’s own of course; i.e., without any other query filters.
 -   **`exclude`** Optional. This will force the exclusion of a specific user by ID. You can specify a single user ID to exclude, or a comma-delimited list of multiple user IDs.
 -   **`order`** Optional sort order. Defaults to `DESC`. This can be one of `DESC` or `ASC`.
