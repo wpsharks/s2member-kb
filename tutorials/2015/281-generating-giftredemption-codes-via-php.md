@@ -4,6 +4,7 @@ categories: tutorials
 tags: tricks, mu-plugins-hacks, giftredemption-codes
 author: jaswsinc
 github-issue: https://github.com/websharks/s2member-kb/issues/281
+toc-enable: true
 ---
 
 s2Member provides an easy-to-use shortcode called [`[s2Member-Gift-Codes /]`](http://s2member.com/kb-article/can-i-sell-gift-certificates/). The shortcode makes it easy to create and sell Gift Codes (aka: Redemption Codes) to new and/or existing customers in a variety of ways. **However**, a developer might like to generate these codes on their own, in response to specific events that occur. This can be done using PHP tags in s2Member Pro.
