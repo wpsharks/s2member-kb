@@ -7,7 +7,7 @@ github-issue:
 github-issue: https://github.com/websharks/s2member-kb/issues/284
 ---
 
-If you are editing a users profile and setting the Automatic EOT Time (**Dashboard → Users → Edit User → Automatic EOT Time**), you can use any date format allowed by the [PHP `strtotime()` function](http://us3.php.net/manual/en/function.strtotime.php). However, if you try to enter the UK date format of `DD/MM/YYYY` and then save the changes, you'll notice that the format is parsed as `MM/DD/YYY` (US format), or not parsed at all.
+If you are editing a users profile and setting the Automatic EOT Time, you can use any date format allowed by the [PHP `strtotime()` function](http://us3.php.net/manual/en/function.strtotime.php). However, if you try to enter the UK date format of `DD/MM/YYYY` and then save the changes, you'll notice that the format is parsed as `MM/DD/YYY` (US format), or not parsed at all.
 
 This is due to the way that the PHP `strtotime()` function works. It assumes that if the date contains slashes then it is intended to be a date in the US format (`MM/DD/YYYY`). However, if the date is formatted using dashes or dots (`DD-MM-YYYY` or `DD.MM.YYYY`), it will parse the date as a UK date.
 
