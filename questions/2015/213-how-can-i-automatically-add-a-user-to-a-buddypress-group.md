@@ -20,6 +20,7 @@ Yes, but this requires a small bit of custom code. You can use the example below
 add_action('ws_plugin__s2member_during_configure_user_registration', function (array $vars) {
     extract($vars); // Variables from registration context.
     // Run `print_r($vars);` to get a full list for inspection.
+    // The most important variable extracted here is `$user` (a WP User object).
 
     # Configuration. Array keys are s2Member Role names.
     # See: <https://s2member.com/kb-article/s2member-rolescapabilities/>
