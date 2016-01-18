@@ -29,7 +29,7 @@ add_action('ws_plugin__s2member_during_configure_user_registration', function (a
     # A BuddyPress Group slug can be acquired by inspecting its Permalink in WordPress.
     $s2member_bp_groups_map = array(
       'subscribe' => array(), // Free Subscribers are not added to any BP Groups.
-      's2member_level1' => array('test-group'), // Add Members who register at Level 1 to this BG Group.
+      's2member_level1' => array('test-group'), // Add Members who register at Level 1 to this BP Group.
       's2member_level2' => array('test-group', 'another-group'), // Add Members who register at Level 2 to these two groups.
       's2member_level3' => array(), // Members who register at Level 3 are not added to any BP Groups.
       's2member_level4' => array(), // Members who register at Level 4 are not added to any BP Groups.
@@ -63,7 +63,7 @@ add_action('ws_plugin__s2member_during_configure_user_registration', function (a
     # A BuddyPress Group slug can be acquired by inspecting its Permalink in WordPress.
     $s2member_bp_groups_map = array(
       'pro' => array(), // Members w/ CCAP `pro` are not added to any BP Groups.
-      'ultimate' => array('test-group'), // Add Members w/ CCAP `ultimate` to this BG Group.
+      'ultimate' => array('test-group'), // Add Members w/ CCAP `ultimate` to this BP Group.
     );
 
     # Do NOT edit anything below this line.
