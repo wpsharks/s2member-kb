@@ -21,6 +21,7 @@ add_action('ws_plugin__s2member_during_configure_user_registration', function (a
     extract($vars); // Variables from registration context.
     // Run `print_r($vars);` to get a full list for inspection.
     // The most important variable extracted here is `$user` (a WP User object).
+    // In addition, we also use the `$role` variable extracted here; e.g., `subscriber`, `s2member_level`, etc.
 
     # Configuration. Array keys are s2Member Role names.
     # See: <https://s2member.com/kb-article/s2member-rolescapabilities/>
@@ -39,6 +40,37 @@ add_action('ws_plugin__s2member_during_configure_user_registration', function (a
         if (!empty($s2member_bp_groups_map[$role])) {
             foreach ($s2member_bp_groups_map[$role] as $_group_slug) {
                 if (($_group_id = BP_Groups_Group::group_exists($_group_slug))) {
+                    groups_join_group($_group_id, $user->ID);
+                }
+            }
+        }
+    }
+});
+```
+
+---
+
+## Using CCAPs as the Basis for Group Addition
+
+```php
+<?php
+add_action('ws_plugin__s2member_during_configure_user_registration', function (array $vars) {
+    extract($vars); // Variables from registration context.
+    // Run `print_r($vars);` to get a full list for inspection.
+    // The most important variable extracted here is `$user` (a WP User object).
+
+    # Configuration. Array keys are s2Member CCAP names.
+    # A BuddyPress Group slug can be acquired by inspecting its Permalink in WordPress.
+    $s2member_bp_groups_map = array(
+      'pro' => array(), // Members w/ CCAP `pro` are not added to any BP Groups.
+      'ultimate' => array('test-group'), // Add Members w/ CCAP `ultimate` to this BG Group.
+    );
+
+    # Do NOT edit anything below this line.
+    if (bp_is_active('groups')) {
+        foreach ($s2member_bp_groups_map as $_ccap => $_group_slug) {
+            if (($_group_id = BP_Groups_Group::group_exists($_group_slug))) {
+                if($user->has_cap('access_s2member_ccap_'.$_ccap)) {
                     groups_join_group($_group_id, $user->ID);
                 }
             }
