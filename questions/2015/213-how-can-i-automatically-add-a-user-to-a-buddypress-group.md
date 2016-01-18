@@ -19,6 +19,7 @@ Yes, but this requires a small bit of custom code. You can use the example below
 <?php
 add_action('ws_plugin__s2member_during_configure_user_registration', function (array $vars) {
     extract($vars); // Variables from registration context.
+    // Run `print_r($vars);` to get a full list for inspection.
 
     # Configuration. Array keys are s2Member Role names.
     # See: <https://s2member.com/kb-article/s2member-rolescapabilities/>
