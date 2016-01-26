@@ -4,6 +4,7 @@ categories: questions
 tags: shortcodes, error-messages, 
 author: patdumond
 github-issue: https://github.com/websharks/s2member-kb/issues/287
+toc-enable: off
 ---
 
 So, you just updated *s2Member* and now your shortcodes aren't working? They just show up in plain text on your *WordPress* page and, it sure is ugly. Relax. This is a very common problem. Almost always, this happens because you updated *s2Member Framework*, but didn't update *s2Member Pro*. 
