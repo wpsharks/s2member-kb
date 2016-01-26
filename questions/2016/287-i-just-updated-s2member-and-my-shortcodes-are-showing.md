@@ -1,7 +1,7 @@
 ---
 title: I Just Updated s2Member and My Shortcodes are Showing!
 categories: questions
-tags: shortcodes, updates
+tags: shortcodes, error-messages, 
 author: patdumond
 github-issue: https://github.com/websharks/s2member-kb/issues/287
 ---
@@ -28,7 +28,7 @@ Wait, didn't you already update *s2Member*? Yes, and no. Scroll down to the *s2M
 
 You updated *s2Member Framework*, but the *s2Member Pro Add-on* does not update automatically just because you update the *Framework*. There is still another step to perform. That message at the top of the *Plugins* panel makes it pretty easy. Just put in your *Username* and the key from your *My Account* page at [s2Member.com](https://s2member.com/) and press the **Update s2Member Pro Automatically** button.
 
-## Bet You Don't Forget That Again!
+## The Next Time You Update s2Member...
 
 Remember, just as when [installing *s2Member*](http://s2member.com/installation/), you must update the *s2Member Framework* and *s2Member Pro* separately. They are two distinct entities and, at least for now, updating the *Framework* does not kick off an automatic update of the *Pro Add-on*. 
 
