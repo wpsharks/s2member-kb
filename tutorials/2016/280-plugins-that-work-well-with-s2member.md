@@ -2,7 +2,7 @@
 title: Plugins that work well with s2Member
 categories: tutorials
 tags: other-integrations, tricks
-author: jaswsinc
+author: KTS915
 github-issue: https://github.com/websharks/s2member-kb/issues/280
 ---
 
@@ -18,10 +18,10 @@ Please note that this list is *not* exhaustive. It simply lists those plugins th
 
 ## Caching
 
-- [Zen Cache](https://wordpress.org/plugins/zencache/)
-- [Zen Cache Pro](https://zencache.com/) (paid plugin)
+- [ZenCache](https://wordpress.org/plugins/zencache/)
+- [ZenCache Pro](https://zencache.com/) (paid plugin)
 
-_**Tip:** We are the developers of Zen Cache and Zen Cache Pro, so these can always be guaranteed to work with s2Member. Zen Cache Pro offers the significant advantage that it makes it possible to cache content for logged-in members. It also offers the ability to compress (minify) CSS and javascript files, which will make your site go even faster._
+_**Tip:** We are the developers of ZenCache and ZenCache Pro, so these can always be guaranteed to work with s2Member. ZenCache Pro offers the significant advantage that it makes it possible to cache content for logged-in members. It also offers the ability to compress (minify) CSS and javascript files, which will make your site go even faster._
 
 Other alternatives...
 
@@ -33,7 +33,7 @@ Other alternatives...
 - [Capability Manager Enhanced](https://wordpress.org/plugins/capability-manager-enhanced/)
 - [Members](https://wordpress.org/plugins/members/)
 
-Both op these plugins allow you to have much finer-grained control over which capabilities are assigned to each user role (including s2Member levels). This enables you, for example, to allow those with s2Member Level 1 to have access to content that would otherwise be restricted to those at s2Member Level 4 and above.
+Both of these plugins allow you to have much finer-grained control over which capabilities are assigned to each user role (including s2Member levels). This enables you, for example, to allow those with s2Member Level 1 to have access to content that would otherwise be restricted to those at s2Member Level 4 and above.
 
 Perhaps more importantly, these plugins also enable you to change the default hierarchical structure of s2Member levels. You could therefore use either of them to prevent users at s2Member Level 2 and s2Member Level 3 from being able to access content designated for those at s2Member Level 1.
 
@@ -41,13 +41,14 @@ Perhaps more importantly, these plugins also enable you to change the default hi
 
 - [Say What?](https://wordpress.org/plugins/say-what/)
 
-  s2Member and s2Member Pro provide a variety of forms and buttons for use on your site. You might, however, prefer to use different words or phrases (whether in English or another language) instead of the default s2Member text. This plugin (which, when activated, will appear in your Tools menu under Text Changes) allows you to do so easily by simply filling in four boxes for each phrase you wish to change.
+s2Member and s2Member Pro provide a variety of forms and buttons for use on your site. You might, however, prefer to use different words or phrases (whether in English or another language) instead of the default s2Member text. This plugin (which, when activated, will appear in your Tools menu under Text Changes) allows you to do so easily by simply filling in four boxes for each phrase you wish to change.
 
-  Those boxes are as follows:
-  1.  Original string: type in the current text
-  2.  Text Domain: type \`\`s2member” (without the quotes)
-  3.  Text Context: type \`\`s2member-front” (without the quotes)
-  4.  Replacement String: type in your desired text
+Those boxes are as follows:
+  
+1.  Original string: type in the current text
+1.  Text Domain: type `s2member`
+1.  Text Context: type `s2member-front`
+1.  Replacement String: type in your desired text
 
 ## Comment Subscriptions
 
@@ -60,13 +61,13 @@ _**Tip:** We are the developers of both these plugins. They allow commenters to 
 
 - [Post Views Counter](https://wordpress.org/plugins/post-views-counter/)
 
-  This plugin provides a means of displaying how many times a post or page has been viewed. There are options for displaying in the admin pages and/or on the front end, and it is possible to exclude visits by those with specific roles (including s2Member roles) from being counted.
+This plugin provides a means of displaying how many times a post or page has been viewed. There are options for displaying in the admin pages and/or on the front end, and it is possible to exclude visits by those with specific roles (including s2Member roles) from being counted.
 
 ## Groups Management
 
 - [KC Groups Management](http://krumch.com/2013/07/09/kc-groups-management/#.Vklev3q350w) (paid plugin)
 
-  This enables one user to purchase a bundle of s2Member memberships that s/he can then control. This is very useful if, for example, you have a corporate client who wishes to enable access for a number of employees.
+This enables one user to purchase a bundle of s2Member memberships that s/he can then control. This is very useful if, for example, you have a corporate client who wishes to enable access for a number of employees.
 
 ## Identifying Post and Page IDs
 
