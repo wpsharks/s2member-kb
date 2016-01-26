@@ -1,7 +1,7 @@
 ---
 title: I Just Updated s2Member and My Shortcodes are Showing!
 categories: questions
-tags: shortcodes, error-messages, 
+tags: shortcodes, error-messages, troubleshooting
 author: patdumond
 github-issue: https://github.com/websharks/s2member-kb/issues/287
 toc-enable: off
