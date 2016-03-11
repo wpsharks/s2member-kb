@@ -6,7 +6,7 @@ author: renzms
 github-issue: https://github.com/websharks/s2member/issues/834
 ---
 
-A common task while setting up and managing an s2member site is to test your specific membership levels and/or Custom Capabilities to make sure that content is appearing properly for the intended audience. The common solution to this problem can be tedious to some as it involves creating a test user (or multiple test users), and then logging out and back in as the user to view each page. The following method allows site owners to view a page/post as one of their subscribers (or as a specific test user that you may have set up) for testing different membership levels and/or Custom Capabilities.
+A common task while setting up and managing an s2Member site is to test your specific membership levels and/or Custom Capabilities to make sure that content is appearing properly for the intended audience. The common solution to this problem can be tedious to some as it involves creating a test user (or multiple test users), and then logging out and back in as the user to view each page. The method described in this article allows site owners easily to view a page/post as one of their subscribers (or as a specific test user that you may have set up) for testing different membership levels and/or Custom Capabilities.
 
 ## The User Switching Plugin
 
