@@ -29,23 +29,18 @@ Once you've installed the [User Switching](https://wordpress.org/plugins/user-sw
 1. Go to **User → Add New User**, for this example we will add a user with username `Tester 1`. You can add any valid email if you wish, but no need to add a password or email the password to user as we will be using **User Switching** to switch users, and not actually logging in/logging out of each user/admin account. 
 
 2. Then choose which membership level the test account should have, in this case `s2Member Level 1`.
-
      ![Add New Test User](https://cloud.githubusercontent.com/assets/13220018/12117770/db437708-b3fd-11e5-8aa3-dc1acc7ace7b.jpg)
 
  3. If you wish to test Custom Capabilities, add the corresponding value of your Custom Capabilities to the **Custom Capabilities** field below under the **s2Member Configuration & Profile Fields**
-
      ![Add New Test User](https://cloud.githubusercontent.com/assets/13220018/12117912/902e8ba8-b3fe-11e5-83c0-de9aa32f582b.jpg)
 
 4. We have now created 4 test users with 4 different Membership Levels.
-
      ![List of Test Users](https://cloud.githubusercontent.com/assets/13220018/12118005/19bb70ca-b3ff-11e5-8b9e-54bdcd6fea6f.jpg)
 
 5. To switch to a user, hover over the username and click `Switch To`.
-
      ![Switch To User Link](https://cloud.githubusercontent.com/assets/13220018/12118129/c9bb74de-b3ff-11e5-8bcc-c6c400803db3.png)
 
 6. To switch back, you can switch back via the Dashboard Notification or the Admin Bar.
-
      ![Switch Back to Admin Link](https://cloud.githubusercontent.com/assets/13220018/13573978/1c73b82e-e4bd-11e5-9c99-e9a2654c61d5.png)
 
 You can verify if your shortcode for specific content is working properly by having two tabs/windows open: one for switching users and one for viewing content. Test by refreshing the tab/window for viewing and in the other tab/window switch users via the **Users** area in the WordPress Dashboard. You can now easily test your shortcode without having to log in and out of your site or remember different user passwords!
