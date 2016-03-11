@@ -31,7 +31,7 @@ Once you've installed the [User Switching](https://wordpress.org/plugins/user-sw
 2. Then choose which membership level the test account should have, in this case `s2Member Level 1`.
      ![Add New Test User](https://cloud.githubusercontent.com/assets/13220018/12117770/db437708-b3fd-11e5-8aa3-dc1acc7ace7b.jpg)
 
- 3. If you wish to test Custom Capabilities, add the corresponding value of your Custom Capabilities to the **Custom Capabilities** field below under the **s2Member Configuration & Profile Fields**
+3. If you wish to test Custom Capabilities, add the corresponding value of your Custom Capabilities to the **Custom Capabilities** field below under the **s2Member Configuration & Profile Fields**
      ![Add New Test User](https://cloud.githubusercontent.com/assets/13220018/12117912/902e8ba8-b3fe-11e5-83c0-de9aa32f582b.jpg)
 
 4. We have now created 4 test users with 4 different Membership Levels.
