@@ -38,4 +38,4 @@ Support policy: <http://s2member.com/support/>
 
 ## How to Report Plugin/Theme Conflicts
 
-If you identify a conflict between s2Member and another plugin, we would love to hear about this! While we cannot offer support for other 3rd-party themes/plugins, we do accept feedback. Theme/plugin conflicts are reviewed by our developers on a regular basis, and efforts to enhance compatibility are always underway. Thanks in advance for your patience!
+If you identify a conflict between s2Member and another plugin, [we would love to hear about this](http://github.com/websharks/s2member/issues/)! While we cannot offer support for other 3rd-party themes/plugins, we do accept feedback. Theme/plugin conflicts are reviewed by our developers on a regular basis, and efforts to enhance compatibility are always underway. Thanks in advance for your patience!
