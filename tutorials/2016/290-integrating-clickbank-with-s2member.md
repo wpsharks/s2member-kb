@@ -10,18 +10,19 @@ github-issue: https://github.com/websharks/s2member-kb/issues/290
 
 If you are planning to use [ClickBank](http://www.clickbank.com/) as your preferred payment gateway with s2Member, you can easily integrate it with s2Member for Direct Payments (_Buy Now_) and Recurring Billing. 
 
-### Enable ClickBank Gateway Inside s2Member
-_**Note:** ClickBank integration is only available with s2Member Pro._
+_**Note:** ClickBank integration is only available with [s2Member Pro](http://s2member.com/features/)._
 
-1) First, inside s2Member, activate the ClickBank Gateway from the **Other Gateways** option (See: **WordPress Dashboard → s2Member® → Other Gateways**). _This is not enabled by default_.
+## Step 1: Enable ClickBank Gateway Inside s2Member
+
+1) Inside s2Member, activate the ClickBank Gateway from the **Other Gateways** option. See: **WordPress Dashboard → s2Member® → Other Gateways**. _This is not enabled by default and you will only see the Other Gateways option if you are using s2Member Pro_.
 
 ![ClickBank - Other Gateways](https://cloud.githubusercontent.com/assets/7514953/13260907/a493f81a-da98-11e5-8657-33906f7ed33a.png)
 
 2) Scroll down to the bottom until you find the **ClickBank (w/ Buttons)** and check the box for it. Save changes and refresh the page.
 
    ![ClickBank - Select Options](https://cloud.githubusercontent.com/assets/7514953/13260998/15e2502a-da99-11e5-8b99-ccfa6dc10c54.png)
-------------------
-### Configure ClickBank Account Details (required)
+
+## Step 2:  Configure ClickBank Account Details (required)
 
 1) Sign up for a ClickBank Merchant Account here: https://accounts.clickbank.com/public/#/signup/form/key/ (_if you don't have an existing account yet_) 
 
@@ -51,8 +52,7 @@ _**Note:** ClickBank integration is only available with s2Member Pro._
 
 ![ClickBank - username](https://cloud.githubusercontent.com/assets/7514953/13452902/1ff02be8-e087-11e5-9af5-663924731acf.png)
 
-------------------
-### Configure ClickBank IPN v2.1 or v6 Integration (required)
+## Step 3: Configure ClickBank IPN v2.1 or v6 Integration (required)
 
 To configure the ClickBank IPN v2.1 or v6 integration, it must be set up inside your ClickBank account and s2Member.
 
@@ -86,9 +86,7 @@ _**Note:** Please do NOT integrate both IPN URLs. Choose one version or the othe
 
 5) After verifying, click on the **Save Changes** button. That's it! Your ClickBank integration is now complete.
 
----------------------------
-
-#### Using s2Member-generated ClickBank Buttons
+## Using s2Member-generated ClickBank Buttons
 
 With the ClickBank integration complete, you can now generate ClickBank buttons to provide paid access to the site. See: **WordPress Dashboard → s2Member → ClickBank Buttons**
 
