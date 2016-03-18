@@ -16,11 +16,9 @@ _**Note:** ClickBank integration is only available with [s2Member Pro](http://s2
 
 1) Inside s2Member, activate the ClickBank Gateway from the **Other Gateways** option. See: **WordPress Dashboard → s2Member® → Other Gateways**. _This is not enabled by default and you will only see the Other Gateways option if you are using s2Member Pro_.
 
-![ClickBank - Other Gateways](https://cloud.githubusercontent.com/assets/7514953/13260907/a493f81a-da98-11e5-8657-33906f7ed33a.png)
-
 2) Scroll down to the bottom until you find the **ClickBank (w/ Buttons)** and check the box for it. Save changes and refresh the page.
 
-   ![ClickBank - Select Options](https://cloud.githubusercontent.com/assets/7514953/13260998/15e2502a-da99-11e5-8b99-ccfa6dc10c54.png)
+     ![ClickBank - Other Gateways](https://cloud.githubusercontent.com/assets/53005/13886168/fec817e6-ed0b-11e5-8073-fb1deb84051b.png)
 
 ## Step 2:  Configure ClickBank Account Details (required)
 
