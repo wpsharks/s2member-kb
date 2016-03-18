@@ -18,7 +18,7 @@ _**Note:** ClickBank integration is only available with [s2Member Pro](http://s2
 
 2) Scroll down to the bottom until you find the **ClickBank (w/ Buttons)** and check the box for it. Save changes and refresh the page.
 
-     ![ClickBank - Other Gateways](https://cloud.githubusercontent.com/assets/53005/13886168/fec817e6-ed0b-11e5-8073-fb1deb84051b.png)
+![ClickBank - Other Gateways](https://cloud.githubusercontent.com/assets/53005/13886168/fec817e6-ed0b-11e5-8073-fb1deb84051b.png)
 
 ## Step 2:  Configure ClickBank Account Details (required)
 
