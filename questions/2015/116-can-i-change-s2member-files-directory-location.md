@@ -17,5 +17,6 @@ Please create this directory and file:
 <?php
 add_filter('ws_plugin__s2member_files_dir', function(){
     return '/path/to/my/protected/files/dir'; // No trailing slash.
+    // This should be a full absolute path on the server, not relative.
 });
 ```
