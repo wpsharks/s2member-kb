@@ -3,7 +3,7 @@ title: Why Am I Getting a "Missing First Name" Error?
 categories: Questions
 tags: error-messages, pro-forms
 author: patdumond
-github-issue: https://github.com/websharks/s2member/issues/681
+github-issue: https://github.com/websharks/s2member-kb/issues/255
 ---
 
 s2Member uses customizable templates to create Pro-Forms. When using a custom template for a Pro-Form, you need to be sure that the type of template you use matches the type of shortcode you use. Use paid templates for paid shortcodes and vice-versa.
