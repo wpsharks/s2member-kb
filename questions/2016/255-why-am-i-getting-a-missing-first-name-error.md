@@ -1,14 +1,14 @@
 ---
 title: Why Am I Getting a "Missing First Name" Error?
 categories: Questions
-tags: s2member, pro-forms
+tags: error-messages, pro-forms
 author: patdumond
 github-issue: https://github.com/websharks/s2member/issues/681
 ---
 
 s2Member uses customizable templates to create Pro-Forms. When using a custom template for a Pro-Form, you need to be sure that the type of template you use matches the type of shortcode you use. Use paid templates for paid shortcodes and vice-versa.
 
-Using a form meant for a free registration for a paid subscription or vice-versa will lead to an unanticipated error in the program flow. One of the symptoms is a misleading error message: *Missing First Name*. You'll be scratching your head wondering how the first name could be missing when you just typed it in and hit "Submit". 
+Using a template file that was meant for a free registration form on a Pro-Form for paid subscriptions, or vice-versa, will lead to an unanticipated error in the program flow. One of the symptoms is a misleading error message: *Missing First Name*. You'll be scratching your head wondering how the first name could be missing when you just typed it in and hit "Submit". 
 
 ## Error: Missing First Name
 To see this problem in action, create a test form using a paid registration shortcode with a free registration template.
