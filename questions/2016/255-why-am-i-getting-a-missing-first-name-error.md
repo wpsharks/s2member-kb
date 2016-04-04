@@ -13,7 +13,8 @@ Using a template file that was meant for a free registration form on a Pro-Form 
 ## Error: Missing First Name
 To see this problem in action, create a test form using a paid registration shortcode with a free registration template.
 
-The shortcode: 
+The shortcode:
+
 ![shortcode-free-registration-template-paid-shortcode-450px-width](https://cloud.githubusercontent.com/assets/9320495/14154757/3d6de3c0-f68c-11e5-8425-84cc4d7e39fb.png)
 
 The form produced by this shortcode looks fine:
@@ -26,11 +27,12 @@ Go to your form, enter some test data and hit the **Submit** button and you will
 ![error-message-missing-first-name-450px-width](https://cloud.githubusercontent.com/assets/9320495/14154770/51f5b0c0-f68c-11e5-91a5-779722bb185d.png)
 
 ## Free Registration Form Template(s)
+
 Pro-Form templates for free registration will have the following naming convention: `[payment-gateway]-registration-form.php` For example, `paypal-registration-form.php`. 
 
 ## Paid Registration Form Template(s)
-Pro-Form templates for paid registration will have the following naming convention: `[payment-gateway]-checkout-form.php` or `[payment-gateway]-sp-checkout-form.php`. For example, `paypal-checkout-form.php`.
 
+Pro-Form templates for paid registration will have the following naming convention: `[payment-gateway]-checkout-form.php` or `[payment-gateway]-sp-checkout-form.php`. For example, `paypal-checkout-form.php`.
 
 ## Recap: Template Type Must Match Shortcode Type
 
@@ -41,6 +43,7 @@ Bottom line, when customizing s2Member you must always choose your tools careful
 Make sure you choose the right template file for the task at hand. You'll avoid a lot of head-scratching!
 
 ## More on Pro-Forms
+
 - [Can I customize Pro-Forms](http://s2member.com/kb-article/can-i-customize-pro-forms/)
 - [How can I style Pro Forms w/ custom CSS?](http://s2member.com/kb-article/how-can-i-style-pro-forms-w-custom-css/)
 - [s2Member Pro-Forms](http://s2member.com/kb-article/s2member-pro-forms/)
