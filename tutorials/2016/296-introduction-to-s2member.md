@@ -32,23 +32,23 @@ _s2Member_ makes it easy to create a powerful custom membership site by using s
 
 _s2Member_ also features many other shortcodes for further customizing your membership site. These include:
 
-[[s2Member-List /]](http://s2member.com/kb-article/s2member-list-shortcode-documentation/) for displaying a highly customizable list of your site's Members. **NOTE: This shortcode requires **_s2Member Pro_.
+[[[s2Member-List /]]](http://s2member.com/kb-article/s2member-list-shortcode-documentation/) for displaying a highly customizable list of your site's Members. **NOTE: This shortcode requires **_s2Member Pro_.
 
-[[s2If][/s2If]](http://s2member.com/kb-article/s2if-simple-shortcode-conditionals/) for protecting parts of Posts and Pages.
+[[[s2If][/s2If]]](http://s2member.com/kb-article/s2if-simple-shortcode-conditionals/) for protecting parts of Posts and Pages.
 
-[[s2Member-Summary /]](http://s2member.com/kb-article/s2member-summary-shortcode-documentation/) for displaying a summarized profile for the currently logged-in user on any Post or Page. This shortcode can even display a login box if the current user is not logged in when they access the Post or Page. **NOTE: This shortcode requires **_s2Member Pro_.
+[[[s2Member-Summary /]]](http://s2member.com/kb-article/s2member-summary-shortcode-documentation/) for displaying a summarized profile for the currently logged-in user on any Post or Page. This shortcode can even display a login box if the current user is not logged in when they access the Post or Page. **NOTE: This shortcode requires **_s2Member Pro_.
 
-[[s2Member-Login /]](http://s2member.com/kb-article/s2member-login-shortcode-documentation/) will display a login box on any Post or Page. It will optionally display a summarized profile for the current user if they are already logged in when accessing the Page. **NOTE: This shortcode requires **_s2Member Pro_.
+[[[s2Member-Login /]]](http://s2member.com/kb-article/s2member-login-shortcode-documentation/) will display a login box on any Post or Page. It will optionally display a summarized profile for the current user if they are already logged in when accessing the Page. **NOTE: This shortcode requires **_s2Member Pro_.
 
-[[s2Eot /]](http://s2member.com/kb-article/s2eot-shortcode-documentation) can be used to display a user's subscription _End of Term_ (EOT).
+[[[s2Eot /]]](http://s2member.com/kb-article/s2eot-shortcode-documentation) can be used to display a user's subscription _End of Term_ (EOT).
 
-[[s2Get /]](http://s2member.com/kb-article/s2get-shortcode-documentation) is a shortcode version of the _s2Member API_ function get_user_field() which can be used in customizing PHP template files.
+[[[s2Get /]]](http://s2member.com/kb-article/s2get-shortcode-documentation) is a shortcode version of the _s2Member API_ function get_user_field() which can be used in customizing PHP template files.
 
-[[s2MOP /]](http://s2member.com/kb-article/s2mop-shortcode) can be used to enhance your _Membership Options Page_ (MOP). The MOP is the Page you designate in _s2Member_ to display your membership options. This is the Page where Members and Visitors will be redirected if they try to access parts of your site that are restricted above their access level. **NOTE: This shortcode requires **_s2Member Pro_**.**
+[[[s2MOP /]]](http://s2member.com/kb-article/s2mop-shortcode) can be used to enhance your _Membership Options Page_ (MOP). The MOP is the Page you designate in _s2Member_ to display your membership options. This is the Page where Members and Visitors will be redirected if they try to access parts of your site that are restricted above their access level. **NOTE: This shortcode requires _s2Member Pro_**.**
 
-[[s2Drip /]](http://s2member.com/kb-article/s2drip-shortcode) allows you to drip website content to your Members. Content dripping is the gradual, pre-scheduled release of premium content to paying Members. **NOTE: This shortcode requires **_s2Member Pro_.
+[[[s2Drip /]]](http://s2member.com/kb-article/s2drip-shortcode) allows you to drip website content to your Members. Content dripping is the gradual, pre-scheduled release of premium content to paying Members. **NOTE: This shortcode requires **_s2Member Pro_.
 
-[[s2Stream /]](http://s2member.com/kb-article/s2stream-shortcode-documentation) makes it easy to set up protected streaming video links on your membership site.
+[[[s2Stream /]]](http://s2member.com/kb-article/s2stream-shortcode-documentation) makes it easy to set up protected streaming video links on your membership site.
 
 ## What If I Want to Customize s2Member with Code?
 
