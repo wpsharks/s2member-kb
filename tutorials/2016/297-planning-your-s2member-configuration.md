@@ -6,7 +6,7 @@ author: patdumond
 github-issue: https://github.com/websharks/s2member-kb/issues/297
 ---
 
-This KBA covers planning your _s2Member_ configuration. _S2Member_ is a complex, highly-configurable _WordPress_ plugin and it is imperative that you have a plan in place before you begin working with _s2Member_. You can use _s2Member_ to implement countless varieties of membership sites, but you have to know what you want to do so you can choose the right _s2Member_ settings and shortcodes to fulfill your vision.
+This article covers planning your _s2Member_ configuration. _s2Member_ is a complex, highly-configurable _WordPress_ plugin and it is imperative that you have a plan in place before you begin working with _s2Member_. You can use _s2Member_ to implement countless varieties of membership sites, but you have to know what you want to do so you can choose the right _s2Member_ settings and shortcodes to fulfill your vision.
 
 *This article is part of the [s2Member User's Guide](http://s2member.com/kb/kb-tag/s2member-users-guide/), a series of articles that cover the fundamentals of using s2Member.*
 
@@ -107,6 +107,6 @@ After you've created your MOP, you configure it on this panel: **WordPress Dashb
 
 **Tip**: If you allow _Open Registration_ (i.e., _Free Subscribers_), you might want to place a link on your _Membership Options Page_ that points directly to your _Free Registration Form_, instead of routing a Visitor through your _Payment Gateway_  first. It's a matter of preference, though.
 
-**Always Public**: _This Page must be public at all times_. Access cannot be restricted to the _Membership Options Page_. Note: for technical reasons, your _Membership Options Page_ cannot be set to your _Front Page_ (i.e., your _Home Page_); or your _Posts Page_ (i.e., your main _Blog_ Page). Please create a separate (dedicated) **Page **in _WordPress_, and then designate it as your _Membership Options Page_.
+**Always Public**: _This Page must be public at all times_. Access cannot be restricted to the _Membership Options Page_. Note: for technical reasons, your _Membership Options Page_ cannot be set to your _Front Page_ (i.e., your _Home Page_); or your _Posts Page_ (i.e., your main _Blog_ Page). Please create a separate (dedicated) **Page** in _WordPress_, and then designate it as your _Membership Options Page_.
 
 ![membership-options-page](https://cloud.githubusercontent.com/assets/9320495/14330479/bd87ef74-fc0e-11e5-997a-25e3da4ffbbb.jpg)
