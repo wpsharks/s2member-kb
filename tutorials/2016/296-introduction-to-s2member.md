@@ -36,9 +36,9 @@ _s2Member_ also features many other shortcodes for further customizing your mem
 
 [[[s2If][/s2If]]](http://s2member.com/kb-article/s2if-simple-shortcode-conditionals/) for protecting parts of Posts and Pages.
 
-[[[s2Member-Summary /]]](http://s2member.com/kb-article/s2member-summary-shortcode-documentation/) for displaying a summarized profile for the currently logged-in user on any Post or Page. This shortcode can even display a login box if the current user is not logged in when they access the Post or Page. **NOTE: This shortcode requires **_s2Member Pro_**.
+[[[s2Member-Summary /]]](http://s2member.com/kb-article/s2member-summary-shortcode-documentation/) for displaying a summarized profile for the currently logged-in user on any Post or Page. This shortcode can even display a login box if the current user is not logged in when they access the Post or Page. **NOTE: This shortcode requires _s2Member Pro_**.
 
-[[[s2Member-Login /]]](http://s2member.com/kb-article/s2member-login-shortcode-documentation/) will display a login box on any Post or Page. It will optionally display a summarized profile for the current user if they are already logged in when accessing the Page. **NOTE: This shortcode requires **_s2Member Pro_**.
+[[[s2Member-Login /]]](http://s2member.com/kb-article/s2member-login-shortcode-documentation/) will display a login box on any Post or Page. It will optionally display a summarized profile for the current user if they are already logged in when accessing the Page. **NOTE: This shortcode requires _s2Member Pro_**.
 
 [[[s2Eot /]]](http://s2member.com/kb-article/s2eot-shortcode-documentation) can be used to display a user's subscription _End of Term_ (EOT).
 
