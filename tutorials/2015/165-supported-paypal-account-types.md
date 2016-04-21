@@ -25,7 +25,7 @@ _**Note regarding Payflow stand-alone product:** s2Member Pro does **NOT** suppo
 
 _It's the [stand-alone Payflow Payment Gateway](https://www.paypal.com/webapps/mpp/payflow-payment-gateway) that we do not support._
 
-_**Note regarding 'Hosted Solution':** s2Member Pro does **NOT** support Website Payments Pro as a 'Hosted Solution', which is a separate PayPal product with its own API. The Hosted Solution is designed to allow you accept credit card payments on PayPal's website, not on your website using something like s2Member Pro. If you signup for [PayPal Website Payments Pro](https://www.paypal.com/webapps/mpp/paypal-payments-pro) (not the Hosted Solution variation), that will work just fine with s2Member Pro._
+_**Note regarding 'Hosted Solution':** s2Member Pro does **NOT** support Website Payments Pro as a 'Hosted Solution', which is a separate PayPal product with its own API. The Hosted Solution is designed to allow you to accept credit card payments on PayPal's website, not on your website using something like s2Member Pro. If you signup for [PayPal Website Payments Pro](https://www.paypal.com/webapps/mpp/paypal-payments-pro) (not the Hosted Solution variation), that will work just fine with s2Member Pro._
 
 _It's the [Website Payments Pro 'Hosted Solution'](https://developer.paypal.com/docs/classic/products/website-payments-pro-hosted-solution/) that we do not support._
 
