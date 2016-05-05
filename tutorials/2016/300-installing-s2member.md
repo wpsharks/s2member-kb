@@ -1,7 +1,7 @@
 ---
 title: Installing s2Member
 categories: tutorials
-tags: s2member-users-guide, s2member
+tags: s2member-users-guide
 author: patdumond
 github-issue: https://github.com/websharks/s2member-kb/issues/300
 ---
