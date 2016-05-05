@@ -48,7 +48,7 @@ Go to **WordPress Dashboard → s2Member → General Options → Plugin Deletion
 
 - Download the *s2Member Pro Add-on* zip file from your account at *s2member.com*. 
 - Extract the files from the zip file. Inside the top-level folder you've extracted, you'll find the `s2member-pro` folder.
-- Log in to your web server using FTP.
+- Log in to your web server using FTP. (You can use an application like [FileZilla](http://s2member.com/r/filezilla-quick-start-for-s2member/).)
 - Navigate to the plugins folder for your installation of *WordPress*. This is `/wp-content/plugins/` by default.
 - Upload the `s2member-pro` folder to your plugins folder.
 - After the files have uploaded you should see the following new folders in your plugins folder:
