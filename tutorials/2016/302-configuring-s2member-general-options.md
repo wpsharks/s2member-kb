@@ -337,7 +337,7 @@ See this s2Member KBA for more details: [[[s2Member-Profile /]] Shortcode](https
 To display the *Stand-Alone Profile Editor* in a popup window use this HTML code: 
 
 ```
-<a href="#" onclick="window.open('http://pat.websharks-inc.net/?s2member_profile=1', '_popup', 'width=600,height=400,left=100,screenX=100,top=100,screenY=100,location=0,menubar=0,toolbar=0,status=0,scrollbars=1,resizable=1'); return false;">Modify Profile</a>
+<a href="#" onclick="window.open('http://example.com/?s2member_profile=1', '_popup', 'width=600,height=400,left=100,screenX=100,top=100,screenY=100,location=0,menubar=0,toolbar=0,status=0,scrollbars=1,resizable=1'); return false;">Modify Profile</a>
 ```
 
 ## URL Shortening Service Preference
