@@ -1,7 +1,7 @@
 ---
 title: Configuring s2Member General Options
 categories: tutorials
-tags: s2member-users-guide, s2member, s2member-profile, s2member-security-badge, s2mop, custom-capabilities, email-config, login-welcome-page, login-registration, member-profile-modifications, membership-levels, membership-options-page, captcha-anti-spam-security, roles-capabilities, security, shortcodes
+tags: s2member-users-guide, s2member-profile, s2member-security-badge, s2mop, custom-capabilities, email-config, login-welcome-page, login-registration, member-profile-modifications, membership-levels, membership-options-page, captcha-anti-spam-security, roles-capabilities, security, shortcodes
 author: patdumond
 github-issue: https://github.com/websharks/s2member-kb/issues/302
 ---
@@ -14,21 +14,21 @@ This Knowledge Base Article covers configuring *General Options* for *s2Member*.
 
 After you've installed *s2Member* and planned your *s2Member* configuration, including creating at least a skeleton *Login Welcome Page* (LWP) and *Membership Options Page* (MOP), it's time to start the real work of configuring *s2Member*. Go to **WordPress Dashboard → s2Member → General Options**. Here you will set up the *s2Member General Options*.
 
-- [ ] Plugin Deletion Safeguards
-- [ ] Security Encryption Key
-- [ ] Localhost WAMP/MAMP Developers
-- [ ] CSS/JS Lazy Loading
-- [ ] s2Member Security Badge
-- [ ] Email Configuration
-- [ ] Open Registration
-- [ ] Membership Levels/Labels
-- [ ] Login/Registration Design
-- [ ] Login Welcome Page
-- [ ] One-Time-Offers (Upon Login)
-- [ ] Membership Options Page
-- [ ] Member Profile Modifications
-- [ ] URL Shortening Service Preference
-- [ ] CAPTCHA Anti-Spam Security
+- Plugin Deletion Safeguards
+- Security Encryption Key
+- Localhost WAMP/MAMP Developers
+- CSS/JS Lazy Loading
+- s2Member Security Badge
+- Email Configuration
+- Open Registration
+- Membership Levels/Labels
+- Login/Registration Design
+- Login Welcome Page
+- One-Time-Offers (Upon Login)
+- Membership Options Page
+- Member Profile Modifications
+- URL Shortening Service Preference
+- CAPTCHA Anti-Spam Security
 
 ## Plugin Deletion Safeguards
 
@@ -67,7 +67,7 @@ By default, *s2Member* will load its CSS/JS libraries on every page of your site
 **Tip**: Do you need *s2Member's* CSS/JS on every page? If not, you can enable lazy-loading. If you need *s2Member's* CSS/JS on a given **Post/Page**, you can insert an HTML comment into the **Post/Page** content like this: `<!--s2member-->`. If a **Post/Page** contains the word *s2member* or an `[s2\*` shortcode, this will automatically trigger *s2Member's* lazy-load routine. Thus, it's an easy way to force *s2Member* to load its CSS/JS only on specific **Posts/Pages** where you deem this necessary. There is also a *WordPress* filter available for developers: 
 
 ```
-add_filter("ws_plugin_s2member_lazy_load_css_js", "_return_true");
+add_filter("ws_plugin_s2member_lazy_load_css_js", "__return_true");
 ```
 
 ## s2Member Security Badge
@@ -330,13 +330,15 @@ So instead of using it, *s2Member* provides you (the Site Owner) with a special 
 
 `[s2Member-Profile /]` This shortcode displays the *Inline Profile Modification Form* in a WordPress Page, Post, or Text Widget.
 
-See this s2Member KBA for more details: `[s2Member-Profile /]` Shortcode]( https://s2member.com/kb-article/s2member-profile-shortcode/).
+See this s2Member KBA for more details: [[[s2Member-Profile /]] Shortcode](https://s2member.com/kb-article/s2member-profile-shortcode/).
 
 ### Stand-Alone Profile Editor (Pop-up Window)
 
 To display the *Stand-Alone Profile Editor* in a popup window use this HTML code: 
 
-`<a href="#" onclick="window.open('http://pat.websharks-inc.net/?s2member_profile=1', '_popup', 'width=600,height=400,left=100,screenX=100,top=100,screenY=100,location=0,menubar=0,toolbar=0,status=0,scrollbars=1,resizable=1'); return false;">Modify Profile</a>`
+```
+<a href="#" onclick="window.open('http://pat.websharks-inc.net/?s2member_profile=1', '_popup', 'width=600,height=400,left=100,screenX=100,top=100,screenY=100,location=0,menubar=0,toolbar=0,status=0,scrollbars=1,resizable=1'); return false;">Modify Profile</a>
+```
 
 ## URL Shortening Service Preference
 
