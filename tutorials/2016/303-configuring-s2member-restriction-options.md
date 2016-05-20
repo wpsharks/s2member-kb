@@ -15,7 +15,7 @@ You use the *Restriction Options* panel ( **WordPress Dashboard → s2Member →
 - restricting access to multiple **Posts** and **Pages**
 - restricting access to feeds, search results, and navigation menus
 - protecting your site from Brute Force attacks and other IP-based restrictions
-- using conditionals (like the `[s2If]` shortcode) to protect only parts of a **Post** or **Page**.
+- using conditionals (like the `[[s2If]]` shortcode) to protect only parts of a **Post** or **Page**.
 
 The *s2Member* panels discussed in this article are: 
 
@@ -137,13 +137,13 @@ See [this article in the s2Member Codex](http://www.s2member.com/codex/stable/s2
 
 However, *s2Member* also makes it possible for you to protect "parts" of a **Post** or **Page**. You can be creative about what you display to certain Users/Members, based on your custom criteria. *s2Member's* [Simple Shortcode Conditionals](http://s2member.com/kb-article/s2if-simple-shortcode-conditionals/) are the key to accomplishing this.
 
-### Arbitrary PHP Code via [s2If php=""]
+### Arbitrary PHP Code via [[s2If php=""]]
 
-By default, the `[s2If]` Shortcode can be used only in a specific set of *Conditional Tags* provided by *WordPress* and the *s2Member* plugin. For example: `[s2If current_user_can(access_s2member_level1)]`. Arbitrary PHP code is not allowed with this syntax. However, it is possible to use arbitrary PHP code if you enable it in the drop-down under *Allow Arbitrary PHP Code via the `[s2If php=""]`*. 
+By default, the `[[s2If]]` Shortcode can be used only in a specific set of *Conditional Tags* provided by *WordPress* and the *s2Member* plugin. For example: `[[s2If current_user_can(access_s2member_level1)]]`. Arbitrary PHP code is not allowed with this syntax. However, it is possible to use arbitrary PHP code if you enable it in the drop-down under *Allow Arbitrary PHP Code via the `[[s2If php=""]]`*. 
 
 ![allow-arbitrary-php-code](https://cloud.githubusercontent.com/assets/9320495/15324694/82e3ef54-1c15-11e6-8f80-926d193c1506.jpg)
 
-This second syntax variation uses one PHP Shortcode Attribute to run a single conditional check. For example: `[s2If php="is_user_logged_in() && current_user_can('access_s2member_ccap_music')"]`. For developers, this has some obvious advantages. The code inside the PHP attribute is evaluated at runtime, so it is possible to accomplish more when necessary. You could also use a plugin like [ezPHP](http://s2member.com/kb-article/ezphp-for-wordpress/) to accomplish the same thing.
+This second syntax variation uses one PHP Shortcode Attribute to run a single conditional check. For example: `[[s2If php="is_user_logged_in() && current_user_can('access_s2member_ccap_music')"]]`. For developers, this has some obvious advantages. The code inside the PHP attribute is evaluated at runtime, so it is possible to accomplish more when necessary. You could also use a plugin like [ezPHP](http://s2member.com/kb-article/ezphp-for-wordpress/) to accomplish the same thing.
 
 ## Specific Post/Page Access Restrictions
 
