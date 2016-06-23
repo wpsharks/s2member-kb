@@ -67,7 +67,7 @@ _This disables the confirmation email altogether._
 
 With either of these options you are showing the checkbox. If the box is checked when the form is submitted, the user is subscribed w/o a confirmation email. This is considered to be a single opt-in, but without email confirmation. All you got was the checkbox, and if the checkbox was checked by default that's even less proof that a user _actually_ intended to subscribe. Therefore, this methodology (while possible), is NOT recommended. You could upset your subscribers and/or MailChimp.
 
-##### *2.* With the Opt-In Checkbox Disabled
+###### *2.* With the Opt-In Checkbox Disabled
 
 ###### e.g., No, do not display (or require) the checkbox.
 
