@@ -58,17 +58,17 @@ add_filter('ws_plugin__s2member_mailchimp_double_optin', '__return_false');
 
 _This disables the confirmation email altogether._
 
-##### There are two ways to use this:
+#### There are two ways to use this:
 
-###### *1.* With the Opt-In Checkbox Enabled
+##### *1.* With the Opt-In Checkbox Enabled
 
-###### e.g., Yes – the box must be checked (checked by default). {.no-b-margin}
-###### e.g., Yes – the box must be checked (unchecked by default). {.no-t-margin}
+##### e.g., Yes – the box must be checked (checked by default). {.no-b-margin}
+##### e.g., Yes – the box must be checked (unchecked by default). {.no-t-margin}
 
 With either of these options you are showing the checkbox. If the box is checked when the form is submitted, the user is subscribed w/o a confirmation email. This is considered to be a single opt-in, but without email confirmation. All you got was the checkbox, and if the checkbox was checked by default that's even less proof that a user _actually_ intended to subscribe. Therefore, this methodology (while possible), is NOT recommended. You could upset your subscribers and/or MailChimp.
 
-###### *2.* With the Opt-In Checkbox Disabled
+##### *2.* With the Opt-In Checkbox Disabled
 
-###### e.g., No, do not display (or require) the checkbox.
+##### e.g., No, do not display (or require) the checkbox.
 
 In this case, the user is _always_ subscribed when they submit the form, and they are subscribed without any knowledge of it occurring at all. NOT recommended! You will almost certainly upset your subscribers and/or MailChimp.
