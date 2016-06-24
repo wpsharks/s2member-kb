@@ -1,7 +1,7 @@
 ---
 title: Configuring s2Member Support for Stripe
 categories: tutorials
-tags: auto-return, pro-forms, stripe, s2member-users-guide
+tags: auto-return, pro-forms, stripe
 author: patdumond
 github-issue: https://github.com/websharks/s2member-kb/issues/306
 ---
