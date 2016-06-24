@@ -1,7 +1,7 @@
 ---
 title: Configuring s2Member Support for Authorize.net
 categories: tutorials
-tags: authorize-net, auto-return, pro-forms, s2member-users-guide
+tags: authorize-net, auto-return, pro-forms
 author: patdumond
 github-issue: https://github.com/websharks/s2member-kb/issues/313
 ---
