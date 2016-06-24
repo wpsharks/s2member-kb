@@ -7,6 +7,7 @@ github-issue: https://github.com/websharks/s2member-kb/issues/306
 ---
 
 In this article, you’ll be introduced to *s2Member’s* supported payment gateways: *PayPal*, *Stripe*, *Authorize.net*, and *ClickBank*. This Knowledge Base Article covers configuration options common to all of the payment gateways. Configurations unique to a particular gateway are covered in separate articles for each gateway:
+
 - [PayPal](https://github.com/websharks/s2member-kb/issues/311)
 - [Stripe](https://github.com/websharks/s2member-kb/issues/312)
 - [Authorize.net](https://github.com/websharks/s2member-kb/issues/313)
@@ -50,9 +51,11 @@ With *s2Member* installed, you can add the [Custom Field](https://codex.wordpres
 - [Forcing SSL](https://www.s2member.com/forums/topic/forcing-ssl/)
 
 ### Global Pro-Form Settings
+
 The settings below are global to s2Member. They can be set under any of the payment gateways but apply to all payment gateways. In other words, if you change the settings under *PayPal Options* they also change under *Stripe Options*. You need only configure them once, even if using multiple **Payment Gateways**. For simplicity's sake, I show the dashboard location for *PayPal*.
 
 #### Tax Rate Calculations (Pro-Form)
+
 See: **WordPress Dashboard → s2Member (Pro) → PayPal Options → Tax Rate Calculations (Pro-Form)**
 
 ![global-tax-rate-calculation](https://cloud.githubusercontent.com/assets/9320495/15786555/44e8a202-298b-11e6-8aa0-3f5860179760.jpg)
@@ -68,18 +71,24 @@ When you create a **PayPal Pro-Form** with *s2Member*, you'll be asked to supply
 **Tip**: If you configure **Tax**, you should include a note somewhere in the `desc=""` attribute of your shortcode. Something like `desc="$x.xx (plus x% tax)"`.
 
 ##### Global Default Tax Rate
+
 This can be a flat tax (1.75), or a percentage (7.0%).
 
 ##### Custom Tax Configuration File
+
 Here you can enter different **Tax Rates** by country, state/province, or zip code range. Use any *one* of the following formats on each line:
+
 - **2-CHARACTER COUNTRY CODE** = Flat rate or percentage — low precedence
 - **STATE OR PROVINCE/2-CHARACTER COUNTRY CODE** = Flat rate or percentage — higher precedence
 - **ZIP CODE-ZIP CODE/2-CHARACTER COUNTRY CODE** = Flat rate or percentage — higher precedence (zip code range)
 - **ZIP CODE/2-CHARACTER COUNTRY CODE** = Flat rate or percentage — highest precedence (specific zip code)
 
 #### Automatic EOT Behavior
+
 See: **WordPress Dashboard → s2Member (Pro) → PayPal Options → Automatic EOT Behavior**
+
 **This information is REQUIRED.**
+
 **EOT** = End Of Term.
 
 By default, *s2Member* will demote a paid *Member* to a *Free Subscriber* whenever their *Subscription* term has ended, been canceled, refunded, charged back to you, etc. *s2Member* demotes them to a *Free Subscriber*, so they will no longer have *Member Level Access* to your site. However, in some cases, you may prefer to have Customer accounts deleted, instead of just being demoted.
@@ -97,16 +106,21 @@ At that point, *s2Member* will remove their Membership privileges; by either dem
 ![global-auto-eot-behvior1](https://cloud.githubusercontent.com/assets/9320495/15786577/5d483fa6-298b-11e6-9763-e29d5ee95307.jpg)
 
 ##### Enable s2Member’s Auto-EOT System? 
+
 Choose:
+
 - *Yes – Enable through WP-Cron*
 - *Yes – I’ll run my own Cron job*
 - *No*
+
 The recommended setting is *Yes - enable through WP-Cron*.
 
 ##### Membership EOT Behavior (Demote or Delete)?
+
 Choose *Demote* or *Delete*  whichever is appropriate for your membership site.
 
 ##### Membership EOTs also Remove all Custom Capabilities?
+
 You can choose whether to remove **all** *Custom Capabilities* when a user is *Demoted* or allow them to carry-over the *Custom Capabilities* as a *Free Subscriber*.
 
 **Note: If Refunds/Reversals** trigger an Immediate **EOT** *Custom Capabilities* will always be removed when a **Refund** or **Reversal** occurs. In other words, this setting is ignored for **Refunds/Reversals** (If they trigger an Immediate **EOT** based on your configuration). If you prefer to review all **Refunds/Reversals** for yourself, please choose that option.
@@ -114,9 +128,11 @@ You can choose whether to remove **all** *Custom Capabilities* when a user is *D
 ![global-auto-eot-behvior2](https://cloud.githubusercontent.com/assets/9320495/15786584/65e10440-298b-11e6-9b82-b837565beaa5.jpg)
 
 ##### EOT Grace Time (in seconds): The default is 86400 seconds (one day).
+
 *s2Member* applies a grace time to the calculated **EOT** to ensure that the Member's Subscription terminates as expected even though the Member may live in a time zone halfway across the world from your web server. The default grace time is 86400 seconds, one day. 
 
 ##### Refunds/Partial Refunds/Reversals (trigger Immediate EOT)?
+
 **Note:***s2Member* is not equipped to detect partial refunds against multi-payment  *Subscriptions* reliably. Therefore, all refunds processed against *Subscriptions* (of any kind) are considered **Partial Refunds**. Full refunds (in the eyes of *s2Member*) occur only against *Buy Now* transactions where it is easy for *s2Member* to see that the refund amount is the same as the original *Buy Now* purchase price (a **Full Refund**).  This setting (no matter what you choose) will **not** impact *s2Member's* internal **API Notifications for Refund/Reversal** events. 
 
 A **Full** or **Partial Refund** or a **Reversal Notification** will **always** be processed internally by *s2Member*, even if no action should be taken per your configuration here.
@@ -124,9 +140,11 @@ A **Full** or **Partial Refund** or a **Reversal Notification** will **always** 
 In this way, you’ll have the ability to listen for these events on your own (via **API Notifications**), if you prefer. For more information, see **WordPress Dashboard → s2Member® (Pro) → API Notifications → Refunds/Reversals**.
 
 ##### Fixed-Term Extensions (Auto-Extend)? 
+
 This setting controls whether extensions of fixed-term memberships automatically extend the Member’s existing subscription. This setting will only affect **Buy Now** transactions for fixed-term lengths. By default, *s2Member* will automatically extend any existing **EOT Time** that a Member may have. For example, if I buy one year of access, and then I buy another year of access (before my first year is used up), I end up with everything I paid you for (now over one year of access) if this is set to *Yes*. If this were set to *No*, the **EOT Time** would be reset when I made the second purchase. This leaves me with only one year of access starting the date of my second purchase.
 
 ##### Enable Logging Routines?
+
 Set this to *Yes* or *No* as appropriate. We highly recommend that you enable logging during your initial testing phase. Logs produce lots of useful details that can help in debugging. Logs can help you find issues in your configuration and problems during payment processing.
 
 **Tip**: It is crucial to disable logging once you go live. Log files may contain personally identifiable information, credit card numbers, secret API credentials, passwords, and other sensitive information. **We suggest that logging be disabled on a live site (for security reasons)**.
