@@ -1,7 +1,7 @@
 ---
 title: Configuring s2Member Support for PayPal
 categories: tutorials
-tags: auto-return, paypal, pro-forms, s2member-users-guide
+tags: auto-return, paypal, pro-forms
 author: patdumond
 github-issue: https://github.com/websharks/s2member-kb/issues/306
 ---
