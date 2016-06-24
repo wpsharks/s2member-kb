@@ -1,7 +1,7 @@
 ---
 title: Configuring s2Member Support for ClickBank
 categories: tutorials
-tags: auto-return, clickbank, s2member-users-guide
+tags: auto-return, clickbank
 author: patdumond
 github-issue: https://github.com/websharks/s2member-kb/issues/314
 ---
