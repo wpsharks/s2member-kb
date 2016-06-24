@@ -1,7 +1,7 @@
 ---
 title: Configuring s2Member Payment Gateways
 categories: tutorials
-tags: authorize-net, auto-return, clickbank, log-files-debug, paypal, pci-compliance, pro-forms, stripe
+tags: authorize-net, auto-return, clickbank, log-files-debug, paypal, pci-compliance, pro-forms, stripe, s2member-users-guide
 author: patdumond
 github-issue: https://github.com/websharks/s2member-kb/issues/306
 ---
