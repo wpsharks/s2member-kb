@@ -3,7 +3,7 @@ title: Configuring s2Member Support for Stripe
 categories: tutorials
 tags: auto-return, pro-forms, stripe
 author: patdumond
-github-issue: https://github.com/websharks/s2member-kb/issues/306
+github-issue: https://github.com/websharks/s2member-kb/issues/312
 ---
 
 This Knowledge Base Article covers setting up *s2Member* to work with *Stripe*. *Stripe* absolutely rocks! It is a developer-friendly way to accept payments online and in mobile apps. They process billions of dollars a year for thousands of companies of all sizes. It is easy to integrate and easy for customers to use.
