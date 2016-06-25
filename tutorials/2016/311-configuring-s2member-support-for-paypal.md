@@ -3,7 +3,7 @@ title: Configuring s2Member Support for PayPal
 categories: tutorials
 tags: auto-return, paypal, pro-forms
 author: patdumond
-github-issue: https://github.com/websharks/s2member-kb/issues/306
+github-issue: https://github.com/websharks/s2member-kb/issues/311
 ---
 
 This Knowledge Base Article covers configuring *s2Member* to work with *PayPal*. *s2Member* integrates with *[PayPal Payments Standard](http://www.s2member.com/paypal)* for businesses. You do not need a **PayPal Pro** account. You just need to upgrade your *Personal PayPal* account to a *Business* status. This upgrade is free. A *PayPal* account can be [upgraded](http://s2member.com/r/paypal-business-upgrade/) from a *Personal* account to a *Business* account by clicking the **Profile** link under your **My Account** tab, selecting **Personal Business Information**, and then clicking the **Upgrade Your Account** button. See this KB article for further details: [Supported PayPal Account Types](http://s2member.com/kb-article/supported-paypal-account-types/).
