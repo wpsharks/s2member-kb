@@ -107,6 +107,10 @@ add_filter('ws_plugin__s2member_getresponse_customs_array', function ($custom_fi
         // Note that `my_custom_field_id` should be replaced with the Unique ID that you configured for a field in s2Member.
         // array('name' => 'my_custom_field', 'content' => get_user_field('my_custom_field_id', $args->user_id)),
     ));
+    foreach ($custom_fields as $_key => $_field) {
+        if (empty($_field['content'])) unset($custom_fields[$_key]);
+    } // GetResponse will choke if you send them empty field content. Remove empty values here.
+    
     return $custom_fields;
 
     // Note that custom fields (as seen above) will NOT work unless & until they are created by
