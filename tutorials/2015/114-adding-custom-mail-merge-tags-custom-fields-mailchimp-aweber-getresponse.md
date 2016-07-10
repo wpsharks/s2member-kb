@@ -97,18 +97,18 @@ add_filter('ws_plugin__s2member_getresponse_customs_array', function ($custom_fi
     # print_r($args); // for a full list of all properties.
 
     $custom_fields = array_merge($custom_fields, array(
-        array('name' => 'role', 'content' => $args->role),
-        array('name' => 'level', 'content' => $args->level),
-        array('name' => 'ccaps', 'content' => $args->ccaps),
-        array('name' => 'login', 'content' => $args->login),
-        array('name' => 'user_id', 'content' => $args->user_id),
+        array('name' => 'role', 'content' => (string) $args->role),
+        array('name' => 'level', 'content' => (string) $args->level),
+        array('name' => 'ccaps', 'content' => (string) $args->ccaps),
+        array('name' => 'login', 'content' => (string) $args->login),
+        array('name' => 'user_id', 'content' => (string) $args->user_id),
         
         // A Custom Registration/Profile Field in s2Member can be obtained like this.
         // Note that `my_custom_field_id` should be replaced with the Unique ID that you configured for a field in s2Member.
         // array('name' => 'my_custom_field', 'content' => get_user_field('my_custom_field_id', $args->user_id)),
     ));
     foreach ($custom_fields as $_key => $_field) {
-        if (empty($_field['content'])) unset($custom_fields[$_key]);
+        if (!isset($_field['content'][0])) unset($custom_fields[$_key]);
     } // GetResponse will choke if you send them empty field content. Remove empty values here.
     
     return $custom_fields;
