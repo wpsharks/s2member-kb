@@ -111,7 +111,7 @@ add_filter('ws_plugin__s2member_getresponse_customs_array', function ($custom_fi
         if (!isset($_field['content'][0])) unset($custom_fields[$_key]);
     } // GetResponse will choke if you send them empty field content. Remove empty values here.
     
-    return $custom_fields;
+    return array_values($custom_fields);
 
     // Note that custom fields (as seen above) will NOT work unless & until they are created by
     // a site owner working inside their GetResponse account. They must first add the custom fields
