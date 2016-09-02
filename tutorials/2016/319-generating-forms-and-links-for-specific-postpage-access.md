@@ -1,7 +1,7 @@
 ---
 title: Generating Forms and Links for Specific Post/Page Access
 categories: tutorials
-tags: pro-forms, s2member, restriction-options
+tags: pro-forms, restriction-options
 author: patdumond
 github-issue: https://github.com/websharks/s2member-kb/issues/319
 ---
@@ -46,7 +46,7 @@ Once you have filled in all the form fields, click the **Generate Form Code** bu
 
 ## Specific Post/Page Access Links
 
-**See WordPress Dashboard → s2Member (Pro) → PayPal Pro-Forms → Specific Post/Page (Buy Now) Links**
+See **WordPress Dashboard → s2Member (Pro) → PayPal Pro-Forms → Specific Post/Page (Buy Now) Links**
 
 s2Member automatically generates Specific Post/Page Access Links for your Customers after checkout and also sends them a link in a Confirmation Email. However, if you ever need to deal with a Customer Service issue that requires a new Specific Post/Page Access Link you can use this shortcode Generator to create Specific Post/Page Access Links to send your Customer.
 
@@ -55,6 +55,7 @@ s2Member automatically generates Specific Post/Page Access Links for your Custom
 #### Specific Post/Page Access Links Form Fields
 
 See above **Specific Post/Page (Buy Now) Form Fields** for an explanation of the first two drop-down boxes.
+
 - From the third drop-down box select the period after which the Customer’s access expires.
 
 Once you have filled in all the form fields, click the **Generate Access Link** button and then send the Access Link to your Customer via email.
