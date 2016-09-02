@@ -1,7 +1,7 @@
 ---
 title: Forms for Level 0 (Free Registration) to Level x Access
 categories: tutorials
-tags: pro-forms, s2member, paypal, membership-levels, shortcodes
+tags: pro-forms, paypal, membership-levels, shortcodes
 author: patdumond
 github-issue: https://github.com/websharks/s2member-kb/issues/315
 ---
