@@ -1,7 +1,7 @@
 ---
 title: Forms for Modifying User Accounts
 categories: tutorials
-tags: pro-forms, s2member, paypal, shortcodes, billing, billing-cancellation, billing-modification, billing-update
+tags: pro-forms, paypal, shortcodes, billing, billing-cancellation, billing-modification, billing-update
 author: patdumond
 github-issue: https://github.com/websharks/s2member-kb/issues/317
 ---
@@ -26,7 +26,7 @@ If the Member already has an existing **paid**  Subscription with you, that paid
 
 **Integrating Conditionals**: Since each Billing Modification Form is configured for a particular s2Member Level, you may want to create multiple Billing Modification Forms, one for each combination you intend to make available. s2Member's [Simple Shortcode Conditionals](http://s2member.com/kb-article/s2if-simple-shortcode-conditionals/) can help you display the proper Form to each Member, based on the status of their existing account. 
 
-**Independent Custom Capabilities**: If you just want to sell an existing Member **new** Custom Capabilities, without affecting their paid Subscription, please see the Pro-Form Generator** panel titled "Capability (Buy Now) Forms". Independent Capability Forms facilitate **Buy Now** functionality, specifically for Custom Capabilities, without affecting the Member's primary Subscription or Membership Level Access.
+**Independent Custom Capabilities**: If you just want to sell an existing Member **new** Custom Capabilities, without affecting their paid Subscription, please see the Pro-Form Generator panel titled "Capability (Buy Now) Forms". Independent Capability Forms facilitate **Buy Now** functionality, specifically for Custom Capabilities, without affecting the Member's primary Subscription or Membership Level Access.
 
 ![billing-modification-pro-form](https://cloud.githubusercontent.com/assets/9320495/17380517/87788cc4-5995-11e6-821a-5cf73a28efac.jpg)
 
