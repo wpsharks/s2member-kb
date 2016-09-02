@@ -1,7 +1,7 @@
 ---
 title: Generating Forms for Buy Now Capabilities
 categories: tutorials
-tags: pro-forms, s2member, custom-capabilities
+tags: pro-forms, custom-capabilities
 author: patdumond
 github-issue: https://github.com/websharks/s2member-kb/issues/318
 ---
