@@ -24,17 +24,17 @@ This topic has been broken up into several related articles:
 
 ## PayPal Specifics: PayPal Pro Requirements
 
-Pro-Forms require *PayPal Payments Pro*. However, there are some exceptions to that rule.
+Pro-Forms do not require *PayPal Payments Pro* (see [Supported PayPal Account Types](http://s2member.com/kb-article/supported-paypal-account-types/)), however depending on your use-case, you may want to use the PayPal Payments Pro service.
 
-### Exceptions: PayPal Payments Pro is NOT Required if...
+### PayPal Payments Pro is NOT Required if...
 
 - You use *Free Registration* Pro-Forms. 
+- You use PayPal Express Checkout.
 - You integrate with [Stripe](https://stripe.com&sa=D&ust=1470238793505000&usg=AFQjCNGZ359MUl4EsyW0gTaFm8P1KNdWWQ) instead. (*Stripe* has no monthly costs.) See this [KB article](https://s2member.com/kb-article/does-s2member-integrate-w-stripe-bitcoin/) for details.
 
-### PayPal Payments Pro is *Absolutely* Required if...
+### PayPal Payments Pro IS Required if...
 
 - You want to accept on-site credit card payments via Pro-Forms and *PayPal*.
-- You need *Cancellation*, *Billing Update*, or *Billing Modification* Pro-Forms. 
 - You want to take full advantage of everything that Pro-Forms can do in conjunction with *PayPal* and to have all functions work as intended.
 
 ## Form Fields Common to Most Pro-Forms
