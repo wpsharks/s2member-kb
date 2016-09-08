@@ -1,5 +1,5 @@
 ---
-title: Generating Membership Forms with s2Member Pro-Forms and Buttons (Overview)
+title: Configuring Custom Return URLs (Thank You Pages) Upon Success
 categories: tutorials
 tags: pro-forms, paypal, auto-return
 author: patdumond
