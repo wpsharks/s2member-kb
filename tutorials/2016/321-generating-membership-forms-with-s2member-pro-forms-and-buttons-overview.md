@@ -1,7 +1,7 @@
 ---
 title: Generating Membership Forms with s2Member Pro-Forms and Buttons (Overview)
 categories: tutorials
-tags: pro-forms, s2member, paypal, auto-return
+tags: pro-forms, paypal, auto-return
 author: patdumond
 github-issue: https://github.com/websharks/s2member-kb/issues/321
 ---
