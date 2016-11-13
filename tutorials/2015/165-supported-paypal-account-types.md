@@ -12,13 +12,13 @@ This is the default payment gateway in the free version of s2Member. We support 
 
 ## PayPal Payments Pro
 
-s2Member Pro adds support for many other payment gateways, and PayPal Pro is included. See: [s2Member Features](http://s2member.com/features/) for more information. See also: [Product Availability](https://developer.paypal.com/docs/classic/howto_product_matrix/) for "PayPal Payments Pro" service. PayPal Pro requires a formal application and a small monthly fee.
+s2Member Pro adds support for many other payment gateways, and PayPal Pro is included. See: [s2Member Features](http://s2member.com/features/) for more information. See also: [Product Availability](https://developer.paypal.com/docs/classic/howto_product_matrix/) for 'Website Payments Pro' service, which also applies to the newer name: 'PayPal Payments Pro'. PayPal Pro requires a formal application and a small monthly fee.
 
 Please see: [PayPal Payments Pro](https://www.paypal.com/webapps/mpp/paypal-payments-pro) for full details.
 
 ### s2Member Pro Supports two PayPal Pro Flavors
 
-- [PayPal Website Payments Pro](https://developer.paypal.com/docs/classic/products/website-payments-pro/)
+- [PayPal 'Website' Payments Pro](https://developer.paypal.com/docs/classic/products/website-payments-pro/)
 - and [PayPal Payments Pro (Payflow Edition)](https://www.paypal.com/webapps/mpp/paypal-payments-pro)
 
 _**Note regarding Payflow stand-alone product:** s2Member Pro does **NOT** support Payflow as a stand-alone product. There is a difference. s2Member's support for Payflow is limited to "PayPal Payments Pro (Payflow Edition)"; where the Payflow "Edition" of PayPal Pro is now very common in newer PayPal Pro accounts; i.e., if you signup for [PayPal Payments Pro](https://www.paypal.com/webapps/mpp/paypal-payments-pro) today you will get the Payflow Edition automatically—and that's fine!_
