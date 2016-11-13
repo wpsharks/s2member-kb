@@ -17,7 +17,7 @@ s2Member Pro adds support for many other payment gateways, and PayPal Pro is inc
 ### s2Member Pro Supports two PayPal Pro Flavors
 
 - [PayPal 'Website' Payments Pro](https://developer.paypal.com/docs/classic/products/website-payments-pro/)
-- and [PayPal Payments Pro (Payflow Edition)](https://www.paypal.com/webapps/mpp/paypal-payments-pro)
+- and [PayPal Payments Pro (Payflow Edition)](https://www.paypal.com/webapps/mpp/paypal-payments-pro) also referred to as just 'PayPal Payments Pro'.
 
 _**Note regarding Payflow stand-alone product:** s2Member Pro does **NOT** support Payflow as a stand-alone product. There is a difference. s2Member's support for Payflow is limited to "PayPal Payments Pro (Payflow Edition)"; where the Payflow "Edition" of PayPal Pro is now very common in newer PayPal Pro accounts; i.e., if you signup for [PayPal Payments Pro](https://www.paypal.com/webapps/mpp/paypal-payments-pro) today you will get the Payflow Edition automatically—and that's fine!_
 
