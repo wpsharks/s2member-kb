@@ -12,9 +12,7 @@ This is the default payment gateway in the free version of s2Member. We support 
 
 ## PayPal Payments Pro
 
-s2Member Pro adds support for many other payment gateways, and PayPal Pro is included. See: [s2Member Features](http://s2member.com/features/) for more information. See also: [Product Availability](https://developer.paypal.com/docs/classic/howto_product_matrix/) for 'Website Payments Pro' service, which also applies to the newer name: 'PayPal Payments Pro'. PayPal Pro requires a formal application and a small monthly fee.
-
-Please see: [PayPal Payments Pro](https://www.paypal.com/webapps/mpp/paypal-payments-pro) for full details.
+s2Member Pro adds support for many other payment gateways, and PayPal Pro is included. See: [s2Member Features](http://s2member.com/features/) for more information. See also: [Product Availability](https://developer.paypal.com/docs/classic/howto_product_matrix/) for 'Website Payments Pro' service, which also applies to the newer name: 'PayPal Payments Pro'. PayPal Pro requires a formal application and a small monthly fee. Please see: [PayPal Payments Pro](https://www.paypal.com/webapps/mpp/paypal-payments-pro) for full details.
 
 ### s2Member Pro Supports two PayPal Pro Flavors
 
