@@ -80,7 +80,7 @@ What we want to see is that you’ve made an effort to tighten security on your 
   _All logging MUST be disabled to prevent log files that may contain sensitive data. In addition, any existing log files from previous debugging efforts MUST be deleted before your s2Member Security Badge will go green. See: **Dashboard → s2Member → Log Files (Debug)** for further details. The only way to bypass this requirement is to set a custom location for your s2Member log files. If you'd like to do this, please create this directory and file: `/wp-content/mu-plugins/s2-logs-dir.php`_
 
   ```php
-  <?php
+  <?php // Requires PHP 5.4+.
   add_filter('ws_plugin__s2member_logs_dir', function($dir){
       return ($dir = '/absolute/path/to/my/custom/logs/dir');
       // Ideally a location outside of the HTTP space (more secure).
