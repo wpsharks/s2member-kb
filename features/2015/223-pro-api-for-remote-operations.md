@@ -14,7 +14,7 @@ s2Member's Remote Operations API requires a secret API Key in order to POST auth
 
 ## Supported Remote Operations
 
-The s2Member Pro API for Remote Operations currently supports the following operations:
+The s2Member Pro API supports the following operations:
 
 - `auth_check_user`
 - `get_user`
@@ -22,7 +22,7 @@ The s2Member Pro API for Remote Operations currently supports the following oper
 - `modify_user`
 - `delete_user`
 
-The following sections will show code examples demonstrating how you could use each of these remote operations from an external PHP script.
+## Example PHP Scripts for Each Operation
 
 ### `auth_check_user` (authenticate existing Users/Members)
 
@@ -228,8 +228,3 @@ if ($result && empty($result['error']) && !empty($result['ID'])) {
     echo 'API error reads: '.$result['error'];
 }
 ```
-
-## Other Documentation
-
-In addition to this documentation, you may also want to have a look at the [s2Member Codex](http://www.s2member.com/codex/).
-See Also: [s2Member Codex → API Constants](http://www.s2member.com/codex/stable/s2member/api_constants/package-summary/), and [s2Member Codex → API Functions](http://www.s2member.com/codex/stable/s2member/api_functions/package-summary/).
