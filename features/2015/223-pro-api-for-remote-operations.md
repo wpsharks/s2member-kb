@@ -8,7 +8,11 @@ github-issue: https://github.com/websharks/s2member-kb/issues/223
 
 With s2Member Pro installed, you have access to the s2Member Pro API For Remote Operations. This is made available for developers that wish to create User/Member accounts dynamically through custom scripts of their own. 
 
-s2Member's Remote Operations API requires a secret API Key in order to POST authenticated requests to your installation of s2Member. You can have s2Member generate this key for you, or you can enter a key of your own:
+## Requires a Secret API Key
+
+s2Member's Remote Operations API requires a secret API Key in order to POST authenticated requests to your installation of s2Member. You can have s2Member generate this key for you, or you can enter a key of your own.
+
+See: **WP Dashboard → s2Member → API / Scripting → Pro API For Remote Operations**
 
 <img src="https://cloud.githubusercontent.com/assets/53005/8049221/6e85cebe-0e2a-11e5-8f01-1363dd29d0ec.png" width="650" />
 
