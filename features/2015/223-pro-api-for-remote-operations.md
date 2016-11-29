@@ -10,7 +10,7 @@ With s2Member Pro installed, you have access to the s2Member Pro API For Remote 
 
 s2Member's Remote Operations API requires a secret API Key in order to POST authenticated requests to your installation of s2Member. You can have s2Member generate this key for you, or you can enter a key of your own:
 
-<img src="https://cloud.githubusercontent.com/assets/53005/8049221/6e85cebe-0e2a-11e5-8f01-1363dd29d0ec.png" width="600" />
+<img src="https://cloud.githubusercontent.com/assets/53005/8049221/6e85cebe-0e2a-11e5-8f01-1363dd29d0ec.png" width="650" />
 
 ## Supported Remote Operations
 
