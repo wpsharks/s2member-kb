@@ -40,15 +40,14 @@ $op["data"] = array(
     // ↑ You should pass this to avoid invalid brute-force login protection attempts by s2Member.
     //    In short, s2Member should know what underlying IP address is attempting authentication.
 );
-$post_data = stream_context_create (array("http" => array("method" => "POST", "header" => "Content-type: application/x-www-form-urlencoded", "content" => "s2member_pro_remote_op=" . urlencode (serialize ($op)))));
+$post_data = stream_context_create(array('http' => array('method' => 'POST', 'header' => 'Content-type: application/x-www-form-urlencoded', 'content' => 's2member_pro_remote_op='.urlencode(json_encode($op)))));
+$result    = json_decode(trim(file_get_contents('https://jason.wpsharks.net/?s2member_pro_remote_op=1', false, $post_data)), true);
 
-$result = trim (file_get_contents ("http://s2member.dev/?s2member_pro_remote_op=1", false, $post_data));
-
-if (!empty($result) && !preg_match ("/^Error\:/i", $result) && is_array($user = @unserialize ($result)))
-    echo "Successfully authenticated (i.e., Username/Password is valid). User ID: " . $user["ID"];
-else
-    echo "API error reads: " . $result;
-?>
+if ($result && empty($result['error']) && !empty($result['ID'])) {
+    echo 'Successfully authenticated (i.e., username/password is valid) for user ID: '.$result['ID'];
+} elseif (!empty($result['error'])) {
+    echo 'API error reads: '.$result['error'];
+}
 ```
 
 ### `get_user` (retrieve data about existing Users/Members)
@@ -65,16 +64,14 @@ $op["data"] = array(
     "user_login" => "johndoe22", // OR, a Username to query the database for.
     "user_email" => "johndoe22@example.com" // OR, an email address to query the database for.
 );
+$post_data = stream_context_create(array('http' => array('method' => 'POST', 'header' => 'Content-type: application/x-www-form-urlencoded', 'content' => 's2member_pro_remote_op='.urlencode(json_encode($op)))));
+$result    = json_decode(trim(file_get_contents('https://jason.wpsharks.net/?s2member_pro_remote_op=1', false, $post_data)), true);
 
-$post_data = stream_context_create (array("http" => array("method" => "POST", "header" => "Content-type: application/x-www-form-urlencoded", "content" => "s2member_pro_remote_op=" . urlencode (serialize ($op)))));
-
-$result = trim (file_get_contents ("http://s2member.dev/?s2member_pro_remote_op=1", false, $post_data));
-
-if (!empty($result) && !preg_match ("/^Error\:/i", $result) && is_array($user = @unserialize ($result)))
-    print_r($user); // Print full unserialized array with all User data properties.
-else
-    echo "API error reads: " . $result;
-?>
+if ($result && empty($result['error'])) {
+    print_r($result);  // Print full array.
+} elseif (!empty($result['error'])) {
+    echo 'API error reads: '.$result['error'];
+}
 ```
 
 ### `create_user` (or update existing Users/Members)
@@ -122,16 +119,14 @@ $op["data"] = array(
     "notification" => "1", // Optional. A non-zero value tells s2Member to email the new User/Member their Username/Password.
         // The "notification" parameter also tells s2Member to notify the site Administrator about this new account.
 );
+$post_data = stream_context_create(array('http' => array('method' => 'POST', 'header' => 'Content-type: application/x-www-form-urlencoded', 'content' => 's2member_pro_remote_op='.urlencode(json_encode($op)))));
+$result    = json_decode(trim(file_get_contents('https://jason.wpsharks.net/?s2member_pro_remote_op=1', false, $post_data)), true);
 
-$post_data = stream_context_create (array("http" => array("method" => "POST", "header" => "Content-type: application/x-www-form-urlencoded", "content" => "s2member_pro_remote_op=" . urlencode (serialize ($op)))));
-
-$result = trim (file_get_contents ("http://s2member.dev/?s2member_pro_remote_op=1", false, $post_data));
-
-if (!empty($result) && !preg_match ("/^Error\:/i", $result) && is_array($user = @unserialize ($result)))
-    echo "Success. New User created with ID: " . $user["ID"];
-else
-    echo "API error reads: " . $result;
-?>
+if ($result && empty($result['error']) && !empty($result['ID'])) {
+    echo 'Success. New user created with ID: '.$result['ID'];
+} elseif (!empty($result['error'])) {
+    echo 'API error reads: '.$result['error'];
+}
 ```
 
 ### `modify_user` (updates existing Users/Members)
@@ -200,16 +195,14 @@ $op["data"] = array(
         // However, please note... this does NOT transition a User/Member from one list to another. It simply adds them to the mailing list they should be on.
         // If they are already subscribed to your mailing list, setting this to a non-zero value does nothing—harmless.
 );
+$post_data = stream_context_create(array('http' => array('method' => 'POST', 'header' => 'Content-type: application/x-www-form-urlencoded', 'content' => 's2member_pro_remote_op='.urlencode(json_encode($op)))));
+$result    = json_decode(trim(file_get_contents('https://jason.wpsharks.net/?s2member_pro_remote_op=1', false, $post_data)), true);
 
-$post_data = stream_context_create (array("http" => array("method" => "POST", "header" => "Content-type: application/x-www-form-urlencoded", "content" => "s2member_pro_remote_op=" . urlencode (serialize ($op)))));
-
-$result = trim (file_get_contents ("http://s2member.dev/?s2member_pro_remote_op=1", false, $post_data));
-
-if (!empty($result) && !preg_match ("/^Error\:/i", $result) && is_array($user = @unserialize ($result)))
-    echo "Success. Modified User with ID: " . $user["ID"];
-else
-    echo "API error reads: " . $result;
-?>
+if ($result && empty($result['error']) && !empty($result['ID'])) {
+    echo 'Success. Modified user ID: '.$result['ID'];
+} elseif (!empty($result['error'])) {
+    echo 'API error reads: '.$result['error'];
+}
 ```
 
 ### `delete_user` (deletes existing Users/Members)
@@ -226,16 +219,14 @@ $op["data"] = array(
     "user_id" => "123", // A WordPress® User ID.
     "user_login" => "johndoe22", // A Username instead of the WordPress® User ID.
 );
+$post_data = stream_context_create(array('http' => array('method' => 'POST', 'header' => 'Content-type: application/x-www-form-urlencoded', 'content' => 's2member_pro_remote_op='.urlencode(json_encode($op)))));
+$result    = json_decode(trim(file_get_contents('https://jason.wpsharks.net/?s2member_pro_remote_op=1', false, $post_data)), true);
 
-$post_data = stream_context_create (array("http" => array("method" => "POST", "header" => "Content-type: application/x-www-form-urlencoded", "content" => "s2member_pro_remote_op=" . urlencode (serialize ($op)))));
-
-$result = trim (file_get_contents ("http://s2member.dev/?s2member_pro_remote_op=1", false, $post_data));
-
-if (!empty($result) && !preg_match ("/^Error\:/i", $result) && is_array($user = @unserialize ($result)))
-    echo "Success. Deleted User with ID: " . $user["ID"];
-else
-    echo "API error reads: " . $result;
-?>
+if ($result && empty($result['error']) && !empty($result['ID'])) {
+    echo 'Success. Deleted user ID: '.$result['ID'];
+} elseif (!empty($result['error'])) {
+    echo 'API error reads: '.$result['error'];
+}
 ```
 
 ## Other Documentation
