@@ -14,7 +14,9 @@ s2Member's Remote Operations API requires a secret API Key.
 
 See: **WP Dashboard → s2Member → API / Scripting → Pro API For Remote Operations**
 
-<img src="https://cloud.githubusercontent.com/assets/53005/8049221/6e85cebe-0e2a-11e5-8f01-1363dd29d0ec.png" width="650" />
+_**Note:** You can use the auto-generated API key or establish one on your own._
+
+![API Key](https://cloud.githubusercontent.com/assets/53005/8049221/6e85cebe-0e2a-11e5-8f01-1363dd29d0ec.png)
 
 ## Supported Remote Operations
 
