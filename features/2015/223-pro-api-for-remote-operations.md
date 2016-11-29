@@ -10,7 +10,7 @@ With s2Member Pro installed, you have access to the s2Member Pro API For Remote 
 
 ## Requires a Secret API Key
 
-s2Member's Remote Operations API requires a secret API Key in order to POST authenticated requests to your installation of s2Member. You can have s2Member generate this key for you, or you can enter a key of your own.
+s2Member's Remote Operations API requires a secret API Key.
 
 See: **WP Dashboard → s2Member → API / Scripting → Pro API For Remote Operations**
 
