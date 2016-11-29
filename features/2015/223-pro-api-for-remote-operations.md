@@ -14,7 +14,7 @@ s2Member's Remote Operations API requires a secret API Key.
 
 See: **WP Dashboard → s2Member → API / Scripting → Pro API For Remote Operations**
 
-_**Note:** You can use the auto-generated API key or establish one on your own._
+_**Note:** You can use the auto-generated API key or set it to a custom value you like better._
 
 ![API Key](https://cloud.githubusercontent.com/assets/53005/8049221/6e85cebe-0e2a-11e5-8f01-1363dd29d0ec.png)
 
@@ -22,11 +22,11 @@ _**Note:** You can use the auto-generated API key or establish one on your own._
 
 The s2Member Pro API supports the following operations:
 
-- `auth_check_user`
-- `get_user`
-- `create_user`
-- `modify_user`
-- `delete_user`
+- `auth_check_user` (authenticate existing Users/Members)
+- `get_user` (retrieve data about existing Users/Members)
+- `create_user` (create user, if they do not exist; else update)
+- `modify_user` (updates existing Users/Members)
+- `delete_user` (deletes existing Users/Members)
 
 ## Example PHP Scripts for Each Operation
 
@@ -80,7 +80,7 @@ if ($result && empty($result['error'])) {
 }
 ```
 
-### `create_user` (or update existing Users/Members)
+### `create_user` (create if not exists, else update existing Users/Members)
 
 ```php
 <?php
