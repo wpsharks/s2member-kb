@@ -14,7 +14,7 @@ Like WordPress itself, we chose to use the GNU `gettext` localization framework 
 
 ## Building a Translation `.mo` File
 
-If you'd like to translate s2Member and/or s2Member Pro, please use [the POT file](https://github.com/websharks/s2member/tree/000000-dev/s2member/includes/translations) found inside `/s2member/includes/translations/s2member.pot`, which contains all translation entries for **both** the s2Member Framework *(i.e., the free version)*, and also for s2Member Pro.
+If you'd like to translate s2Member and/or s2Member Pro, please use [the POT file](https://github.com/websharks/s2member/blob/dev/master/includes/translations) found inside `/s2member/src/includes/translations/s2member.pot`, which contains all translation entries for **both** the s2Member Framework *(i.e., the free version)*, and also for s2Member Pro.
 
 _**Quick Tip:** If this is your first translation of a WordPress plugin, [this article](http://urbangiraffe.com/articles/translating-wordpress-themes-and-plugins/) might be of some assistance._
 
