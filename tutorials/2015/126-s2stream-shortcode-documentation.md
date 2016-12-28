@@ -435,3 +435,15 @@ if(($mp4 = s2member_file_download_url($cfg, 'get-streamer-array'))): ?>
 	Sorry, you do NOT have access to this file.
 <?php endif; ?>
 ```
+
+## Limitations when running on Nginx
+
+If your site is powered by the [Nginx web server](https://www.nginx.com), you _must_ use the Amazon S3/CloudFront integration to host your files. You cannot serve files locally. 
+
+If your site is running on Nginx and you try to use the `[s2Stream /]` shortcode with `storage="local"` to serve files from the `wp-content/plugins/s2member-files/` directory (the default behavior if you haven't configured Amazon S3/CloudFront in s2Member), then you will get an "Error loading media: File not found" error like the following from JW Player:
+
+![JW Player: Error Loading Media: File not found](https://cloud.githubusercontent.com/assets/53005/21528698/673718b4-cd02-11e6-8711-05a1a676ef94.png)
+
+The solution is to configure Amazon S3/CloudFront integration as [described above](http://s2member.com/kb-article/s2stream-shortcode-documentation/#toc-4654195d) and upload your files to Amazon S3/CloudFront.
+
+If you're not sure if your site is running on Nginx, please contact your web hosting company to find out.
