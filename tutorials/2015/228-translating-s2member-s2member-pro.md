@@ -29,15 +29,9 @@ _**Quick Tip:** If you only need to translate the front-end of s2Member, please 
 Let's assume that your locale is: `fr_FR`
 
 - You should create: `/wp-content/plugins/s2member-fr_FR.mo`
-- All you need now is to define the locale for WordPress.
+- Now all you need to do is change the language in the admin settings screen. See Dashboard → Settings → General → Site Language
 
-  Please open your `/wp-config.php` file and add the following line:
-
-  ```php
-   <?php
-   define('WPLANG', 'fr_FR');
-  ```
-  _See also: [Additional considerations](https://codex.wordpress.org/Installing_WordPress_in_Your_Language)_
+_See also: [Additional considerations](https://codex.wordpress.org/Installing_WordPress_in_Your_Language)_
 
 ## Existing Translations (Updating Your `.po` File)?
 
