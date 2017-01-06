@@ -66,13 +66,13 @@ So Pro-Forms are integrated with easy-to-use [WordPress Shortcodes](http://codex
 
 Absolutely! However, this is usually _not_ necessary, because Pro-Forms inherit styles introduced by whatever WordPress theme you've selected for your site. Pro-Forms come fully functional. They work as-is in most WordPress themes. If you need to tweak their appearance, most site owners accomplish this through custom CSS alone; i.e., by editing their own `style.css` file. So modification of Pro-Form Templates is not necessary in most cases.
 
-That being said, if you’d like to create custom Pro-Form Templates, please check your `/wp-content/plugins/s2member-pro/includes/templates/forms/` directory. You can take s2Member’s default Pro-Form templates and place some (or all of them) into your active WordPress theme directory. By placing custom templates into your active WordPress theme directory you can be sure they won’t get overwritten in a future upgrade of s2Member.
+That being said, if you’d like to create custom Pro-Form Templates, please check your `/wp-content/plugins/s2member-pro/src/includes/templates/forms/` directory. You can take s2Member’s default Pro-Form templates and place some (or all of them) into your active WordPress theme directory. By placing custom templates into your active WordPress theme directory you can be sure they won’t get overwritten in a future upgrade of s2Member.
 
 Please be sure these files exist in your active WordPress theme directory, and please do _not_ change the file names (s2Member has already established file names for each of its Pro-Forms). If done properly, s2Member Pro will automatically find the custom templates in your active WordPress theme directory, and they’ll be used instead of s2Member’s default templates; allowing you to customize them all you like. You can use custom HTML, JS, CSS, and even PHP and WordPress functionality if you like.
 
 ### Here Is A Quick Example
 
-- Copy this file: `/wp-content/plugins/s2member-pro/includes/templates/forms/paypal-checkout-form.php`
+- Copy this file: `/wp-content/plugins/s2member-pro/src/includes/templates/forms/paypal-checkout-form.php`
 - Paste it here: `/wp-content/themes/ACTIVE-THEME-DIRECTORY/paypal-checkout-form.php` (and modify)
 
   _Note: `ACTIVE-THEME-DIRECTORY` might be `twentytwelve` or your own custom theme directory._
