@@ -21,7 +21,7 @@ See: **Dashboard → s2Member → General Optionals → Security Badge**
 
 To qualify your site you will need to enable s2Member’s Security Badge Status API & generate a Security Encryption Key in your Dashboard—with s2Member installed as an active plugin. Also, there are a few additional requirements set forth below. Some of these requirements pertain to WordPress security in general, and some of these requirements are s2Member-specific.
 
-What we want to see is that you’ve made an effort to tighten security on your installation of WordPress by following these guidelines. Your site and your users will be safer as a result. Once you’ve completed the steps below it can still take up to 60 minutes for your s2Member Security Badge image to show a green status for the first time.
+What we want to see is that you’ve made an effort to tighten security on your installation of WordPress by following these guidelines. Your site and your users will be safer as a result. Once you’ve completed the steps below, **it can still take up to 12 hours** for your s2Member Security Badge image to show a green status for the first time.
 
 ---
 
@@ -92,7 +92,7 @@ What we want to see is that you’ve made an effort to tighten security on your 
 
 ## Test Your Own Badge Status
 
-Look at your installation here: `www.yoursite.com/?s2member_s_badge_status=1`. If you visit this link on your WordPress installation you should get a plain text file that contains only a single value of: `1` (indicating your site is in the green with s2Member). If you don’t, one of the above is the likely cause. Please go back over your configuration. Once this shows a value of `1` it can still take up to 60 minutes for your s2Member Security Badge image to show a green status for the first time.
+Look at your installation here: `www.yoursite.com/?s2member_s_badge_status=1`. If you visit this link on your WordPress installation you should get a plain text file that contains only a single value of: `1` (indicating your site is in the green with s2Member). If you don’t, one of the above is the likely cause. Please go back over your configuration. Once this shows a value of `1`, **it can still take up to 12 hours** for your s2Member Security Badge image to show a green status for the first time.
 
 ---
 
