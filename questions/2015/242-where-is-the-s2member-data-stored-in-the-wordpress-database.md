@@ -28,7 +28,7 @@ print_r($options); // An associative array with MANY array keys.
 For a list of all possible option keys in this array, please see:
 
 - s2Member Framework default options array in [this file](https://github.com/websharks/s2member/blob/dev/src/includes/syscon.inc.php).
-- s2Member Pro default options array in [this file](https://github.com/websharks/s2member-pro/blob/dev/s2member-pro/src/includes/syscon.inc.php)
+- s2Member Pro default options array in [this file](https://github.com/websharks/s2member-pro/blob/dev/src/includes/syscon.inc.php)
 
 ---
 
