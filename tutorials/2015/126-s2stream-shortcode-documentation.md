@@ -150,11 +150,9 @@ See: **Amazon Management Console → S3 Console → [Choose Bucket] → Click Up
 
 ---
 
-## Installing JW Player v6
+## Installing JW Player v7
 
-https://www.youtube.com/watch?v=ZTopRQQAELw
-
-[Download JW Player](http://www.longtailvideo.com/jw-player/). Unzip and upload the `/jwplayer` folder to the root of your website via FTP. We recommend [FileZilla](http://filezilla-project.org/) for this. 
+Create an account at [JWPlayer.com](jwplayer.com). Once logged-in, visit [this page](https://dashboard.jwplayer.com/#/players/downloads) to [Download JW Player](https://dashboard.jwplayer.com/#/players/downloads) (the self-hosted version). Unzip and upload the `/jwplayer` folder to the root of your website via FTP. We recommend [FileZilla](http://filezilla-project.org/) for this. 
 
 ![](https://www.filepicker.io/api/file/NA917GQGKSlE3JjgTyVQ#.png){.aligncenter .fancy-image}
 
@@ -164,84 +162,84 @@ https://www.youtube.com/watch?v=ZTopRQQAELw
 
 ---
 
-### JW Player v6 (HTTP MP4 Video via Rewrite URLs; S3/CloudFront Not Required)
+### JW Player v7 (HTTP MP4 Video via Rewrite URLs; S3/CloudFront Not Required)
 
 Please follow this example if you are _not_ integrating with Amazon CloudFront, only with Amazon S3. Or, if you have not integrated with _either_ of these services, and you’re simply serving protected audio/video files from the local `/s2member-files/` directory. This works with any audio/video file. This does _not_ require s2Member to be integrated with Amazon S3/CloudFront. If you’ve integrated with Amazon S3, that’s fine; but it’s not a requirement for this to function properly. Audio/video will play fine via HTTP. However, this is NOT a true [RTMP stream](http://en.wikipedia.org/wiki/Real_Time_Messaging_Protocol).
 
 **Copy/paste this Shortcode into any WordPress Post or Page**
 
 ```wpsc
-[s2Stream player="jwplayer-v6" player_path="/jwplayer/jwplayer.js" player_width="480" player_height="270" file_download="video.mp4" rewrite="yes" /]
+[s2Stream player="jwplayer-v7" player_path="/jwplayer/jwplayer.js" player_width="480" player_height="270" file_download="video.mp4" rewrite="yes" /]
 ```
 
 _There are many shortcode attributes that can be customized. See documentation below for more information._
 
 ---
 
-### JW Player v6 (RTMP Stream + MP4 Video Fallback; Both S3/CloudFront Required)
+### JW Player v7 (RTMP Stream + MP4 Video Fallback; Both S3/CloudFront Required)
 
-This is a true [RTMP stream](http://en.wikipedia.org/wiki/Real_Time_Messaging_Protocol). Plus, s2Member will use a full download of the MP4 video file as a fallback on devices that do not support RTMP streams (e.g., mobile phones and some tablets). When you set `player="jwplayer-v6-rtmp"` (as seen in the example below), you _must_ have both Amazon S3/CloudFront integrated with s2Member; i.e., RTMP requires Cloudfront, and Cloudfront requires Amazon S3.
+This is a true [RTMP stream](http://en.wikipedia.org/wiki/Real_Time_Messaging_Protocol). Plus, s2Member will use a full download of the MP4 video file as a fallback on devices that do not support RTMP streams (e.g., mobile phones and some tablets). When you set `player="jwplayer-v7-rtmp"` (as seen in the example below), you _must_ have both Amazon S3/CloudFront integrated with s2Member; i.e., RTMP requires Cloudfront, and Cloudfront requires Amazon S3.
 
 **Copy/paste this shortcode into any WordPress Post or Page.**
 
 ```wpsc
-[s2Stream player="jwplayer-v6-rtmp" player_path="/jwplayer/jwplayer.js" player_width="480" player_height="270" file_download="video.mp4" /]
+[s2Stream player="jwplayer-v7-rtmp" player_path="/jwplayer/jwplayer.js" player_width="480" player_height="270" file_download="video.mp4" /]
 ```
 
 _There are many shortcode attributes that can be customized. See documentation below for more information._
 
 ---
 
-### JW Player v6 (RTMP Video Stream Only; Both S3/CloudFront Required)
+### JW Player v7 (RTMP Video Stream Only; Both S3/CloudFront Required)
 
-This is a true [RTMP stream](http://en.wikipedia.org/wiki/Real_Time_Messaging_Protocol), and _only_ an RTMP stream. s2Member will _not_ use a full download of the MP4 video file as a fallback on devices that do not support RTMP streams. When you set `player="jwplayer-v6-rtmp-only"` (as seen in the example below), you _must_ have both Amazon S3/CloudFront integrated with s2Member; i.e., RTMP requires Cloudfront, and Cloudfront requires Amazon S3.
+This is a true [RTMP stream](http://en.wikipedia.org/wiki/Real_Time_Messaging_Protocol), and _only_ an RTMP stream. s2Member will _not_ use a full download of the MP4 video file as a fallback on devices that do not support RTMP streams. When you set `player="jwplayer-v7-rtmp-only"` (as seen in the example below), you _must_ have both Amazon S3/CloudFront integrated with s2Member; i.e., RTMP requires Cloudfront, and Cloudfront requires Amazon S3.
 
 **Copy/paste this shortcode into any WordPress Post or Page.**
 
 ```wpsc
-[s2Stream player="jwplayer-v6-rtmp-only" player_path="/jwplayer/jwplayer.js" player_width="480" player_height="270" file_download="video.mp4" /]
+[s2Stream player="jwplayer-v7-rtmp-only" player_path="/jwplayer/jwplayer.js" player_width="480" player_height="270" file_download="video.mp4" /]
 ```
 
 _There are many shortcode attributes that can be customized. See documentation below for more information._
 
 ---
 
-### JW Player v6 (HTTP MP3 Audio via Rewrite URLs; S3/CloudFront Not Required)
+### JW Player v7 (HTTP MP3 Audio via Rewrite URLs; S3/CloudFront Not Required)
 
 Please follow this example if you are _not_ integrating with Amazon CloudFront, only with Amazon S3. Or, if you have not integrated with _either_ of these services, and you’re simply serving protected audio/video files from the local `/s2member-files/` directory. This works with any audio/video file. This does _not_ require s2Member to be integrated with Amazon S3/CloudFront. If you’ve integrated with Amazon S3, that’s fine; but it’s not a requirement for this to function properly. Audio/video will play fine via HTTP. However, this is NOT a true [RTMP stream](http://en.wikipedia.org/wiki/Real_Time_Messaging_Protocol).
 
 **Copy/paste this shortcode into any WordPress Post or Page.**
 
 ```wpsc
-[s2Stream player="jwplayer-v6" player_path="/jwplayer/jwplayer.js" player_width="480" player_height="270" file_download="audio.mp3" rewrite="yes" /]
+[s2Stream player="jwplayer-v7" player_path="/jwplayer/jwplayer.js" player_width="480" player_height="270" file_download="audio.mp3" rewrite="yes" /]
 ```
 
 _There are many shortcode attributes that can be customized. See documentation below for more information._
 
 ---
 
-### JW Player v6 (RTMP Stream + MP3 Audio Fallback; Both S3/CloudFront Required)
+### JW Player v7 (RTMP Stream + MP3 Audio Fallback; Both S3/CloudFront Required)
 
-This is a true [RTMP stream](http://en.wikipedia.org/wiki/Real_Time_Messaging_Protocol). Plus, s2Member will use a full download of the MP3 audio file as a fallback on devices that do not support RTMP streams (e.g., mobile phones and some tablets). When you set `player="jwplayer-v6-rtmp"` (as seen in the example below), you _must_ have both Amazon S3/CloudFront integrated with s2Member; i.e., RTMP requires Cloudfront, and Cloudfront requires Amazon S3.
+This is a true [RTMP stream](http://en.wikipedia.org/wiki/Real_Time_Messaging_Protocol). Plus, s2Member will use a full download of the MP3 audio file as a fallback on devices that do not support RTMP streams (e.g., mobile phones and some tablets). When you set `player="jwplayer-v7-rtmp"` (as seen in the example below), you _must_ have both Amazon S3/CloudFront integrated with s2Member; i.e., RTMP requires Cloudfront, and Cloudfront requires Amazon S3.
 
 **Copy/paste this shortcode into any WordPress Post or Page.**
 
 ```wpsc
-[s2Stream player="jwplayer-v6-rtmp" player_path="/jwplayer/jwplayer.js" player_width="480" player_height="270" file_download="audio.mp3" /]
+[s2Stream player="jwplayer-v7-rtmp" player_path="/jwplayer/jwplayer.js" player_width="480" player_height="270" file_download="audio.mp3" /]
 ```
 
 _There are many shortcode attributes that can be customized. See documentation below for more information._
 
 ---
 
-### JW Player v6 (RTMP Audio Stream Only; Both S3/CloudFront Required)
+### JW Player v7 (RTMP Audio Stream Only; Both S3/CloudFront Required)
 
-This is a true [RTMP stream](http://en.wikipedia.org/wiki/Real_Time_Messaging_Protocol), and _only_ an RTMP stream. s2Member will _not_ use a full download of the MP3 audio file as a fallback on devices that do not support RTMP streams. When you set `player="jwplayer-v6-rtmp-only"` (as seen in the example below), you _must_ have both Amazon S3/CloudFront integrated with s2Member; i.e., RTMP requires Cloudfront, and Cloudfront requires Amazon S3.
+This is a true [RTMP stream](http://en.wikipedia.org/wiki/Real_Time_Messaging_Protocol), and _only_ an RTMP stream. s2Member will _not_ use a full download of the MP3 audio file as a fallback on devices that do not support RTMP streams. When you set `player="jwplayer-v7-rtmp-only"` (as seen in the example below), you _must_ have both Amazon S3/CloudFront integrated with s2Member; i.e., RTMP requires Cloudfront, and Cloudfront requires Amazon S3.
 
 **Copy/paste this shortcode into any WordPress® Post or Page.**
 
 ```wpsc
-[s2Stream player="jwplayer-v6-rtmp-only" player_path="/jwplayer/jwplayer.js" player_width="480" player_height="270" file_download="audio.mp3" /]
+[s2Stream player="jwplayer-v7-rtmp-only" player_path="/jwplayer/jwplayer.js" player_width="480" player_height="270" file_download="audio.mp3" /]
 ```
 
 _There are many shortcode attributes that can be customized. See documentation below for more information._
@@ -253,63 +251,66 @@ _There are many shortcode attributes that can be customized. See documentation b
 <div class="li-margins"></div>
 
 - **`file_download="video.mp4"`** Required. This is the location of the audio/video file, relative to the `/s2member-files/` directory. Or, relative to the root of your Amazon S3 Bucket, when applicable.
-- **`player="jwplayer-v6-rtmp"`** Required. Current supported players in this shortcode include:
-  - `jwplayer-v6` Works with any audio/video file, and you do _not_ need to have Amazon S3 or CloudFront integrated for this to work).
-  - `jwplayer-v6-rtmp` Streams with the RTMP protocol plus there is a full download fallback of the source file if streaming is not possible on a particular device. This requires both Amazon S3 and CloudFront integration.
-  - `jwplayer-v6-rtmp-only` Streams with the RTMP protocol only, with no access to the source file, only to the RTMP stream. This requires both Amazon S3 and CloudFront integration.
+- **`player="jwplayer-v7-rtmp"`** Required. Current supported players in this shortcode include:
+  - `jwplayer-v7` or `jwplayer-v6`: Works with any audio/video file, and you do _not_ need to have Amazon S3 or CloudFront integrated for this to work).
+  - `jwplayer-v7-rtmp` or `jwplayer-v6-rtmp`: Streams with the RTMP protocol plus there is a full download fallback of the source file if streaming is not possible on a particular device. This requires both Amazon S3 and CloudFront integration.
+  - `jwplayer-v7-rtmp-only` or `jwplayer-v6-rtmp-only`: Streams with the RTMP protocol only, with no access to the source file, only to the RTMP stream. This requires both Amazon S3 and CloudFront integration.
 - **`player_id=""`** Optional. HTML div ID for the audio/video player. Defaults to a unique ID generated by s2Member for each instance of your shortcode.
-- **`player_path="/jwplayer/jwplayer.js"`** Required. Path to the player’s JavaScript file (e.g., `/jwplayer/jwplayer.js`). You should upload the `/jwplayer` folder to the root of your web directory.
+- **`player_path="/jwplayer/jwplayer.js"`** Required. Path to the player’s JavaScript file (e.g., `/jwplayer/jwplayer.js`). You should upload the self-hosted `/jwplayer` folder to the root of your web directory.
 - **`player_resolutions=""`** Optional (requires s2Member Pro). This is a comma-delimited list of all available resolution options; should you decide to offer more than just one file download at a single resolution. This can be tricky to setup, so please read carefully.
 
-  In order to offer multiple resolution options you should make additional variations (i.e., resolutions) available by uploading those variations to the same directory where `file_download=""` lives. In addition, when you use `player_resolutions=""`, each of your files (including the one you specify in `file_download=""`) _must_ end with `-r{resolution option value}`; where `{resolution option value}` must begin with a numeric resolution (in height) followed by any label you prefer; e.g., `-r720p-HD` or maybe `-r1080p-HD`. The full file name would be something like: `video-r720p-HD.mp4`
-  
+  In order to offer multiple resolution options you should make additional variations available by uploading those variations to the same directory where `file_download=""` lives. In addition, when you use `player_resolutions=""`, each of your files (including the one you specify in `file_download=""`) _must_ end with `-r{resolution option value}`; where `{resolution option value}` must begin with a numeric resolution (in height) followed by any label you prefer. For example: `-r720p-HD` or maybe `-r1080p-HD`. The full file names would be: `video-r720p-HD.mp4` and  `video-r1080p-HD.mp4`.
+
   **Here is a Quick Example:**
 
   ```wpsc
   [s2Stream file_download="video-r720p-HD.mp4" player_resolutions="r720p-HD,r1080p-HD,r480p-SD" player_aspectratio="16:9" /]
   ```
 
-  Note that each of these files _must_ exist on the server (i.e., you must create the additional resolutions and upload all of them for this to work properly). In this example I would need to render and upload the following files: `video-r720p-HD.mp4`, `video-r1080p-HD.mp4`, `video-r480p-SD.mp4`.
-  
+  Note: Each of these files _must_ exist on the server (i.e., you must create the additional resolutions and upload all of them for this to work properly). In this example I would need to render and upload the following files: `video-r720p-HD.mp4`, `video-r1080p-HD.mp4`, `video-r480p-SD.mp4`.
+
   For video files served over HTTP, the default resolution will be the one you list first in the comma-delimited list: `player_resolutions="r720p-HD,r1080p-HD,r480p-SD"`. In this example the default resolution would be: `video-r720p-HD.mp4`.
-  
-  For video files served over the RTMP protocol (i.e., `player="jwplayer-v6-rtmp"` or `player="jwplayer-v6-rtmp-only"`), the default resolution will be chosen dynamically based on the bandwidth capability of the connecting visitor; i.e., the default resolution is chosen automatically; using the best resolution possible for the device that is currently viewing the video.
-  
-  **Tip:** When using `player_resolutions=""` it is always a good idea to also define `player_aspectratio=""`. The default aspect ratio is `16:9` if you don’t. While that default value might work for most, if your aspect ratio is different you should define it explicitly; e.g., `player_aspectratio="ww:hh"`.
 
-- **`player_{setting}=""`** Optional. Any additional attributes supported by your audio/video player, prefixed with `player_`. For JW Player v6, see [this article](http://support.jwplayer.com/customer/portal/articles/1413113-configuration-options-reference) please.
+  For video files served over the RTMP protocol (i.e., `player="jwplayer-v7-rtmp"` or `player="jwplayer-v7-rtmp-only"`), the default resolution will be chosen dynamically based on the bandwidth capability of the connecting visitor; i.e., the default resolution is chosen automatically using the best resolution possible for the device that is currently viewing.
 
-  **Here are a few JW Player v6 examples:**
-  
+  **Tip:** When using `player_resolutions=""` it is always a good idea to define `player_aspectratio=""`. The default aspect ratio is `16:9` if you don’t. While that default value might work for most, if your aspect ratio is different you should define it explicitly; e.g., `player_aspectratio="ww:hh"`.
+
+- **`player_{setting}=""`** Optional. Any additional attributes supported by your audio/video player, prefixed with `player_`. For JW Player, see [this article](https://developer.jwplayer.com/jw-player/docs/developer-guide/customization/configuration-reference/) please.
+
+  **Here are a few JW Player examples:**
+
+  - `player_key="my-license-key"`
   - `player_width="480"`
   - `player_height="270"`
   - `player_title="My Video"`
   - `player_description="A video about something."`
   - `player_image="http://www.example.com/video-preview.jpg"`
-  - `player_mediaid="video_ei0wsx23"`
+  - `player_mediaid="ei0wsx23"`
   - `player_autostart="true"`
-  - `player_skin="/jwplayer/my-skin.xml"`
-  - `player_key="my-license-key"`
-  - `player_captions="{file:'/assets/captions-en.vtt',label:'English'}"` With [Captions](http://support.jwplayer.com/customer/portal/articles/1407438-adding-closed-captions) you can exclude the square array brackets to avoid shortcode parsing issues. s2Member will automatically wrap your Caption objects with square array brackets.
-  
-  ↑ Please note that “Advanced Options Blocks” (see: [JW Player KB article](http://support.jwplayer.com/customer/portal/articles/1413113-configuration-options-reference)) are _not_ supported here. For those, please use: `player_option_blocks=""` (additional details below).
-  
+  - JW Player v6 skin: `player_skin="/jwplayer/my-skin.xml"`
+  - JW Player v7 skinning is done using an Advanced Option Block (see below).
+  - JW Player v6 captions: `player_captions="{file:'/assets/captions-en.vtt',label:'English'}"` With [Captions](http://support.jwplayer.com/customer/portal/articles/1407438-adding-closed-captions) you can exclude the square array brackets to avoid shortcode parsing issues. s2Member will automatically wrap your Caption objects with square array brackets.
+  - JW Player v7 captions via tracks: `player_tracks="{kind:'captions',file:'/assets/captions-en.vtt',label:'English'}"` With [Captions](https://support.jwplayer.com/customer/en/portal/articles/1407438-adding-closed-captions) you can exclude the square array brackets to avoid shortcode parsing issues. s2Member will automatically wrap your Track objects with square array brackets.
+
+  ↑ Please note that “Advanced Options Blocks” (see: [JW Player KB article](https://developer.jwplayer.com/jw-player/docs/developer-guide/customization/configuration-reference/)) are _not_ supported here. For those, please use: `player_option_blocks=""` (additional details below).
+
   Also, please note that some of these example settings actually get inserted into a `playlist:[]` object property for JW Player. s2Member handles all of that for you automatically. All you do is supply any of these settings you’d like to define. They are all optional. To clarify further, s2Member implements the `playlist:[]` object property itself. Therefore, you cannot define your own `playlist:[]` (not even w/ Advanced Option Blocks). The playlist is generated by s2Member based on your `file_download=""` attribute and other settings.
-  
-  For instance, the following example settings from above actually work together inside a `playlist:[]` object property generated by s2Member; i.e., `player_title`, `player_image`, `player_mediaid`, `player_description` and `player_captions`. The resulting `playlist:[]` that is generated by s2Member will always contain a single item, but perhaps with multiple sources—depending on which `player=""` you’ve chosen (i.e., `jwplayer-v6`, `jwplayer-v6-rtmp`, or `jwplayer-v6-rtmp-only`); and also depending on whether or not you have configured multiple `player_resolutions=""`.
 
-- **`player_option_blocks=""`** Optional. Any “Advanced Option Blocks” supported by your audio/video player.
+  For instance, the following example settings from above actually work together inside a `playlist:[]` object property generated by s2Member; i.e., `player_title`, `player_image`, `player_mediaid`, `player_description` and `player_captions`. The resulting `playlist:[]` that is generated by s2Member will always contain a single item, but perhaps with multiple sources—depending on which `player=""` you’ve chosen (i.e., `jwplayer-v7`, `jwplayer-v7-rtmp`, or `jwplayer-v7-rtmp-only`); and also depending on whether or not you have configured multiple `player_resolutions=""`.
 
-  For JW Player v6, see [this article](http://support.jwplayer.com/customer/portal/articles/1413113-configuration-options-reference) please. 
+- **`player_option_blocks=""`** Optional. Any “Advanced Option Blocks” supported by your audio/video player. If you're using JW Player v7, the best use case for `player_option_blocks=""` is for skinning.
 
-  **Here are a few JW Player v6 examples:**
-  
-  - `player_option_blocks="sharing:{}"`
+  For JW Player, see [this article](https://developer.jwplayer.com/jw-player/docs/developer-guide/customization/configuration-reference/) please. 
+
+  **Here are a few JW Player examples:**
+
+  - `player_option_blocks="skin:{name:'myskin'}"` (JW Player v7 only).
+  - `player_option_blocks="sharing:{}"` (enables social sharing functionality).
   - `player_option_blocks="sharing:{},logo:{file:'/logo.png',link:'http://example.com'}"`
   - `player_option_blocks="c2hhcmluZzoge30="` Base64 encoded version of `sharing:{}`.
-  
+
   Please note that “Advanced Options Blocks” can be defined in plain text or with a [base64 encoded string](http://www.base64encode.org/). Advanced Option Blocks are JavaScript objects with properties. If you have any trouble defining JavaScript object properties inside a shortcode attribute, please use [this tool](http://www.base64encode.org/) to base64 encode your Advanced Option Blocks, so that you end up with a string that’s compatible with shortcode attributes.
-  
+
   **Note:** You _cannot_ define a `playlist:[]` option block. See notes above regarding the way s2Member auto-generates the `playlist:[]` option block based on other settings you define with the s2Stream shortcode. Also, [Captions](http://support.jwplayer.com/customer/portal/articles/1407438-adding-closed-captions) should _not_ be defined here, because those go into a `playlist:[]`. Please use `player_captions` instead (see example above).
 
 ---
@@ -332,7 +333,7 @@ _All of these work with the `[s2Stream /]` shortcode also._
   
   If you’re integrating with JW Player you _must_ use `rewrite="yes"`, otherwise you will have errors because JW Player can’t deal with query string parameters.
   
-  _**Note:** This setting has no impact on Amazon S3/CloudFront integrations when used together with the `[s2Stream /]` shortcode. It only affects instances of the `[s2Stream /]` shortcode where you have `player="jwplayer-v6"` (and only if you're serving files from the local `/s2member-files/` directory)._
+  _**Note:** This setting has no impact on Amazon S3/CloudFront integrations when used together with the `[s2Stream /]` shortcode. It only affects instances of the `[s2Stream /]` shortcode where you have `player="jwplayer-v7"` (and only if you're serving files from the local `/s2member-files/` directory)._
 - **`rewrite_base=""`** Defaults to an empty string. If `rewrite_base="http://www.example.com/"`, s2Member will generate an audio/video URL that takes full advantage of s2Member’s Advanced Mod Rewrite functionality, and it will use the rewrite base URL as a prefix.
 
   This could be useful on some WordPress installations that use advanced directory structures. It could also be useful for site owners using virtual directories that point to `/s2member-files/`.
@@ -356,7 +357,7 @@ Set `player_width="100%"` and `player_aspectratio="ww:hh"` (not required, but de
 ### Mobile Support w/ s2Stream (Example)
 
 ```wpsc
-[s2Stream player="jwplayer-v6" player_path="/jwplayer/jwplayer.js" player_primary="html5" player_width="100%" player_aspectratio="12:5" file_download="video.mp4" /]
+[s2Stream player="jwplayer-v7" player_path="/jwplayer/jwplayer.js" player_primary="html5" player_width="100%" player_aspectratio="12:5" file_download="video.mp4" /]
 ```
 
 See also: [Browser & Device Reference](http://support.jwplayer.com/customer/portal/articles/1403653-browser-device-support)
@@ -378,7 +379,7 @@ See also: [Browser & Device Reference](http://support.jwplayer.com/customer/port
 - Host all of your media in an S3 bucket and do _not_ host it locally. Not required but this helps to avoid issues. It's always better to serve media from a CDN so it can be delivered statically (i.e., what most mobile devices expect to deal with). In short, if you want to support a wide range of devices go with a dedicated media server. That's what the S3/Cloudfront combination is.
 - Set `player_width="100%"` and `player_aspectratio="16:9"` (or whatever aspect ratio is appropriate). Neither of these are required, but this helps to avoid issues.
 - Set `player_primary="html5"` (not required, but this helps to avoid issues).
-- Don't use RTMP at all. Or, if you do, use it with an MP4 fallback (e.g., `player="jwplayer-v6-rtmp"`). You can use `player="jwplayer-v6"` or `player="jwplayer-v6-rmtp"`, but please avoid the use of `player="jwplayer-v6-rtmp-only"` if you want to support mobile devices; i.e., if you want to support mobile devices you need to allow MP4 as a fallback. Most mobile devices can’t play files over the RTMP protocol.
+- Don't use RTMP at all. Or, if you do, use it with an MP4 fallback (e.g., `player="jwplayer-v7-rtmp"`). You can use `player="jwplayer-v7"` or `player="jwplayer-v7-rmtp"`, but please avoid the use of `player="jwplayer-v7-rtmp-only"` if you want to support mobile devices; i.e., if you want to support mobile devices you need to allow MP4 as a fallback. Most mobile devices can’t play files over the RTMP protocol.
 
 ---
 
@@ -391,7 +392,7 @@ Shortcodes are great. Simple, easy-to-use, and they don’t cause problems with 
 ### Idea 1: Integrating A Shortcode via PHP code
 
 ```php
-<?php echo do_shortcode('[s2Stream player="jwplayer-v6-rtmp" ... /]'); ?>
+<?php echo do_shortcode('[s2Stream player="jwplayer-v7-rtmp" ... /]'); ?>
 ```
 
 See: [http://codex.wordpress.org/Function_Reference/do_shortcode](http://codex.wordpress.org/Function_Reference/do_shortcode)
@@ -412,6 +413,7 @@ $s2_jw_config['mp4_video_file_name'] = 'video.mp4'; // Name of your MP4 test fil
 
 	<div id="jw-container">JW Player appears here.</div>
 	<script type="text/javascript" src="<?php echo $s2_jw_config["jwplayer"]; ?>jwplayer.js"></script>
+	<script>jwplayer.key = 'YOUR KEY HERE';</script>
 
 <?php // A direct URL to the RTMP source; counting the file against the current User in real-time.
 $cfg = array('file_download' => $s2_jw_config['mp4_video_file_name'], 'url_to_storage_source' => TRUE, 'count_against_user' => TRUE); ?>
