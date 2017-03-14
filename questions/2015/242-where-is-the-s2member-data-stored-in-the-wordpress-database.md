@@ -59,10 +59,11 @@ User-specific option keys include, but are not limited to:
 - `s2member_sp_references`
 - `s2member_last_status_scan`
 - `s2member_first_payment_txn_id`
-- `s2member_last_payment_time`
-- `s2member_auto_eot_time`
-- `s2member_last_auto_eot_time`
-- `s2member_login_counter`
+- `s2member_last_payment_time` (UTC timestamp)
+- `s2member_auto_eot_time` (UTC timestamp)
+- `s2member_last_auto_eot_time` (UTC timestamp)
+- `s2member_login_counter` (integer, running counter)
+- `s2member_last_login_time` (UTC timestamp)
 - `s2member_file_download_access_arc`
 - `s2member_file_download_access_log`
 - `s2member_notes`
