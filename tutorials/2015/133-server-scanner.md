@@ -19,6 +19,6 @@ If you're not sure if your server is compatible with s2Member; or if you'd like 
 
 -   Download [this ZIP archive](http://s2member.com/r/s2-server-scanner/) and extract the PHP file: `/s2-server-scanner.php`
 -   Upload `/s2-server-scanner.php` to the root of your WordPress installation. This file should be uploaded to the same root web directory that your `/wp-config.php` file is in.
--   Now open your web browser and visit: `/s2-server-scanner.php` for a full report.
+-   Now open your web browser and visit: `http://example.com/s2-server-scanner.php` for a full report (where `example.com` is your domain name).
 
 _**NOTE:** If you log into your WordPress Dashboard as an Administrator before running the s2Member Server Scanner, some additional functionality is made possible—like the ability to send test emails from your server._
