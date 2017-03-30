@@ -7,7 +7,7 @@ github-issue: https://github.com/websharks/s2member-kb/issues/183
 toc-enable: off
 ---
 
-If you see the "Card Start Date or Issue Number" field on your Pro-Form even when no Billing Method has been selected, then you likely have two Pro-Forms on the same page:
+If you see the "Card Start Date or Issue Number" field on your Pro-Form even when no Billing Method has been selected, then you likely have two (2) Pro-Forms on the same page. This will cause problems—you can only have one Pro-Form shortcode on a page at a given time.
 
 ![](https://cloud.githubusercontent.com/assets/53005/6986923/0d383abe-da10-11e4-8d90-358e001ae0b4.png)
 ![](https://cloud.githubusercontent.com/assets/53005/6986764/7b1ae1fa-da0e-11e4-90a6-938a6a83e093.png)
