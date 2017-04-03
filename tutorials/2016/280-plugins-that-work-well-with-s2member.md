@@ -12,6 +12,10 @@ This means that s2Member’s functionality can easily be extended by using other
 
 Please note that this list is *not* exhaustive. It simply lists those plugins that we have either used ourselves or that have been reported by s2Member users as integrating well with s2Member.
 
+## Sites Specializing in s2Member Plugins
+
+- [s2Plugins.com](https://s2plugins.com/) ~ not affiliated with s2Member or WebSharks, Inc., but they do provide several add-ons for products that we've created. Plugins built by this developer are clean and professional. Support is available by the author. See: [s2plugins.com](https://s2plugins.com/)
+
 ## Admin Bar
 
 - [Admin Bar Disabler](https://wordpress.org/plugins/admin-bar-disabler/): This plugin allows you to show or hide the admin bar to users with specific user roles (including s2Member levels).
