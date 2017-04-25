@@ -10,13 +10,13 @@ Whenever you create a Custom Registration/Profile Field with s2Member, you are r
 
 See: **Dashboard → s2Member ⥱ General Options ⥱ Registration/Profile Fields & Options**
 
-![](https://www.filepicker.io/api/file/NnxnjO37RcyQTYWYsSvX#.png)
+![](https://cloud.githubusercontent.com/assets/53005/25411283/e59368f4-29e9-11e7-951b-944b42dd2b4c.png)
 
 ---
 
 ## Using the `get_user_field()` Function
 
-s2Member adds a new function to WordPress called `get_user_field()`.
+s2Member adds a new function to WordPress called `get_user_field()`. You can find the function source [here](https://github.com/websharks/s2member/blob/170221/src/includes/classes/utils-users.inc.php#L300-L319).
 
 This function accepts two arguments:
 
@@ -34,6 +34,10 @@ $user_id = 123; // A specific user ID.
 $company = get_user_field('company', $user_id);
 // ↑ Pulls the value for a custom field with ID `company`, for user ID 123.
 ```
+
+### Return Values for `get_user_field()`
+
+- **(mixed)** The value of the requested field, or false if the field does not exist.
 
 ---
 
