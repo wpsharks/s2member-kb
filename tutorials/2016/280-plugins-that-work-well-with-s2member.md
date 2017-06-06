@@ -22,10 +22,10 @@ Please note that this list is *not* exhaustive. It simply lists those plugins th
 
 ## Caching
 
-- [ZenCache](https://wordpress.org/plugins/zencache/)
-- [ZenCache Pro](https://zencache.com/) (paid plugin)
+- [Comet Cache](https://wordpress.org/plugins/comet-cache/)
+- [Comet Cache Pro](https://cometcache.com/) (paid plugin)
 
-_**Tip:** We are the developers of ZenCache and ZenCache Pro, so these can always be guaranteed to work with s2Member. ZenCache Pro offers the significant advantage that it makes it possible to cache content for logged-in members. It also offers the ability to compress (minify) CSS and javascript files, which will make your site go even faster._
+_**Tip:** We are the developers of Comet Cache and Comet Cache Pro, so these can always be guaranteed to work with s2Member. Comet Cache Pro offers the significant advantage that it makes it possible to cache content for logged-in members. It also offers the ability to compress (minify) CSS and javascript files, which will make your site go even faster._
 
 Other alternatives...
 
