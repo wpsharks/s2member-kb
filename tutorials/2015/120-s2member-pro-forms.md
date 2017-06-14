@@ -89,9 +89,11 @@ For additional details on this, please see: **Dashboard → s2Member → [Paymen
 
 ### Custom Pro-Form Templates that Collect Custom Data
 
-In most cases it is enough to simply create Custom Registration/Profile Fields with s2Member (see: **Dashboard → General Options → Registration/Profile Fields**). s2Member Custom Registration/Profile Fields are considered point-and-click functionality. Plus, they integrate seamlessly with all aspects of s2Member.
+In most cases it is enough to simply create Custom Registration/Profile Fields with s2Member (see: **Dashboard → s2Member → General Options → Registration/Profile Fields**). s2Member Custom Registration/Profile Fields are considered point-and-click functionality. Plus, they integrate seamlessly with all aspects of s2Member.
 
-Having said that, some site owners have asked if it’s possible to get even more creative inside a Pro-Form Template. This section was added to provide you with some pointers. I will explain how to create your own form input fields in a Pro-Form, how to have s2Member validate those form fields for you, and how to store your custom data once a Pro-Form is submitted (because most site owners want their data associated with the customer).
+Having said that, some site owners have asked if it’s possible to get even more creative inside a Pro-Form Template. This section was added to provide you with some pointers. I will explain how to create your own form input fields in a Pro-Form, how to have s2Member validate those form fields for you, and how to store your custom data once a Pro-Form is submitted (because most site owners want their data associated with the customer). 
+
+_**Note:** The following refers to collecting custom data that you associate with each user, **not** s2Member Custom Registration/Profile Fields. If you want to learn how to get and set Custom Registration fields created with s2Member, please see [this KB article](https://s2member.com/kb-article/gettingsetting-custom-registrationprofile-fields-configured-w-s2member/).
 
 <div class="li-margins"></div>
 
