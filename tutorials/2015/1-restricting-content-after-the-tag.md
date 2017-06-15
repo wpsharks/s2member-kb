@@ -42,11 +42,13 @@ function s2if_more_filter($content) {
     $s2if_end = '[/s2If]';
     
     $pos1 = strpos($content, '<span id="more-');
-    $pos2 = strpos($content, '</span>', $pos1);
-    $before_more_tag = substr($content, 0, $pos2);
-    $after_more_tag = substr($content, $pos2);
+    if($pos1 !== false) {
+	    $pos2 = strpos($content, '</span>', $pos1);
+	    $before_more_tag = substr($content, 0, $pos2);
+	    $after_more_tag = substr($content, $pos2);
+	    $content = $before_more_tag . $s2if_start . $s2if_message . $after_more_tag . $s2if_end;
+    }
     
-    $content = $before_more_tag . $s2if_start . $s2if_message . $after_more_tag . $s2if_end;
     return $content;
 }
 add_filter('the_content', 's2if_more_filter', 10, 1);
