@@ -24,7 +24,7 @@ Ordinarily, the checkbox is presented to a potential subscriber in order to get 
 
 ---
 
-## Double Opt-In Checbox Options
+## Double Opt-In Checkbox Options
 
 All of these options are presented under the assumption that your list server will require a double opt-in procedure. It’s very unusual that a list server would agree to allowing a single opt-in from my experience. If you can swing it though (and there are times when this is possible), then the checkbox would still be used (recommended); because it would serve as the single opt-in.
 
