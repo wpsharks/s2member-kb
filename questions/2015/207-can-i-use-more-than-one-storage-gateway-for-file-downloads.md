@@ -23,7 +23,7 @@ The `[s2File /]` and `[s2Stream /]` shortcodes both support a `storage=""` attri
 
 For example, to force a local storage location (`/s2member-files/`) when you have Amazon S3/CloudFront configured, you would add `storage="local"` to the shortcode for the locally-hosted file.
 
-For more information, see the [[s2Stream /] Shortcode Documentation](http://s2member.com/kb-article/s2stream-shortcode-documentation/#toc-f5f9fcf2).
+For more information, see the [[[s2Stream /]] Shortcode Documentation](http://s2member.com/kb-article/s2stream-shortcode-documentation/#toc-f5f9fcf2).
 
 # An Important Note Regarding RTMP Streaming
 
