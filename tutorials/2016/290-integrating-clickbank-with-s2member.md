@@ -22,7 +22,7 @@ _**Note:** ClickBank integration is only available with [s2Member Pro](http://s2
 
 ## Step 2:  Configure ClickBank Account Details (required)
 
-1) Sign up for a ClickBank Merchant Account here: https://accounts.clickbank.com/public/#/signup/form/key/ (_if you don't have an existing account yet_) 
+1) Sign up for a ClickBank Merchant Account here: https://accounts.clickbank.com/signup/ (_if you don't have an existing account yet_) 
 
 ![ClickBank - Signup for Account](https://cloud.githubusercontent.com/assets/7514953/13260937/c9620ede-da98-11e5-99b8-808128cacd10.png)
 
